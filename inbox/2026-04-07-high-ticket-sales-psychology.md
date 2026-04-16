@@ -1,9 +1,14 @@
 ---
 captured: 2026-04-07
 source: article
-url: null
+url:
 status: processed
-tags: [sales-psychology, high-ticket, closing, emotional-selling, coaching-framework]
+tags:
+  - sales-psychology
+  - high-ticket
+  - closing
+  - emotional-selling
+  - coaching-framework
 ---
 
 # Raw Intake: High-Ticket Sales Psychology Article

@@ -2,7 +2,7 @@
 
 > This document is the seed of the Second Brain. Everything the system does — intake processing, connection-making, proactive surfacing — reads from this profile to understand what matters and why. This document should evolve as Andrew's life, projects, and priorities change.
 
-Last updated: 2026-04-07
+Last updated: 2026-04-13
 
 ---
 
@@ -35,6 +35,8 @@ TrackForce builds physical security operations software — scheduling guards, m
 
 **Relationship with the job:** He's good at it, he's done it a long time, it's not particularly hard. But it's a W-2 and he's aware of the fragility of depending on companies that "change their plan every single day." This is a job he does well while building toward something else.
 
+**Key relationship:** Boss is Doug Dockery — also a friend and fellow builder. Doug built SAR (Sovereign Agent Runtime), a persistent AI agent with sensor fusion, memory distillation, and proactive outreach. They share a builder mindset. See `resources/people/doug-dockery.md`.
+
 ### Career Trajectory
 
 Andrew is actively looking for a new role in a frontier/AI-adjacent industry where he can learn more and flex the skills he's been building. Long-term, the goal is self-employment.
@@ -60,10 +62,11 @@ Andrew is actively looking for a new role in a frontier/AI-adjacent industry whe
 - **Why it matters:** This is the furthest-along project and the one most likely to become a real business. It combines Andrew's sales expertise with his growing technical skills. Full product details in `projects/modern-signal-advisory/product-overview.md`.
 
 ### Sales Edge Solutions (Helping a Friend)
-- **What:** Go-to-market strategy and outbound infrastructure for Ryan's recruiting firm, Sales Edge Consulting
-- **Tools:** Apollo, Instantly for email campaigns
-- **Status:** Active, built largely through Cowork sessions
-- **Why it matters:** Real-world GTM work that keeps skills sharp and helps a friend
+- **What:** Full outbound automation infrastructure for Ryan's recruiting firm, Sales Edge Consulting
+- **Tools:** Apollo (lead sourcing), Instantly (email sequences), AutoLinkedIn (Andrew's custom Claude + Gojiberry AI build for LinkedIn outreach — 14 automations including ICP discovery, lead enrichment, AI message generation, campaign analytics, and feedback loops)
+- **Repo:** github.com/AndrewDonato444/AutoLinkedIn
+- **Status:** Active. AutoLinkedIn built and shipped. Deploying for Ryan next.
+- **Why it matters:** Real-world GTM work, keeps outbound skills sharp, helps a friend, and AutoLinkedIn is a showcase of Andrew's ability to build production automation tools. Full overview in `projects/sales-edge-solutions/overview.md`
 
 ### Narrative (On Shelf)
 - **What:** A fresh take on online career presence — mynarrative.io
@@ -83,12 +86,21 @@ Andrew is actively looking for a new role in a frontier/AI-adjacent industry whe
 - **Repo:** github.com/AndrewDonato444/facts-unlocked (shares repo with SDD framework)
 - **Why it matters:** A genuine passive income channel if views scale. Also a showcase of Andrew's ability to build complex, self-optimizing automation systems. The analytics feedback loop pattern (measure → score → suppress → decompose → generate briefs) could apply to other projects. Full spec in `projects/facts-unlocked/pipeline-spec.md`.
 
-### Building Out Loud — LinkedIn Walk Series (New — Starting April 2026)
-- **What:** Morning walk videos on LinkedIn, 3-4x/week. Andrew shares what he's building, learning, and thinking about at the intersection of sales leadership and AI product building.
-- **Positioning:** "What happens when a sales leader starts building."
-- **Content pillars:** Building in public, sales leadership takes, AI × sales convergence, tools & discoveries
-- **Status:** Episode outlines drafted for Week 1. First episode April 9.
-- **Why it matters:** Personal brand building, career positioning, audience for future MSA/Manager Forge launches, establishes Andrew as a thought leader at the sales-product intersection. Full series details in `projects/linkedin-walk-series/`
+### Building Out Loud — LinkedIn Walk Series (Active)
+- **What:** Morning walk videos on LinkedIn, 3-4x/week. Andrew shares things he's learning that can help other people — no pitching products, no forced AI angles, just useful insights.
+- **Positioning:** "Things I'm learning that might help you."
+- **Content pillars:** Things I learned the hard way, tools that actually changed how I work, how to think about [X], what I'm watching
+- **Status:** 3 episodes posted (Apr 9, 12, 13). 7 ready-to-record episodes in the queue plus idea backlog. Full episode list in `projects/building-out-loud/episodes/upcoming.md`
+- **Why it matters:** Personal brand building, career positioning, genuine audience building by helping people. Not a pitch vehicle — Andrew pivoted the series away from product pitching to pure value. Full series details in `projects/building-out-loud/series-overview.md`
+
+### ScrollProxy (Idea — Not Yet Built)
+- **What:** CLI tool that logs into X, scrolls the feed for N minutes, extracts posts, and has Claude summarize what's actually worth reading. Replaces doom scrolling with a structured markdown summary.
+- **Stack:** TypeScript, Playwright, Claude API
+- **Status:** Full technical spec written. Two-weekend build. See `projects/scrollproxy/technical-spec.md`
+
+### urcooked.ai (Idea — Not Yet Built)
+- **What:** Fun viral web tool. Enter your job and daily tasks, get a "cooked score" for how replaceable you are by AI, plus advice on how to un-cook yourself.
+- **Status:** Concept doc written. Weekend build. See `projects/urcooked-ai/concept.md`
 
 ### Misc / Exploration
 - Andrew regularly picks up interesting projects — redoing websites, building tools, experimenting with new approaches

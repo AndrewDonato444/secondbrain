@@ -1,12 +1,12 @@
 ---
 id: DOC-025
 created: 2026-04-08
-updated: 2026-04-10
+updated: 2026-04-11
 type: knowledge
 domain: ai-frontier
 source_intake: inbox/2026-04-08-claude-managed-agents.md
 audience: personal
-informs: [DOC-007, DOC-009]
+informs: [DOC-007, DOC-009, DOC-031]
 status: active
 synced-to: []
 ---
@@ -40,5 +40,25 @@ Notion (parallel task execution), Rakuten (enterprise agents, 1 week per deploym
 - **Second Brain:** The proactive surfacing layer we want to build could be a long-running managed agent that periodically sweeps the brain and generates insights
 - **Job search:** This is frontier AI infrastructure — understanding it deeply makes Andrew more valuable in AI-adjacent roles
 
-## Docs
-Full technical docs at platform.claude.com/docs (need to review)
+## Pricing (confirmed April 2026)
+- Standard Claude API token rates (same as normal usage)
+- $0.08 per session-hour for active runtime
+- Web search: $10 per 1,000 searches
+- Typical 10-minute session: a few cents
+- Heavy usage: well under $100/month
+
+## The 4 Building Blocks
+1. **Agent** — instructions, model choice, available tools (the "job description")
+2. **Environment** — pre-loaded workspace with software and tools (the "laptop setup")
+3. **Session** — running conversation with persistent memory, can run for hours
+4. **Events** — messages in/out, status updates, approval requests
+
+## Permission System
+- **Auto-run** — agent handles everything automatically
+- **Approval required** — agent pauses before taking action
+- Mixable per action type (e.g., auto for reads, approval for sends)
+
+## Docs & Resources
+- Full technical docs at platform.claude.com/docs (need to review)
+- Non-technical deployment guide: return-my-time.kit.com/2872b904f5
+- Business playbook for selling agent services: [DOC-031](../../resources/frameworks/managed-agents-service-business.md)

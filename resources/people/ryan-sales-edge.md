@@ -27,3 +27,4 @@ Andrew has been building GTM strategy and outbound infrastructure for Ryan's rec
 
 ### Action Items
 - [ ] Continue building outbound sequences in Apollo/Instantly
+- [ ] Set up Gojiberry AI + Claude MCP for LinkedIn outreach channel (see `resources/tools/gojiberry-linkedin-outreach.md`)

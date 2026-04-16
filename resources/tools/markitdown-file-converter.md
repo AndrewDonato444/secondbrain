@@ -1,17 +1,15 @@
 ---
+id: DOC-021
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-13
+status: superseded
+superseded-by: DOC-020
+type: reference
+domain: ai-frontier
 source_intake: inbox/2026-04-08-markitdown-microsoft.md
-connections:
-  - ../../interests/ai-frontier/graphify-knowledge-graphs.md
-  - ../../interests/ai-frontier/bloom-ai-screen-recording.md
-  - ../../projects/modern-signal-advisory/claude-managed-agents-opportunity.md
-relevance:
-  - second-brain-system
-  - modern-signal-advisory
-  - ai-frontier
-  - facts-unlocked
 ---
+
+> **SUPERSEDED** — This file is a duplicate of `markitdown-microsoft.md` (DOC-020). See that file for the canonical version.
 
 # MarkItDown — Universal File → Markdown for LLMs
 

@@ -1,13 +1,15 @@
 ---
+id: DOC-008
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-13
+status: superseded
+superseded-by: DOC-007
+type: knowledge
+domain: msa
 source_intake: inbox/2026-04-08-claude-managed-agents.md
-connections:
-  - "[MSA Product Overview](./product-overview.md)"
-  - "[MSA Sales Strategy](./sales-strategy.md)"
-  - "[SDD Framework](../../resources/tools/sdd-framework.md)"
-relevance: [modern-signal-advisory, ai-frontier]
 ---
+
+> **SUPERSEDED** — This file is a duplicate of `claude-managed-agents-opportunity.md` (DOC-007). See that file for the canonical version.
 
 # Claude Managed Agents → MSA Opportunity
 

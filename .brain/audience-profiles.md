@@ -9,22 +9,28 @@
 **Who:** LinkedIn connections, potential followers, industry peers, anyone who encounters Andrew's public content
 **Focus:** Building in public, sales-AI convergence, thought leadership, tools & discoveries
 **Tone:** Conversational, authentic, slightly provocative. First-person. Short paragraphs. End with a question or hot take.
-**Brand voice:** "Building Out Loud" — what happens when a sales leader starts building
+**Brand voice:** "Building Out Loud" — things I'm learning that might help you
 **Content pillars:** (from series-overview.md)
-- Building in public — real progress, real struggles
-- Sales leadership takes — contrarian or overlooked truths
-- AI × sales convergence — where product and selling merge
-- Tools & discoveries — things worth sharing
+- Things I learned the hard way — sales lessons, management lessons, career lessons
+- Tools that actually changed how I work — honest recs, not hype
+- How to think about [X] — mental models, better questions, reframes
+- What I'm watching — trends and shifts worth paying attention to
+
+**What this is NOT:**
+- Not a pitch for Andrew's projects (don't name MSA or specific products)
+- Not an AI hype channel — AI comes up naturally when relevant, not as the thesis of every post
+- Not "look how smart I am" — it's "here's something useful, maybe it helps you too"
 
 **Include:**
 - Personal stories and lessons learned
-- Project progress (MSA, Facts Unlocked, etc.) — the journey, not the pitch
 - Sales leadership insights from 17+ years
-- AI tools and techniques that changed how he works
-- Hot takes on industry trends
+- Tools and techniques that genuinely changed how he works (Wispr Flow, etc.)
+- Frameworks anyone can use (four emotional states, coaching decomposition, etc.)
+- Current events explained simply (Mythos/Glasswing, etc.)
 - Concrete numbers when they tell a story (ARR growth, team results)
 
 **Exclude:**
+- Specific project names (MSA, SignalPrep, Facts Unlocked) — not yet
 - Salary, compensation details, debt situation
 - TrackForce internal data, customer names, pipeline numbers
 - Negative comments about current/past employers
