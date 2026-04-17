@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-17T19-02-55Z",
+  "summarizedAt": "2026-04-17T19:07:58.388Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 mixed reception",
+    "Claude Design vs. Figma",
+    "Claude Code & agentic tooling",
+    "benchmark credibility collapse",
+    "AI product trust & reliability",
+    "indie iOS distribution",
+    "LLM vertical disruption"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2044802532388774313",
+      "url": "https://x.com/bcherny/status/2044802532388774313",
+      "author": "@bcherny",
+      "why": "First-party Anthropic signal on what Opus 4.7 actually changes in Claude Code — more agentic, cross-session context, better ambiguity handling."
+    },
+    {
+      "postId": "2044807559278711100",
+      "url": "https://x.com/FakePsyho/status/2044807559278711100",
+      "author": "@FakePsyho",
+      "why": "Sharp one-liner with image showing benchmark inflation has entered absurdist territory — directly relevant to evaluating model claims."
+    },
+    {
+      "postId": "2045063637639762056",
+      "url": "https://x.com/kimmonismus/status/2045063637639762056",
+      "author": "@kimmonismus",
+      "why": "Detailed trust-regression critique of Opus 4.7 vs 4.6 — the 'disgruntled employee' framing captures the reliability problem product teams are actually hitting."
+    },
+    {
+      "postId": "2045056886450553129",
+      "url": "https://x.com/theo/status/2045056886450553129",
+      "author": "@theo",
+      "why": "Theo's IE analogy for Claude Code complacency is the kind of pushback that shapes product team standards — worth knowing this take is circulating."
+    },
+    {
+      "postId": "2045152618305998857",
+      "url": "https://x.com/jpschroeder/status/2045152618305998857",
+      "author": "@jpschroeder",
+      "why": "Concise articulation of the Mythos narrative gap: if the god-model exists, why is the current product stack so broken right now."
+    },
+    {
+      "postId": "2045189528391184590",
+      "url": "https://x.com/zachtratar/status/2045189528391184590",
+      "author": "@zachtratar",
+      "why": "Raises a real governance question: Anthropic's CPO just left Figma's board and they immediately shipped a Figma competitor — conflict of interest angle worth tracking."
+    },
+    {
+      "postId": "2045169756471505199",
+      "url": "https://x.com/zebriez/status/2045169756471505199",
+      "author": "@zebriez",
+      "why": "Case study on Notion as a rare pre-AI company that actually made the leap to AI-native — useful reference for product strategy conversations."
+    },
+    {
+      "postId": "2044840893299994640",
+      "url": "https://x.com/gregisenberg/status/2044840893299994640",
+      "author": "@gregisenberg",
+      "why": "Identifies 'AI that pushes back' as an underexplored product category — directly relevant to AI product strategy and trust design."
+    },
+    {
+      "postId": "2044829513520197900",
+      "url": "https://x.com/thsottiaux/status/2044829513520197900",
+      "author": "@thsottiaux",
+      "why": "Inside look at Claude Mac computer use from someone close to the build — background operation without disrupting flow is the key product detail."
+    },
+    {
+      "postId": "2045207305579643043",
+      "url": "https://x.com/PeterDiamandis/status/2045207305579643043",
+      "author": "@PeterDiamandis",
+      "why": "Blunt thesis that LLM companies will systematically disrupt every vertical SaaS to fund compute — the Claude Design move as evidence of the broader pattern."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@bcherny",
+      "why": "Anthropic-adjacent, posting substantive Claude Code product details not available elsewhere."
+    },
+    {
+      "handle": "@kimmonismus",
+      "why": "Detailed, experience-driven model critiques — the kind of practitioner feedback that matters for AI product reliability decisions."
+    },
+    {
+      "handle": "@andrewchen",
+      "why": "Thoughtful observation on how AI shifts time allocation in workflows — relevant to product strategy and distribution thinking."
+    },
+    {
+      "handle": "@zebriez",
+      "why": "Doing real case study work on AI-native transformations of established companies, not just hot takes."
+    },
+    {
+      "handle": "@gregisenberg",
+      "why": "Consistently identifies product opportunity gaps in AI behavior (sycophancy, branding) that map to real distribution and strategy angles."
+    }
+  ],
+  "noise": {
+    "count": 118,
+    "examples": [
+      "viral lifestyle/emotional content (ages you suffer, boring habits, after-work memes)",
+      "geopolitical breaking news dumps (Hormuz, Lebanon, Iran) with no AI relevance",
+      "crypto shilling and trading advice posts"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 195,
+    "seenCount": 24
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "benchmark credibility collapse",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code & agentic tooling",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Design vs. Figma",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "indie iOS distribution",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "LLM vertical disruption",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": []
+  }
+}
