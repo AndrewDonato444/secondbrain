@@ -6,9 +6,9 @@
 
 ## 0. Environment
 
-- You've been handed a clone of `AndrewDonato444/secondbrain`. Work in the checkout.
-- The Telegram bot token and chat ID have been provided in your session preamble — use those, do not look for them in `.env.local` (not in the repo).
-- Today's date = the current date in **America/New_York** timezone. Compute it with `TZ=America/New_York date '+%Y-%m-%d'` before you start writing files.
+- You are inside Andrew's Second Brain repo. Working directory is the repo root (`~/SecondBrain` on his Mac, or a cloud checkout of `AndrewDonato444/secondbrain`).
+- `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` are available as environment variables — use them directly, do not try to read `.env.local`.
+- Today's date = the current date in **America/New_York** timezone. Compute it with `TZ=America/New_York date '+%Y-%m-%d'` before writing files.
 
 ---
 
@@ -90,7 +90,9 @@ Check = done. Unchecked = skipped or deferred.
 
 If the Decisions section would be empty (everything was tier-1), state that explicitly: "No decisions needed today — everything was tier-1 auto." Still write the file.
 
-If there were no new runs at all: still write the file with a single "No new runs since {last processed}" line and skip the sections.
+**If today's surfacing file already exists** (e.g., you're re-running on the same calendar day): do NOT overwrite it. If new runs were processed, append a `## Re-run at {HH:MM ET}` section at the bottom with just the new routing. If no new runs, don't touch the file — go straight to the Telegram step.
+
+**If there were no new runs at all** AND today's file doesn't exist yet: write a minimal file with a single "No new runs since {last processed run id}" line and skip the other sections.
 
 ---
 
