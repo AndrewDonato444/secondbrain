@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-17T12-58-03Z",
+  "summarizedAt": "2026-04-17T13:08:08.694Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Claude Opus 4.7 launch reactions",
+    "model quality vs. rate limits tradeoff",
+    "AI coding tool fragmentation",
+    "enterprise knowledge layer / second brain",
+    "SaaS UI disruption by agents",
+    "local model viability",
+    "distribution gap for indie builders"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2044839936235553167",
+      "url": "https://x.com/bcherny/status/2044839936235553167",
+      "author": "@bcherny",
+      "why": "Anthropic's own product lead confirms Opus 4.7 uses more thinking tokens and they've increased rate limits to compensate — directly relevant for anyone pricing AI tooling."
+    },
+    {
+      "postId": "2044863707730292888",
+      "url": "https://x.com/benhylak/status/2044863707730292888",
+      "author": "@benhylak",
+      "why": "High-engagement contrarian take (2457 likes, 200k views) that Opus 4.7 is a regression — worth reading the replies to calibrate whether the launch is a trust problem."
+    },
+    {
+      "postId": "2044883396359340074",
+      "url": "https://x.com/ThisWeeknAI/status/2044883396359340074",
+      "author": "@ThisWeeknAI",
+      "why": "Side-by-side 4.6 vs. 4.7 design comparison with 315k views is the kind of concrete before/after that matters for AI product quality claims."
+    },
+    {
+      "postId": "2044701560576381316",
+      "url": "https://x.com/GergelyOrosz/status/2044701560576381316",
+      "author": "@GergelyOrosz",
+      "why": "Flags a real enterprise budget crunch: as Anthropic removes subsidies, AI coding tools risk hitting a $300/month ceiling — directly relevant for sales enablement and pricing strategy."
+    },
+    {
+      "postId": "2044846603329233198",
+      "url": "https://x.com/TechCrunch/status/2044846603329233198",
+      "author": "@TechCrunch",
+      "why": "Anthropic CPO leaving Figma's board over a competing product signals Anthropic is moving directly into design tooling, which reshapes the competitive landscape."
+    },
+    {
+      "postId": "2044937140912664732",
+      "url": "https://x.com/aakashgupta/status/2044937140912664732",
+      "author": "@aakashgupta",
+      "why": "Factory's 5x valuation jump to $1.5B in 7 months is framed as a bet that model lock-in is not a moat — a sharp read on AI coding product strategy."
+    },
+    {
+      "postId": "2044874360280723934",
+      "url": "https://x.com/businessbarista/status/2044874360280723934",
+      "author": "@businessbarista",
+      "why": "Articulates the enterprise knowledge context problem clearly: coding is solved because git has the context, but knowledge work doesn't — points at a real product gap."
+    },
+    {
+      "postId": "2044884503391355326",
+      "url": "https://x.com/GergelyOrosz/status/2044884503391355326",
+      "author": "@GergelyOrosz",
+      "why": "Predicts 'UX-pilled' builders will be in massive demand as AI levels the technical playing field — directly relevant for distribution and indie dev positioning."
+    },
+    {
+      "postId": "2044796471955066921",
+      "url": "https://x.com/aakashgupta/status/2044796471955066921",
+      "author": "@aakashgupta",
+      "why": "Spots the unusual move in Anthropic's launch chart where Mythos Preview beats Opus 4.7 on every benchmark — raises real questions about what Opus 4.7 is actually for."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@GergelyOrosz",
+      "why": "Consistently grounding AI hype in enterprise budget and product reality — two posts this cycle both directly on-topic."
+    },
+    {
+      "handle": "@aakashgupta",
+      "why": "Sharp structural takes on AI product strategy and funding signals; multiple posts this cycle with real analytical depth."
+    },
+    {
+      "handle": "@businessbarista",
+      "why": "Thinking clearly about the enterprise knowledge layer problem, which is an emerging product category worth tracking."
+    },
+    {
+      "handle": "@bcherny",
+      "why": "Inside signal from Anthropic's product team on rate limits and token economics."
+    }
+  ],
+  "noise": {
+    "count": 130,
+    "examples": [
+      "Elon/Pope/Iran political dunks with no product relevance",
+      "motivational grindset quote threads",
+      "vague AI hype threads with no specifics (\"most powerful prompt ever\", \"learning mode BREAKING\")"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 0,
+    "seenCount": 219
+  },
+  "feedVerdict": "mixed"
+}

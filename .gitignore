@@ -1,2 +1,7 @@
 .DS_Store
+.env.local
 andrew-resume-app/
+
+# ScrollProxy runs: commit summaries only, keep heavy archive data local
+projects/scrollproxy/runs/**/raw.json
+projects/scrollproxy/runs/**/screenshots/

@@ -1,11 +1,11 @@
 ---
 id: DOC-029
 created: 2026-04-11
-updated: 2026-04-13
+updated: 2026-04-17
 status: active
 type: artifact
 domain: building-out-loud
-derived-from: [DOC-010, DOC-001]
+derived-from: [DOC-010, DOC-001, DOC-034]
 ---
 
 # Building Out Loud — Episodes
@@ -23,6 +23,7 @@ derived-from: [DOC-010, DOC-001]
 | 3 | Apr 13 | What I'm Watching | Mythos and Project Glasswing for dummies |
 | 4 | Apr 14 | Tools That Actually Changed How I Work | This tool changed how I write everything (Wispr Flow) |
 | 5 | Apr 15 | What I'm Watching | How replaceable are you? Here's the framework |
+| 6 | Apr 16 | Things I Learned the Hard Way | Stop coaching to the average |
 
 ---
 
@@ -75,29 +76,46 @@ What's your distribution advantage? Genuinely curious.
 
 ---
 
-### "Stop coaching to the average"
-**Pillar:** Things I Learned the Hard Way
+### "Anthropic just spooked the entire design industry"
+**Pillar:** What I'm Watching
 
-**Hook:** "Your sales team has a top performer. You probably can't explain exactly why they win."
+**Hook:** "A rumor came out this week about Anthropic's next AI model. And before it even shipped, Figma's stock dropped 6%."
 
 **Talking points:**
-- Most sales managers coach by gut feel. "Be more consultative." "Ask better discovery questions." That's like a basketball coach saying "score more points"
-- The problem: we coach to the average. We generalize what seems to work. But your top rep's secret weapon might be something you've never even noticed
-- Not "they're good at relationships" — the specific things. Do they pause longer after a prospect speaks? Do they ask a second question before jumping to a pitch? Do they use the prospect's own words back to them?
-- If you can name the variable, you can test it. If you can test it, you can teach it
-- This applies beyond sales — any skill that looks like "talent" is probably a set of specific behaviors nobody's bothered to decompose
-- End with: "Name one specific thing your best rep does that you've never formally taught to the rest of the team. I bet there's something."
+- Anthropic — the company behind Claude — reportedly has a new model in the works called Opus 4.7. The headline: it can build websites, landing pages, presentations. No design experience needed. Just describe what you want
+- That's interesting. But here's the part that actually matters: the stock market reacted before the product even exists. Adobe dropped. Wix dropped. GoDaddy dropped. Figma fell about 6%. On a rumor
+- The market is telling you something. It's not betting that the product will be amazing. It's betting that the category is getting compressed. That the gap between "I had an idea" and "I have a live website" is about to get very, very small
+- And look — this has happened before. AI image generation didn't kill photographers, but it destroyed the stock photo business. AI coding tools didn't kill developers, but they're absolutely reshaping who can build software. This is the same wave hitting design
+- If you make your living building websites, landing pages, or presentations — this isn't the end. But the value is shifting. Fast. It's moving away from "can you make this look good" toward "do you know what should exist and why"
+- The production layer is getting commoditized. The strategy layer is not. Knowing what to build, who it's for, and how to get it in front of them — that's the durable skill
+- This is why I keep coming back to the same idea: distribution beats production. Your competitor will be able to build what you build. They can't match your audience, your trust, or the speed at which you learn from real usage
+- End with: "If AI can build anything, the question isn't what can you build. It's what should you build — and who's going to use it? That's the only question that matters now."
 
 **First comment:**
-Here's a simple exercise I use:
+Here's what happened this week:
 
-Pick your top rep. Listen to 3 of their discovery calls back to back. Write down every specific behavior — not "good rapport," but the actual things they do. How long they wait after a question. How they handle "I'll think about it." Whether they repeat the prospect's words back.
+Anthropic reportedly has a new Claude model (Opus 4.7) coming that builds websites and presentations from text descriptions. No design skills needed.
 
-Then listen to 3 calls from a mid-performer. Compare the lists.
+Before it even shipped:
+- Figma: ~6% drop
+- Adobe: dropped
+- Wix: dropped
+- GoDaddy: dropped
 
-I guarantee you'll find at least 2-3 things your top rep does that nobody else on the team knows about. That's your coaching playbook.
+The market isn't reacting to a product. It's reacting to a trajectory.
 
-#SalesCoaching #SalesLeadership #B2BSales #SalesManagement
+The value chain is shifting:
+- Production (building the thing) → getting cheaper every month
+- Strategy (knowing what to build) → holding value
+- Distribution (getting it to people) → becoming the real bottleneck
+
+If you're in design, marketing, or sales — your job isn't going away. But what makes you valuable is changing fast.
+
+The people who thrive will be the ones who stop selling their ability to build and start selling their ability to think.
+
+What part of your work is production vs. strategy? Honest question.
+
+#AI #Design #Strategy #BuildingInPublic #FutureOfWork
 
 ---
 
@@ -178,6 +196,54 @@ Has anyone actually tried this? Would love to hear how it went.
 
 ---
 
+### "I replaced my worst habit with a command line tool"
+**Pillar:** Building in Public
+
+**Hook:** "I spent a weekend building a tool to do the one thing I couldn't stop doing myself. Scroll X."
+
+**Talking points:**
+- I have a bad habit. I open X "for a second" and lose 40 minutes. Sometimes I walk away having seen one genuinely useful thing, and 200 pieces of noise I can't unsee
+- I tried all the normal fixes. App blockers. Time limits. Deleting it off my phone. Every one of them worked for about four days
+- So I flipped it. If I can't stop scrolling, maybe I can stop doing the scrolling myself. I built a CLI tool called ScrollProxy. I type one command, and a browser opens, logs into X as me, scrolls my feed for ten minutes, extracts every post, and hands it to Claude
+- Claude reads the whole thing and writes me a markdown file. Here are the actual themes in your feed today. Here are three things worth clicking. Here's who posted something high-signal. Here's the 60% that was noise — you can safely skip it
+- I close the file, make coffee, and I'm done. That's it. That's the whole interaction with X for the day
+- The thing I didn't expect: it builds memory. It remembers what it showed me yesterday. So when the same take gets recycled by three different accounts, it tells me. When a theme has been bubbling for four days, it flags it as actually trending instead of just loud
+- And here's the part that's been sitting with me. The feed is designed to keep you there. Infinite scroll, algorithmic bait, dopamine on a timer. A tool that just reads it for you and leaves is the exact opposite design. It's using the same AI that's about to make every feed more addictive, to give you a way out
+- End with: "The next wave of useful AI isn't going to be the stuff that steals more of your attention. It's going to be the stuff that gives it back. What's one thing you'd automate today if you could?"
+
+**First comment:**
+The honest version of why I built this:
+
+I was embarrassed by how much time I was losing to X. Not "lol wasted my morning" embarrassed. Actually embarrassed. I'd set a five-minute timer, ignore it, and resurface an hour later with nothing to show for it.
+
+So I built ScrollProxy. A CLI that does the scrolling for me.
+
+What it does:
+1. Opens a persistent Chrome profile (already logged into X)
+2. Scrolls my feed for N minutes with human-ish timing
+3. Extracts every post — text, author, metrics, media
+4. Feeds the whole batch to Claude with my interests and the themes from the last 10 runs
+5. Writes a markdown file: themes worth knowing, posts worth clicking, voices worth watching, and a one-line verdict on whether the feed was even worth it today
+
+What it's replaced:
+- Opening the X app on my phone (7 days and counting)
+- The "five minutes" that turns into an hour
+- The vague FOMO of "what if I missed something"
+
+The meta lesson I didn't expect to learn:
+
+Every feed you use is optimized against you. The algorithm's goal is time-on-platform, not signal-per-minute. The second you put a layer between yourself and the feed, you flip that math. Now the optimization is on YOUR side.
+
+AI gets pitched as the thing that's going to make feeds more addictive. That's true. But the same tools let you build your own filter. A translator between the noise machine and your actual attention.
+
+The best use of AI I've found this year isn't about producing more. It's about consuming less, with a much higher hit rate.
+
+If you could point an AI agent at one thing in your life and say "do this for me so I don't have to" — what would it be? Genuinely curious what people would pick.
+
+#BuildingInPublic #AI #ClaudeAI #Productivity #Attention
+
+---
+
 ### "The marginal cost of completeness is near zero"
 **Pillar:** How to Think About [X]
 
@@ -216,12 +282,13 @@ The bar moved. For everyone. The question is whether you moved with it.
 > Raw ideas. Tell me to build any of these into a full episode.
 
 - **"If you're building, you need a scraper — use Scraping Dog"** (Tools) — Super cheap, easy, reliable web scraper with a great API. Quick practical rec.
-- **"I built a tool that scrolls X so I don't have to"** (Building in Public / Tools) — ScrollProxy: CLI that scrolls your feed, extracts posts, has Claude summarize the signal. "I replaced my worst habit with a command line tool."
+- ~~"I built a tool that scrolls X so I don't have to"~~ — **BUILT** → moved to Ready to Record as "I replaced my worst habit with a command line tool"
 - **"I built urcooked.ai in a weekend"** (Building in Public) — Type in your job, get a "cooked score" for how replaceable you are by AI, plus advice on how to un-cook yourself. Viral mechanic + real value.
 - **"My friend built an AI that never sleeps"** (What I'm Watching) — A friend built a persistent agent that runs 24/7 on a server in his house. It knows where he is via GPS, watches his cameras, tracks his flights, reads his calendar, and proactively reaches out when something matters — without being asked. Not a chatbot. A presence. The difference between an assistant you call and one that's already watching. This is where AI agents are actually going.
 - **"I accidentally built a business while helping a friend"** (Things I Learned the Hard Way) — Built a full outbound automation stack for a friend's recruiting firm. Apollo + Instantly + a custom AI tool. Then realized: this works for any B2B company. The setup is the same every time, only the ICP changes. Sometimes you don't find the business idea — you trip over it while doing something else.
 - **"I replaced a $15,000/year lead tool with a $19/month API"** (Tools That Actually Changed How I Work) — Google Maps has 265 million business listings. Updated constantly. Real phone numbers, real websites. It's the largest verified B2B database on earth and almost nobody uses it for outbound. Built a scraper in one afternoon with Claude Code that pulls leads by zip code, scrapes emails from websites, cleans the list, and exports a CSV. Total cost: $44/month. Apollo charges $500. ZoomInfo charges $15,000. Same data, fresher, 200x cheaper.
-- **"Anthropic is about to let anyone build a website by describing it"** (What I'm Watching) — Opus 4.7 is reportedly dropping with an AI design tool that builds entire websites and landing pages from text descriptions. Aimed at non-technical users too. If this works, the "can you build it" question isn't just yes for developers — it's yes for everyone. Distribution becomes the only game left.
+- ~~"Anthropic is about to let anyone build a website by describing it"~~ — **BUILT** → moved to Ready to Record
 - **"Your AI code is probably garbage — here's how to fix it"** (How to Think About [X]) — Vibecoding produces working code that's also a mess. There's an 8-point cleanup framework going around (dedup, dead code, circular deps, weak types, defensive programming bloat, AI slop removal). The checklist is good but the real lesson is: if you need all 8 of these, the problem isn't cleanup — it's that you skipped the discipline on the way in. Build right the first time, or accept that you're building tech debt you'll pay for later.
 - **"The Wispr Flow feature that made it 10x more useful"** (Tools That Actually Changed How I Work) — Follow-up to the Wispr Flow episode. Command Mode: highlight any text, hold a shortcut, say "make this more concise" or "translate this" or "rewrite as bullets" — and it replaces the text. Turns dictation into voice-controlled editing. Write rough by talking, refine by talking. The gap between thought and polished output just collapsed.
 - **"The moat isn't the tech anymore"** (What I'm Watching) — Everyone's about to be able to build everything. The answer to "can you build it" is going to be yes for almost everyone. The two questions that actually matter now: should you build it, and can you distribute it? Your competitor can build what you build. They can't duplicate your users. They can't duplicate the data your users put into your platform. The battleground has shifted from technology to distribution. If you're in sales, marketing, demand gen — your skills just became the most valuable thing in the room. The builders need you more than you need them.
+- **"Coding is solved. Knowledge work isn't."** (How to Think About [X]) — AI nails code review and fumbles at "help me with my job." The reason is context. Git gives every coding tool the same shared substrate — the repo, the history, what changed. Knowledge work has no equivalent. Your notes are in one tool, your email in another, your calls in a third, your Slack in a fourth. Every tool has its own tiny view of you. That fragmentation is why AI still feels dumb for knowledge work even when it's brilliant at code. The next huge product category isn't "AI that does your job" — it's "AI that finally remembers everything you've done, across every tool you use." Whoever solves that wins the decade.

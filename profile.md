@@ -93,10 +93,10 @@ Andrew is actively looking for a new role in a frontier/AI-adjacent industry whe
 - **Status:** 3 episodes posted (Apr 9, 12, 13). 7 ready-to-record episodes in the queue plus idea backlog. Full episode list in `projects/building-out-loud/episodes/upcoming.md`
 - **Why it matters:** Personal brand building, career positioning, genuine audience building by helping people. Not a pitch vehicle — Andrew pivoted the series away from product pitching to pure value. Full series details in `projects/building-out-loud/series-overview.md`
 
-### ScrollProxy (Idea — Not Yet Built)
+### ScrollProxy (Active)
 - **What:** CLI tool that logs into X, scrolls the feed for N minutes, extracts posts, and has Claude summarize what's actually worth reading. Replaces doom scrolling with a structured markdown summary.
 - **Stack:** TypeScript, Playwright, Claude API
-- **Status:** Full technical spec written. Two-weekend build. See `projects/scrollproxy/technical-spec.md`
+- **Status:** Live. Producing runs every ~6 hours into `projects/scrollproxy/runs/`. Second Brain processes each run into a reading queue, themes tracker, voices registry, and daily cross-brain surfacings file. Tech spec: `projects/scrollproxy/technical-spec.md`. Processing prompt: `projects/scrollproxy/second-brain-prompt.md`.
 
 ### urcooked.ai (Idea — Not Yet Built)
 - **What:** Fun viral web tool. Enter your job and daily tasks, get a "cooked score" for how replaceable you are by AI, plus advice on how to un-cook yourself.

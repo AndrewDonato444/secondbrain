@@ -1,7 +1,7 @@
 ---
 id: DOC-047
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-04-16
 type: knowledge
 domain: building-out-loud
 status: active
@@ -25,20 +25,17 @@ status: active
 
 | # | Topic | Category | Notes |
 |---|-------|----------|-------|
-| 1 | Stop Selling to People Who Are Nodding | Sales | Pushback is data; agreement is performance |
-| 2 | The Target Keeps Moving | Life / ambition | Happiness as a moving target; usefulness doesn't move |
-| 3 | The Managed Agent Era Is Here and Most People Are Still Hiring Humans for It | AI | Frame as a market observation, no specific client examples |
-| 4 | Networking Is a Word for People Who Aren't Good at Being a Friend | Relationships | Connectors lens, no real names |
-| 5 | You're Not Behind. You're Early in Something That Doesn't Have a Name Yet. | Life / work | Pep talk for builders in undefined spaces |
-| 6 | Your Pipeline Is a Mirror | Sales | What your pipeline says about how you actually spend your time |
-| 7 | Why "Just Following Up" Is the Worst Sentence in Sales | Sales | Pulled from backlog after seeding post #1 |
-| 8 | The Four Emotional States Every Buyer Cycles Through | Sales | Pulled from backlog 2026-04-15 |
+| 1 | The Managed Agent Era Is Here and Most People Are Still Hiring Humans for It | AI | Frame as a market observation, no specific client examples |
+| 2 | Networking Is a Word for People Who Aren't Good at Being a Friend | Relationships | Connectors lens, no real names |
+| 3 | You're Not Behind. You're Early in Something That Doesn't Have a Name Yet. | Life / work | Pep talk for builders in undefined spaces |
+| 4 | Your Pipeline Is a Mirror | Sales | What your pipeline says about how you actually spend your time |
+| 5 | Why "Just Following Up" Is the Worst Sentence in Sales | Sales | Pulled from backlog after seeding post #1 |
+| 6 | The Four Emotional States Every Buyer Cycles Through | Sales | Pulled from backlog 2026-04-15 |
+| 7 | Building in Public Is Just Keeping a Journal Where Strangers Can Read It | Building | Pulled from backlog 2026-04-16 |
+| 8 | The Skills That Just Got Obsolete and the Ones That Just Got 10x More Valuable | Life / work | Pulled from backlog 2026-04-16 |
 
 ## Backlog (next-up to refill the Active 8)
 
-
-- Building in Public Is Just Keeping a Journal Where Strangers Can Read It
-- The Skills That Just Got Obsolete and the Ones That Just Got 10x More Valuable
 - Sovereign Individuals: What Happens When One Person Can Run a Real Business
 - The People You Call When Something Good Happens vs. Something Bad
 - The Case Against Optimization
@@ -47,6 +44,8 @@ status: active
 - Why I Started Writing Again at 35
 - The Salesperson Who Taught Me That Empathy Is a Competitive Advantage
 - Connectors Are the Loneliest People in the Room
+- Model Lock-In Was Never a Moat — added 2026-04-17 from scrollproxy surfacing; reaction to the Factory $1.5B framing. Generalize to the broader AI product strategy question: if every foundation model is swappable, what actually defends your product?
+- AI Nailed Coding. Why Can't It Nail Your Job? — added 2026-04-17 from scrollproxy surfacing; the knowledge layer / context problem. Git gives every coding tool the same shared substrate; knowledge work has no equivalent. No project specifics — make it a general observation about where AI still fumbles and why.
 
 ## Published
 
@@ -54,3 +53,5 @@ status: active
 |------|-------|-----------|-----|
 | 2026-04-14 | Why I Stopped Using AI to Write and Started Using It to Think | [post](posts/2026-04-14-why-i-stopped-using-ai-to-write.md) | [#1](https://github.com/AndrewDonato444/andrew-resume-app/pull/1) |
 | 2026-04-15 | The Bike Ride Test | [post](posts/2026-04-15-the-bike-ride-test.md) | [#2](https://github.com/AndrewDonato444/andrew-resume-app/pull/2) |
+| 2026-04-16 | Stop Selling to People Who Are Nodding | [post](posts/2026-04-16-stop-selling-to-people-who-are-nodding.md) | [#3](https://github.com/AndrewDonato444/andrew-resume-app/pull/3) |
+| 2026-04-16 | The Target Keeps Moving | [post](posts/2026-04-16-the-target-keeps-moving.md) | [#4](https://github.com/AndrewDonato444/andrew-resume-app/pull/4) |

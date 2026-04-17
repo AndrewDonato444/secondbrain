@@ -19,6 +19,12 @@ Source: `.specs/vision.md` from the market-intelligence-report repo
 
 A four-product intelligence platform for luxury real estate agents. MSA is the engine behind the scenes — reports are agent-branded, MSA doesn't show its face.
 
+## Thesis
+
+Coding is solved because git gives every tool the same shared context — the repo, the history, what changed. Knowledge work has no equivalent, and a luxury advisor trying to be data-driven is fighting that fragmentation alone. MSA is the shared-context layer for the advisor's work: market data, comps, persona signals, and voice unified into one substrate, so the advisor walks into every conversation prepared instead of scrambling.
+
+_Framing crystallized from @businessbarista's 2026-04-17 take via ScrollProxy surfacing._
+
 ## The Four Products
 
 ### Signal Report (Market Intelligence)
