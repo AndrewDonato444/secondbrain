@@ -26,3 +26,16 @@ One entry per handle called out in the "Voices" section across runs. New justifi
 
 ## @bcherny
 - **2026-04-17T12-58-03Z** — Inside signal from Anthropic's product team on rate limits and token economics.
+- **2026-04-17T19-02-55Z** — Anthropic-adjacent, posting substantive Claude Code product details not available elsewhere.
+
+## @kimmonismus
+- **2026-04-17T19-02-55Z** — Detailed, experience-driven model critiques — the kind of practitioner feedback that matters for AI product reliability decisions.
+
+## @andrewchen
+- **2026-04-17T19-02-55Z** — Thoughtful observation on how AI shifts time allocation in workflows — relevant to product strategy and distribution thinking.
+
+## @zebriez
+- **2026-04-17T19-02-55Z** — Doing real case study work on AI-native transformations of established companies, not just hot takes.
+
+## @gregisenberg
+- **2026-04-17T19-02-55Z** — Consistently identifies product opportunity gaps in AI behavior (sycophancy, branding) that map to real distribution and strategy angles.

@@ -13,6 +13,19 @@
 - [ ] [@fuckgrowth](https://x.com/fuckgrowth/status/2044769604765929927) — Short thread arguing we're entering a distribution supercycle — directly relevant to how indie devs should think about go-to-market right now.
 - [ ] [@rxhit05](https://x.com/rxhit05/status/2044872068769234973) — Concrete checklist of why vibe-coded SaaS fails post-launch: security and ops gaps that any indie dev shipping fast should audit against.
 
+## 2026-04-17 19:07 UTC
+
+- [ ] [@bcherny](https://x.com/bcherny/status/2044802532388774313) — First-party Anthropic signal on what Opus 4.7 actually changes in Claude Code — more agentic, cross-session context, better ambiguity handling.
+- [ ] [@FakePsyho](https://x.com/FakePsyho/status/2044807559278711100) — Sharp one-liner with image showing benchmark inflation has entered absurdist territory — directly relevant to evaluating model claims.
+- [ ] [@kimmonismus](https://x.com/kimmonismus/status/2045063637639762056) — Detailed trust-regression critique of Opus 4.7 vs 4.6 — the 'disgruntled employee' framing captures the reliability problem product teams are actually hitting.
+- [ ] [@theo](https://x.com/theo/status/2045056886450553129) — Theo's IE analogy for Claude Code complacency is the kind of pushback that shapes product team standards — worth knowing this take is circulating.
+- [ ] [@jpschroeder](https://x.com/jpschroeder/status/2045152618305998857) — Concise articulation of the Mythos narrative gap: if the god-model exists, why is the current product stack so broken right now.
+- [ ] [@zachtratar](https://x.com/zachtratar/status/2045189528391184590) — Raises a real governance question: Anthropic's CPO just left Figma's board and they immediately shipped a Figma competitor — conflict of interest angle worth tracking.
+- [ ] [@zebriez](https://x.com/zebriez/status/2045169756471505199) — Case study on Notion as a rare pre-AI company that actually made the leap to AI-native — useful reference for product strategy conversations.
+- [ ] [@gregisenberg](https://x.com/gregisenberg/status/2044840893299994640) — Identifies 'AI that pushes back' as an underexplored product category — directly relevant to AI product strategy and trust design.
+- [ ] [@thsottiaux](https://x.com/thsottiaux/status/2044829513520197900) — Inside look at Claude Mac computer use from someone close to the build — background operation without disrupting flow is the key product detail.
+- [ ] [@PeterDiamandis](https://x.com/PeterDiamandis/status/2045207305579643043) — Blunt thesis that LLM companies will systematically disrupt every vertical SaaS to fund compute — the Claude Design move as evidence of the broader pattern.
+
 ## 2026-04-17 12:58 UTC
 
 - [ ] [@bcherny](https://x.com/bcherny/status/2044839936235553167) — Anthropic's own product lead confirms Opus 4.7 uses more thinking tokens and they've increased rate limits to compensate — directly relevant for anyone pricing AI tooling.
