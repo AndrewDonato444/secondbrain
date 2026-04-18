@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-17T23-52-07Z",
+  "summarizedAt": "2026-04-18T00:02:11.704Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "empty feed",
+    "no new posts"
+  ],
+  "worthClicking": [],
+  "voices": [],
+  "noise": {
+    "count": 0,
+    "examples": []
+  },
+  "newVsSeen": {
+    "newCount": 0,
+    "seenCount": 0
+  },
+  "feedVerdict": "noise",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "empty feed",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "no new posts",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": []
+  }
+}
