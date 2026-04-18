@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-18T11-54-54Z",
+  "summarizedAt": "2026-04-18T11:58:16.996Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 benchmarks & reception",
+    "Claude Design vs Figma",
+    "Claude Code agentic pitfalls",
+    "agent infrastructure & memory",
+    "Stripe agent payments",
+    "AI model switching & positioning",
+    "compute scarcity & data center pushback"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2045177492936532029",
+      "url": "https://x.com/arena/status/2045177492936532029",
+      "author": "@arena",
+      "why": "Code Arena puts Opus 4.7 #1 with a ~130pt lead over GPT and Gemini — hard benchmark data worth knowing before positioning conversations."
+    },
+    {
+      "postId": "2045254642385510894",
+      "url": "https://x.com/mercor_ai/status/2045254642385510894",
+      "author": "@mercor_ai",
+      "why": "APEX-SWE benchmark shows Opus 4.7 at 41.3%, just 0.2% behind GPT 5.3 Codex — narrows the 'Claude vs OpenAI for coding' debate to a coin flip."
+    },
+    {
+      "postId": "2045190551398429046",
+      "url": "https://x.com/GergelyOrosz/status/2045190551398429046",
+      "author": "@GergelyOrosz",
+      "why": "A credible engineering voice calling Opus 4.7 'openly condescending' — this is the kind of trust/reliability complaint that kills enterprise adoption."
+    },
+    {
+      "postId": "2045242290281545879",
+      "url": "https://x.com/ImSh4yy/status/2045242290281545879",
+      "author": "@ImSh4yy",
+      "why": "Concise summary of the Opus 4.7 value problem: more expensive, slower, edge only in design and prose — mirrors what product buyers will hear."
+    },
+    {
+      "postId": "2045234052144214039",
+      "url": "https://x.com/signulll/status/2045234052144214039",
+      "author": "@signulll",
+      "why": "Sharp take on how OpenAI's 900M consumer base shaped their product DNA toward engagement while Anthropic optimized for enterprise revenue — useful framing for competitive positioning."
+    },
+    {
+      "postId": "2045389634310738298",
+      "url": "https://x.com/d4m1n/status/2045389634310738298",
+      "author": "@d4m1n",
+      "why": "65k lines of slop from Claude Code in 4 hours — a concrete cautionary tale about unsupervised agentic runs that sales teams should be ready to address."
+    },
+    {
+      "postId": "2045397015941750807",
+      "url": "https://x.com/kloss_xyz/status/2045397015941750807",
+      "author": "@kloss_xyz",
+      "why": "Claude Code with MCP used 3% of quota to process 5 years of design files; Claude Design rate-limited after 20 iterations — real-world usage ceiling data."
+    },
+    {
+      "postId": "2045162949182910916",
+      "url": "https://x.com/Cloudflare/status/2045162949182910916",
+      "author": "@Cloudflare",
+      "why": "Cloudflare's Agent Memory private beta extracts conversation info without bloating context windows — directly relevant to anyone building long-running AI products."
+    },
+    {
+      "postId": "2045260432370512295",
+      "url": "https://x.com/jeff_weinstein/status/2045260432370512295",
+      "author": "@jeff_weinstein",
+      "why": "Stripe's Link now lets agents securely buy things on the internet on behalf of users — a real infrastructure unlock for commerce-adjacent agent products."
+    },
+    {
+      "postId": "2045268344815616377",
+      "url": "https://x.com/bibryam/status/2045268344815616377",
+      "author": "@bibryam",
+      "why": "Points to an Anthropic engineering post on harness design for long-running apps — the kind of low-profile technical piece that shapes how serious builders architect systems."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@GergelyOrosz",
+      "why": "Technically grounded, calls out model quality regressions early — good signal on enterprise developer sentiment."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Sharp strategic framing on AI company positioning and product strategy, low noise ratio."
+    },
+    {
+      "handle": "@kloss_xyz",
+      "why": "Practical power user of Claude Code + MCP with honest usage data, not hype."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Measured, evidence-based takes on model progress — useful counterweight to both hype and backlash."
+    },
+    {
+      "handle": "@jeff_weinstein",
+      "why": "Stripe PM shipping agent payment infrastructure — direct relevance to distribution and commerce agent buildouts."
+    }
+  ],
+  "noise": {
+    "count": 78,
+    "examples": [
+      "geopolitical news dumps (Iran/Strait of Hormuz, S&P records)",
+      "lifestyle/mindset quote tweets with no product relevance",
+      "Elon one-liners and reply-bait posts"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 124,
+    "seenCount": 6
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "agent infrastructure & memory",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "AI model switching & positioning",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code agentic pitfalls",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Design vs Figma",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "compute scarcity & data center pushback",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "AI agent autonomy",
+        "lastSeenRunId": "2026-04-17T12-07-42Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Opus 4.7 launch",
+        "lastSeenRunId": "2026-04-17T12-07-42Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "distribution supercycle",
+        "lastSeenRunId": "2026-04-17T12-07-42Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "government AI procurement",
+        "lastSeenRunId": "2026-04-17T12-07-42Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "model pricing & rate limits",
+        "lastSeenRunId": "2026-04-17T12-07-42Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
