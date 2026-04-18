@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-18T06-02-16Z",
+  "summarizedAt": "2026-04-18T06:12:18.946Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "empty feed",
+    "no new posts"
+  ],
+  "worthClicking": [],
+  "voices": [],
+  "noise": {
+    "count": 0,
+    "examples": []
+  },
+  "newVsSeen": {
+    "newCount": 0,
+    "seenCount": 0
+  },
+  "feedVerdict": "noise",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [],
+    "fading": []
+  }
+}
