@@ -1,7 +1,7 @@
 ---
 id: DOC-010
 created: 2026-04-08
-updated: 2026-04-11
+updated: 2026-04-17
 type: knowledge
 domain: building-out-loud
 source_intake: inbox/2026-04-10-building-out-loud-wiki-idea.md
@@ -36,6 +36,17 @@ Andrew Donato is a 17-year sales leader who's constantly learning — tools, fra
 - No editing, no slides — just Andrew talking
 - 3-4x per week
 - Raw, real, conversational tone — not polished corporate content
+
+## Channels
+
+| Platform | Handle | Status | Notes |
+|----------|--------|--------|-------|
+| LinkedIn | Andrew Donato | Primary, 3 episodes live (Apr 9/12/13) | Original distribution channel, 60-90s format |
+| TikTok | `@building_out_loud` | New (2026-04-17) | Part of distribution pivot; pipeline will auto-clip walks into short-form |
+| YouTube | `@building_out_loud` | New (2026-04-17) | Shorts + potential longform over time |
+| Instagram | — | Skipped | Deliberately not included |
+
+**Distribution pivot:** The Facts Unlocked pipeline is being repurposed from synthetic AI-facts channels into a multi-platform amplifier for BOL content. One walk → transcribe → pull 3 sharpest 30-60s moments → hook variants → auto-caption → cross-post. Analytics loop scores Andrew's actual hooks/clips, not synthetic ones. Full thesis in `projects/facts-unlocked/pivot-distribution-multiplier.md` (DOC-055).
 
 ## Content Pillars
 

@@ -2,7 +2,7 @@
 
 > Tracks relationships between all documents in the Second Brain. Updated whenever documents are created or modified. Read this before editing any document to understand what might be affected downstream.
 
-Last updated: 2026-04-14
+Last updated: 2026-04-18 (DOC-056/057/058/059 added — BOL Ep 5 live on YT; Ep 2/6/8 backfill scheduled)
 
 ---
 
@@ -63,6 +63,17 @@ Last updated: 2026-04-14
 | DOC-045 | projects/trend-jacker/vision.md | ai-frontier | knowledge | active |
 | DOC-046 | areas/personal/private/book-for-ellie.md | personal | knowledge | active |
 | DOC-048 | resources/tools/firecrawl-document-parsing.md | ai-frontier | reference | active |
+| DOC-049 | resources/tools/gemini-31-flash-tts.md | ai-frontier | reference | active |
+| DOC-050 | interests/ai-frontier/claude-opus-47-digital-creation.md | ai-frontier | knowledge | active |
+| DOC-051 | resources/tools/claude-code-session-management.md | ai-frontier | reference | active |
+| DOC-052 | resources/tools/vugola-ai-video-clipping.md | ai-frontier | reference | active |
+| DOC-053 | areas/career/interviews/elise-ai/onsite-debrief.md | career | knowledge | active |
+| DOC-054 | resources/tools/heygen-cli-hyperframes.md | ai-frontier | reference | active |
+| DOC-055 | projects/facts-unlocked/pivot-distribution-multiplier.md | facts-unlocked | knowledge | active |
+| DOC-056 | projects/building-out-loud/episodes/ep-005-wispr-flow.md | building-out-loud | artifact | active |
+| DOC-057 | projects/building-out-loud/episodes/ep-002-sales-product-convergence.md | building-out-loud | artifact | active |
+| DOC-058 | projects/building-out-loud/episodes/ep-006-dont-be-afraid-be-ready.md | building-out-loud | artifact | active |
+| DOC-059 | projects/building-out-loud/episodes/ep-008-doom-scrolling.md | building-out-loud | artifact | active |
 
 ---
 
@@ -125,6 +136,7 @@ Last updated: 2026-04-14
 | DOC-011 | informs | DOC-028 | Episode 5 teases SignalPrep |
 | DOC-011 | informs | DOC-009 | Episode 7 showcases Facts Unlocked pipeline |
 | DOC-011 | informs | DOC-019 | Episode 6 applies high-ticket sales framework |
+| DOC-011 | derived-from | DOC-034 | ScrollProxy episode derived from the technical spec |
 | PERSON-001 | extends | DOC-015 | Natalie is a contact from EliseAI opportunity |
 | PERSON-001 | extends | DOC-017 | Call notes document the interaction with Natalie |
 | DOC-030 | extends | DOC-015 | Practical exercise is part of EliseAI interview process |
@@ -181,6 +193,38 @@ Last updated: 2026-04-14
 | DOC-045 | extends | DOC-031 | Applies managed agents service business playbook to a B2C affiliate niche |
 | DOC-045 | informs | DOC-010 | Build process = Building Out Loud content |
 | DOC-045 | informs | DOC-001 | Potential income channel toward $15k/month escape velocity |
+| DOC-049 | informs | DOC-022 | Gemini Flash TTS is a competing/complementary approach to VoxCPM2 |
+| DOC-049 | informs | DOC-009 | Multi-speaker and 70+ languages relevant to Facts Unlocked pipeline |
+| DOC-022 | informs | DOC-049 | VoxCPM2's self-hosted/free model is the counterpoint to Gemini's API approach |
+| DOC-050 | informs | DOC-001 | Opus 4.7 signals where AI creation tools are heading — relevant to Andrew's positioning |
+| DOC-050 | informs | DOC-013 | If Opus 4.7 ships strong web gen, directly useful for andrewdonato.com iterations |
+| DOC-050 | informs | DOC-010 | Market reaction to AI creation tools = Building Out Loud episode material |
+| DOC-050 | informs | DOC-018 | Opus 4.7's instruction following + long-context memory improves SDD workflow |
+| DOC-051 | informs | DOC-018 | Session management best practices directly improve SDD workflow efficiency |
+| DOC-051 | informs | DOC-001 | Andrew uses Claude Code daily — these practices improve all his building |
+| DOC-052 | informs | DOC-009 | Multi-platform scheduling could replace/complement Zernio in Facts Unlocked pipeline |
+| DOC-052 | informs | DOC-010 | Auto-clip walk videos into shorts for cross-platform distribution beyond LinkedIn |
+| DOC-052 | informs | DOC-001 | Tool for multiplying content reach across Andrew's video projects |
+| DOC-053 | extends | DOC-015 | On-site debrief extends the EliseAI opportunity file |
+| DOC-053 | extends | DOC-017 | Builds on Natalie call — Tim session continued coaching themes |
+| DOC-053 | informs | DOC-001 | Career move progress — on-site completed |
+| DOC-054 | informs | DOC-009 | Hyperframes could replace/complement Remotion in Facts Unlocked video pipeline |
+| DOC-054 | informs | DOC-010 | HeyGen CLI + Vugola = automated avatar video → clip → distribute pipeline |
+| DOC-054 | informs | DOC-001 | Video-as-code tooling relevant to multiple Andrew projects |
+| DOC-055 | depends-on | DOC-009 | Pivot thesis reframes the existing Facts Unlocked pipeline |
+| DOC-055 | depends-on | DOC-010 | Pipeline would serve Building Out Loud content as its input |
+| DOC-055 | informs | DOC-001 | Concentration decision — affects which projects get attention |
+| DOC-055 | informs | DOC-052 | Vugola is a candidate tool for the clip-and-distribute layer |
+| DOC-056 | derived-from | DOC-010 | Ep 5 artifact derived from BOL series |
+| DOC-056 | depends-on | DOC-055 | Ep 5 is the first episode pushed through the pivot pipeline |
+| DOC-057 | derived-from | DOC-010 | Ep 2 artifact derived from BOL series |
+| DOC-057 | depends-on | DOC-055 | Ep 2 scheduled via pivot pipeline |
+| DOC-057 | informs | DOC-001 | Ep 2 is Andrew's core positioning thesis (product/sales convergence) |
+| DOC-058 | derived-from | DOC-010 | Ep 6 artifact derived from BOL series |
+| DOC-058 | depends-on | DOC-055 | Ep 6 scheduled via pivot pipeline |
+| DOC-059 | derived-from | DOC-010 | Ep 8 artifact derived from BOL series |
+| DOC-059 | depends-on | DOC-055 | Ep 8 scheduled via pivot pipeline |
+| DOC-059 | depends-on | DOC-034 | Ep 8 is about ScrollProxy |
 
 ---
 

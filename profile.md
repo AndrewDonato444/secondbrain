@@ -2,7 +2,7 @@
 
 > This document is the seed of the Second Brain. Everything the system does — intake processing, connection-making, proactive surfacing — reads from this profile to understand what matters and why. This document should evolve as Andrew's life, projects, and priorities change.
 
-Last updated: 2026-04-13
+Last updated: 2026-04-17
 
 ---
 
@@ -86,11 +86,13 @@ Andrew is actively looking for a new role in a frontier/AI-adjacent industry whe
 - **Repo:** github.com/AndrewDonato444/facts-unlocked (shares repo with SDD framework)
 - **Why it matters:** A genuine passive income channel if views scale. Also a showcase of Andrew's ability to build complex, self-optimizing automation systems. The analytics feedback loop pattern (measure → score → suppress → decompose → generate briefs) could apply to other projects. Full spec in `projects/facts-unlocked/pipeline-spec.md`.
 
-### Building Out Loud — LinkedIn Walk Series (Active)
-- **What:** Morning walk videos on LinkedIn, 3-4x/week. Andrew shares things he's learning that can help other people — no pitching products, no forced AI angles, just useful insights.
+### Building Out Loud — Walk Series (Active, Expanding Cross-Platform)
+- **What:** Morning walk videos, 3-4x/week. Andrew shares things he's learning that can help other people — no pitching products, no forced AI angles, just useful insights.
 - **Positioning:** "Things I'm learning that might help you."
 - **Content pillars:** Things I learned the hard way, tools that actually changed how I work, how to think about [X], what I'm watching
-- **Status:** 3 episodes posted (Apr 9, 12, 13). 7 ready-to-record episodes in the queue plus idea backlog. Full episode list in `projects/building-out-loud/episodes/upcoming.md`
+- **Channels:** LinkedIn (primary, 3 episodes posted Apr 9/12/13), TikTok `@building_out_loud` (new 2026-04-17), YouTube `@building_out_loud` (new 2026-04-17). IG deliberately skipped.
+- **Status:** 7 ready-to-record episodes in the queue plus idea backlog. Full episode list in `projects/building-out-loud/episodes/upcoming.md`
+- **Distribution pivot:** The Facts Unlocked pipeline is being repositioned to serve BOL content (walk video → transcribe → pull sharpest moments → hook variants → cross-post). See `projects/facts-unlocked/pivot-distribution-multiplier.md`
 - **Why it matters:** Personal brand building, career positioning, genuine audience building by helping people. Not a pitch vehicle — Andrew pivoted the series away from product pitching to pure value. Full series details in `projects/building-out-loud/series-overview.md`
 
 ### ScrollProxy (Active)
