@@ -8,7 +8,9 @@
 
 | Date | Doc ID | Document | Target System | Operation | External URL/ID | Notes |
 |------|--------|----------|---------------|-----------|-----------------|-------|
-| | | | | | | |
+| 2026-04-18 | DOC-011 | BOL Ep 9 "You don't need to learn to code" | r2 | published | bol/2026-04-18-ep9-saturday.mp4 | 281MB video uploaded to R2 bucket |
+| 2026-04-18 | DOC-011 | BOL Ep 9 "You don't need to learn to code" | youtube | scheduled | Late.Dev post 69e384951710bfea7bc2b7d5 | Andrew Donato YT · Apr 22 9am ET · pinned first comment attached (Claude/ChatGPT prompt) |
+| 2026-04-18 | DOC-011 | BOL Ep 9 "You don't need to learn to code" | tiktok | scheduled | Late.Dev post 69e384951710bfea7bc2b7d5 | Andrew TikTok · Apr 22 9am ET · TikTok-custom caption |
 
 <!--
 Target Systems: notion | gmail | google-calendar | apollo | canva | gamma | vercel | linkedin | youtube | tiktok | instagram | github

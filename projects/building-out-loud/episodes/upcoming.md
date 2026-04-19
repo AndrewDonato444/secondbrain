@@ -1,7 +1,7 @@
 ---
 id: DOC-029
 created: 2026-04-11
-updated: 2026-04-17
+updated: 2026-04-18
 status: active
 type: artifact
 domain: building-out-loud
@@ -24,6 +24,8 @@ derived-from: [DOC-010, DOC-001, DOC-034]
 | 4 | Apr 14 | Tools That Actually Changed How I Work | This tool changed how I write everything (Wispr Flow) |
 | 5 | Apr 15 | What I'm Watching | How replaceable are you? Here's the framework |
 | 6 | Apr 16 | Things I Learned the Hard Way | Stop coaching to the average |
+| 7 | Apr 17 | Building in Public | I replaced my worst habit with a command line tool (ScrollProxy) |
+| 8 | Apr 18 | How to Think About [X] | You don't need to learn to code. You need a Saturday. |
 
 ---
 
@@ -196,54 +198,6 @@ Has anyone actually tried this? Would love to hear how it went.
 
 ---
 
-### "I replaced my worst habit with a command line tool"
-**Pillar:** Building in Public
-
-**Hook:** "I spent a weekend building a tool to do the one thing I couldn't stop doing myself. Scroll X."
-
-**Talking points:**
-- I have a bad habit. I open X "for a second" and lose 40 minutes. Sometimes I walk away having seen one genuinely useful thing, and 200 pieces of noise I can't unsee
-- I tried all the normal fixes. App blockers. Time limits. Deleting it off my phone. Every one of them worked for about four days
-- So I flipped it. If I can't stop scrolling, maybe I can stop doing the scrolling myself. I built a CLI tool called ScrollProxy. I type one command, and a browser opens, logs into X as me, scrolls my feed for ten minutes, extracts every post, and hands it to Claude
-- Claude reads the whole thing and writes me a markdown file. Here are the actual themes in your feed today. Here are three things worth clicking. Here's who posted something high-signal. Here's the 60% that was noise — you can safely skip it
-- I close the file, make coffee, and I'm done. That's it. That's the whole interaction with X for the day
-- The thing I didn't expect: it builds memory. It remembers what it showed me yesterday. So when the same take gets recycled by three different accounts, it tells me. When a theme has been bubbling for four days, it flags it as actually trending instead of just loud
-- And here's the part that's been sitting with me. The feed is designed to keep you there. Infinite scroll, algorithmic bait, dopamine on a timer. A tool that just reads it for you and leaves is the exact opposite design. It's using the same AI that's about to make every feed more addictive, to give you a way out
-- End with: "The next wave of useful AI isn't going to be the stuff that steals more of your attention. It's going to be the stuff that gives it back. What's one thing you'd automate today if you could?"
-
-**First comment:**
-The honest version of why I built this:
-
-I was embarrassed by how much time I was losing to X. Not "lol wasted my morning" embarrassed. Actually embarrassed. I'd set a five-minute timer, ignore it, and resurface an hour later with nothing to show for it.
-
-So I built ScrollProxy. A CLI that does the scrolling for me.
-
-What it does:
-1. Opens a persistent Chrome profile (already logged into X)
-2. Scrolls my feed for N minutes with human-ish timing
-3. Extracts every post — text, author, metrics, media
-4. Feeds the whole batch to Claude with my interests and the themes from the last 10 runs
-5. Writes a markdown file: themes worth knowing, posts worth clicking, voices worth watching, and a one-line verdict on whether the feed was even worth it today
-
-What it's replaced:
-- Opening the X app on my phone (7 days and counting)
-- The "five minutes" that turns into an hour
-- The vague FOMO of "what if I missed something"
-
-The meta lesson I didn't expect to learn:
-
-Every feed you use is optimized against you. The algorithm's goal is time-on-platform, not signal-per-minute. The second you put a layer between yourself and the feed, you flip that math. Now the optimization is on YOUR side.
-
-AI gets pitched as the thing that's going to make feeds more addictive. That's true. But the same tools let you build your own filter. A translator between the noise machine and your actual attention.
-
-The best use of AI I've found this year isn't about producing more. It's about consuming less, with a much higher hit rate.
-
-If you could point an AI agent at one thing in your life and say "do this for me so I don't have to" — what would it be? Genuinely curious what people would pick.
-
-#BuildingInPublic #AI #ClaudeAI #Productivity #Attention
-
----
-
 ### "The marginal cost of completeness is near zero"
 **Pillar:** How to Think About [X]
 
@@ -277,6 +231,113 @@ The bar moved. For everyone. The question is whether you moved with it.
 
 ---
 
+<!-- POSTED 2026-04-18 — kept below for reference / YT + TT schedules -->
+
+### "You don't need to learn to code. You need a Saturday." (POSTED Apr 18)
+**Pillar:** How to Think About [X]
+**Scheduled:** LinkedIn Apr 18 (manual) · YouTube Shorts + TikTok Apr 22 9:00am ET (Late.Dev post `69e384951710bfea7bc2b7d5`)
+
+**Hook:** "I've been telling you to build something for two weeks. If you haven't started yet, it's not because you can't. It's because nobody told you where to start. So today I'm going to remove every excuse."
+
+**Talking points:**
+- There are two reasons people don't start building. First one: "I don't know how to code." Second one: "I don't know what to build." Let's kill both of them in the next 60 seconds
+- Reason one first. In 2026, building something doesn't mean writing code from scratch anymore. It means describing what you want to a tool that writes it for you. That's the whole thing
+- Pick one tool. Replit, Lovable, Bolt, v0 — they all work. Stop researching which one is best. The best one is the one you open today. I'd start with Replit if you want something real and hostable on the web, but honestly, the tool barely matters
+- You type "build me a page that does X." It builds it. You say "no, make the button blue." It makes it blue. You're not an engineer. You're a director
+- Now reason two. "I don't know what to build." This is the one that actually kills people. They sit there trying to come up with The Big Idea. Skip that entire problem
+- Build the smallest annoying thing in your week. A page that lists the five things you keep Googling. A dinner rotator so you stop having the same "what are we eating" conversation. A quiz that tells your industry how replaceable they are. A dashboard for the one number you check on your phone twenty times a day. Doesn't matter what it is
+- Nobody else has to want it. You're not starting a company. You're learning the loop — "I thought of a thing, I built the thing, the thing exists now." Once you feel that loop once, you can't un-feel it
+- Here's the weekend plan. Saturday morning, one hour — open the tool, describe the stupidest version of your idea, watch it build. Saturday afternoon, two hours — iterate. Sunday, one hour — show it to one person. That's it. Four hours
+- And if you're looking at all of this and still can't pick what to build — there's a prompt in the comments. Copy it, paste it into Claude or ChatGPT, answer four questions, and it'll tell you exactly what to build and what tool to use. Zero thinking required
+- End with: "The hardest part of building isn't the building. It's starting. Everyone who's building right now had one Saturday morning where they opened the tool for the first time and had no idea what they were doing. That's the bar. What's the smallest annoying problem in your week? Because that's your first project. Go."
+
+**First comment:**
+I've said "go build something" on every episode for two weeks. I can tell from the replies that people are nodding but not doing. So here's every excuse removed, in one post.
+
+**"I don't know how to code."**
+You don't need to. Pick one of these:
+- Replit — fastest way to build and host a real app someone can visit
+- Lovable — describe the app, it builds it
+- Bolt — similar, great for full-stack
+- v0 by Vercel — best for UI-heavy stuff
+- Claude Code — if you want to build on your own machine
+
+Don't spend a day picking. Pick the first one that loads. The tool matters way less than starting.
+
+**"I don't know what to build."**
+Stop trying to have The Big Idea. Build the smallest annoying thing in your own week. Here's a menu — pick the one that makes you go "oh yeah, that annoys me":
+
+*Save yourself time at work*
+- Weekly report generator — paste bullets, get a formatted update
+- Meeting notes cleaner — dump raw notes, get a summary + action items
+- Email template filler for the same emails you write every week
+- Client status page you can share instead of writing the update
+- Resume tailor — paste a job description, get your resume rewritten for it
+
+*Fix something at home*
+- Dinner rotator — what you ate, what's next, what's easy tonight
+- Gift log — who you gave what, so you don't repeat
+- Chore chart for kids with sticker tracking
+- "Days since" counter — last vet visit, last haircut, last oil change
+- A shared family notes page that doesn't require an app
+
+*Something fun that might actually go viral*
+- "How cooked are you?" quiz for your specific industry
+- "What should I watch tonight" randomizer pulling from your own list
+- Personality quiz for your niche ("what kind of [X] are you?")
+- A roast generator for your friend group
+- A decision coin-flipper with your actual options loaded
+
+*Get sharper at content or sales*
+- LinkedIn post formatter — paste a rant, get a post
+- Video hook generator for your topic
+- Cold email personalizer — drop in a prospect, get an angle
+- Content calendar with AI-filled slots
+- A "what should I post about today" generator pulling from your notes
+
+*A tiny dashboard you'll check once a day*
+- Habit tracker that's just a bookmarked page
+- One-number dashboard for whatever you refresh your phone for
+- Sports, fantasy, or portfolio scorecard
+- A "what's on my plate today" view pulling from a few places
+
+Nobody else has to want it. You're learning the loop, not launching a company.
+
+**Still can't pick? Paste this into Claude or ChatGPT:**
+
+> I just watched a video about building my first thing with AI tools this weekend. I don't know where to start. Help me figure out what to build.
+>
+> Ask me these 4 questions, one at a time, and wait for my answer before asking the next one:
+> 1. What do you do for work?
+> 2. What's one thing you do every week that annoys you?
+> 3. What's one thing in your personal life you wish were easier or automated?
+> 4. How comfortable are you with computers on a scale of 1 to 10?
+>
+> After I answer all four, give me:
+> - 3 specific things I could build this weekend, tailored to what I told you
+> - For each one, tell me which tool to use (Replit, Lovable, Bolt, v0, or Claude Code) and why
+> - Pick the one you think is easiest for me and give me a 4-hour plan (Saturday morning, Saturday afternoon, Sunday)
+> - The exact first sentence I should paste into the tool to get started
+>
+> Be direct. Don't give me ten options. Tell me the one you think I should build and why.
+
+That's it. Four questions, three ideas, one plan. You go from "I don't know what to build" to "I'm building this one specific thing starting Saturday at 9am" in about five minutes.
+
+**The weekend plan:**
+- Saturday AM (1 hr) — open the tool, describe the dumbest version of your idea, watch it build
+- Saturday PM (2 hrs) — iterate, refine, add the one thing that makes it feel real
+- Sunday (1 hr) — show it to one human. Doesn't matter who. Break the seal.
+
+Four hours. That's it. You're not committing to a career change. You're committing to a Saturday.
+
+The first time you describe something and watch it actually appear — that's the moment the game changes for you. You can't un-feel it. And once you've felt it once, "build something" stops being vague internet advice and becomes a thing you just do when something annoys you.
+
+What's the smallest annoying thing in your week right now? Reply with it. I'll tell you what I'd use to build it this weekend.
+
+#BuildingInPublic #AI #NoCode #Replit #ClaudeAI #AIBuilders
+
+---
+
 ## Ideas — Not Yet Built
 
 > Raw ideas. Tell me to build any of these into a full episode.
@@ -292,3 +353,4 @@ The bar moved. For everyone. The question is whether you moved with it.
 - **"The Wispr Flow feature that made it 10x more useful"** (Tools That Actually Changed How I Work) — Follow-up to the Wispr Flow episode. Command Mode: highlight any text, hold a shortcut, say "make this more concise" or "translate this" or "rewrite as bullets" — and it replaces the text. Turns dictation into voice-controlled editing. Write rough by talking, refine by talking. The gap between thought and polished output just collapsed.
 - **"The moat isn't the tech anymore"** (What I'm Watching) — Everyone's about to be able to build everything. The answer to "can you build it" is going to be yes for almost everyone. The two questions that actually matter now: should you build it, and can you distribute it? Your competitor can build what you build. They can't duplicate your users. They can't duplicate the data your users put into your platform. The battleground has shifted from technology to distribution. If you're in sales, marketing, demand gen — your skills just became the most valuable thing in the room. The builders need you more than you need them.
 - **"Coding is solved. Knowledge work isn't."** (How to Think About [X]) — AI nails code review and fumbles at "help me with my job." The reason is context. Git gives every coding tool the same shared substrate — the repo, the history, what changed. Knowledge work has no equivalent. Your notes are in one tool, your email in another, your calls in a third, your Slack in a fourth. Every tool has its own tiny view of you. That fragmentation is why AI still feels dumb for knowledge work even when it's brilliant at code. The next huge product category isn't "AI that does your job" — it's "AI that finally remembers everything you've done, across every tool you use." Whoever solves that wins the decade.
+- **"The rumor was right — Anthropic just shipped Figma's nightmare"** (What I'm Watching / Tools That Actually Changed How I Work) — Two weeks ago I covered the rumor that spooked Figma 6%. Yesterday it shipped as Claude Design. It's not a prompt-to-website toy — it reads your codebase and your design system, lets you iterate by conversation or by dragging sliders, collaborates like Figma (inline comments, view/edit permissions), exports to Canva, PDF, PPTX, or standalone HTML, and hands the finished design straight to Claude Code to build. The Datadog quote: "rough idea to working prototype before anyone leaves the room." It's included free with every Pro/Max/Team plan — so the entire Claude user base just became design-capable overnight. The episode angle: the market reaction was correct. This isn't Figma with an AI button bolted on. It's the whole workflow (brief → explore → iterate → build) compressed into a conversation. If you make slides, mockups, or marketing collateral for a living, the question isn't "will this affect me" — it's "what do I do with the eight hours a week I'm about to get back?"
