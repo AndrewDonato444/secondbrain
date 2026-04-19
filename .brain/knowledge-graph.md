@@ -2,7 +2,7 @@
 
 > Tracks relationships between all documents in the Second Brain. Updated whenever documents are created or modified. Read this before editing any document to understand what might be affected downstream.
 
-Last updated: 2026-04-18 (DOC-056/057/058/059 added — BOL Ep 5 live on YT; Ep 2/6/8 backfill scheduled)
+Last updated: 2026-04-18 (DOC-061 added — LinkedIn Convergence writing queue seeded; calibration draft pending Andrew read)
 
 ---
 
@@ -74,6 +74,8 @@ Last updated: 2026-04-18 (DOC-056/057/058/059 added — BOL Ep 5 live on YT; Ep 
 | DOC-057 | projects/building-out-loud/episodes/ep-002-sales-product-convergence.md | building-out-loud | artifact | active |
 | DOC-058 | projects/building-out-loud/episodes/ep-006-dont-be-afraid-be-ready.md | building-out-loud | artifact | active |
 | DOC-059 | projects/building-out-loud/episodes/ep-008-doom-scrolling.md | building-out-loud | artifact | active |
+| DOC-060 | resources/tools/claude-design-anthropic-labs.md | ai-frontier | reference | active |
+| DOC-061 | projects/linkedin-convergence/queue.md | career | knowledge | active |
 
 ---
 
@@ -200,6 +202,14 @@ Last updated: 2026-04-18 (DOC-056/057/058/059 added — BOL Ep 5 live on YT; Ep 
 | DOC-050 | informs | DOC-013 | If Opus 4.7 ships strong web gen, directly useful for andrewdonato.com iterations |
 | DOC-050 | informs | DOC-010 | Market reaction to AI creation tools = Building Out Loud episode material |
 | DOC-050 | informs | DOC-018 | Opus 4.7's instruction following + long-context memory improves SDD workflow |
+| DOC-060 | depends-on | DOC-050 | Claude Design is the productization of Opus 4.7's digital creation capability |
+| DOC-060 | informs | DOC-010 | Claude Design launch = "the rumor was right" BOL episode material |
+| DOC-060 | informs | DOC-013 | Claude Design could accelerate andrewdonato.com visual iteration |
+| DOC-060 | informs | DOC-003 | MSA client reports + pitch decks are prime test targets |
+| DOC-060 | informs | DOC-001 | Validates the "distribution > production" thesis Andrew talks about |
+| DOC-061 | depends-on | DOC-001 | Convergence lane positions Andrew per his career trajectory in profile |
+| DOC-061 | informs | DOC-014 | Convergence posts feed the resume/career narrative as published thought leadership |
+| DOC-061 | informs | DOC-011 | BOL episodes can spark convergence posts (one-way; convergence never rips BOL) |
 | DOC-051 | informs | DOC-018 | Session management best practices directly improve SDD workflow efficiency |
 | DOC-051 | informs | DOC-001 | Andrew uses Claude Code daily — these practices improve all his building |
 | DOC-052 | informs | DOC-009 | Multi-platform scheduling could replace/complement Zernio in Facts Unlocked pipeline |
