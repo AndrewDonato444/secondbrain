@@ -19,6 +19,7 @@
 - `projects/scrollproxy/second-brain-prompt.md` — the base run-processing spec (noise-runs, queue, themes, voices)
 - `projects/scrollproxy/.processed.json` — which runs have been processed
 - `projects/scrollproxy/reading-queue.md`, `themes.md`, `voices.md` — rolling trackers
+- **Every interest pulse in `interests/*/pulse.md`** — these are the lenses; they articulate what Andrew currently believes, what he's watching, and what would change his mind. Treat them with the same weight as project specs when deciding what's a hit.
 - The most recent file in `projects/scrollproxy/surfacings/` — template and pattern for today's output
 
 Do not read `raw.json` files — they're gitignored and absent. Only read `summary.json` and `summary.md`.
@@ -65,8 +66,17 @@ Check = done. Unchecked = skipped or deferred.
 ### {Project name (only include sections that hit something real)}
 - **{Angle}** — [@handle](url): {insight}. {proposed action if any}
 
-> Recognized lenses to evaluate every run against (only render the section if there's a real hit):
-> Modern Signal Advisory · Building Out Loud · LinkedIn Convergence · andrewdonato.com writing · Career / interviews · TrackForce · Facts Unlocked · ScrollProxy
+> Recognized **project** lenses (only render the section if there's a real hit):
+> Modern Signal Advisory · Building Out Loud · LinkedIn Convergence · andrewdonato.com writing · Career / interviews · TrackForce · Facts Unlocked · ScrollProxy · GTM Coach · Sales Edge Solutions
+
+## Interest pulse hits
+
+### {Interest name (only include sections that hit something real)}
+- **{Angle}** — [@handle](url): {insight}. **Pulse alignment:** {which part of the pulse this engages — thesis, watching, would-change-my-mind, open question}. {proposed action — usually nothing more than logging the recent shift if applicable}
+
+> Recognized **interest** lenses — read each pulse before deciding hits:
+> ai-frontier · sales-product-convergence · entrepreneurship · mets · current-events
+> Pulses with skeleton-only content (mets, current-events as of 2026-04-18) only render under "Voices / Accounts worth watching" until Andrew fills them in.
 
 ## People / Accounts worth watching
 
@@ -105,6 +115,7 @@ If the Decisions section would be empty (everything was tier-1), state that expl
 - Append to writing queue Backlog section (`projects/andrewdonato-com/writing/queue.md`)
 - Append to Building Out Loud `Ideas — Not Yet Built` section (`projects/building-out-loud/episodes/upcoming.md`)
 - Append to LinkedIn Convergence Backlog (`projects/linkedin-convergence/queue.md`)
+- Append to interest pulses' "Recent shifts" section ONLY when the run delivers something genuinely new to that interest's thesis (not just reinforcement). Keep entries one line, dated. If you're not sure it's a shift, surface as Tier 2 instead.
 - Append to reading queue, update themes/voices (covered in step 2)
 - Fix clearly stale factual statuses (e.g., a project marked "not yet built" when it's live)
 - Log live debates and noise
@@ -132,6 +143,9 @@ Read the "Guardrails" section at the top. It explicitly forbids project specific
 
 ### Building Out Loud (`projects/building-out-loud/episodes/upcoming.md`)
 Before proposing a new episode, scan every section (Posted, Ready to Record, Ideas — Not Yet Built). If the proposed topic overlaps with an existing entry, skip it and note the reinforcement in the surfacing ("this post strengthens the already-queued {title} episode").
+
+### Interest pulses (`interests/*/pulse.md`)
+Each pulse is a lens, not a parking lot. When a run produces signal that engages a pulse's **thesis**, **what I'm watching**, **what would change my mind**, or **open questions**, surface it under "Interest pulse hits" in the surfacing file. Only append to a pulse's "Recent shifts" section if the signal genuinely moves the thesis — reinforcement doesn't count, that's just normal voice/theme tracking. Never silently rewrite the Thesis section — thesis edits are always Tier 2.
 
 ### LinkedIn Convergence (`projects/linkedin-convergence/queue.md`)
 This is the 3x/week native LinkedIn text post lane. Career-positioning: Andrew as the sales leader who sees product, sales, marketing, and RevOps converging. Read the queue's own Guardrails section before proposing — they're authoritative — but the non-negotiables are:

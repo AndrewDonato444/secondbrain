@@ -98,9 +98,12 @@ Second Brain/
 │   ├── sync-log.md         # External system sync history
 │   └── templates/          # Reusable templates
 ├── inbox/                  # Raw intake before processing
-├── projects/               # Active and shelved projects
+├── projects/               # Active builds only — concept docs live under interests/
 ├── areas/                  # Ongoing life areas (no end date)
-├── interests/              # Topics Andrew follows
+├── interests/              # Main driver — each interest has a pulse.md (living
+│                             thesis: belief, watching, would-change-my-mind, open
+│                             questions, recent shifts). Pulses are read by ScrollProxy
+│                             and intake routing as lenses, same weight as projects.
 ├── resources/              # Processed reference material
 ├── logs/                   # System activity
 └── skills/                 # Claude Code skills

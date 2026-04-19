@@ -2,7 +2,7 @@
 
 > Tracks relationships between all documents in the Second Brain. Updated whenever documents are created or modified. Read this before editing any document to understand what might be affected downstream.
 
-Last updated: 2026-04-18 (DOC-061 added — LinkedIn Convergence writing queue seeded; calibration draft pending Andrew read)
+Last updated: 2026-04-18 (interests rebuilt as a main driver — pulses for ai-frontier, sales-product-convergence, entrepreneurship, mets, current-events; ghost projects moved to interests/entrepreneurship/ideas/; empty manager-forge + narrative folders deleted)
 
 ---
 
@@ -37,7 +37,7 @@ Last updated: 2026-04-18 (DOC-061 added — LinkedIn Convergence writing queue s
 | DOC-025 | interests/ai-frontier/claude-managed-agents.md | ai-frontier | knowledge | active |
 | DOC-026 | interests/ai-frontier/bloom-ai-screen-recording.md | ai-frontier | knowledge | active |
 | DOC-027 | interests/ai-frontier/graphify-knowledge-graphs.md | ai-frontier | knowledge | active |
-| DOC-028 | projects/pre-call-research/vision.md | personal | knowledge | active |
+| DOC-028 | interests/entrepreneurship/ideas/pre-call-research.md | entrepreneurship | knowledge | active |
 | ~~DOC-029~~ | ~~merged into DOC-011~~ | — | — | superseded |
 | PERSON-001 | areas/career/interviews/elise-ai/natalie-ngo.md | career | person | active |
 | DOC-030 | areas/career/interviews/elise-ai/interview-prep-practical.md | career | knowledge | active |
@@ -48,19 +48,19 @@ Last updated: 2026-04-18 (DOC-061 added — LinkedIn Convergence writing queue s
 | PERSON-004 | resources/people/jason-knox.md | msa | person | active |
 | DOC-033 | areas/finances/active-subscriptions.md | finances | knowledge | active |
 | DOC-034 | projects/scrollproxy/technical-spec.md | personal | knowledge | active |
-| DOC-035 | projects/urcooked-ai/concept.md | personal | knowledge | active |
+| DOC-035 | interests/entrepreneurship/ideas/urcooked-ai.md | entrepreneurship | knowledge | active |
 | DOC-036 | interests/ai-frontier/anthropic-mythos-glasswing.md | ai-frontier | knowledge | active |
 | DOC-037 | areas/career/job-hunter-tool.md | career | reference | active |
 | DOC-039 | resources/tools/gojiberry-linkedin-outreach.md | personal | reference | active |
 | DOC-041 | interests/ai-frontier/sar-sovereign-agent-runtime.md | ai-frontier | knowledge | active |
 | PERSON-006 | resources/people/doug-dockery.md | trackforce | person | active |
 | DOC-042 | projects/sales-edge-solutions/overview.md | personal | knowledge | active |
-| DOC-043 | projects/outbound-as-a-service/concept.md | personal | knowledge | active |
+| DOC-043 | interests/entrepreneurship/ideas/outbound-as-a-service.md | entrepreneurship | knowledge | active |
 | DOC-040 | projects/sales-edge-solutions/gojiberry-outreach-spec.md | personal | knowledge | active |
 | PERSON-005 | resources/people/andrew-donato.md | personal | person | active |
 | DOC-038 | inbox/2026-04-12-high-income-skills-irrelevant-ai.md | ai-frontier | knowledge | active |
 | DOC-044 | inbox/2026-04-14-trend-jacking-affiliate-arbitrage.md | ai-frontier | knowledge | active |
-| DOC-045 | projects/trend-jacker/vision.md | ai-frontier | knowledge | active |
+| DOC-045 | interests/entrepreneurship/ideas/trend-jacker.md | entrepreneurship | knowledge | active |
 | DOC-046 | areas/personal/private/book-for-ellie.md | personal | knowledge | active |
 | DOC-048 | resources/tools/firecrawl-document-parsing.md | ai-frontier | reference | active |
 | DOC-049 | resources/tools/gemini-31-flash-tts.md | ai-frontier | reference | active |
@@ -76,6 +76,11 @@ Last updated: 2026-04-18 (DOC-061 added — LinkedIn Convergence writing queue s
 | DOC-059 | projects/building-out-loud/episodes/ep-008-doom-scrolling.md | building-out-loud | artifact | active |
 | DOC-060 | resources/tools/claude-design-anthropic-labs.md | ai-frontier | reference | active |
 | DOC-061 | projects/linkedin-convergence/queue.md | career | knowledge | active |
+| DOC-062 | interests/ai-frontier/pulse.md | ai-frontier | knowledge | active |
+| DOC-063 | interests/sales-product-convergence/pulse.md | sales-product-convergence | knowledge | active |
+| DOC-064 | interests/entrepreneurship/pulse.md | entrepreneurship | knowledge | active |
+| DOC-065 | interests/mets/pulse.md | mets | knowledge | active |
+| DOC-066 | interests/current-events/pulse.md | current-events | knowledge | active |
 
 ---
 
@@ -210,6 +215,20 @@ Last updated: 2026-04-18 (DOC-061 added — LinkedIn Convergence writing queue s
 | DOC-061 | depends-on | DOC-001 | Convergence lane positions Andrew per his career trajectory in profile |
 | DOC-061 | informs | DOC-014 | Convergence posts feed the resume/career narrative as published thought leadership |
 | DOC-061 | informs | DOC-011 | BOL episodes can spark convergence posts (one-way; convergence never rips BOL) |
+| DOC-062 | informs | DOC-001 | AI frontier pulse drives Andrew's tool/model/agent decisions |
+| DOC-062 | informs | DOC-003 | MSA's moat thesis (distribution + niche data) is direct application of pulse |
+| DOC-062 | informs | DOC-010 | "What I'm Watching" BOL pillar pulls from this pulse |
+| DOC-062 | informs | DOC-061 | Convergence posts often translate frontier shifts into GTM observations |
+| DOC-063 | depends-on | DOC-001 | Pulse articulates the wedge of Andrew's career trajectory |
+| DOC-063 | informs | DOC-061 | Primary publishing surface for the convergence thesis |
+| DOC-063 | informs | DOC-014 | Convergence operator framing feeds the resume narrative |
+| DOC-063 | informs | DOC-057 | BOL Ep 2 was the earliest articulation of this thesis on video |
+| DOC-064 | depends-on | DOC-001 | Pulse articulates the $15k/mo escape velocity goal |
+| DOC-064 | informs | DOC-003 | MSA is the primary path articulated in this pulse |
+| DOC-064 | informs | DOC-009 | Facts Unlocked is the passive-income leg of this pulse |
+| DOC-064 | informs | DOC-042 | Sales Edge Solutions is the productizable-service leg |
+| DOC-064 | informs | DOC-014 | Resume reflects W-2 alternative track this pulse weighs |
+| DOC-066 | informs | DOC-062 | AI policy questions sit at the AI frontier / current events intersection |
 | DOC-051 | informs | DOC-018 | Session management best practices directly improve SDD workflow efficiency |
 | DOC-051 | informs | DOC-001 | Andrew uses Claude Code daily — these practices improve all his building |
 | DOC-052 | informs | DOC-009 | Multi-platform scheduling could replace/complement Zernio in Facts Unlocked pipeline |

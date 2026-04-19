@@ -43,11 +43,14 @@ Second Brain/
 │   ├── family/             # Home life, Ellie, Liza
 │   ├── finances/           # Debt tracking, income goals, $15k/month progress
 │   └── health/             # If/when relevant
-├── interests/              # Things Andrew follows and cares about
+├── interests/              # Main driver — each interest has a pulse.md (living thesis
+│   │                         read by ScrollProxy and intake routing as a lens)
 │   ├── ai-frontier/        # LLMs, agents, new models, tools
-│   ├── mets/               # Let's Go Mets
-│   ├── politics-current-events/
-│   └── sales-product-convergence/
+│   ├── sales-product-convergence/  # The wedge of Andrew's career trajectory
+│   ├── entrepreneurship/   # Escape velocity ($15k/mo) + idea graveyard subfolder
+│   │   └── ideas/          # Concept docs awaiting bandwidth (formerly fake "projects")
+│   ├── mets/               # Let's Go Mets (skeleton pulse — needs Andrew's takes)
+│   └── current-events/     # Politics/news (skeleton pulse — needs Andrew's takes)
 ├── resources/              # Processed reference material
 │   ├── tools/              # Software, APIs, frameworks worth knowing about
 │   ├── people/             # Contacts, influencers, people to watch
