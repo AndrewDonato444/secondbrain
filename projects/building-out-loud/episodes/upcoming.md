@@ -383,6 +383,55 @@ What have you built that got leapfrogged? I know it's happened to some of you.
 
 ---
 
+### "OpenAI doesn't know what it wants to be when it grows up"
+**Pillar:** What I'm Watching
+
+**Hook:** "OpenAI has a billion users, a hundred billion dollar valuation, and an identity crisis. Let me explain."
+
+**Talking points:**
+- So I'm listening to the All-In podcast, and OpenAI's chief revenue officer is talking about their strategy. And the strategy is — they want to go harder into enterprise and coding. Codex, their AI coding agent, is actually really good. On complex tasks it's beating Anthropic's suite in some cases. So the pitch internally is: we built a better coding tool, let's go after that market
+- But here's the problem. Their investors are looking at ChatGPT — a consumer product growing 50 to 100% year over year with a billion users — and they're saying: why are you distracted? You have the brand. You have the users. You have the thing everyone's mom has heard of. Why are you chasing developers when you already won consumers?
+- And this is a real tension. Because both sides are right. Codex is legitimately good. And ChatGPT is legitimately massive. The question is whether one company can be both things
+- This is a classic identity crisis. It's the same problem Microsoft had for years — are we a consumer company or an enterprise company? They tried to be both and it nearly killed them before Satya Nadella picked a lane
+- The thing is, enterprise and consumer are fundamentally different businesses. Enterprise is about sales cycles, security reviews, procurement, integrations. Consumer is about retention, virality, habit loops. The people who are great at one are rarely great at the other
+- And here's what makes it worse — Anthropic doesn't have this problem. They picked a lane. They're the developer-first, enterprise-first AI company. Claude Code, the API, the agent framework — it's all pointed at builders. They're not trying to be everyone's chatbot
+- When you try to be everything to everyone, you end up being nothing to anyone. I've seen this in sales a hundred times. The company that says "we serve everyone" is the company that loses to the specialist every time
+- End with: "The most dangerous thing in business isn't competition. It's not knowing who you are. OpenAI has a billion users and no clear answer to the question: are we a consumer company or a developer platform? And that's a harder problem than anything their models can solve."
+
+**First comment:**
+Here's the tension at OpenAI right now:
+
+The consumer side:
+- ChatGPT: ~1 billion users
+- Growing 50-100% year over year
+- The only AI brand your parents have heard of
+- Massive consumer moat — habit, brand recognition, network effects
+
+The developer/enterprise side:
+- Codex is legitimately good — outperforming Anthropic's agent suite on some complex coding tasks
+- CRO is pushing harder into enterprise and coding
+- Enterprise deals = higher revenue per customer, stickier contracts
+
+The investor frustration:
+"You have the biggest consumer AI product in history and you're chasing enterprise deals? That's a distraction."
+
+The internal argument:
+"Codex is winning benchmarks. Enterprise is where the real money is. Consumer is a race to the bottom on price."
+
+Both sides are right. That's what makes it an identity crisis.
+
+Compare with Anthropic: they picked a lane. Developer-first, enterprise-first. Claude Code, API, agent SDK. No consumer play. No identity confusion.
+
+The companies that try to be everything to everyone usually end up losing to the specialist. Microsoft almost died from this before Nadella picked enterprise + cloud. Google is living it right now with AI across 47 different products.
+
+The hardest strategic question isn't "what can we build?" It's "what are we willing to NOT build?"
+
+What do you think — should OpenAI double down on ChatGPT or go all-in on enterprise? Genuinely curious.
+
+#AI #OpenAI #ChatGPT #Strategy #BuildingInPublic #Anthropic
+
+---
+
 ## Ideas — Not Yet Built
 
 > Raw ideas. Tell me to build any of these into a full episode.
@@ -398,4 +447,5 @@ What have you built that got leapfrogged? I know it's happened to some of you.
 - **"The Wispr Flow feature that made it 10x more useful"** (Tools That Actually Changed How I Work) — Follow-up to the Wispr Flow episode. Command Mode: highlight any text, hold a shortcut, say "make this more concise" or "translate this" or "rewrite as bullets" — and it replaces the text. Turns dictation into voice-controlled editing. Write rough by talking, refine by talking. The gap between thought and polished output just collapsed.
 - **"The moat isn't the tech anymore"** (What I'm Watching) — Everyone's about to be able to build everything. The answer to "can you build it" is going to be yes for almost everyone. The two questions that actually matter now: should you build it, and can you distribute it? Your competitor can build what you build. They can't duplicate your users. They can't duplicate the data your users put into your platform. The battleground has shifted from technology to distribution. If you're in sales, marketing, demand gen — your skills just became the most valuable thing in the room. The builders need you more than you need them.
 - **"Coding is solved. Knowledge work isn't."** (How to Think About [X]) — AI nails code review and fumbles at "help me with my job." The reason is context. Git gives every coding tool the same shared substrate — the repo, the history, what changed. Knowledge work has no equivalent. Your notes are in one tool, your email in another, your calls in a third, your Slack in a fourth. Every tool has its own tiny view of you. That fragmentation is why AI still feels dumb for knowledge work even when it's brilliant at code. The next huge product category isn't "AI that does your job" — it's "AI that finally remembers everything you've done, across every tool you use." Whoever solves that wins the decade.
+- **"Stripe just let your AI buy things"** (What I'm Watching) — Stripe's Link now lets agents securely purchase on behalf of users. The infrastructure layer for agent commerce just landed. This changes who the "buyer" is in a sales motion — your next customer might be an AI agent with a budget and a mandate. The GTM implications haven't been named yet. Added 2026-04-19 from ScrollProxy surfacing (@jeff_weinstein).
 - **"The rumor was right — Anthropic just shipped Figma's nightmare"** (What I'm Watching / Tools That Actually Changed How I Work) — Two weeks ago I covered the rumor that spooked Figma 6%. Yesterday it shipped as Claude Design. It's not a prompt-to-website toy — it reads your codebase and your design system, lets you iterate by conversation or by dragging sliders, collaborates like Figma (inline comments, view/edit permissions), exports to Canva, PDF, PPTX, or standalone HTML, and hands the finished design straight to Claude Code to build. The Datadog quote: "rough idea to working prototype before anyone leaves the room." It's included free with every Pro/Max/Team plan — so the entire Claude user base just became design-capable overnight. The episode angle: the market reaction was correct. This isn't Figma with an AI button bolted on. It's the whole workflow (brief → explore → iterate → build) compressed into a conversation. If you make slides, mockups, or marketing collateral for a living, the question isn't "will this affect me" — it's "what do I do with the eight hours a week I'm about to get back?"

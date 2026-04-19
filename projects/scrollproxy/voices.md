@@ -11,6 +11,7 @@ One entry per handle called out in the "Voices" section across runs. New justifi
 ## @GergelyOrosz
 - **2026-04-17T12-07-42Z** — Power user perspective on Claude degradation — surfaces product reliability issues that matter for builders.
 - **2026-04-17T12-58-03Z** — Consistently grounding AI hype in enterprise budget and product reality — two posts this cycle both directly on-topic.
+- **2026-04-18T11-54-54Z** — Technically grounded, calls out model quality regressions early — good signal on enterprise developer sentiment.
 
 ## @gdb
 - **2026-04-17T12-07-42Z** — Greg Brockman's ground-level observations on Codex agent behavior are rare signal from inside OpenAI.
@@ -39,3 +40,28 @@ One entry per handle called out in the "Voices" section across runs. New justifi
 
 ## @gregisenberg
 - **2026-04-17T19-02-55Z** — Consistently identifies product opportunity gaps in AI behavior (sycophancy, branding) that map to real distribution and strategy angles.
+- **2026-04-18T17-58-22Z** — Lays out specific mechanics for how agent-native startups undercut legacy SaaS — useful framing, not just hype.
+
+## @signulll
+- **2026-04-18T11-54-54Z** — Sharp strategic framing on AI company positioning and product strategy, low noise ratio.
+
+## @kloss_xyz
+- **2026-04-18T11-54-54Z** — Practical power user of Claude Code + MCP with honest usage data, not hype.
+
+## @emollick
+- **2026-04-18T11-54-54Z** — Measured, evidence-based takes on model progress — useful counterweight to both hype and backlash.
+
+## @jeff_weinstein
+- **2026-04-18T11-54-54Z** — Stripe PM shipping agent payment infrastructure — direct relevance to distribution and commerce agent buildouts.
+
+## @levie
+- **2026-04-18T17-58-22Z** — Thinking clearly about the agent-native enterprise shift from an operator's perspective, not a hype perspective.
+
+## @ClaudeDevs
+- **2026-04-18T17-58-22Z** — Official Anthropic dev account posting actionable Claude Code release notes.
+
+## @minchoi
+- **2026-04-18T17-58-22Z** — Surfacing real vendor reliability failures with specifics, useful for AI product risk assessment.
+
+## @RoundtableSpace
+- **2026-04-18T17-58-22Z** — Posting actual Arena leaderboard data on model comparisons rather than just vibes.

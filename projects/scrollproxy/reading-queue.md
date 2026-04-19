@@ -37,3 +37,26 @@
 - [ ] [@businessbarista](https://x.com/businessbarista/status/2044874360280723934) — Articulates the enterprise knowledge context problem clearly: coding is solved because git has the context, but knowledge work doesn't — points at a real product gap.
 - [ ] [@GergelyOrosz](https://x.com/GergelyOrosz/status/2044884503391355326) — Predicts 'UX-pilled' builders will be in massive demand as AI levels the technical playing field — directly relevant for distribution and indie dev positioning.
 - [ ] [@aakashgupta](https://x.com/aakashgupta/status/2044796471955066921) — Spots the unusual move in Anthropic's launch chart where Mythos Preview beats Opus 4.7 on every benchmark — raises real questions about what Opus 4.7 is actually for.
+
+## 2026-04-18 11:54 UTC
+
+- [ ] [@arena](https://x.com/arena/status/2045177492936532029) — Code Arena puts Opus 4.7 #1 with a ~130pt lead over GPT and Gemini — hard benchmark data worth knowing before positioning conversations.
+- [ ] [@mercor_ai](https://x.com/mercor_ai/status/2045254642385510894) — APEX-SWE benchmark shows Opus 4.7 at 41.3%, just 0.2% behind GPT 5.3 Codex — narrows the 'Claude vs OpenAI for coding' debate to a coin flip.
+- [ ] [@GergelyOrosz](https://x.com/GergelyOrosz/status/2045190551398429046) — A credible engineering voice calling Opus 4.7 'openly condescending' — this is the kind of trust/reliability complaint that kills enterprise adoption.
+- [ ] [@ImSh4yy](https://x.com/ImSh4yy/status/2045242290281545879) — Concise summary of the Opus 4.7 value problem: more expensive, slower, edge only in design and prose — mirrors what product buyers will hear.
+- [ ] [@signulll](https://x.com/signulll/status/2045234052144214039) — Sharp take on how OpenAI's 900M consumer base shaped their product DNA toward engagement while Anthropic optimized for enterprise revenue — useful framing for competitive positioning.
+- [ ] [@d4m1n](https://x.com/d4m1n/status/2045389634310738298) — 65k lines of slop from Claude Code in 4 hours — a concrete cautionary tale about unsupervised agentic runs that sales teams should be ready to address.
+- [ ] [@kloss_xyz](https://x.com/kloss_xyz/status/2045397015941750807) — Claude Code with MCP used 3% of quota to process 5 years of design files; Claude Design rate-limited after 20 iterations — real-world usage ceiling data.
+- [ ] [@Cloudflare](https://x.com/Cloudflare/status/2045162949182910916) — Cloudflare's Agent Memory private beta extracts conversation info without bloating context windows — directly relevant to anyone building long-running AI products.
+- [ ] [@jeff_weinstein](https://x.com/jeff_weinstein/status/2045260432370512295) — Stripe's Link now lets agents securely buy things on the internet on behalf of users — a real infrastructure unlock for commerce-adjacent agent products.
+- [ ] [@bibryam](https://x.com/bibryam/status/2045268344815616377) — Points to an Anthropic engineering post on harness design for long-running apps — the kind of low-profile technical piece that shapes how serious builders architect systems.
+
+## 2026-04-18 17:58 UTC
+
+- [ ] [@minchoi](https://x.com/minchoi/status/2045542832241262602) — Anthropic killed an entire company's Claude access overnight with no explanation and a Google Form appeal — a concrete trust and reliability failure that matters for anyone building on the API.
+- [ ] [@RoundtableSpace](https://x.com/RoundtableSpace/status/2045536582812434485) — Chatbot Arena data showing Opus 4.6 beats 4.7 on longer queries and domain-specific tasks directly contradicts Anthropic's upgrade narrative and is worth tracking.
+- [ ] [@levie](https://x.com/levie/status/2045137708620906573) — Aaron Levie's argument that headless enterprise platforms create more opportunity than they destroy is the clearest articulation of the agent-native SaaS thesis from someone operating at scale.
+- [ ] [@gregisenberg](https://x.com/gregisenberg/status/2045485535154647386) — Lays out a specific mechanic for how agent-native startups undercut legacy SaaS — useful framing for product strategy, not just hype.
+- [ ] [@ClaudeDevs](https://x.com/ClaudeDevs/status/2045267790018543736) — Claude Code v2.1.113 ships a native binary instead of JS, dropping the Node.js runtime dependency — a practical change for anyone running it in CI or toolchains.
+- [ ] [@RobertMSterling](https://x.com/RobertMSterling/status/2045334813591122110) — Cynical but pointed take that Dario's job-displacement rhetoric is IPO positioning to expand TAM to 'all white-collar labor' — worth reading for the counterargument.
+- [ ] [@thsottiaux](https://x.com/thsottiaux/status/2044826325173879269) — Codex got a major capability update (computer use, browser, 90+ plugins, multi-terminal, SSH) — a direct competitive signal against Claude Code.
