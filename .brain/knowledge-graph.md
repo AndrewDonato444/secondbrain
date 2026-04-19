@@ -81,6 +81,7 @@ Last updated: 2026-04-18 (interests rebuilt as a main driver — pulses for ai-f
 | DOC-064 | interests/entrepreneurship/pulse.md | entrepreneurship | knowledge | active |
 | DOC-065 | interests/mets/pulse.md | mets | knowledge | active |
 | DOC-066 | interests/current-events/pulse.md | current-events | knowledge | active |
+| DOC-067 | projects/scrollproxy/migration-2026-04-x-api.md | ai-frontier | knowledge | active |
 
 ---
 
@@ -229,6 +230,9 @@ Last updated: 2026-04-18 (interests rebuilt as a main driver — pulses for ai-f
 | DOC-064 | informs | DOC-042 | Sales Edge Solutions is the productizable-service leg |
 | DOC-064 | informs | DOC-014 | Resume reflects W-2 alternative track this pulse weighs |
 | DOC-066 | informs | DOC-062 | AI policy questions sit at the AI frontier / current events intersection |
+| DOC-067 | depends-on | DOC-034 | Migration plan rewrites the technical spec body in Phase 3 |
+| DOC-067 | informs | DOC-062 | X owned-reads pricing is logged in the ai-frontier pulse Recent shifts |
+| DOC-067 | informs | DOC-001 | Profile ScrollProxy entry needs updating in Phase 3 |
 | DOC-051 | informs | DOC-018 | Session management best practices directly improve SDD workflow efficiency |
 | DOC-051 | informs | DOC-001 | Andrew uses Claude Code daily — these practices improve all his building |
 | DOC-052 | informs | DOC-009 | Multi-platform scheduling could replace/complement Zernio in Facts Unlocked pipeline |

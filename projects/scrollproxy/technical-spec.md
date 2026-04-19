@@ -1,7 +1,7 @@
 ---
 id: DOC-034
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-19
 type: knowledge
 domain: personal
 status: active
@@ -37,12 +37,43 @@ informs: [DOC-001]
 - No credential storage. Session persistence via Chrome user data dir only.
 - No Notion/Obsidian integration in v1 — local markdown output only. Hooks designed so v2 can add them without refactor.
 
-## 3. Stack
+## 2b. X API "Owned Reads" Update (April 2026)
+
+**As of April 20, 2026**, X announced dramatically cheaper API pricing for reading your own data:
+
+- **$0.001 per request** for owned reads (your own posts, bookmarks, followers, likes, lists, etc.)
+- Key endpoints now available cheaply:
+  - `GET /2/users/{id}/owned_lists` — fetch your curated lists
+  - `GET /2/users/{id}/followed_lists` — lists you follow
+  - `GET /2/users/{id}/list_memberships` — lists you're on
+  - `GET /2/users/{id}/bookmarks` — your saved posts
+  - `GET /2/users/{id}/liked_tweets` — your likes
+  - `GET /2/users/{id}/tweets` — your own posts
+  - `GET /2/users/{id}/mentions` — mentions of you
+
+**What this changes for ScrollProxy:**
+
+The original spec used Playwright browser automation to scroll the feed and scrape the DOM. That approach is fragile (selectors break when X changes the DOM), slow, risky (bot detection), and doesn't return structured data.
+
+The X API approach is:
+1. **Curate X lists** of accounts you care about (AI frontier, builders, sales leaders, etc.)
+2. **Pull posts from those lists via API** → structured JSON with full metadata (text, author, engagement metrics, timestamps)
+3. **Feed to Claude** for summarization
+4. **Output** structured markdown summary
+
+**Cost estimate:** ~100 requests/day × $0.001 = **$0.10/day, ~$3/month.** Negligible.
+
+**Note:** Write endpoints went up ($0.015/post, $0.20 for URLs) and API likes/follows/quote-posts were removed for self-serve tiers. None of this affects ScrollProxy since it's read-only.
+
+**Reference:** Robert Scoble's Aligned News (alignednews.com) uses a similar architecture — 63 curated X lists, 100K+ accounts, XPlugin pulls posts into a Weaviate vector database, Claude-like agent synthesizes signal. ScrollProxy is the personal-scale version of this pattern.
+
+## 3. Stack (Revised)
 
 | Layer | Choice | Reason |
 |-------|--------|--------|
-| Language | TypeScript (Node 20+) | Best Playwright ecosystem, matches DonatoSkills conventions |
-| Browser automation | Playwright | Persistent contexts, better anti-bot posture than Puppeteer |
+| Language | TypeScript (Node 20+) | Matches DonatoSkills conventions |
+| X Data Access | X API v2 (Owned Reads) | Structured JSON, $0.001/request, no scraping fragility |
+| ~~Browser automation~~ | ~~Playwright~~ | **Removed** — X API replaces DOM scraping entirely |
 | LLM | Anthropic Claude API (claude-sonnet-4-6) | Andrew already has keys + prompt patterns |
 | Config | `config.yaml` at project root | Hand-editable, no env gymnastics for a personal tool |
 | Output (v1) | Local markdown files in `~/scrollproxy/runs/` | Zero dependencies, trivially portable |

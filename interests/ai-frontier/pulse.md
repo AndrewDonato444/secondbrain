@@ -52,6 +52,7 @@ The other shift worth holding tight: production is collapsing toward zero margin
 
 ## Recent shifts
 
+- **2026-04-19** — X announced (effective 2026-04-20) dramatically cheaper "owned reads" API pricing — $0.001/request for your own posts, lists, bookmarks, likes, mentions. Collapses the cost of personal-knowledge tools built on top of social platforms (ScrollProxy is the obvious local case; Aligned News is the architectural reference). Bigger frame: platforms that previously made user-data extraction prohibitively expensive are starting to price for it, which makes the "personal vector DB over your own consumption" pattern economically viable for individuals — not just well-funded products. Worth watching whether other platforms follow.
 - **2026-04-18** — Claude Design shipped (productizing Opus 4.7's digital creation). Confirms the "compress the whole workflow into a conversation" pattern Anthropic is running. Adds weight to the "production layer collapses, strategy layer holds" thesis.
 - **2026-04-17** — Started taking the knowledge-layer framing (businessbarista) seriously enough to lift it into MSA's product overview. Coding-vs-knowledge-work substrate gap is now load-bearing in how I think about the next product wave.
 - **2026-04-16** — Opus 4.7 launched. Confirmed Anthropic's lead on instruction following + long context. Not a category-defining jump, but the cadence is the story.

@@ -338,6 +338,51 @@ What's the smallest annoying thing in your week right now? Reply with it. I'll t
 
 ---
 
+### "I built a tool on Thursday. By Friday, the problem was solved."
+**Pillar:** What I'm Watching
+
+**Hook:** "Two days ago I showed you a tool I built to replace doom scrolling. Yesterday, the platform announced a feature that makes half of it unnecessary. That's how fast things are moving right now."
+
+**Talking points:**
+- On Thursday I showed you ScrollProxy — a CLI tool I built that logs into X, scrolls my feed for me, extracts the posts, and has AI summarize what's actually worth reading. I was proud of it. It worked
+- The next day — literally the next day — X announced new API pricing. $0.001 per request to read your own data. Your lists, your bookmarks, your feed. Structured JSON, no scraping required
+- So the entire browser automation layer I built? The Playwright scrolling, the DOM parsing, the anti-bot timing? Unnecessary. I can just call an API endpoint and get clean data for three dollars a month
+- And here's the thing — I'm not mad about it. This is the lesson. If you're building anything right now, this is going to happen to you. The ground is shifting under everyone's feet, constantly
+- Two weeks ago Anthropic spooked the design industry with a rumor. Last week it shipped as a real product. This week X collapses the cost of reading your own data. Every week something changes
+- The people who win aren't the ones who build the perfect thing. They're the ones who build fast, learn fast, and adapt when the landscape shifts
+- My tool still works. The summarizer, the dedup, the rolling themes — all of that is still valuable. I just need to swap out one layer. That's the beauty of building modularly — when the ground moves, you don't start over. You swap the part that changed
+- End with: "What's something you built or planned that got leapfrogged by a platform change? I want to hear it. Because if it hasn't happened to you yet — it will."
+
+**First comment:**
+Here's the timeline:
+
+Thursday: I record a video about ScrollProxy — a tool I built to replace doom scrolling. Uses Playwright to automate a browser, scroll my X feed, extract posts, and have AI summarize the signal.
+
+Friday: X announces "Owned Reads" — $0.001 per API request to read your own lists, bookmarks, posts, followers. Structured JSON. No browser automation needed.
+
+My entire scraping layer — the one I was most proud of — became optional overnight. For $3/month I get cleaner data than my scraper produced.
+
+What I'm keeping:
+- The Claude summarizer (still the core value)
+- The dedup and rolling themes (still needed)
+- The markdown output (still my preferred format)
+
+What I'm throwing away:
+- Playwright browser automation
+- DOM selectors that break every time X updates
+- Anti-bot timing and jitter logic
+- The Chrome profile persistence hack
+
+Net result: the tool gets simpler, cheaper, and more reliable. The platform solved the hard part for me.
+
+This is what building in 2026 feels like. You ship something and the ground moves. The skill isn't building the perfect thing — it's building in a way that lets you swap layers when the world changes under you.
+
+What have you built that got leapfrogged? I know it's happened to some of you.
+
+#BuildingInPublic #AI #ScrollProxy #XAPI #BuildingOutLoud
+
+---
+
 ## Ideas — Not Yet Built
 
 > Raw ideas. Tell me to build any of these into a full episode.
