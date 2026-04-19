@@ -1,7 +1,7 @@
 ---
 id: DOC-047
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-04-18
 type: knowledge
 domain: building-out-loud
 status: active
@@ -25,18 +25,17 @@ status: active
 
 | # | Topic | Category | Notes |
 |---|-------|----------|-------|
-| 1 | The Managed Agent Era Is Here and Most People Are Still Hiring Humans for It | AI | Frame as a market observation, no specific client examples |
-| 2 | Networking Is a Word for People Who Aren't Good at Being a Friend | Relationships | Connectors lens, no real names |
-| 3 | You're Not Behind. You're Early in Something That Doesn't Have a Name Yet. | Life / work | Pep talk for builders in undefined spaces |
-| 4 | Your Pipeline Is a Mirror | Sales | What your pipeline says about how you actually spend your time |
-| 5 | Why "Just Following Up" Is the Worst Sentence in Sales | Sales | Pulled from backlog after seeding post #1 |
-| 6 | The Four Emotional States Every Buyer Cycles Through | Sales | Pulled from backlog 2026-04-15 |
-| 7 | Building in Public Is Just Keeping a Journal Where Strangers Can Read It | Building | Pulled from backlog 2026-04-16 |
-| 8 | The Skills That Just Got Obsolete and the Ones That Just Got 10x More Valuable | Life / work | Pulled from backlog 2026-04-16 |
+| 1 | Networking Is a Word for People Who Aren't Good at Being a Friend | Relationships | Connectors lens, no real names |
+| 2 | You're Not Behind. You're Early in Something That Doesn't Have a Name Yet. | Life / work | Pep talk for builders in undefined spaces |
+| 3 | Your Pipeline Is a Mirror | Sales | What your pipeline says about how you actually spend your time |
+| 4 | Why "Just Following Up" Is the Worst Sentence in Sales | Sales | Pulled from backlog after seeding post #1 |
+| 5 | The Four Emotional States Every Buyer Cycles Through | Sales | Pulled from backlog 2026-04-15 |
+| 6 | Building in Public Is Just Keeping a Journal Where Strangers Can Read It | Building | Pulled from backlog 2026-04-16 |
+| 7 | The Skills That Just Got Obsolete and the Ones That Just Got 10x More Valuable | Life / work | Pulled from backlog 2026-04-16 |
+| 8 | Sovereign Individuals: What Happens When One Person Can Run a Real Business | Life / work | Pulled from backlog 2026-04-18 |
 
 ## Backlog (next-up to refill the Active 8)
 
-- Sovereign Individuals: What Happens When One Person Can Run a Real Business
 - The People You Call When Something Good Happens vs. Something Bad
 - The Case Against Optimization
 - Quitting Is a Skill and Most People Are Bad at It
@@ -55,3 +54,4 @@ status: active
 | 2026-04-15 | The Bike Ride Test | [post](posts/2026-04-15-the-bike-ride-test.md) | [#2](https://github.com/AndrewDonato444/andrew-resume-app/pull/2) |
 | 2026-04-16 | Stop Selling to People Who Are Nodding | [post](posts/2026-04-16-stop-selling-to-people-who-are-nodding.md) | [#3](https://github.com/AndrewDonato444/andrew-resume-app/pull/3) |
 | 2026-04-16 | The Target Keeps Moving | [post](posts/2026-04-16-the-target-keeps-moving.md) | [#4](https://github.com/AndrewDonato444/andrew-resume-app/pull/4) |
+| 2026-04-18 | The Managed Agent Era Is Here and Most People Are Still Hiring Humans for It | [post](posts/2026-04-18-the-managed-agent-era-is-here.md) | [#5](https://github.com/AndrewDonato444/andrew-resume-app/pull/5) |
