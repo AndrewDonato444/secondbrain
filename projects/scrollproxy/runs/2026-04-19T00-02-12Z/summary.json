@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-19T00-02-12Z",
+  "summarizedAt": "2026-04-19T00:12:17.059Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "celebrity social noise",
+    "off-topic public figures"
+  ],
+  "worthClicking": [],
+  "voices": [],
+  "noise": {
+    "count": 1,
+    "examples": [
+      "former president feel-good photo op with zero relevance to AI, dev, or sales"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 1,
+    "seenCount": 0
+  },
+  "feedVerdict": "noise",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "celebrity social noise",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "off-topic public figures",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "AI product trust & reliability",
+        "lastSeenRunId": "2026-04-17T19-02-55Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "benchmark credibility collapse",
+        "lastSeenRunId": "2026-04-17T19-02-55Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "Claude Code & agentic tooling",
+        "lastSeenRunId": "2026-04-17T19-02-55Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "Claude Design vs. Figma",
+        "lastSeenRunId": "2026-04-17T19-02-55Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "indie iOS distribution",
+        "lastSeenRunId": "2026-04-17T19-02-55Z",
+        "runsSinceLastSeen": 5
+      }
+    ]
+  }
+}
