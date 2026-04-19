@@ -65,6 +65,9 @@ Check = done. Unchecked = skipped or deferred.
 ### {Project name (only include sections that hit something real)}
 - **{Angle}** — [@handle](url): {insight}. {proposed action if any}
 
+> Recognized lenses to evaluate every run against (only render the section if there's a real hit):
+> Modern Signal Advisory · Building Out Loud · LinkedIn Convergence · andrewdonato.com writing · Career / interviews · TrackForce · Facts Unlocked · ScrollProxy
+
 ## People / Accounts worth watching
 
 - **@handle** — {why}. (Do NOT propose PERSON-xxx — see rules below.)
@@ -101,6 +104,7 @@ If the Decisions section would be empty (everything was tier-1), state that expl
 **Tier 1 — do automatically, no approval needed**
 - Append to writing queue Backlog section (`projects/andrewdonato-com/writing/queue.md`)
 - Append to Building Out Loud `Ideas — Not Yet Built` section (`projects/building-out-loud/episodes/upcoming.md`)
+- Append to LinkedIn Convergence Backlog (`projects/linkedin-convergence/queue.md`)
 - Append to reading queue, update themes/voices (covered in step 2)
 - Fix clearly stale factual statuses (e.g., a project marked "not yet built" when it's live)
 - Log live debates and noise
@@ -128,6 +132,18 @@ Read the "Guardrails" section at the top. It explicitly forbids project specific
 
 ### Building Out Loud (`projects/building-out-loud/episodes/upcoming.md`)
 Before proposing a new episode, scan every section (Posted, Ready to Record, Ideas — Not Yet Built). If the proposed topic overlaps with an existing entry, skip it and note the reinforcement in the surfacing ("this post strengthens the already-queued {title} episode").
+
+### LinkedIn Convergence (`projects/linkedin-convergence/queue.md`)
+This is the 3x/week native LinkedIn text post lane. Career-positioning: Andrew as the sales leader who sees product, sales, marketing, and RevOps converging. Read the queue's own Guardrails section before proposing — they're authoritative — but the non-negotiables are:
+
+- **No MSA.** Zero references, examples, or unstated subtext. If an angle only works because of MSA-specific insight, don't propose it.
+- **No BOL rips.** BOL episodes can *spark* a convergence angle but the post must have its own open, angle, and landing line. When proposing a BOL-derived angle, log the lineage explicitly ("derived from BOL Ep N — convergence angle: X") and confirm the angle differs from the BOL framing.
+- **Three archetypes, rotate them:** Convergence Take (a function/role/boundary dissolving) · Operator's Tell (what the data/workflow says vs. what the org chart says) · Frontier Translation (an AI/agent capability mapped to a GTM motion most haven't connected).
+- **Scan all sections before proposing** (This Week, Active 6, Backlog, Published). Skip duplicates and note the reinforcement in the surfacing.
+- **Generalize.** Same rule as the writing queue — no client/employer specifics. The convergence post lives at the pattern level.
+- New convergence candidates go into the Backlog, not Active 6. Promotion to Active 6 is Andrew's call.
+
+**Evaluation lens — when scanning each run, ask:** *"Does this post / theme / voice expose a place where a sales-adjacent function is melting into another function, or where an AI capability has just shifted a GTM motion in a way most operators haven't named?"* If yes, it's a convergence candidate.
 
 ### PERSON-xxx vs. accounts
 PERSON-xxx entries are **reserved for humans Andrew knows personally** (family, friends, coworkers, real contacts). Do NOT propose PERSON entries for social media handles. When a voice shows sustained signal across multiple runs, surface a proposed "create `resources/accounts/` area" decision — don't silently create folders.
