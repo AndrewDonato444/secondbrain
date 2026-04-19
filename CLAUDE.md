@@ -108,6 +108,41 @@ Second Brain/
 
 ---
 
+## Scraping Dog API
+
+API key is stored in `.env.local` as `SCRAPINGDOG_API_KEY`. Use this as a fallback when `WebFetch` or `WebSearch` return thin/blocked results, or when you need to scrape a page that requires JS rendering.
+
+### Generic Web Scraper
+
+```
+GET https://api.scrapingdog.com/scrape?api_key={KEY}&url={ENCODED_URL}&dynamic={true|false}
+```
+
+- `url` — decoded URL of the page to scrape
+- `dynamic` — `true` (default) renders JS, `false` for static HTML only. Use `false` when possible (faster/cheaper).
+- Returns raw HTML of the page.
+
+### LinkedIn Person Profile Scraper
+
+```
+GET https://api.scrapingdog.com/profile/?api_key={KEY}&type=profile&id={LINKEDIN_SLUG}
+```
+
+- `id` — the LinkedIn profile slug (e.g. `rbranson` from `linkedin.com/in/rbranson`)
+- `type` — always `profile` for person profiles
+- `premium` — (optional, default `false`) use premium proxies for captcha bypass
+- `webhook` — (optional, default `false`) schedules scrape after 2-3 min for higher success rate
+- Returns JSON with structured profile data.
+
+### Usage Rules
+
+1. **Try native tools first** — only fall back to Scraping Dog when WebFetch/WebSearch fail or return incomplete data.
+2. **Read the key from `.env.local`** at runtime — never hardcode it.
+3. **Use `dynamic=false`** unless the page requires JS rendering.
+4. **Full docs:** https://docs.scrapingdog.com
+
+---
+
 ## What NOT to Do
 
 - Don't just save links — process and connect them (read the intake skill)
