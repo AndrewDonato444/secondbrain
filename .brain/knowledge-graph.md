@@ -82,6 +82,7 @@ Last updated: 2026-04-18 (interests rebuilt as a main driver — pulses for ai-f
 | DOC-065 | interests/mets/pulse.md | mets | knowledge | active |
 | DOC-066 | interests/current-events/pulse.md | current-events | knowledge | active |
 | DOC-067 | projects/scrollproxy/migration-2026-04-x-api.md | ai-frontier | knowledge | active |
+| DOC-068 | projects/scrollproxy/list-curation.md | ai-frontier | knowledge | active |
 
 ---
 
@@ -233,6 +234,11 @@ Last updated: 2026-04-18 (interests rebuilt as a main driver — pulses for ai-f
 | DOC-067 | depends-on | DOC-034 | Migration plan rewrites the technical spec body in Phase 3 |
 | DOC-067 | informs | DOC-062 | X owned-reads pricing is logged in the ai-frontier pulse Recent shifts |
 | DOC-067 | informs | DOC-001 | Profile ScrollProxy entry needs updating in Phase 3 |
+| DOC-068 | depends-on | DOC-067 | List curation is the strategic deliverable inside the migration plan |
+| DOC-068 | depends-on | DOC-034 | List structure determines what ScrollProxy can surface |
+| DOC-068 | informs | DOC-062 | AI Frontier list directly feeds the ai-frontier pulse lens |
+| DOC-068 | informs | DOC-063 | GTM Convergence list directly feeds the sales-product-convergence pulse |
+| DOC-068 | informs | DOC-064 | Operators & Builders list feeds the entrepreneurship pulse |
 | DOC-051 | informs | DOC-018 | Session management best practices directly improve SDD workflow efficiency |
 | DOC-051 | informs | DOC-001 | Andrew uses Claude Code daily — these practices improve all his building |
 | DOC-052 | informs | DOC-009 | Multi-platform scheduling could replace/complement Zernio in Facts Unlocked pipeline |
