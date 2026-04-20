@@ -1,16 +1,25 @@
 ---
 id: DOC-067
 created: 2026-04-19
-updated: 2026-04-19
+updated: 2026-04-20
 type: knowledge
 domain: ai-frontier
-status: active
+status: superseded
+superseded-by: DOC-034
 depends-on: [DOC-034]
 ---
 
-# ScrollProxy — Migration to X API Owned Reads (April 2026)
+# ScrollProxy — Migration to X API Owned Reads (April 2026) [ARCHIVED]
 
-> One-time migration plan. X drops "Owned Reads" pricing on **2026-04-20** ($0.001/req). This doc lives until the migration is shipped, then gets archived. The technical-spec body (§4–§16) gets rewritten as part of Phase 3 below.
+> **STATUS: ARCHIVED 2026-04-20.** All three phases shipped. Source of truth for the current architecture is `projects/scrollproxy/technical-spec.md` (DOC-034). This doc is preserved as a record of the migration arc: what was planned, what changed, what failure modes were discovered + fixed, and in what order things shipped.
+>
+> If you're looking for "how ScrollProxy works today," go to DOC-034. If you're looking for "how we got here and what we learned," read on.
+
+---
+
+## Original header (retained for history)
+
+One-time migration plan. X drops "Owned Reads" pricing on **2026-04-20** ($0.001/req). This doc lives until the migration is shipped, then gets archived. The technical-spec body (§4–§16) gets rewritten as part of Phase 3 below.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: DOC-034
 created: 2026-04-11
-updated: 2026-04-19
+updated: 2026-04-20
 type: knowledge
 domain: personal
 status: active
@@ -12,21 +12,22 @@ informs: [DOC-001]
 
 **Working name:** ScrollProxy
 **Owner:** Andrew Donato
-**Purpose:** A personal CLI tool that logs into X on your behalf, scrolls your home feed for N minutes, extracts what was there, and writes a structured summary to a destination of your choice (local markdown file for v1, Notion later).
+**Purpose:** A personal CLI tool that pulls posts from Andrew's curated X lists via the X API v2 Owned Reads endpoints, feeds them to Claude, and writes a structured summary to a destination of your choice (local markdown file for v1, Notion optional).
 **Scope:** Personal tool. Single user. Runs locally. No multi-user, no auth server, no distribution.
+**Code repo:** `~/AutoScroller/` (package name `scrollproxy`). Runtime data: `~/scrollproxy/`. Docs: `~/SecondBrain/projects/scrollproxy/`.
 
------
+---
 
 ## 1. Goals
 
 1. Replace passive scrolling with a deterministic "go read my feed for me" command.
-1. Produce output that answers four questions every run:
+2. Produce output that answers four questions every run:
    - What were the dominant themes in my feed right now?
    - Who posted something genuinely worth my attention?
    - What's new vs. stuff I've already seen in past runs?
    - What, if anything, should I actually click into and read myself?
-1. Build cumulative memory across runs so the tool gets smarter about what to surface.
-1. Ship a working v1 in a single weekend.
+3. Build cumulative memory across runs so the tool gets smarter about what to surface.
+4. Stay cheap: operating cost under $5/month at steady state.
 
 ## 2. Non-goals (v1)
 
@@ -34,403 +35,287 @@ informs: [DOC-001]
 - No GUI. CLI only.
 - No cloud hosting. Runs on Andrew's Mac.
 - No posting, replying, liking, or any write actions on X. Read-only.
-- No credential storage. Session persistence via Chrome user data dir only.
-- No Notion/Obsidian integration in v1 — local markdown output only. Hooks designed so v2 can add them without refactor.
+- No multi-user. The OAuth bootstrap binds one X account to one developer app; that's it.
+- No Notion/Obsidian integration required — local markdown output is first-class. Notion is a secondary writer if enabled.
 
-## 2b. X API "Owned Reads" Update (April 2026)
-
-**As of April 20, 2026**, X announced dramatically cheaper API pricing for reading your own data:
-
-- **$0.001 per request** for owned reads (your own posts, bookmarks, followers, likes, lists, etc.)
-- Key endpoints now available cheaply:
-  - `GET /2/users/{id}/owned_lists` — fetch your curated lists
-  - `GET /2/users/{id}/followed_lists` — lists you follow
-  - `GET /2/users/{id}/list_memberships` — lists you're on
-  - `GET /2/users/{id}/bookmarks` — your saved posts
-  - `GET /2/users/{id}/liked_tweets` — your likes
-  - `GET /2/users/{id}/tweets` — your own posts
-  - `GET /2/users/{id}/mentions` — mentions of you
-
-**What this changes for ScrollProxy:**
-
-The original spec used Playwright browser automation to scroll the feed and scrape the DOM. That approach is fragile (selectors break when X changes the DOM), slow, risky (bot detection), and doesn't return structured data.
-
-The X API approach is:
-1. **Curate X lists** of accounts you care about (AI frontier, builders, sales leaders, etc.)
-2. **Pull posts from those lists via API** → structured JSON with full metadata (text, author, engagement metrics, timestamps)
-3. **Feed to Claude** for summarization
-4. **Output** structured markdown summary
-
-**Cost estimate:** ~100 requests/day × $0.001 = **$0.10/day, ~$3/month.** Negligible.
-
-**Note:** Write endpoints went up ($0.015/post, $0.20 for URLs) and API likes/follows/quote-posts were removed for self-serve tiers. None of this affects ScrollProxy since it's read-only.
-
-**Reference:** Robert Scoble's Aligned News (alignednews.com) uses a similar architecture — 63 curated X lists, 100K+ accounts, XPlugin pulls posts into a Weaviate vector database, Claude-like agent synthesizes signal. ScrollProxy is the personal-scale version of this pattern.
-
-## 3. Stack (Revised)
+## 3. Stack
 
 | Layer | Choice | Reason |
 |-------|--------|--------|
 | Language | TypeScript (Node 20+) | Matches DonatoSkills conventions |
-| X Data Access | X API v2 (Owned Reads) | Structured JSON, $0.001/request, no scraping fragility |
-| ~~Browser automation~~ | ~~Playwright~~ | **Removed** — X API replaces DOM scraping entirely |
+| X Data Access | X API v2 (Owned Reads endpoints) | $0.001/request, structured JSON, no scraping fragility |
+| Auth | OAuth 2.0 User Context + PKCE | User access token rotates via `offline.access` refresh token |
 | LLM | Anthropic Claude API (claude-sonnet-4-6) | Andrew already has keys + prompt patterns |
-| Config | `config.yaml` at project root | Hand-editable, no env gymnastics for a personal tool |
-| Output (v1) | Local markdown files in `~/scrollproxy/runs/` | Zero dependencies, trivially portable |
-| State/memory | `~/scrollproxy/state/` — JSON files | Dedup cache, seen-post hashes, rolling themes |
+| Config | `config.yaml` at `~/scrollproxy/` | Hand-editable, no env gymnastics for a personal tool |
+| Output (v1) | Local markdown files in `~/SecondBrain/projects/scrollproxy/runs/` | Commits directly to the brain repo alongside surfacings |
+| State/memory | `~/scrollproxy/state/` — JSON files | Dedup cache by post ID, rolling themes across runs |
 | Package manager | pnpm | Andrew's default |
-| Runtime entry | `pnpm start` or `pnpm scroll -- --minutes 10` | Simple CLI |
+| Runtime entry | `pnpm scroll` (default) or `pnpm scroll --dry-run` | One verb, one mode flag |
+
+Operating cost at steady state (AI Frontier + GTM Convergence + Broad list at default `postsPerRun`, 4 runs/day): ~30k post reads/month. At Owned Reads pricing ($0.001/resource), that's **~$30/month in API reads** plus one Claude summarizer call per run (small). Under $5/month is achievable with careful `postsPerRun` tuning; $30/month is the realistic current-config number.
 
 ## 4. High-level architecture
 
 ```
-┌─────────────┐   ┌──────────────┐   ┌─────────────┐   ┌──────────────┐   ┌──────────┐
-│  CLI entry  │──▶│ Scroller     │──▶│ Extractor   │──▶│ Summarizer   │──▶│ Writer   │
-│  (index.ts) │   │ (Playwright) │   │ (DOM parse) │   │ (Claude API) │   │ (md/...) │
-└─────────────┘   └──────────────┘   └─────────────┘   └──────────────┘   └──────────┘
-                                            │                  ▲
-                                            ▼                  │
-                                      ┌───────────┐             │
-                                      │  State    │─────────────┘
-                                      │  (dedup,  │
-                                      │  history) │
-                                      └───────────┘
+┌─────────────┐   ┌────────────────┐   ┌──────────────┐   ┌─────────────┐   ┌──────────┐
+│  CLI entry  │──▶│ X API source   │──▶│ List adapter │──▶│ Summarizer  │──▶│ Writer   │
+│ (index.ts)  │   │ (parallel list │   │ (→ Extracted │   │ (Claude)    │   │ (md/...) │
+│             │   │  + bookmarks)  │   │   Post[])    │   │             │   │          │
+└─────────────┘   └────────────────┘   └──────────────┘   └─────────────┘   └──────────┘
+                          │                    │                  ▲
+                          ▼                    ▼                  │
+                    ┌───────────┐        ┌──────────┐             │
+                    │ API client│        │ State    │─────────────┘
+                    │ (auth +   │        │ (dedup,  │
+                    │  retry)   │        │  themes) │
+                    └───────────┘        └──────────┘
 ```
 
-Each box is its own module with a clean interface so components can be swapped. In particular, `Writer` must be an interface with pluggable implementations (`MarkdownWriter` in v1, `NotionWriter` later).
+Each box is its own module with a clean interface so components can be swapped. `Writer` is an interface with pluggable implementations (`markdownWriter` is the primary; `createNotionWriter` is optional). The API client, source, and adapter are the only X-API-aware modules — everything downstream operates on the source-agnostic `ExtractedPost[]` shape.
 
 ## 5. Project structure
 
 ```
-scrollproxy/
+AutoScroller/                                 # code repo (package name: scrollproxy)
 ├── src/
-│   ├── index.ts                 # CLI entry, arg parsing, orchestration
-│   ├── config.ts                # Config loader + schema (zod)
-│   ├── scroller/
-│   │   ├── browser.ts           # Playwright context setup, persistent profile
-│   │   ├── xScroller.ts         # X-specific scroll loop
-│   │   └── scrollStrategy.ts    # Timing, jitter, pause logic
-│   ├── extractor/
-│   │   ├── xExtractor.ts        # DOM selectors + extraction for X
-│   │   └── types.ts             # ExtractedPost shape
-│   ├── summarizer/
-│   │   ├── claudeClient.ts      # Anthropic API wrapper
-│   │   ├── prompts.ts           # All prompts in one file
-│   │   └── schema.ts            # Zod schema for Claude's JSON output
+│   ├── index.ts                              # CLI shim — injects 'scroll' verb
+│   ├── cli/
+│   │   ├── index.ts                          # CLI dispatcher (scroll, replay)
+│   │   ├── args.ts                           # Arg parser + --help
+│   │   ├── scroll.ts                         # handleScroll — the main pipeline
+│   │   └── replay.ts                         # handleReplay — re-summarize stored raw.json
+│   ├── sources/
+│   │   ├── xApiClient.ts                     # Auth + 401/429/5xx handling + refresh coalescing
+│   │   ├── xListSource.ts                    # Parallel list pulls + optional bookmarks
+│   │   └── xListAdapter.ts                   # X API v2 response → ExtractedPost
+│   ├── config/
+│   │   ├── schema.ts                         # Zod schema
+│   │   ├── load.ts                           # File + CLI-flag config loading
+│   │   └── defaults.ts
 │   ├── state/
-│   │   ├── seenPosts.ts         # Dedup by post ID hash
-│   │   └── rollingThemes.ts     # Last N runs of themes for "new vs known"
-│   ├── writers/
-│   │   ├── writer.ts            # Writer interface
-│   │   └── markdownWriter.ts    # v1 implementation
-│   └── utils/
-│       ├── logger.ts
-│       └── time.ts
-├── config.yaml
-├── package.json
-├── tsconfig.json
-└── README.md
+│   │   ├── dedup-cache.ts                    # Post-ID dedup, capped FIFO
+│   │   └── rolling-themes.ts                 # Last-N-runs themes store
+│   ├── summarizer/
+│   │   └── summarizer.ts                     # Claude client + prompts + zod-validated output
+│   ├── trends/
+│   │   └── trend-detector.ts                 # Deterministic persistent/emerging/fading themes
+│   ├── writer/
+│   │   ├── writer.ts                         # Writer interface + runWriters orchestration
+│   │   ├── markdown.ts                       # summary.md renderer
+│   │   ├── notion.ts                         # Optional Notion writer
+│   │   └── raw-json.ts                       # raw.json serialization + run IDs
+│   ├── types/
+│   │   └── post.ts                           # ExtractedPost + supporting interfaces
+│   ├── lib/
+│   │   ├── expandHomeDir.ts                  # ~-path expansion
+│   │   └── repoRoot.ts                       # Resolve .env.local relative to repo root
+│   ├── xAuth.ts                              # One-shot OAuth 2.0 PKCE bootstrap
+│   ├── xRefresh.ts                           # Refresh-token rotation
+│   ├── xExplore.ts                           # Endpoint-probe harness (dev tool)
+│   └── xTestSource.ts                        # End-to-end source-layer validation harness
+├── tests/
+│   ├── foundation/                           # Core module tests
+│   └── expansion/                            # Feature-level tests (trend detector, x-api-hardening, retire-playwright)
+├── .specs/
+│   └── features/                             # SDD feature specs
+├── .env.local                                # OAuth credentials (gitignored)
+└── package.json
 ```
 
 ## 6. Configuration
 
-`config.yaml` at repo root. Loaded once at startup, validated with zod.
+`config.yaml` lives at `~/scrollproxy/config.yaml`. Loaded once at startup, validated with zod.
 
 ```yaml
-scroll:
-  minutes: 10                    # default run length
-  maxPosts: 400                  # hard cap on extracted posts per run
-  scrollPauseMs: [1200, 2800]    # random pause range between scrolls
-  idleTimeoutMs: 8000            # bail if no new content loads for this long
-
-browser:
-  userDataDir: ~/scrollproxy/chrome-profile
-  headless: false                # false for v1 so you can see it working
-  viewport: { width: 1280, height: 900 }
-
-anthropic:
-  model: claude-sonnet-4-6
-  maxTokens: 4000
-
-output:
-  writer: markdown               # markdown | notion (v2)
-  markdown:
-    dir: ~/scrollproxy/runs
-    filenameFormat: "{YYYY}-{MM}-{DD}-{HHmm}.md"
-
-interests:                       # free-form, fed into the prompt
+interests:
   - AI product strategy
   - distribution and indie dev
   - sales enablement
-  - sports betting analytics
+
+output:
+  dir: ~/SecondBrain/projects/scrollproxy/runs   # run dirs commit to the brain
+  state: ~/scrollproxy/state
+  destinations: [markdown]                       # optionally add: notion
+
+claude:
+  model: claude-sonnet-4-6
+  apiKey: sk-ant-…                                # inline is fine for a personal tool
+
+x:
+  baseUrl: https://api.x.com/2
+  lists:
+    - { id: "2046177478658461928", name: "AI Frontier",      tag: "ai-frontier",  postsPerRun: 50 }
+    - { id: "2046179139355312577", name: "GTM Convergence",  tag: "convergence",  postsPerRun: 50 }
+    - { id: "2046175185003286902", name: "Broad",            tag: "broad",        postsPerRun: 25 }
+  bookmarks:
+    enabled: false
+    postsPerRun: 25
+```
+
+**Auth credentials** live separately in `~/AutoScroller/.env.local` (gitignored), populated by `pnpm x:auth`:
+
+```
+X_CLIENT_ID=…
+X_CLIENT_SECRET=…
+X_BEARER_TOKEN=…          # access token, rotates every ~2h
+X_REFRESH_TOKEN=…         # rotates on each refresh
+X_TOKEN_EXPIRES_AT=…      # ISO 8601
 ```
 
 ## 7. CLI interface
 
 ```bash
-pnpm scroll                            # uses config defaults
-pnpm scroll -- --minutes 5             # override run length
-pnpm scroll -- --dry-run               # scroll and extract but don't call Claude
-pnpm scroll -- --replay <run-id>       # re-summarize a previous run's raw data
-pnpm login                             # opens browser for one-time X login
+pnpm scroll                     # default — pull all configured lists, summarize, write
+pnpm scroll --dry-run           # pull but don't write/summarize; prints per-list counts
+pnpm scroll --config <path>     # override default config path
+pnpm replay <run-id>            # re-summarize a stored raw.json from a past run
+
+pnpm x:auth                     # one-time OAuth 2.0 PKCE bootstrap (run once per machine)
+pnpm x:refresh                  # rotate access token via stored refresh_token
+pnpm x:explore                  # endpoint-probe harness (dev diagnostic)
+pnpm x:test-source              # end-to-end source-layer validation (no writes)
 ```
 
-`login` is important. First run should be a dedicated command that launches Chrome with the persistent profile, navigates to x.com, waits for the user to log in manually, and then exits. After that, the profile stays logged in across all future runs.
+The `pnpm scroll` invocation is intentionally flag-minimal: the tool does one thing (`pull → adapt → summarize → write`), and the only optional knob is `--dry-run`. Configuration lives in `config.yaml`, not CLI flags.
 
-## 8. Scroller module
+## 8. Source layer (`src/sources/`)
 
-**File:** `src/scroller/xScroller.ts`
+Three focused modules, consumed only by `handleScroll`:
 
-Responsibilities:
+**`xApiClient.ts`** — the single HTTP chokepoint for X API calls. Responsibilities:
 
-1. Launch Playwright with a persistent context pointed at `config.browser.userDataDir`.
-1. Navigate to `https://x.com/home`.
-1. Wait for the timeline to render (selector: `[data-testid="primaryColumn"]`).
-1. Loop: scroll down by ~1 viewport, wait `random(scrollPauseMs[0], scrollPauseMs[1])`, extract any new posts in the DOM, dedupe against in-run seen set.
-1. Stop when **any** of these is true:
-   - Configured minutes elapsed
-   - `maxPosts` reached
-   - No new posts appear for `idleTimeoutMs`
-1. Return `ExtractedPost[]`.
+- Load the user access token from `.env.local` on first call; cache in memory for the run.
+- Proactively refresh when the token is within 2 minutes of expiry (singleflight: concurrent callers coalesce into one refresh call so X's refresh-token rotation doesn't strand any request).
+- On 401, refresh + retry once (same singleflight mechanism).
+- On 429, respect `Retry-After` and `x-rate-limit-reset` headers.
+- On 5xx, exponential backoff up to `MAX_RETRIES = 3`.
 
-Important details:
+**`xListSource.ts`** — orchestrator. Reads `config.x.lists`, calls `GET /2/lists/{id}/tweets` for each list in parallel, optionally pulls `GET /2/users/{id}/bookmarks`. Returns a structured `XSourceResult` with per-list diagnostics so individual list failures don't kill the run.
 
-- Use `page.mouse.wheel()` rather than `window.scrollBy()` — more natural and less likely to trip bot detection.
-- Jitter every scroll distance slightly (`random(600, 1000)` px).
-- Every ~30 scrolls, insert a longer pause (`random(3000, 6000)` ms) to mimic human reading behavior.
-- Catch and log any navigation errors but do not crash the run — always return whatever was collected so far.
+**`xListAdapter.ts`** — maps the X API v2 response envelope (`data[]` + `includes.users[]` + `includes.media[]` + `includes.tweets[]`) into `ExtractedPost[]`. Resolves retweets by looking up the referenced tweet in `includes.tweets` and attributing authorship to the original poster (retweeter becomes `repostedBy`). Quoted tweets are V2-deferred.
 
-## 9. Extractor module
+All three are covered by `tests/expansion/x-api-hardening.test.ts` and `tests/expansion/retire-playwright.test.ts` with regression guards against production-invocation traps (refresh race, cwd-relative env paths, retweet attribution).
 
-**File:** `src/extractor/xExtractor.ts`
+## 9. `ExtractedPost` — the canonical shape
 
-For each post in the DOM (selector: `article[data-testid="tweet"]`), extract:
+**File:** `src/types/post.ts`
 
 ```ts
 interface ExtractedPost {
-  id: string;              // from the status URL, e.g. "1234567890"
+  id: string;              // from the X API post id
   url: string;             // full https://x.com/user/status/id
-  author: {
-    handle: string;        // "@username"
-    displayName: string;
-  };
-  text: string;            // full post text, concatenated if multi-span
-  timestamp: string;       // ISO from the <time> element
+  author: { handle: string; displayName: string; verified: boolean };
+  text: string;
+  postedAt: string | null; // ISO
   metrics: {
     replies: number | null;
     reposts: number | null;
     likes: number | null;
     views: number | null;
   };
-  media: {
-    hasImages: boolean;
-    hasVideo: boolean;
-    altTexts: string[];    // for accessibility text on images
-  };
+  media: Array<{ type: 'image' | 'video' | 'gif'; url: string }>;
   isRepost: boolean;
-  isReply: boolean;
-  quotedPost: { handle: string; text: string } | null;
-  extractedAt: string;     // ISO
+  repostedBy: string | null;
+  quoted: ExtractedPost | null;      // V2-deferred — always null from x-api adapter
+  extractedAt: string;
+  tickIndex: number;                  // position-in-batch; no scroll-tick meaning post-retirement
+  sourceTag?: string;                 // list lane tag — e.g. "ai-frontier"
 }
 ```
 
-Rules:
-
-- Skip ads (look for "Ad" or "Promoted" indicators).
-- Skip "Who to follow" and other non-post modules.
-- Parse metric strings like "1.2K" → 1200.
-- If a selector fails, log a warning and skip that post — never throw.
-- Selectors live in one constants file (`xExtractor.ts` top) so they're easy to fix when X changes the DOM.
+`sourceTag` carries the curated list's lane name through the pipeline. The summarizer can route by lens if desired; the writer can group by lens in future renderings.
 
 ## 10. State / dedup
 
-**File:** `src/state/seenPosts.ts`
+**`src/state/dedup-cache.ts`**
 
-- On disk: `~/scrollproxy/state/seen.json` — a rolling set of the last 10,000 post IDs with timestamps.
-- On run: load into a Set, filter extracted posts against it, write back the union capped at 10k (FIFO eviction).
-- Extracted-but-already-seen posts are passed to the summarizer as a separate bucket so Claude can note "you've already been shown this take 3 times this week."
+- On disk: `~/scrollproxy/state/seen.json` — rolling set of the last 10,000 post IDs.
+- On run: load → filter extracted posts into `newPosts` + `seenPosts` → write back capped at 10k (FIFO eviction).
+- Already-seen posts still pass to the summarizer as a separate bucket so Claude can note "you've already been shown this take three times this week."
 
-**File:** `src/state/rollingThemes.ts`
+**`src/state/rolling-themes.ts`**
 
-- Stores the top themes from the last 10 runs as `{ runId, date, themes: string[] }`.
-- Fed into the summarizer prompt so it can say "this theme is new" vs. "this has been bubbling for days."
+- Stores the top themes from the last 10 runs as `{ runId, endedAt, themes: string[] }`.
+- Fed to the summarizer prompt so it can note "this theme is new" vs. "this has been bubbling for days."
+- The `src/trends/trend-detector.ts` module consumes this deterministically (no API call) to render the `## Trends` section with persistent / emerging / fading categories.
 
 ## 11. Summarizer module
 
-**File:** `src/summarizer/claudeClient.ts`
+**File:** `src/summarizer/summarizer.ts`
 
-Wraps `@anthropic-ai/sdk`. Reads `ANTHROPIC_API_KEY` from env. Single function:
+Wraps `@anthropic-ai/sdk`. Single exported function `summarizeRun(input: SummarizerInput): Promise<SummarizerResult>`.
 
-```ts
-async function summarizeFeed(input: {
-  posts: ExtractedPost[];
-  alreadySeen: ExtractedPost[];
-  rollingThemes: RollingTheme[];
-  interests: string[];
-  runMinutes: number;
-}): Promise<FeedSummary>
-```
+**Prompt philosophy:** Claude is framed as "a ruthlessly useful feed analyst for Andrew. Your job is not to summarize everything — it's to tell him what's actually worth his attention and what he can safely ignore. Bias toward signal. If the feed is mostly noise, say so."
 
-**Prompt structure** (`src/summarizer/prompts.ts`):
+**User prompt includes:** declared interests (from config), themes from the last N runs, the full extracted post list as JSON (text + author + metrics; media stripped), already-seen IDs with one-line recaps, and instructions to respond in strict JSON matching the output schema.
 
-System prompt frames Claude as "a ruthlessly useful feed analyst for Andrew. Your job is not to summarize everything — it's to tell him what's actually worth his attention and what he can safely ignore. Bias toward signal. If the feed is mostly noise, say so."
-
-User prompt includes:
-
-- Andrew's declared interests (from config)
-- A list of themes from the last N runs ("here's what's been bubbling")
-- The full extracted post list as JSON (text + author + metrics, media stripped for token budget)
-- The "already seen" list as a compact array of IDs + one-line recaps
-- Instructions to respond in strict JSON matching the schema below
-
-**Output schema** (`src/summarizer/schema.ts`, enforced with zod):
-
-```ts
-interface FeedSummary {
-  runMeta: {
-    totalPosts: number;
-    newPosts: number;
-    repeatPosts: number;
-    dominantVoicesCount: number;
-  };
-  themes: Array<{
-    name: string;                // e.g. "AI agent infrastructure"
-    summary: string;             // 2-3 sentences
-    isNew: boolean;              // vs. rolling themes
-    representativeHandles: string[];
-    exampleQuote: string;        // one short quote, attributed
-    signalStrength: 1 | 2 | 3 | 4 | 5;
-  }>;
-  worthClicking: Array<{
-    url: string;
-    author: string;
-    oneLiner: string;            // why Andrew should care
-    relevanceToInterests: string[];
-  }>;
-  voicesToWatch: Array<{
-    handle: string;
-    why: string;                 // "3 high-signal posts this run on distribution"
-  }>;
-  skip: {
-    summary: string;             // "The rest was hot takes on X and recycled memes"
-    noisePercent: number;        // rough estimate
-  };
-  overallVerdict: string;        // 1-2 sentences: was this feed worth it?
-}
-```
-
-Force JSON output by ending the prompt with "Respond with ONLY a JSON object matching the schema. No preamble, no markdown fences." Strip any stray fences before parsing. Validate with zod — on validation failure, retry once with the error message appended.
+**Output schema** (`RunSummary`, zod-validated): `runMeta`, `themes[]` (name, summary, signalStrength 1-5, isNew, representative handles, example quote), `worthClicking[]`, `voices[]`, `noise`, `feedVerdict`. On zod validation failure, retry once with the error message appended before falling back to writing a `summary.error.json` stub.
 
 ## 12. Writer module
 
-**File:** `src/writers/writer.ts`
+**File:** `src/writer/writer.ts`
 
 ```ts
 interface Writer {
-  write(summary: FeedSummary, rawPosts: ExtractedPost[], runId: string): Promise<string>;
-  // returns path or URL of what was written
+  readonly id: string;
+  write(summary: RunSummary, context: WriteContext): Promise<WriteReceipt>;
 }
 ```
 
-**v1: `MarkdownWriter`**
+**`markdownWriter`** (always enabled) writes `summary.md` to the run directory. `createNotionWriter(...)` is an optional second writer. Both run through `runWriters()` which collects receipts and surfaces failures without stopping the pipeline; as long as the markdown writer succeeds, the run is considered successful overall.
 
-Writes two files per run:
+Each run produces three files in `~/SecondBrain/projects/scrollproxy/runs/{runId}/`:
 
-1. `~/scrollproxy/runs/2026-04-11-1430.md` — the human-readable summary
-1. `~/scrollproxy/runs/raw/2026-04-11-1430.json` — raw extracted posts for replay/debugging
+1. `raw.json` — full adapted posts + run metadata + per-list pull diagnostics
+2. `summary.json` — the validated `RunSummary` from Claude plus trend detection
+3. `summary.md` — rendered for the operator
 
-Markdown template:
-
-```md
-# Feed Scroll — {date} ({runMinutes} min)
-
-**Verdict:** {overallVerdict}
-**Stats:** {totalPosts} posts ({newPosts} new, {repeatPosts} repeats) · Noise ~{noisePercent}%
-
-## Themes
-### {theme.name} {isNew ? "new" : ""} — signal {signalStrength}/5
-{theme.summary}
-> "{exampleQuote}" — {attribution}
-Voices: {representativeHandles}
-
-## Worth clicking ({count})
-- [{author}]({url}) — {oneLiner}
-
-## Voices to watch
-- **{handle}** — {why}
-
-## Skipped
-{skip.summary}
-```
-
-## 13. Orchestration (`index.ts`)
+## 13. Orchestration (`handleScroll` in `src/cli/scroll.ts`)
 
 ```
-1. Parse CLI args
-2. Load + validate config
-3. Load state (seen posts, rolling themes)
-4. Launch browser, run scroller → ExtractedPost[]
-5. Split into new vs alreadySeen using state
-6. If --dry-run, write raw JSON and exit
-7. Call summarizer
-8. Call writer → get output path
-9. Update state (seen posts, rolling themes)
-10. Print output path + overallVerdict to console
-11. Close browser
+ 1. Parse CLI args (only --dry-run and --config are accepted).
+ 2. Load + validate config (zod rejects unknown fields in strict mode).
+ 3. Early-exit if config.x.lists is empty AND bookmarks.enabled is false.
+ 4. Generate a run ID from startedAt timestamp.
+ 5. pullFromXApi(config.x) — parallel list pulls + optional bookmarks.
+ 6. If every list errored and posts.length === 0: print errors, exit 1.
+ 7. If --dry-run: print summary line with "(dry-run)" marker, exit 0.
+ 8. writeRawJsonAndUpdateCache() — writes raw.json, splits new vs seen.
+ 9. runSummarizerAndWriters() — Claude call, trend detection, run writers.
+10. Print summary line (ticks, posts, new/seen, themes, worth-clicking count, output paths).
+11. Exit 0 if markdown writer succeeded; exit 1 otherwise.
 ```
 
-Wrap the whole thing in try/catch. On any failure after extraction, still write the raw JSON so no scroll effort is wasted.
+No browser to close, no screenshot directory to clean up. Total wall time is typically 600ms for the pull + 15-30s for the Claude summarizer call.
 
 ## 14. Error handling rules
 
-- **Selector failures:** log + skip that post, never throw.
-- **Browser crash:** catch, save whatever was collected, exit non-zero.
-- **Claude API error:** retry once with backoff, then fall back to writing raw JSON + a stub markdown file noting the summarizer failed.
-- **Config invalid:** fail fast with a clear message. No defaults-magic.
-- **First run with no login:** detect by checking for a login prompt selector, print "run `pnpm login` first" and exit.
+- **401 on X API:** one coalesced refresh + retry. If it still fails, throw (surface to user with token-refresh guidance).
+- **429:** wait `Retry-After` or `x-rate-limit-reset`, retry up to `MAX_RETRIES`.
+- **5xx:** exponential backoff, retry up to `MAX_RETRIES`. After that, throw with response body.
+- **Partial list failure:** one list's error doesn't kill the run — the `ListPull` captures the error; if at least one list returned posts, summarize and write.
+- **All lists errored:** print each error + exit 1 without running summarizer.
+- **Claude API error:** retry once with backoff, then fall back to writing `raw.json` + `summary.error.json`.
+- **Config invalid:** fail fast with zod's field-name message. No defaults-magic.
+- **Missing / empty `config.x`:** print setup instructions pointer, exit 1.
+- **Missing access token:** direct the operator to `pnpm x:auth`.
 
 ## 15. Testing
 
-Personal tool, so light touch:
+Personal tool, so light touch — but the test coverage is real:
 
-- One unit test per extractor helper (metric parsing, timestamp parsing).
-- One integration test that loads a saved HTML fixture of an X timeline and runs the extractor against it.
-- No end-to-end tests against live X — those are just manual runs.
+- Unit tests for every module under `tests/foundation/` (dedup, rolling-themes, summarizer, markdown writer, raw-json writer, cli-entry, config-loader, replay, project-scaffold).
+- Expansion tests under `tests/expansion/` for features that touch multiple modules (trend-detector, notion-writer, writer-interface, x-api-hardening, retire-playwright).
+- 230 passing tests + 4 skipped as of the Playwright retirement (2026-04-20).
+- No live-X e2e tests — `pnpm x:test-source` is the manual validation harness.
 
-Save a couple of HTML fixtures to `test/fixtures/` the first time the extractor works so regressions are catchable.
+## 16. Build phases (historical record)
 
-## 16. Build phases
+- **Phase 1 (April 2026):** X API migration — OAuth bootstrap, source layer, CLI wiring, list curation. Shipped `cf477ad`.
+- **Phase 2 (April 2026):** Production hardening — retweet attribution, refresh race fix, cwd-relative env resolution. SDD feature, shipped `91eb3d9`.
+- **Phase 3 (April 2026):** Playwright retirement — deletion of the DOM-scraping source layer, CLI simplification, type relocation, schema softening. SDD feature, shipped `67ee868`. Code-review follow-up `9825e5e` strengthened tests and removed the `VisionStats` shim.
 
-**Phase 1 (weekend 1) — "it works once":**
-
-- Project scaffold, config loader, CLI
-- `pnpm login` command
-- Scroller + extractor, writes raw JSON only
-- No Claude call yet — just verify extraction quality against a real 10-minute scroll
-
-**Phase 2 (weekend 2) — "it's actually useful":**
-
-- Claude summarizer with the full schema
-- Markdown writer
-- Dedup + rolling themes state
-- First real daily run
-
-**Phase 3 (later, as desired):**
-
-- Notion writer
-- Second platform (likely LinkedIn or Reddit — both are DOM-scrapeable and far less hostile than Instagram/TikTok)
-- Vision fallback when DOM selectors break
-- Scheduled runs (cron / launchd)
-- Cross-run trend detection ("X topic has been climbing 4 days running")
-
-## 17. Open questions before coding
-
-1. **Anthropic key location** — env var, 1Password CLI, or plain file? Default to `ANTHROPIC_API_KEY` env unless you say otherwise.
-1. **Interests list** — the list in the config example is a guess. Replace before the first real run since it shapes Claude's signal/noise judgment.
-1. **Run frequency intent** — is this a "once a day, morning coffee" tool or "punch it whenever I feel the urge to open X" tool? Affects how aggressive the dedup should be.
-1. **Repeat-post philosophy** — should a post you've already seen once ever be re-surfaced if it's now gone viral? (Recommend: yes, with a "trending since last run" flag.)
-
-## 18. Success criteria
+## 17. Success criteria
 
 Within two weeks of first real use, Andrew should be able to say:
 
@@ -438,4 +323,10 @@ Within two weeks of first real use, Andrew should be able to say:
 - "I haven't missed anything I would have wanted to see."
 - "The daily markdown file has surfaced at least one thing I actually clicked through and was glad I did."
 
-If those three are true, v1 shipped. Everything else is polish.
+If those three are true, the tool earns its keep. Everything else is polish.
+
+## 18. Appendix — Historical architecture (retired 2026-04-20)
+
+Prior to April 2026, ScrollProxy used Playwright to launch Chrome via CDP, log into X with a persistent user-data-dir profile, scroll `x.com/home` with jittered mouse-wheel ticks for a configurable duration (`scroll.minutes`), extract posts by DOM selectors (`article[data-testid="tweet"]`), and optionally fall back to Claude Vision when selector failure ratios crossed a threshold. That implementation was retired when X announced the Owned Reads pricing update (effective 2026-04-20) making API-based reads economically viable for a personal tool. The migration is documented end-to-end in `projects/scrollproxy/migration-2026-04-x-api.md` (DOC-067), and the feature specs for the hardening + retirement work live in `~/AutoScroller/.specs/features/expansion/{x-api-hardening,retire-playwright}.feature.md`.
+
+The historical code (scroller, DOM extractor, vision fallback, login flow) is available in git history at AutoScroller commits prior to `67ee868`. Nothing currently runs it.

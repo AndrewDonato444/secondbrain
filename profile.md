@@ -91,14 +91,17 @@ Andrew is actively looking for a new role in a frontier/AI-adjacent industry whe
 - **Positioning:** "Things I'm learning that might help you."
 - **Content pillars:** Things I learned the hard way, tools that actually changed how I work, how to think about [X], what I'm watching
 - **Channels:** LinkedIn (primary, 3 episodes posted Apr 9/12/13), TikTok `@building_out_loud` (new 2026-04-17), YouTube `@building_out_loud` (new 2026-04-17). IG deliberately skipped.
-- **Status:** 7 ready-to-record episodes in the queue plus idea backlog. Full episode list in `projects/building-out-loud/episodes/upcoming.md`
+- **Status:** 7 ready-to-record episodes in the queue plus idea backlog. Full episode list in `projects/building-out-loud/episodes/episode master.md`
 - **Distribution pivot:** The Facts Unlocked pipeline is being repositioned to serve BOL content (walk video → transcribe → pull sharpest moments → hook variants → cross-post). See `projects/facts-unlocked/pivot-distribution-multiplier.md`
 - **Why it matters:** Personal brand building, career positioning, genuine audience building by helping people. Not a pitch vehicle — Andrew pivoted the series away from product pitching to pure value. Full series details in `projects/building-out-loud/series-overview.md`
 
 ### ScrollProxy (Active)
-- **What:** CLI tool that logs into X, scrolls the feed for N minutes, extracts posts, and has Claude summarize what's actually worth reading. Replaces doom scrolling with a structured markdown summary.
-- **Stack:** TypeScript, Playwright, Claude API
-- **Status:** Live. Producing runs every ~6 hours into `projects/scrollproxy/runs/`. Second Brain processes each run into a reading queue, themes tracker, voices registry, and daily cross-brain surfacings file. Tech spec: `projects/scrollproxy/technical-spec.md`. Processing prompt: `projects/scrollproxy/second-brain-prompt.md`.
+- **What:** CLI tool that pulls posts from Andrew's curated X lists via the X API v2 Owned Reads endpoints and has Claude summarize what's actually worth reading. Replaces doom scrolling with a structured markdown summary.
+- **Stack:** TypeScript, X API v2 (OAuth 2.0 User Context + PKCE), Claude API. No browser, no DOM scraping.
+- **Status:** Live. Producing runs every ~6 hours into `projects/scrollproxy/runs/`. Second Brain processes each run into a reading queue, themes tracker, voices registry, and daily cross-brain surfacings file.
+- **Code repo:** `~/AutoScroller/` (package name `scrollproxy`)
+- **Curated lists:** AI Frontier, GTM Convergence, Broad/Serendipity. Mapping to interest pulses in `projects/scrollproxy/list-curation.md`.
+- **Migration history:** Pre-April-2026 used Playwright + DOM scraping; retired when X shipped Owned Reads pricing. Full history in `projects/scrollproxy/migration-2026-04-x-api.md`. Tech spec: `projects/scrollproxy/technical-spec.md`. Morning processing prompt: `projects/scrollproxy/morning-routine-prompt.md`.
 
 ### urcooked.ai (Idea — Not Yet Built)
 - **What:** Fun viral web tool. Enter your job and daily tasks, get a "cooked score" for how replaceable you are by AI, plus advice on how to un-cook yourself.

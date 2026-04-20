@@ -20,7 +20,7 @@ Last updated: 2026-04-18 (interests rebuilt as a main driver — pulses for ai-f
 | DOC-008 | projects/modern-signal-advisory/managed-agents-opportunity.md | msa | knowledge | superseded |
 | DOC-009 | projects/facts-unlocked/pipeline-spec.md | facts-unlocked | knowledge | active |
 | DOC-010 | projects/building-out-loud/series-overview.md | building-out-loud | knowledge | active |
-| DOC-011 | projects/building-out-loud/episodes/upcoming.md | building-out-loud | artifact | active |
+| DOC-011 | projects/building-out-loud/episodes/episode master.md | building-out-loud | artifact | active |
 | ~~DOC-012~~ | ~~merged into DOC-010~~ | — | — | superseded |
 | DOC-013 | projects/andrewdonato-com/spec.md | building-out-loud | knowledge | active |
 | DOC-014 | areas/career/resume.md | career | knowledge | active |
@@ -81,7 +81,7 @@ Last updated: 2026-04-18 (interests rebuilt as a main driver — pulses for ai-f
 | DOC-064 | interests/entrepreneurship/pulse.md | entrepreneurship | knowledge | active |
 | DOC-065 | interests/mets/pulse.md | mets | knowledge | active |
 | DOC-066 | interests/current-events/pulse.md | current-events | knowledge | active |
-| DOC-067 | projects/scrollproxy/migration-2026-04-x-api.md | ai-frontier | knowledge | active |
+| DOC-067 | projects/scrollproxy/migration-2026-04-x-api.md | ai-frontier | knowledge | superseded |
 | DOC-068 | projects/scrollproxy/list-curation.md | ai-frontier | knowledge | active |
 
 ---
