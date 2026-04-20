@@ -27,12 +27,159 @@ derived-from: [DOC-010, DOC-001, DOC-034]
 | 7 | Apr 17 | Building in Public | I replaced my worst habit with a command line tool (ScrollProxy) |
 | 8 | Apr 18 | How to Think About [X] | You don't need to learn to code. You need a Saturday. |
 | 9 | Apr 19 | What I'm Watching | A shoe company just became a data center company. And it's not as crazy as it sounds. |
+| 10 | Apr 20 | The Move | Paste your last 5 closed-won deals into Claude and ask what they had in common |
 
 ---
 
 ## Ready to Record
 
 Pick any of these. Tell me when you post one and I'll move it to Posted.
+
+---
+
+<!-- POSTED 2026-04-20 — kept below for reference -->
+
+### "Paste your last 5 closed-won deals into Claude and ask what they had in common" (POSTED Apr 20)
+**Pillar:** The Move
+
+**Hook:** "Here's something you can do in the next ten minutes that will tell you more about why you're winning than your last three QBRs combined."
+
+**Talking points:**
+- Open Claude. Paste in your last five closed-won deals — company name, industry, deal size, how long they took, what the main pain was, whatever you remember or have in the CRM
+- Ask: "What do these have in common? What pattern do you see?"
+- That's it. You're done
+- What comes back is usually one of two things: either a pattern you already knew but hadn't named, or something you completely missed
+- The pattern you already knew is valuable because now it's explicit — you can coach to it, hire for it, prioritize pipeline around it
+- The thing you missed is more valuable because it's been sitting in your data the whole time and nobody pulled it out
+- Most win/loss analysis lives in a slide deck someone made once and nobody opened again. This takes ten minutes and it's yours
+- End with: "Try it and tell me what it surfaced. I want to hear what you found."
+
+**First comment:**
+The prompt I use:
+
+> Here are my last 5 closed-won deals: [paste them in]. What do they have in common? What patterns do you see across industry, company size, pain point, deal length, or anything else?
+
+Takes two minutes to gather the data. The output usually takes longer to sit with than it did to generate.
+
+What did it surface for you?
+
+#Sales #SalesLeadership #AI #B2BSales #TheMove
+
+---
+
+### "Before your next discovery call, ask AI to steelman the reason they won't buy"
+**Pillar:** The Move
+
+**Hook:** "Most discovery prep is about why they should buy. Here's a better question to ask first."
+
+**Talking points:**
+- Before your next discovery call, open Claude and give it the context: company name, what they do, what product you're selling, why you think they booked the call
+- Then ask: "What are the strongest reasons this company won't buy? Steelman the case against this deal."
+- You'll get back 4-5 objections — some you've heard a hundred times, maybe one you haven't thought about for this specific account
+- The ones you've heard before: now you've already mentally rehearsed the response before you're sitting across from someone
+- The one you haven't thought about: that's the prep that actually moves the call
+- The goal isn't to go in defensive. It's to go in with your eyes open so you're not caught flat-footed when the real hesitation surfaces
+- Most reps prep for the pitch. The best reps prep for the resistance.
+- End with: "Try it before your next call. Tell me if anything surprised you."
+
+**First comment:**
+The prompt:
+
+> I have a discovery call with [company]. They [brief description of what they do]. I'm selling [product/solution]. They booked because [reason or "I'm not sure yet"]. What are the strongest reasons they won't buy? Give me the steelman case against this deal.
+
+The objection you didn't think of is the one worth preparing for.
+
+Did anything come back that surprised you?
+
+#Sales #SalesLeadership #Discovery #AI #TheMove
+
+---
+
+### "Pull your last 3 lost deals. Ask AI what stage they all stalled at."
+**Pillar:** The Move
+
+**Hook:** "Your lost deals already told you what's broken in your process. You just haven't asked the right question yet."
+
+**Talking points:**
+- Pull your last three deals you lost — not the ones that went dark, the ones that actually died: no-decision, chose a competitor, pulled budget
+- For each one, write down: what stage it stalled at, how long it sat there before dying, and what the stated reason was
+- Paste all three into Claude and ask: "What pattern do you see? Where is the breakdown happening?"
+- Nine times out of ten the answer is one of three things: they're all dying at the same stage, they're all taking the same amount of time to die, or the stated reason is the same but the real reason is probably different
+- Stage pattern means you have a process problem — something in your methodology is consistently failing at a specific moment
+- Time pattern means you're not creating urgency, or you're letting deals drift instead of forcing a decision
+- Reason pattern — "budget," "timing," "not a priority" — usually means you didn't get deep enough in discovery to surface the real constraint
+- This isn't forensics for its own sake. It's a 10-minute self-audit that tells you exactly where to focus your next month of coaching
+- End with: "What stage were your last three losses? Tell me in the comments — I'll tell you what I'd look at."
+
+**First comment:**
+The prompt:
+
+> Here are my last 3 lost deals: [paste deal, stage it died, how long it sat, stated reason for each]. What pattern do you see? Where is the breakdown happening and what does it suggest about my process?
+
+The answer isn't always comfortable. It's always useful.
+
+What came back?
+
+#Sales #SalesLeadership #Pipeline #AI #TheMove
+
+---
+
+### "Send one at-risk account a 'what would make this a no-brainer renewal' email"
+**Pillar:** The Move
+
+**Hook:** "There's one email most AMs never send. It's also the one that saves the most renewals."
+
+**Talking points:**
+- You have at least one account right now that you're not sure about — quiet lately, usage is flat, the champion you sold to got promoted or left, or they just haven't been engaging
+- Most AMs handle that account one of two ways: either they avoid it and hope it renews, or they send a check-in that basically says "hey just making sure everything's good"
+- Neither of those surfaces the actual risk
+- Here's the email: "Hey [name] — before we get into renewal conversations, I want to ask you something directly. What would make this a complete no-brainer for you to renew? I'd rather know now than find out too late."
+- That's it. That's the whole email
+- What you get back is one of three things: they tell you something specific that's missing and now you have a roadmap, they say "honestly we're good" and you've de-risked the renewal, or they don't respond — and now you know you have a real problem and you have time to address it
+- The worst thing you can do with an at-risk account is wait for the renewal conversation to find out where you actually stand
+- End with: "Send it today. Tell me what comes back."
+
+**First comment:**
+The email:
+
+> Hey [name] — before we start talking about renewal, I want to ask you directly: what would make renewing a complete no-brainer for you? I'd rather know now than find out in 30 days.
+
+Two sentences. Sends in 30 seconds. Surfaces everything you need to know to save the account or have the honest conversation early.
+
+Did you send it? What came back?
+
+#AccountManagement #CustomerSuccess #Sales #Renewals #TheMove
+
+---
+
+### "Record your call summary as a voice note before you open the CRM"
+**Pillar:** The Move
+
+**Hook:** "The most honest data in your CRM is the data you capture before the CRM tells you what to fill in."
+
+**Talking points:**
+- After your next call ends — before you open Salesforce, before you look at your notes, before you do anything else — pull out your phone and record a 60-second voice note
+- Just answer: what happened, what did they actually say, what's the real next step, and how does this deal actually feel
+- Then go fill in the CRM
+- Here's what you'll notice: what you said in the voice note and what you typed in the CRM are often not the same thing
+- The CRM fields prompt you toward a cleaner story — stage, next step, close date. The voice note captures what you actually think before you edit it for the system
+- The voice note is where "they seemed hesitant about the pricing conversation" lives. The CRM is where "demo scheduled, moving to stage 3" lives. Both are true. Only one is useful for coaching
+- Over time, that gap between what you remember and what you record is a signal — in you and in your reps. The reps whose voice notes and CRM entries say the same thing are the ones with the clearest picture of their own pipeline
+- End with: "Try it after your next three calls. Tell me if what you said out loud matches what you typed."
+
+**First comment:**
+The habit:
+
+1. Call ends
+2. Don't touch the CRM yet
+3. Record 60 seconds: what happened, what they actually said, what's the real next step, how does this feel
+4. Then open the CRM
+
+The gap between those two things is information. Most reps never look at it.
+
+Did the voice note match what you typed?
+
+#Sales #SalesLeadership #CRM #Pipeline #TheMove
 
 ---
 
@@ -486,6 +633,30 @@ What do you think is the bigger bottleneck — better models or more power? Genu
 ## Ideas — Not Yet Built
 
 > Raw ideas. Tell me to build any of these into a full episode.
+
+### Sales × AI Convergence (added 2026-04-20)
+
+**Things I Learned the Hard Way**
+- **"AI doesn't replace your best rep. It closes the gap."** — The real ROI isn't headcount reduction. It's compression. B players become B+. Most sales leaders are measuring the wrong thing entirely.
+- **"You can't coach what you can't hear"** — Most managers review 2-3% of calls. You're managing by anecdote. AI call intelligence closes that gap — but only if you know what to listen for. The coaching instinct is still yours.
+- **"Stop coaching to the playbook. Start coaching to the moment."** — The playbook is the average. The best coaching happens at a specific line in a specific call. AI is about to make that possible at scale for every manager.
+
+**How to Think About [X]**
+- **"The rep using AI isn't cheating. They're adapting."** — There's a quiet debate in sales orgs about this. Wrong frame. Buyers don't care how you prepped. This is the calculator-in-math-class argument and it lands the same way.
+- **"Discovery is the last thing AI replaces"** — AI is eating research, follow-up, note-taking, forecasting. But actually understanding what a buyer needs requires presence. Are you protecting your reps' time for that, or are they still buried in admin?
+- **"Your email sequence is competing with an AI now"** — Buyers are getting AI-assisted outreach from every vendor simultaneously. Sequences that sound like every other sequence are invisible. The floor for "good" just moved permanently.
+
+**What I'm Watching**
+- **"The SDR role is splitting in two"** — Research, sequencing, intent monitoring → AI. Relationship, genuine curiosity, navigating a real human → still yours. The SDRs who understand which half they need to own are the ones with jobs in 3 years.
+- **"The deal review just changed forever"** — When AI reads every call, every email, every activity log and tells you where a deal actually is versus where the rep thinks it is — the weekly 1:1 becomes a completely different conversation. One product update away from table stakes.
+- **"AI isn't killing the sales job. It's killing the friction."** — Note-taking, data entry, research, scheduling. The stuff that made reps less effective. What's left — relationship, judgment, trust — is what sales always was at its best.
+
+**The Move (new pillar — actionable, one thing, do it today)**
+- **"Paste your last 5 closed-won deals into Claude and ask what they had in common."** Pattern surfaces in 90 seconds that would've taken a QBR to find.
+- **"Before your next discovery call, ask AI to steelman the reason they won't buy."** Forces real objection prep, not the ones you're already comfortable handling.
+- **"Pull your last 3 lost deals. Ask AI what stage they all stalled at."** Not a methodology — just a data question most managers never ask directly.
+- **"Send one at-risk account a 'what would make this a no-brainer renewal' email."** One question. Before the renewal call, not during it.
+- **"Record your call summary as a voice note before you open the CRM."** See what you actually remember versus what the system prompts you to fill in.
 
 - **"If you're building, you need a scraper — use Scraping Dog"** (Tools) — Super cheap, easy, reliable web scraper with a great API. Quick practical rec.
 - ~~"I built a tool that scrolls X so I don't have to"~~ — **BUILT** → moved to Ready to Record as "I replaced my worst habit with a command line tool"

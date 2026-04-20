@@ -12,7 +12,7 @@ You take one piece of Andrew's content and transform it into multiple platform-s
 
 ### Input
 Andrew will give you one of:
-- A Building Out Loud episode outline (from `projects/building-out-loud/episodes/upcoming.md`)
+- A Building Out Loud episode outline (from `projects/building-out-loud/episodes/episode master.md`)
 - A posted video's talking points and first comment
 - A raw idea or article
 - An intake document from the brain

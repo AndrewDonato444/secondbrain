@@ -113,7 +113,7 @@ If the Decisions section would be empty (everything was tier-1), state that expl
 
 **Tier 1 — do automatically, no approval needed**
 - Append to writing queue Backlog section (`projects/andrewdonato-com/writing/queue.md`)
-- Append to Building Out Loud `Ideas — Not Yet Built` section (`projects/building-out-loud/episodes/upcoming.md`)
+- Append to Building Out Loud `Ideas — Not Yet Built` section (`projects/building-out-loud/episodes/episode master.md`)
 - Append to LinkedIn Convergence Backlog (`projects/linkedin-convergence/queue.md`)
 - Append to interest pulses' "Recent shifts" section ONLY when the run delivers something genuinely new to that interest's thesis (not just reinforcement). Keep entries one line, dated. If you're not sure it's a shift, surface as Tier 2 instead.
 - Append to reading queue, update themes/voices (covered in step 2)
@@ -141,7 +141,7 @@ When in doubt between Tier 1 and Tier 2, default to Tier 2.
 ### Writing queue (`projects/andrewdonato-com/writing/queue.md`)
 Read the "Guardrails" section at the top. It explicitly forbids project specifics: **no MSA, TrackForce, Facts Unlocked, Knox Brothers, Sales Edge, ScrollProxy, urcooked, trend-jacker, or current client/employer specifics in topics.** Generalize every essay seed before adding it. If the topic can't be generalized without losing the point, don't add it — put a note in the surfacing file's "What didn't route" section instead.
 
-### Building Out Loud (`projects/building-out-loud/episodes/upcoming.md`)
+### Building Out Loud (`projects/building-out-loud/episodes/episode master.md`)
 Before proposing a new episode, scan every section (Posted, Ready to Record, Ideas — Not Yet Built). If the proposed topic overlaps with an existing entry, skip it and note the reinforcement in the surfacing ("this post strengthens the already-queued {title} episode").
 
 ### Interest pulses (`interests/*/pulse.md`)

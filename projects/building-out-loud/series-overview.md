@@ -62,6 +62,9 @@ Mental models, ways of framing problems, questions to ask. Sales-adjacent but br
 ### 4. What I'm Watching
 Trends, shifts, things that are changing fast. Not hype — observable things that are already affecting how people work. AI comes up here naturally when it's relevant, but so does anything else worth paying attention to.
 
+### 5. The Move
+One specific thing you can do today. No prerequisites, no two-minute setup. The whole episode is the action — here's the thing, here's why it works, go try it. Shorter format. The closing question is "did it work?" not "what do you think?" Aimed squarely at sales reps, AMs, and sales leaders who want to leave the video having actually done something.
+
 ## Posting Strategy
 
 - Shoot in the morning on the walk
