@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T05-47-58Z",
+  "summarizedAt": "2026-04-20T05:52:50.927Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Vercel breach & supply chain security",
+    "AI vendor lock-in risk",
+    "agent infrastructure (OpenClaw/BullMQ)",
+    "model competition (Grok 4.3, GPT-5.5, Codex)",
+    "Claude Code tooling & workflows",
+    "token economics as startup capital",
+    "AI quality gaps (Gemini harness vs. model)"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2045542832241262602",
+      "url": "https://x.com/minchoi/status/2045542832241262602",
+      "author": "@minchoi",
+      "why": "Anthropic killing access for 60+ employees overnight with no explanation is a concrete, documented vendor lock-in horror story that directly validates the AI product trust risk operators need to understand."
+    },
+    {
+      "postId": "2045995362499076169",
+      "url": "https://x.com/rauchg/status/2045995362499076169",
+      "author": "@rauchg",
+      "why": "Vercel CEO's direct incident post naming Context.ai as the breach vector — important for any builder with AI tooling in their supply chain to know what actually happened."
+    },
+    {
+      "postId": "2045870216555499636",
+      "url": "https://x.com/theo/status/2045870216555499636",
+      "author": "@theo",
+      "why": "Best early technical breakdown of the Vercel breach with actionable triage: which env vars are at risk, roll them now."
+    },
+    {
+      "postId": "2046060505127895051",
+      "url": "https://x.com/garrytan/status/2046060505127895051",
+      "author": "@garrytan",
+      "why": "Garry shipping a BullMQ-backed jobs server for OpenClaw sub-agents is a real infrastructure solution to the agent timeout problem that's been causing production pain."
+    },
+    {
+      "postId": "2045936169440227489",
+      "url": "https://x.com/shcallaway/status/2045936169440227489",
+      "author": "@shcallaway",
+      "why": "Contrarian take on parallel agents — one or two focused agents beats a swarm of low-quality PRs — worth the read before you scale your agent setup."
+    },
+    {
+      "postId": "2045974014716469655",
+      "url": "https://x.com/andrewchen/status/2045974014716469655",
+      "author": "@andrewchen",
+      "why": "Crisp framing of the token-as-capital thesis: what startups raise for has shifted from devs → clicks → GPUs → tokens, useful for AI product strategy decks."
+    },
+    {
+      "postId": "2045909435315323321",
+      "url": "https://x.com/emollick/status/2045909435315323321",
+      "author": "@emollick",
+      "why": "The Gemini model vs. Gemini product gap is a concrete product strategy lesson about why capability without tooling harness loses to competitors who ship the full loop."
+    },
+    {
+      "postId": "2045990493884977368",
+      "url": "https://x.com/kimmonismus/status/2045990493884977368",
+      "author": "@kimmonismus",
+      "why": "NSA quietly using Claude Mythos despite labeling Anthropic a 'supply chain risk' is a real government procurement signal worth tracking."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@garrytan",
+      "why": "Actively shipping open-source agent infrastructure (GBrain, GStack) and narrating his own OpenClaw production learnings in real time."
+    },
+    {
+      "handle": "@theo",
+      "why": "Fast, credible incident reporting on developer infrastructure events like Vercel — good signal filter for build-vs-buy risk."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Consistently surfaces the product-capability gap in AI tools, relevant for anyone building on top of foundation models."
+    },
+    {
+      "handle": "@shcallaway",
+      "why": "Practitioner perspective on agentic workflows with contrarian takes grounded in actual usage rather than hype."
+    }
+  ],
+  "noise": {
+    "count": 72,
+    "examples": [
+      "Elon engagement bait (one-word posts, SpaceX cheerleading)",
+      "geopolitical/military news (Strait of Hormuz, USCIS divisions)",
+      "celebrity/sports posts (Cristiano, Obama tributes, Mets jokes)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 135,
+    "seenCount": 1
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "agent infrastructure (OpenClaw/BullMQ)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "AI quality gaps (Gemini harness vs. model)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code tooling & workflows",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "model competition (Grok 4.3, GPT-5.5, Codex)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "token economics as startup capital",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "empty feed",
+        "lastSeenRunId": "2026-04-18T06-02-16Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "no new posts",
+        "lastSeenRunId": "2026-04-18T06-02-16Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "AI product trust & reliability",
+        "lastSeenRunId": "2026-04-17T19-02-55Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "benchmark credibility collapse",
+        "lastSeenRunId": "2026-04-17T19-02-55Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "Claude Code & agentic tooling",
+        "lastSeenRunId": "2026-04-17T19-02-55Z",
+        "runsSinceLastSeen": 6
+      }
+    ]
+  }
+}
