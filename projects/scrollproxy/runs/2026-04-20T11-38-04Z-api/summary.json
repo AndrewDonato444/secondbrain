@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T11-38-04Z-api",
+  "summarizedAt": "2026-04-20T11:38:33.323Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 token cost discovery",
+    "Claude Code internals & orchestration",
+    "agentic coding tools (Codex, Grok Build)",
+    "Claude Design vs Figma",
+    "model competition (GPT-5.5, DeepSeek fundraise)",
+    "AI adoption at work (Gallup 50%)",
+    "agent infrastructure & memory"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046029612820594962",
+      "url": "https://x.com/simonw/status/2046029612820594962",
+      "author": "@simonw",
+      "why": "Simon Willison found Opus 4.7 uses 1.46x tokens for text and up to 3x for images vs 4.6 at the same per-token price — a real hidden cost anyone building on the API needs to know about."
+    },
+    {
+      "postId": "2046065935786938378",
+      "url": "https://x.com/simonw/status/2046065935786938378",
+      "author": "@simonw",
+      "why": "Important correction to the above: the 3x image cost only applies to high-res images, not standard ones, so the actual pricing impact depends heavily on your use case."
+    },
+    {
+      "postId": "2046004667063366073",
+      "url": "https://x.com/RoundtableSpace/status/2046004667063366073",
+      "author": "@RoundtableSpace",
+      "why": "Concrete user report of Opus 4.7 confidently sticking to wrong answers and forcing a rollback to 4.6 — relevant for anyone deciding whether to trust 4.7 in production agents."
+    },
+    {
+      "postId": "2046019766511653298",
+      "url": "https://x.com/RoundtableSpace/status/2046019766511653298",
+      "author": "@RoundtableSpace",
+      "why": "Claude Code reverse-engineered into a visual map of 512K lines and 1,900 files — useful for anyone trying to understand or extend the agent loop and tooling."
+    },
+    {
+      "postId": "2045989567556190285",
+      "url": "https://x.com/RoundtableSpace/status/2045989567556190285",
+      "author": "@RoundtableSpace",
+      "why": "Claude Code can now run free against open models (GLM 5.1, Gemma 4) — lowers the floor for indie devs experimenting with agentic coding without paying Anthropic."
+    },
+    {
+      "postId": "2045990493884977368",
+      "url": "https://x.com/kimmonismus/status/2045990493884977368",
+      "author": "@kimmonismus",
+      "why": "NSA is using Anthropic's Mythos Preview despite labeling Anthropic a 'supply chain risk' — a telling data point on government AI adoption and vendor trust tensions."
+    },
+    {
+      "postId": "2046053467941163055",
+      "url": "https://x.com/emollick/status/2046053467941163055",
+      "author": "@emollick",
+      "why": "Mollick argues o1-preview was the second most important LLM release ever and OpenAI gave away a massive strategic advantage by publishing it — good framing for thinking about openness vs. moat."
+    },
+    {
+      "postId": "2045524286287269902",
+      "url": "https://x.com/DataChaz/status/2045524286287269902",
+      "author": "@DataChaz",
+      "why": "Anthropic published a 33-page official guide on Claude Skills — actual blueprint worth reading if you're building Claude-native products."
+    },
+    {
+      "postId": "2045928596884029496",
+      "url": "https://x.com/signulll/status/2045928596884029496",
+      "author": "@signulll",
+      "why": "Sharp one-liner that captured 81K views: in the AI era, any roadmap beyond 30 days is dead weight — directly relevant to AI product strategy."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@simonw",
+      "why": "Doing actual empirical work on Opus 4.7 token costs with a real tool — the kind of grounded analysis that cuts through hype."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Consistently sharp on distribution, product strategy, and agent-native thinking; the 30-day roadmap post and the 'systems must be reinvented for agents' thread are both on-point for the operator's interests."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Thoughtful on AI industry dynamics and strategic decisions by labs — the o1-preview framing is the kind of perspective useful for product positioning."
+    }
+  ],
+  "noise": {
+    "count": 52,
+    "examples": [
+      "@aakashgupta bulk-posting off-topic trivia (tennis longevity, NASA splashdown, Nolan film, Wolf of Wall Street, Ariana Grande)",
+      "@RoundtableSpace crypto pump posts (AAVE exploit, Polymarket trading bots, 'GM CT' engagement bait)",
+      "travel diary and motivational quote filler (@kimmonismus China flight, @DataChaz pressure quotes)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 116,
+    "seenCount": 3
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "agentic coding tools (Codex, Grok Build)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "AI adoption at work (Gallup 50%)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code internals & orchestration",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "model competition (GPT-5.5, DeepSeek fundraise)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Opus 4.7 token cost discovery",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "AI model switching & positioning",
+        "lastSeenRunId": "2026-04-18T11-54-54Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Code agentic pitfalls",
+        "lastSeenRunId": "2026-04-18T11-54-54Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "compute scarcity & data center pushback",
+        "lastSeenRunId": "2026-04-18T11-54-54Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Opus 4.7 benchmarks & reception",
+        "lastSeenRunId": "2026-04-18T11-54-54Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Stripe agent payments",
+        "lastSeenRunId": "2026-04-18T11-54-54Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
