@@ -1,0 +1,33 @@
+# Second Brain — Daily Maintenance Log
+
+> Automated daily health checks. Appended by the maintenance agent.
+
+---
+## Daily Maintenance — 2026-04-20
+
+### Summary
+3 knowledge graph issues require attention: DOC-047 is missing from the registry (file exists at `projects/andrewdonato-com/writing/queue.md`), the `upcoming.md` frontmatter still carries `id: DOC-029` despite being registered as DOC-011, and ART-009 references superseded DOC-029 instead of DOC-011. Six published artifacts are flagged as potentially stale because DOC-010 (series-overview, a living document) was updated 2026-04-17 after all were published — likely routine and low-urgency.
+
+### Findings
+
+**Knowledge Graph:** 3 issues
+- DOC-047 (`projects/andrewdonato-com/writing/queue.md`) exists as a real file and is referenced by 5 artifacts + 5 source files, but is **missing from the knowledge graph registry**
+- `projects/building-out-loud/episodes/upcoming.md` has `id: DOC-029` in frontmatter but is registered as **DOC-011** in the graph (ID mismatch from the DOC-029 → DOC-011 merge)
+- ART-009 in artifact registry references **superseded DOC-029** as source doc — should reference DOC-011
+
+**Inbox:** 0 unprocessed items older than 2 days
+Clean
+
+**Artifact Staleness:** 6 potentially stale artifacts
+All 6 are published BOL episode outlines whose shared source DOC-010 (`projects/building-out-loud/series-overview.md`) was updated 2026-04-17 after their publish dates. DOC-010 is a living planning doc — these flags are likely low-urgency but surfaced per protocol.
+- ART-001 (published 2026-04-09) — DOC-010 updated after
+- ART-002 (published 2026-04-12) — DOC-010 and DOC-011 updated after
+- ART-003 (published 2026-04-13) — DOC-010 updated after
+- ART-004 (published 2026-04-14) — DOC-010 and DOC-011 updated after
+- ART-006 (published 2026-04-15) — DOC-010 and DOC-011 updated after
+- ART-009 (published 2026-04-16) — DOC-010 updated after
+
+**Profile Freshness:** Current (last updated 2026-04-17, 3 days ago)
+
+**Stale Documents:** 0 documents not updated in 30+ days
+Clean (entire brain was built in April 2026 — nothing is old enough to trigger this check yet)
