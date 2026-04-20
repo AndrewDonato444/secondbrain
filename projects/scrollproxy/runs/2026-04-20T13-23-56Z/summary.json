@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T13-23-56Z",
+  "summarizedAt": "2026-04-20T13:24:22.971Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 token cost & quality issues (continuation)",
+    "Claude Code internals & tooling (continuation)",
+    "model competition (GPT-5.5, Grok Build, Codex continuation)",
+    "Claude Design vs Figma (continuation)",
+    "agent-native product strategy (continuation)",
+    "OpenAI reasoner history (continuation)",
+    "AI adoption at work (Gallup continuation)"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046029612820594962",
+      "url": "https://x.com/simonw/status/2046029612820594962",
+      "author": "@simonw",
+      "why": "Concrete measurement: Opus 4.7 uses 1.46x tokens for text and up to 3x for images at the same per-token price — the most credible cost data in the feed."
+    },
+    {
+      "postId": "2046065935786938378",
+      "url": "https://x.com/simonw/status/2046065935786938378",
+      "author": "@simonw",
+      "why": "Important correction to the above: the 3x image cost only applies at higher resolutions, so small images are effectively the same price as 4.6."
+    },
+    {
+      "postId": "2046004667063366073",
+      "url": "https://x.com/RoundtableSpace/status/2046004667063366073",
+      "author": "@RoundtableSpace",
+      "why": "Field report of Opus 4.7 confidently sticking to wrong answers and forcing a rollback to 4.6 — directly relevant to AI product strategy decisions about model selection."
+    },
+    {
+      "postId": "2046053467941163055",
+      "url": "https://x.com/emollick/status/2046053467941163055",
+      "author": "@emollick",
+      "why": "Mollick's counterfactual — OpenAI could have hidden reasoners and skipped DeepSeek — is a sharp strategic framing worth absorbing for anyone thinking about AI competitive dynamics."
+    },
+    {
+      "postId": "2045928596884029496",
+      "url": "https://x.com/signulll/status/2045928596884029496",
+      "author": "@signulll",
+      "why": "High-signal indie dev take: if your roadmap exceeds 30 days in the AI era, you're not moving fast enough — 87K views signals this resonated widely."
+    },
+    {
+      "postId": "2045888517767860403",
+      "url": "https://x.com/signulll/status/2045888517767860403",
+      "author": "@signulll",
+      "why": "Argues every human system (finance, comms, time management) must be rebuilt from first principles for agents — useful framing for agent-native product strategy."
+    },
+    {
+      "postId": "2046110363574304969",
+      "url": "https://x.com/RoundtableSpace/status/2046110363574304969",
+      "author": "@RoundtableSpace",
+      "why": "30-min workshop from Claude Code's creator on vibe-coding — highest repost count in the feed among tooling posts, likely the most actionable Claude Code content here."
+    },
+    {
+      "postId": "2046087714186100981",
+      "url": "https://x.com/RoundtableSpace/status/2046087714186100981",
+      "author": "@RoundtableSpace",
+      "why": "Manifest is an open-source model router that picks cheap vs. expensive models per request in under 2ms, claiming 70% cost reduction for agent builders — worth evaluating for cost control."
+    },
+    {
+      "postId": "2045524286287269902",
+      "url": "https://x.com/DataChaz/status/2045524286287269902",
+      "author": "@DataChaz",
+      "why": "Anthropic's official 33-page Claude Skills guide surfaced here with 625K views — if you haven't read it, this is the pointer."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@simonw",
+      "why": "Only voice in the feed doing actual empirical measurement on Opus 4.7 token costs rather than speculating — directly actionable for API cost planning."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Consistently sharp on agent-native product strategy and distribution; the 30-day roadmap post alone got 87K views and reflects real indie dev instincts."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Provides clean strategic framing on AI competitive dynamics (the reasoner history thread) with academic rigor and no hype."
+    }
+  ],
+  "noise": {
+    "count": 42,
+    "examples": [
+      "@aakashgupta spamming 4x daily newsletter CTAs and off-topic lifestyle content (bones, tennis longevity, NASA, Nolan film)",
+      "@RoundtableSpace crypto/trading bot content (AAVE exploit, Polymarket bots, weather trader)",
+      "engagement-bait filler posts (GM CT, LOCK TF IN, WHAT ARE WE APING IN)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 0,
+    "seenCount": 119
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [
+      {
+        "theme": "model competition (GPT-5.5, Grok Build, Codex)",
+        "runCount": 7,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "2026-04-20T13-23-20Z"
+      },
+      {
+        "theme": "agent-native product strategy (continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "AI adoption at work (Gallup continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code internals & tooling (continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Design adoption (continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "2026-04-20T13-22-22Z"
+      }
+    ],
+    "emerging": [
+      {
+        "theme": "model competition (GPT-5.5, Grok Build, Codex continuation)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "agent-native product strategy",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "AI adoption at work (Gallup)",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "Claude Code internals & tooling",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "Opus 4.7 token cost discovery (continuation)",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "agent infrastructure (lossless-claw, MCPorter, OpenClaw)",
+        "lastSeenRunId": "2026-04-20T12-03-59Z",
+        "runsSinceLastSeen": 9
+      }
+    ]
+  }
+}

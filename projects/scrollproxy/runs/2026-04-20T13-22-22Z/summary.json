@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T13-22-22Z",
+  "summarizedAt": "2026-04-20T13:22:48.526Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 token cost & quality issues (continuation)",
+    "Claude Code internals & tooling (continuation)",
+    "model competition (GPT-5.5, Grok Build, Codex)",
+    "Claude Design adoption (continuation)",
+    "agent-native product strategy (continuation)",
+    "OpenAI reasoner history",
+    "AI adoption at work (Gallup continuation)"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046029612820594962",
+      "url": "https://x.com/simonw/status/2046029612820594962",
+      "author": "@simonw",
+      "why": "Empirical token-count data showing Opus 4.7 costs 1.46x more text tokens and up to 3x more for images than 4.6 — directly actionable for anyone budgeting agentic Claude workloads."
+    },
+    {
+      "postId": "2046065935786938378",
+      "url": "https://x.com/simonw/status/2046065935786938378",
+      "author": "@simonw",
+      "why": "Critical correction to the above: the 3x image cost only applies to high-res images, not small ones — narrows the real-world cost risk considerably."
+    },
+    {
+      "postId": "2046004667063366073",
+      "url": "https://x.com/RoundtableSpace/status/2046004667063366073",
+      "author": "@RoundtableSpace",
+      "why": "Field report of Opus 4.7 confidently sticking to wrong answers until users rolled back to 4.6, which matters for anyone deploying it in production agentic tasks."
+    },
+    {
+      "postId": "2046053467941163055",
+      "url": "https://x.com/emollick/status/2046053467941163055",
+      "author": "@emollick",
+      "why": "Mollick's argument that OpenAI's early publication of o1 handed rivals the reasoning paradigm is a sharp strategic lens on open-vs-closed model release decisions."
+    },
+    {
+      "postId": "2046087714186100981",
+      "url": "https://x.com/RoundtableSpace/status/2046087714186100981",
+      "author": "@RoundtableSpace",
+      "why": "Manifest is an open-source model router claiming 70% cost reduction by dynamically routing requests to cheaper models — directly relevant to AI product cost strategy."
+    },
+    {
+      "postId": "2046019766511653298",
+      "url": "https://x.com/RoundtableSpace/status/2046019766511653298",
+      "author": "@RoundtableSpace",
+      "why": "Reverse-engineered visual map of Claude Code's 512k-line codebase (agent loop, orchestration, hidden features) is the most substantive Claude Code internals resource surfaced this cycle."
+    },
+    {
+      "postId": "2045928596884029496",
+      "url": "https://x.com/signulll/status/2045928596884029496",
+      "author": "@signulll",
+      "why": "The '30-day roadmap = NGMI' take has 87k views and captures the real product cadence pressure indie devs face against accelerating model releases."
+    },
+    {
+      "postId": "2046133012832895247",
+      "url": "https://x.com/RoundtableSpace/status/2046133012832895247",
+      "author": "@RoundtableSpace",
+      "why": "Grok Build + Grok Computer as a unified desktop app is the clearest competitive threat to Codex/Claude Code's desktop agentic coding position yet."
+    },
+    {
+      "postId": "2046061307066306980",
+      "url": "https://x.com/kloss_xyz/status/2046061307066306980",
+      "author": "@kloss_xyz",
+      "why": "Concrete walkthrough of building 6 products in under 2 hours with Codex — iOS app, web app, deck, video, landing page, X automation — useful distribution-angle framing for indie devs."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@simonw",
+      "why": "Doing actual empirical token-cost testing on Opus 4.7 and publishing corrections — the most reliable signal on Claude pricing in the feed."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Sharp takes on agent-native product strategy and distribution with real engagement; the 30-day roadmap post alone got 87k views."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Brings academic rigor to AI strategy narratives; the OpenAI reasoner history thread is the kind of context useful for product positioning."
+    }
+  ],
+  "noise": {
+    "count": 42,
+    "examples": [
+      "@aakashgupta posting wall-to-wall viral trivia (tennis longevity, NASA splashdowns, Nolan budgets) with zero AI relevance",
+      "@RoundtableSpace crypto/trading bot hype (Polymarket bots, $34-to-$21k weather trading, AAVE exploit)",
+      "newsletter self-promotion spam from multiple handles (4+ identical 'subscribe to my newsletter' posts from @aakashgupta)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 0,
+    "seenCount": 119
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [
+      {
+        "theme": "Claude Design adoption (continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "model competition (GPT-5.5, Grok Build, Codex)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "OpenAI reasoner history",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "current"
+      }
+    ],
+    "emerging": [],
+    "fading": [
+      {
+        "theme": "agent infrastructure (lossless-claw, MCPorter, OpenClaw)",
+        "lastSeenRunId": "2026-04-20T12-03-59Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "AI-powered service productization",
+        "lastSeenRunId": "2026-04-20T12-03-59Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "Claude Code agentic pitfalls (Karpathy CLAUDE.md)",
+        "lastSeenRunId": "2026-04-20T12-03-59Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "model competition (Grok 4.3 file output)",
+        "lastSeenRunId": "2026-04-20T12-03-59Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "off-topic noise (finance, politics, genomics)",
+        "lastSeenRunId": "2026-04-20T12-03-59Z",
+        "runsSinceLastSeen": 6
+      }
+    ]
+  }
+}

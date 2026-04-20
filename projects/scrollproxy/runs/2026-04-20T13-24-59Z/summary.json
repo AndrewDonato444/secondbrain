@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T13-24-59Z",
+  "summarizedAt": "2026-04-20T13:25:26.871Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 token cost (continuation)",
+    "Claude Code internals & tooling (continuation)",
+    "model competition (GPT-5.5, Grok Build, Codex continuation)",
+    "Claude Design vs Figma (continuation)",
+    "OpenAI reasoner history (continuation)",
+    "AI adoption at work (Gallup continuation)",
+    "agent-native product strategy (continuation)"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046029612820594962",
+      "url": "https://x.com/simonw/status/2046029612820594962",
+      "author": "@simonw",
+      "why": "Simon Willison's quantified finding that Opus 4.7 uses 1.46x text tokens and up to 3x image tokens vs 4.6 at the same per-token price is the most concrete cost-impact analysis in the feed — directly relevant to anyone pricing AI product builds."
+    },
+    {
+      "postId": "2046065935786938378",
+      "url": "https://x.com/simonw/status/2046065935786938378",
+      "author": "@simonw",
+      "why": "Important follow-up clarifying that the 3x image cost only applies to high-resolution images; small images cost the same, which meaningfully changes the billing risk calculus."
+    },
+    {
+      "postId": "2046054655268999557",
+      "url": "https://x.com/emollick/status/2046054655268999557",
+      "author": "@emollick",
+      "why": "Mollick's counterfactual — OpenAI could have suppressed reasoning model research by not publishing o1, forestalling DeepSeek — is a useful strategic frame for thinking about open vs. closed AI product positioning."
+    },
+    {
+      "postId": "2046133012832895247",
+      "url": "https://x.com/RoundtableSpace/status/2046133012832895247",
+      "author": "@RoundtableSpace",
+      "why": "Grok Build and Grok Computer dropping together as a unified macOS/Windows desktop app is a meaningful distribution move worth tracking as a competitor to Codex and Claude Code."
+    },
+    {
+      "postId": "2046027316208267536",
+      "url": "https://x.com/RoundtableSpace/status/2046027316208267536",
+      "author": "@RoundtableSpace",
+      "why": "The piece on the real gap between casual Claude Code use and orchestrating it as a system — reportedly adopted at Microsoft, Google, and OpenAI internally — is directly relevant to AI product strategy."
+    },
+    {
+      "postId": "2046087714186100981",
+      "url": "https://x.com/RoundtableSpace/status/2046087714186100981",
+      "author": "@RoundtableSpace",
+      "why": "Manifest's open-source model router that picks cheap vs. strong models per request in under 2ms with claimed 70% cost reduction is a concrete infra option for anyone building agent-heavy products."
+    },
+    {
+      "postId": "2045888517767860403",
+      "url": "https://x.com/signulll/status/2045888517767860403",
+      "author": "@signulll",
+      "why": "The argument that every human-designed paradigm — finance, communication, time management — must be rebuilt from first principles for agents is the sharpest strategic framing in the feed for agent-native product thinking."
+    },
+    {
+      "postId": "2045928596884029496",
+      "url": "https://x.com/signulll/status/2045928596884029496",
+      "author": "@signulll",
+      "why": "\"If your roadmap is >30 days you're ngmi\" is a pithy but high-signal provocation about AI-era product planning cycles that resonates with indie dev and fast-iteration strategy."
+    },
+    {
+      "postId": "2046110363574304969",
+      "url": "https://x.com/RoundtableSpace/status/2046110363574304969",
+      "author": "@RoundtableSpace",
+      "why": "A 30-minute workshop from the creator of Claude Code on vibe-coding is the most practical Claude Code resource in the feed for someone building or advising on AI-assisted dev workflows."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@simonw",
+      "why": "Doing the actual empirical work on Opus 4.7 token cost behavior — the kind of ground-truth analysis product builders need before committing to a model."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Consistently the sharpest thinker on agent-native strategy and distribution dynamics in this feed; low noise-to-signal ratio."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Provides useful historical and strategic context on OpenAI's model release decisions that informs competitive positioning."
+    }
+  ],
+  "noise": {
+    "count": 48,
+    "examples": [
+      "aakashgupta multi-topic content farm (NASA, tennis longevity, Dragon Ball, Wolf of Wall Street)",
+      "RoundtableSpace crypto shilling (AAVE exploit, Polymarket trading bots)",
+      "fuckgrowth/aakashgupta newsletter subscription spam and engagement-bait polls"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 0,
+    "seenCount": 119
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [
+      {
+        "theme": "agent-native product strategy (continuation)",
+        "runCount": 8,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "AI adoption at work (Gallup continuation)",
+        "runCount": 8,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code internals & tooling (continuation)",
+        "runCount": 8,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "model competition (GPT-5.5, Grok Build, Codex)",
+        "runCount": 7,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "2026-04-20T13-23-20Z"
+      },
+      {
+        "theme": "Claude Design vs Figma (continuation)",
+        "runCount": 5,
+        "firstSeenRunId": "2026-04-20T13-22-55Z",
+        "lastSeenRunId": "current"
+      }
+    ],
+    "emerging": [],
+    "fading": [
+      {
+        "theme": "model competition (GPT-5.5, Grok Build)",
+        "lastSeenRunId": "2026-04-20T13-22-55Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Design adoption (continuation)",
+        "lastSeenRunId": "2026-04-20T13-22-22Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "OpenAI reasoner history",
+        "lastSeenRunId": "2026-04-20T13-22-22Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "agent-native product strategy",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 8
+      },
+      {
+        "theme": "AI adoption at work (Gallup)",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 8
+      }
+    ]
+  }
+}

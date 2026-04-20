@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T11-59-49Z",
+  "summarizedAt": "2026-04-20T12:00:11.859Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "OpenAI Agents SDK open-source",
+    "AI-driven layoffs & workforce displacement",
+    "Notion data leak / security exposure",
+    "Anthropic leadership criticism",
+    "agent infrastructure continuations"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2045533747857240290",
+      "url": "https://x.com/_vmlops/status/2045533747857240290",
+      "author": "@_vmlops",
+      "why": "OpenAI open-sourced their Agents SDK with a clean 3-primitive design (agents, handoffs, tracing) that works across 100+ LLMs — directly relevant to evaluating agent infrastructure choices."
+    },
+    {
+      "postId": "2045849358462222720",
+      "url": "https://x.com/weezerOSINT/status/2045849358462222720",
+      "author": "@weezerOSINT",
+      "why": "Notion's public pages expose every editor's email with a single unauthenticated POST request — a concrete ops security risk if your team uses public Notion wikis."
+    },
+    {
+      "postId": "2045955252315406666",
+      "url": "https://x.com/heynavtoor/status/2045955252315406666",
+      "author": "@heynavtoor",
+      "why": "The Candy Crush / Microsoft AI replacement story is a clean narrative example of AI-driven workforce displacement that's useful context for sales conversations about AI adoption."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@weezerOSINT",
+      "why": "Surfaced a real, reproducible Notion security flaw with technical specifics — worth watching for infra/tooling risks."
+    }
+  ],
+  "noise": {
+    "count": 9,
+    "examples": [
+      "vague motivational quote farming (Dostoevsky quote, FinanceLancelot)",
+      "personal/social noise (beach DJ set, 'let the builders build')",
+      "low-effort AI job displacement takes and LLM interview listicles"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 12,
+    "seenCount": 1
+  },
+  "feedVerdict": "noise",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "agent infrastructure continuations",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "AI-driven layoffs & workforce displacement",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Anthropic leadership criticism",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Notion data leak / security exposure",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "OpenAI Agents SDK open-source",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "agent-native SaaS disruption",
+        "lastSeenRunId": "2026-04-18T17-58-22Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Code tooling updates",
+        "lastSeenRunId": "2026-04-18T17-58-22Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Design adoption",
+        "lastSeenRunId": "2026-04-18T17-58-22Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "model competition (Grok 4.3, Codex, GPT-6 rumors)",
+        "lastSeenRunId": "2026-04-18T17-58-22Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Opus 4.7 quality backlash",
+        "lastSeenRunId": "2026-04-18T17-58-22Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}

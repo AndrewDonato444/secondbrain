@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T13-22-55Z",
+  "summarizedAt": "2026-04-20T13:23:19.842Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 token cost (continuation)",
+    "Claude Code internals & tooling (continuation)",
+    "model competition (GPT-5.5, Grok Build)",
+    "Claude Design vs Figma (continuation)",
+    "agent-native product strategy (continuation)",
+    "OpenAI reasoner history (continuation)",
+    "AI adoption at work (Gallup continuation)"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046029612820594962",
+      "url": "https://x.com/simonw/status/2046029612820594962",
+      "author": "@simonw",
+      "why": "Simon Willison's empirical token-count comparison between Opus 4.7 and 4.6 is the most concrete cost analysis in the feed — 1.46x text, up to 3x images at same per-token price."
+    },
+    {
+      "postId": "2046065935786938378",
+      "url": "https://x.com/simonw/status/2046065935786938378",
+      "author": "@simonw",
+      "why": "Critical follow-up clarifying the 3x image cost spike is resolution-dependent, not universal — changes the pricing calculus for most use cases."
+    },
+    {
+      "postId": "2046053467941163055",
+      "url": "https://x.com/emollick/status/2046053467941163055",
+      "author": "@emollick",
+      "why": "Ethan Mollick's counterfactual — OpenAI could have kept reasoners secret and delayed the DeepSeek moment — is a sharp strategic lens on open vs. closed AI release decisions."
+    },
+    {
+      "postId": "2046133012832895247",
+      "url": "https://x.com/RoundtableSpace/status/2046133012832895247",
+      "author": "@RoundtableSpace",
+      "why": "Grok Build + Grok Computer merging into a unified desktop app is a meaningful competitive move in the agentic coding tool space worth tracking."
+    },
+    {
+      "postId": "2046019766511653298",
+      "url": "https://x.com/RoundtableSpace/status/2046019766511653298",
+      "author": "@RoundtableSpace",
+      "why": "Claude Code being actively used at Microsoft, Google, and OpenAI internally, with a breakdown of casual vs. orchestration-level usage, is a real signal for product strategy."
+    },
+    {
+      "postId": "2046004667063366073",
+      "url": "https://x.com/RoundtableSpace/status/2046004667063366073",
+      "author": "@RoundtableSpace",
+      "why": "Concrete report of Opus 4.7 confidently giving wrong answers and forcing a rollback to 4.6 — directly relevant to anyone evaluating the model for production agentic use."
+    },
+    {
+      "postId": "2045928596884029496",
+      "url": "https://x.com/signulll/status/2045928596884029496",
+      "author": "@signulll",
+      "why": "The '30-day roadmap' take is blunt but high-signal for indie devs thinking about AI-era product velocity — 87K views suggests it's landing."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@simonw",
+      "why": "Only voice in the feed doing actual empirical work on Opus 4.7 pricing — directly actionable for API cost planning."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Brings historical and strategic framing to AI model releases that's useful for product positioning thinking."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Sharp, contrarian takes on agent-native product strategy and distribution that cut through the hype."
+    }
+  ],
+  "noise": {
+    "count": 52,
+    "examples": [
+      "aakashgupta posting unrelated viral trivia (tennis longevity, NASA capsules, Nolan film, bones biology)",
+      "fuckgrowth affiliate marketing / crypto UGC hustle content",
+      "RoundtableSpace crypto shilling (AAVE exploit, Polymarket trading bots presented as AI demos)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 0,
+    "seenCount": 119
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [
+      {
+        "theme": "Claude Design adoption (continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "2026-04-20T13-22-22Z"
+      },
+      {
+        "theme": "model competition (GPT-5.5, Grok Build, Codex)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "2026-04-20T13-22-22Z"
+      },
+      {
+        "theme": "OpenAI reasoner history",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "2026-04-20T13-22-22Z"
+      },
+      {
+        "theme": "agent-native product strategy (continuation)",
+        "runCount": 4,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "AI adoption at work (Gallup continuation)",
+        "runCount": 4,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      }
+    ],
+    "emerging": [
+      {
+        "theme": "Claude Design vs Figma (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "model competition (GPT-5.5, Grok Build)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "OpenAI reasoner history (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Opus 4.7 token cost (continuation)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "agent-native product strategy",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "AI adoption at work (Gallup)",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Code internals & tooling",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Opus 4.7 token cost discovery (continuation)",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "agent infrastructure (lossless-claw, MCPorter, OpenClaw)",
+        "lastSeenRunId": "2026-04-20T12-03-59Z",
+        "runsSinceLastSeen": 7
+      }
+    ]
+  }
+}

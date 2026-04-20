@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T13-24-23Z",
+  "summarizedAt": "2026-04-20T13:24:48.563Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 token cost (continuation)",
+    "Claude Code internals & tooling (continuation)",
+    "model competition (GPT-5.5, Grok Build, Codex continuation)",
+    "Claude Design vs Figma (continuation)",
+    "OpenAI reasoner history (continuation)",
+    "AI adoption at work (Gallup continuation)",
+    "agent-native product strategy (continuation)"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046029612820594962",
+      "url": "https://x.com/simonw/status/2046029612820594962",
+      "author": "@simonw",
+      "why": "Simon Willison's token counter tool confirms Opus 4.7 uses 1.46x tokens for text and up to 3x for images vs 4.6 — same per-token price means a real, hidden cost increase that builders need to budget for."
+    },
+    {
+      "postId": "2046065935786938378",
+      "url": "https://x.com/simonw/status/2046065935786938378",
+      "author": "@simonw",
+      "why": "Critical follow-up clarifying the 3x image cost spike is resolution-dependent, not universal — matters for anyone pricing image-heavy Claude workflows."
+    },
+    {
+      "postId": "2046004667063366073",
+      "url": "https://x.com/RoundtableSpace/status/2046004667063366073",
+      "author": "@RoundtableSpace",
+      "why": "Field report of Opus 4.7 confidently hallucinating and refusing to back down, forcing a rollback to 4.6 — a real reliability signal for teams deciding whether to upgrade."
+    },
+    {
+      "postId": "2046053467941163055",
+      "url": "https://x.com/emollick/status/2046053467941163055",
+      "author": "@emollick",
+      "why": "Mollick argues OpenAI's decision to publicly release o1 rather than hoard the reasoning breakthrough was the pivotal moment that accelerated the whole field, including DeepSeek."
+    },
+    {
+      "postId": "2046133012832895247",
+      "url": "https://x.com/RoundtableSpace/status/2046133012832895247",
+      "author": "@RoundtableSpace",
+      "why": "Grok Build and Grok Computer expected to ship together as a unified desktop app — the competitive coding/agent surface is about to get more crowded."
+    },
+    {
+      "postId": "2045928596884029496",
+      "url": "https://x.com/signulll/status/2045928596884029496",
+      "author": "@signulll",
+      "why": "The sharpest one-liner on AI product velocity: if your roadmap exceeds 30 days, you're already behind — 87k views suggests it's landing with builders."
+    },
+    {
+      "postId": "2045888517767860403",
+      "url": "https://x.com/signulll/status/2045888517767860403",
+      "author": "@signulll",
+      "why": "Argues every human system (finance, comms, time mgmt) must be rebuilt from first principles for agents, not just ported — directly relevant to agent-native product strategy."
+    },
+    {
+      "postId": "2046110363574304969",
+      "url": "https://x.com/RoundtableSpace/status/2046110363574304969",
+      "author": "@RoundtableSpace",
+      "why": "30-min workshop from the creator of Claude Code on vibe-coding — highest engagement in the feed and a direct practitioner source worth checking if Claude Code is in your stack."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@simonw",
+      "why": "Doing the actual measurement work on Opus 4.7 token costs with a real tool — precise, practitioner-level signal with no hype."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Providing historical context on OpenAI's reasoner release that reframes the competitive landscape; relevant for AI strategy thinking."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Sharp, high-engagement takes on agent-native product strategy and distribution that directly match operator interests."
+    }
+  ],
+  "noise": {
+    "count": 42,
+    "examples": [
+      "@aakashgupta spam-posting unrelated trivia (tennis longevity, NASA splashdown, Nolan movie, artillery shells)",
+      "crypto/trading pump content (Polymarket bots, AAVE exploit, weather trader)",
+      "engagement-bait filler posts (GM CT, LOCK TF IN, WHAT ARE WE APING IN)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 0,
+    "seenCount": 119
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [
+      {
+        "theme": "agent-native product strategy (continuation)",
+        "runCount": 7,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "AI adoption at work (Gallup continuation)",
+        "runCount": 7,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code internals & tooling (continuation)",
+        "runCount": 7,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "model competition (GPT-5.5, Grok Build, Codex)",
+        "runCount": 7,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "2026-04-20T13-23-20Z"
+      },
+      {
+        "theme": "Claude Design vs Figma (continuation)",
+        "runCount": 4,
+        "firstSeenRunId": "2026-04-20T13-22-55Z",
+        "lastSeenRunId": "current"
+      }
+    ],
+    "emerging": [],
+    "fading": [
+      {
+        "theme": "Claude Design adoption (continuation)",
+        "lastSeenRunId": "2026-04-20T13-22-22Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "OpenAI reasoner history",
+        "lastSeenRunId": "2026-04-20T13-22-22Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "agent-native product strategy",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 7
+      },
+      {
+        "theme": "AI adoption at work (Gallup)",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 7
+      },
+      {
+        "theme": "Claude Code internals & tooling",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T13-18-27Z",
+  "summarizedAt": "2026-04-20T13:18:54.873Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 token cost discovery (continuation)",
+    "Claude Code internals & tooling",
+    "model competition (GPT-5.5, Grok Build, Codex)",
+    "Claude Design adoption (continuation)",
+    "agent-native product strategy",
+    "AI adoption at work (Gallup)",
+    "OpenAI reasoner history"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046029612820594962",
+      "url": "https://x.com/simonw/status/2046029612820594962",
+      "author": "@simonw",
+      "why": "Hard data: Opus 4.7 uses 1.46x tokens for text and up to 3x for images at the same per-token price — this is the stealth price increase that builders need to budget for."
+    },
+    {
+      "postId": "2046065935786938378",
+      "url": "https://x.com/simonw/status/2046065935786938378",
+      "author": "@simonw",
+      "why": "Important correction to the above — the 3x image cost only applies at higher resolutions, so the real-world impact depends heavily on your image size."
+    },
+    {
+      "postId": "2046004667063366073",
+      "url": "https://x.com/RoundtableSpace/status/2046004667063366073",
+      "author": "@RoundtableSpace",
+      "why": "Opus 4.7 confidently stuck to wrong answers in real tests and had to be abandoned for 4.6 — the quality regression risk is getting field-confirmed, not just theorized."
+    },
+    {
+      "postId": "2046019766511653298",
+      "url": "https://x.com/RoundtableSpace/status/2046019766511653298",
+      "author": "@RoundtableSpace",
+      "why": "Someone reverse-engineered Claude Code's full 512K-line codebase into a visual map — useful for anyone building on top of it or trying to understand its orchestration limits."
+    },
+    {
+      "postId": "2046087714186100981",
+      "url": "https://x.com/RoundtableSpace/status/2046087714186100981",
+      "author": "@RoundtableSpace",
+      "why": "Manifest is an open-source model router that cuts AI agent costs up to 70% by routing cheap vs. expensive models per request — directly relevant to anyone managing API spend."
+    },
+    {
+      "postId": "2046061307066306980",
+      "url": "https://x.com/kloss_xyz/status/2046061307066306980",
+      "author": "@kloss_xyz",
+      "why": "Concrete demo of Codex producing a full product suite (iOS app, web app, pitch deck, landing page) in under 2 hours — useful framing for distribution-first indie builders."
+    },
+    {
+      "postId": "2046053467941163055",
+      "url": "https://x.com/emollick/status/2046053467941163055",
+      "author": "@emollick",
+      "why": "Mollick's framing that releasing o1 was OpenAI's single most strategically costly decision — gave DeepSeek and competitors the reasoner blueprint — is a sharp lens on AI product strategy."
+    },
+    {
+      "postId": "2045928596884029496",
+      "url": "https://x.com/signulll/status/2045928596884029496",
+      "author": "@signulll",
+      "why": "The 30-day roadmap rule is a pithy but defensible heuristic for AI-era indie product strategy, and the engagement (1145 likes, 67 reposts) suggests it's resonating broadly."
+    },
+    {
+      "postId": "2045888517767860403",
+      "url": "https://x.com/signulll/status/2045888517767860403",
+      "author": "@signulll",
+      "why": "The argument that all existing paradigms (finance, comms, time management) must be reinvented from first principles for agents is a clean strategic frame for product positioning."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@simonw",
+      "why": "Doing careful empirical work on Opus 4.7 token costs with actual tooling — the only voice in this feed producing verifiable, correctable signal rather than vibes."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Sharp, concise takes on agent-native product strategy and distribution that are actually original, not recycled tech-bro content."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Brings academic rigor to AI strategy questions; the o1 release framing this run is the kind of analysis useful for competitive positioning decisions."
+    }
+  ],
+  "noise": {
+    "count": 52,
+    "examples": [
+      "aakashgupta posting 30+ off-topic threads (NASA, Dragon Ball, tennis longevity, Wolf of Wall Street, Ticketmaster, bones healing)",
+      "RoundtableSpace crypto shilling (AAVE exploit, Polymarket trading bots, 'what are we aping in')",
+      "engagement-bait filler posts (GM CT, LOCK TF IN, WHAT'S COOKING IN THE TRENCHES)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 10,
+    "seenCount": 109
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "agent-native product strategy",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "AI adoption at work (Gallup)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code internals & tooling",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Design adoption (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "model competition (GPT-5.5, Grok Build, Codex)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "agent infrastructure & memory",
+        "lastSeenRunId": "2026-04-20T11-38-04Z-api",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "agentic coding tools (Codex, Grok Build)",
+        "lastSeenRunId": "2026-04-20T11-38-04Z-api",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "AI adoption at work (Gallup 50%)",
+        "lastSeenRunId": "2026-04-20T11-38-04Z-api",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Code internals & orchestration",
+        "lastSeenRunId": "2026-04-20T11-38-04Z-api",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Design vs Figma",
+        "lastSeenRunId": "2026-04-20T11-38-04Z-api",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}

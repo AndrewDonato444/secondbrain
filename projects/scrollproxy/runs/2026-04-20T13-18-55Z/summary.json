@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T13-18-55Z",
+  "summarizedAt": "2026-04-20T13:19:22.223Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 token cost discovery (continuation)",
+    "Claude Code internals & tooling",
+    "model competition (GPT-5.5, Grok Build, Codex)",
+    "Claude Design adoption (continuation)",
+    "agent-native product strategy",
+    "AI adoption at work (Gallup)",
+    "OpenAI reasoner history"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046029612820594962",
+      "url": "https://x.com/simonw/status/2046029612820594962",
+      "author": "@simonw",
+      "why": "Simon Willison's empirical finding that Opus 4.7 uses 1.46x text tokens and up to 3x image tokens at the same per-token price is the most concrete cost signal in the feed — directly actionable for anyone building on the API."
+    },
+    {
+      "postId": "2046065935786938378",
+      "url": "https://x.com/simonw/status/2046065935786938378",
+      "author": "@simonw",
+      "why": "Critical follow-up clarifying the 3x image cost is resolution-dependent, not universal — prevents product teams from over-indexing on the scary headline number."
+    },
+    {
+      "postId": "2046019766511653298",
+      "url": "https://x.com/RoundtableSpace/status/2046019766511653298",
+      "author": "@RoundtableSpace",
+      "why": "Visual reverse-engineering of Claude Code's 512k-line codebase into a readable map is genuinely useful for anyone trying to understand or orchestrate the agent loop."
+    },
+    {
+      "postId": "2046087714186100981",
+      "url": "https://x.com/RoundtableSpace/status/2046087714186100981",
+      "author": "@RoundtableSpace",
+      "why": "Manifest is an open-source model router claiming 70% cost reduction for agents by routing cheap vs. expensive tasks — directly relevant to AI product cost strategy."
+    },
+    {
+      "postId": "2046054655268999557",
+      "url": "https://x.com/emollick/status/2046054655268999557",
+      "author": "@emollick",
+      "why": "Mollick's counterfactual that OpenAI could have kept reasoners secret and avoided the DeepSeek moment is a sharp lens on how open publication shapes competitive dynamics."
+    },
+    {
+      "postId": "2045928596884029496",
+      "url": "https://x.com/signulll/status/2045928596884029496",
+      "author": "@signulll",
+      "why": "The '30-day roadmap = ngmi' take (86k views, 67 reposts) is a crisp articulation of the planning horizon problem for indie devs and product teams in the current AI cycle."
+    },
+    {
+      "postId": "2045888517767860403",
+      "url": "https://x.com/signulll/status/2045888517767860403",
+      "author": "@signulll",
+      "why": "The 'every paradigm must be reinvented for agents' thread has real strategic framing for thinking about where agent-native products will disrupt incumbent SaaS."
+    },
+    {
+      "postId": "2046144098739028271",
+      "url": "https://x.com/kimmonismus/status/2046144098739028271",
+      "author": "@kimmonismus",
+      "why": "Gallup Q1 2026: 50% of employed Americans now use AI at work, up from 21% in 2023 — a milestone data point for sales narratives around AI adoption."
+    },
+    {
+      "postId": "2046004667063366073",
+      "url": "https://x.com/RoundtableSpace/status/2046004667063366073",
+      "author": "@RoundtableSpace",
+      "why": "Real-world report of Opus 4.7 giving confidently wrong answers and forcing a rollback to 4.6 — an important reliability signal for anyone evaluating model switching in production."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@simonw",
+      "why": "Doing actual empirical token-cost measurements on Opus 4.7 with tooling he publishes — the most grounded technical voice in this feed for API cost strategy."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Sharp, high-engagement takes on agent-native product strategy and distribution that are consistently relevant to indie dev and AI product planning."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Historically grounded perspective on AI competitive dynamics; the reasoner-as-missed-moat thread is the kind of strategic framing worth tracking."
+    }
+  ],
+  "noise": {
+    "count": 52,
+    "examples": [
+      "@aakashgupta posting ~30 posts of off-topic trivia (NASA, tennis longevity, Nolan films, artillery shells, Ariana Grande)",
+      "@RoundtableSpace all-caps crypto/trading bot hype and engagement-bait ('GM CT', 'WHAT ARE WE APING IN')",
+      "@DataChaz reposting jailbreak spam and motivational quote filler"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 0,
+    "seenCount": 119
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [],
+    "fading": [
+      {
+        "theme": "agent infrastructure continuations",
+        "lastSeenRunId": "2026-04-20T11-59-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "AI-driven layoffs & workforce displacement",
+        "lastSeenRunId": "2026-04-20T11-59-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Anthropic leadership criticism",
+        "lastSeenRunId": "2026-04-20T11-59-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Notion data leak / security exposure",
+        "lastSeenRunId": "2026-04-20T11-59-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "OpenAI Agents SDK open-source",
+        "lastSeenRunId": "2026-04-20T11-59-49Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T13-23-20Z",
+  "summarizedAt": "2026-04-20T13:23:42.730Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 token cost (continuation)",
+    "Claude Code internals & tooling (continuation)",
+    "model competition (GPT-5.5, Grok Build, Codex)",
+    "Claude Design vs Figma (continuation)",
+    "OpenAI reasoner history (continuation)",
+    "AI adoption at work (Gallup continuation)",
+    "agent-native product strategy (continuation)"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046029612820594962",
+      "url": "https://x.com/simonw/status/2046029612820594962",
+      "author": "@simonw",
+      "why": "Simon Willison's empirical measurement confirms Opus 4.7 uses 1.46x text tokens and up to 3x image tokens vs 4.6 at the same per-token price — concrete data your cost models need."
+    },
+    {
+      "postId": "2046065935786938378",
+      "url": "https://x.com/simonw/status/2046065935786938378",
+      "author": "@simonw",
+      "why": "Critical follow-up: the 3x image token inflation only applies to high-resolution images; small images are cost-neutral, which changes the practical risk calculus."
+    },
+    {
+      "postId": "2046053467941163055",
+      "url": "https://x.com/emollick/status/2046053467941163055",
+      "author": "@emollick",
+      "why": "Mollick's framing — OpenAI could have kept reasoners secret and denied DeepSeek the blueprint — is the sharpest strategic read on AI openness decisions in this batch."
+    },
+    {
+      "postId": "2046019766511653298",
+      "url": "https://x.com/RoundtableSpace/status/2046019766511653298",
+      "author": "@RoundtableSpace",
+      "why": "Claude Code reverse-engineered into a visual map of 512k lines and 1,900 files — useful if you're building on top of or competing with the agentic coding layer."
+    },
+    {
+      "postId": "2046087714186100981",
+      "url": "https://x.com/RoundtableSpace/status/2046087714186100981",
+      "author": "@RoundtableSpace",
+      "why": "Manifest is an open-source model router that picks cheap vs. expensive models per request in <2ms, claiming 70% cost reduction for agent builders — worth evaluating for infra."
+    },
+    {
+      "postId": "2045928596884029496",
+      "url": "https://x.com/signulll/status/2045928596884029496",
+      "author": "@signulll",
+      "why": "The '30-day roadmap is ngmi' take is blunt but the 87k views suggest it's resonating as a distribution/product-velocity signal in the current AI cycle."
+    },
+    {
+      "postId": "2046210769193152561",
+      "url": "https://x.com/kimmonismus/status/2046210769193152561",
+      "author": "@kimmonismus",
+      "why": "OpenAI WAU flat since February despite the 1B user goal is a meaningful distribution signal for anyone thinking about where growth is actually happening in the AI product market."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@simonw",
+      "why": "Doing actual empirical token cost measurement on Opus 4.7 — rare quantitative signal in a feed full of hype."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Consistently provides strategic framing on AI industry decisions; the reasoner history thread is the most analytically useful non-technical post in this batch."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Sharp, contrarian takes on agent-native product strategy and distribution dynamics with real engagement behind them."
+    }
+  ],
+  "noise": {
+    "count": 52,
+    "examples": [
+      "@aakashgupta spam-posting viral science/finance/pop-culture facts with no AI product relevance",
+      "@RoundtableSpace crypto shilling (AAVE exploit, Polymarket trading bots, 'GM CT' engagement bait)",
+      "@DataChaz motivational quote posts and zero-context reposts"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 0,
+    "seenCount": 119
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [
+      {
+        "theme": "model competition (GPT-5.5, Grok Build, Codex)",
+        "runCount": 7,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Design adoption (continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "2026-04-20T13-22-22Z"
+      },
+      {
+        "theme": "OpenAI reasoner history",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-18-27Z",
+        "lastSeenRunId": "2026-04-20T13-22-22Z"
+      },
+      {
+        "theme": "agent-native product strategy (continuation)",
+        "runCount": 5,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "AI adoption at work (Gallup continuation)",
+        "runCount": 5,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      }
+    ],
+    "emerging": [],
+    "fading": [
+      {
+        "theme": "agent-native product strategy",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "AI adoption at work (Gallup)",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "Claude Code internals & tooling",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "Opus 4.7 token cost discovery (continuation)",
+        "lastSeenRunId": "2026-04-20T13-19-32Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "agent infrastructure (lossless-claw, MCPorter, OpenClaw)",
+        "lastSeenRunId": "2026-04-20T12-03-59Z",
+        "runsSinceLastSeen": 8
+      }
+    ]
+  }
+}

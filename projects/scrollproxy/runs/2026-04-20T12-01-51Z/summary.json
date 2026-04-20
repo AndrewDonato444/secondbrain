@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T12-01-51Z",
+  "summarizedAt": "2026-04-20T12:12:01.751Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Claude Code agentic pitfalls",
+    "AI-powered service productization",
+    "Vercel breach & supply chain security"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2045899539526148193",
+      "url": "https://x.com/Voxyz_ai/status/2045899539526148193",
+      "author": "@Voxyz_ai",
+      "why": "A CLAUDE.md distilling Karpathy's LLM coding pitfalls just hit #1 on GitHub trending with 44K stars — directly relevant to how your team or customers should be prompting Claude Code."
+    },
+    {
+      "postId": "2045873688390816208",
+      "url": "https://x.com/katexbt/status/2045873688390816208",
+      "author": "@katexbt",
+      "why": "Vercel breach follow-up with concrete remediation steps; worth a skim if your stack touches Vercel's GitHub integration, as this is a continued story from prior runs."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@Voxyz_ai",
+      "why": "Tracking practical Claude/AI coding patterns with real traction — the CLAUDE.md post shows they surface signal before the crowd."
+    }
+  ],
+  "noise": {
+    "count": 1,
+    "examples": [
+      "low-engagement AI consulting pitch with no novel insight"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 3,
+    "seenCount": 0
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "AI-powered service productization",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "celebrity social noise",
+        "lastSeenRunId": "2026-04-19T00-02-12Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "off-topic public figures",
+        "lastSeenRunId": "2026-04-19T00-02-12Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "agent-native SaaS disruption",
+        "lastSeenRunId": "2026-04-18T17-58-22Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "Claude Code tooling updates",
+        "lastSeenRunId": "2026-04-18T17-58-22Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "Claude Design adoption",
+        "lastSeenRunId": "2026-04-18T17-58-22Z",
+        "runsSinceLastSeen": 5
+      }
+    ]
+  }
+}

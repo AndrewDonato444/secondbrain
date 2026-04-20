@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-20T13-19-32Z",
+  "summarizedAt": "2026-04-20T13:19:59.014Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Opus 4.7 token cost discovery (continuation)",
+    "Claude Code internals & tooling",
+    "model competition (GPT-5.5, Grok Build, Codex)",
+    "Claude Design adoption (continuation)",
+    "agent-native product strategy",
+    "AI adoption at work (Gallup)",
+    "OpenAI reasoner history"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046029612820594962",
+      "url": "https://x.com/simonw/status/2046029612820594962",
+      "author": "@simonw",
+      "why": "Simon Willison's measurement that Opus 4.7 tokenizes 1.46x more text and up to 3x more for images at the same per-token price is the sharpest cost-impact analysis in the feed — directly affects API budget decisions."
+    },
+    {
+      "postId": "2046065935786938378",
+      "url": "https://x.com/simonw/status/2046065935786938378",
+      "author": "@simonw",
+      "why": "Critical follow-up clarifying the 3x image cost spike is resolution-dependent, not universal — changes the practical takeaway from the prior post."
+    },
+    {
+      "postId": "2046019766511653298",
+      "url": "https://x.com/RoundtableSpace/status/2046019766511653298",
+      "author": "@RoundtableSpace",
+      "why": "Visual map of Claude Code's 512k-line codebase — the agent loop and orchestration structure laid bare, useful for anyone building on top of it."
+    },
+    {
+      "postId": "2046004667063366073",
+      "url": "https://x.com/RoundtableSpace/status/2046004667063366073",
+      "author": "@RoundtableSpace",
+      "why": "Continuation of Opus 4.7 quality backlash: confident-but-wrong behavior forcing fallback to 4.6 is a concrete agentic deployment risk signal."
+    },
+    {
+      "postId": "2046053467941163055",
+      "url": "https://x.com/emollick/status/2046053467941163055",
+      "author": "@emollick",
+      "why": "Mollick's framing that OpenAI's decision to publish o1 publicly may have handed DeepSeek and competitors the key insight is a sharp strategic lens on open vs. closed AI positioning."
+    },
+    {
+      "postId": "2046133012832895247",
+      "url": "https://x.com/RoundtableSpace/status/2046133012832895247",
+      "author": "@RoundtableSpace",
+      "why": "Grok Build + Grok Computer expected as a unified desktop app is a direct competitive move against Codex and Claude Code worth tracking."
+    },
+    {
+      "postId": "2045995673330270430",
+      "url": "https://x.com/kimmonismus/status/2045995673330270430",
+      "author": "@kimmonismus",
+      "why": "The most-engaged post in the feed captures the Claude community's split mood on Opus 4.7 — useful sentiment read at 3,934 likes."
+    },
+    {
+      "postId": "2046087714186100981",
+      "url": "https://x.com/RoundtableSpace/status/2046087714186100981",
+      "author": "@RoundtableSpace",
+      "why": "Manifest, an open-source model router claiming 70% cost reduction for agent workloads, is directly relevant to AI product cost strategy."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@simonw",
+      "why": "Publishing the only empirical token-cost measurements for Opus 4.7 with actual tooling — the most grounded technical voice on model economics in this feed."
+    },
+    {
+      "handle": "@emollick",
+      "why": "His o1 strategic framing adds genuine competitive-history context relevant to AI product positioning decisions."
+    },
+    {
+      "handle": "@signulll",
+      "why": "The 30-day roadmap take and agent-native systems-from-first-principles thread are sharp product strategy takes with real engagement."
+    }
+  ],
+  "noise": {
+    "count": 52,
+    "examples": [
+      "@aakashgupta posting about tennis longevity, Nolan films, NASA capsules, and artillery shells — content farm scatter-shot at virality",
+      "@RoundtableSpace crypto/trading bot posts (AAVE exploit, Polymarket whale bot, 'we are aping in' engagement bait)",
+      "newsletter self-promo spam (@aakashgupta posting 'subscribe to my newsletter' 6+ times with near-zero engagement)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 0,
+    "seenCount": 119
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [],
+    "fading": [
+      {
+        "theme": "Claude Code agentic pitfalls",
+        "lastSeenRunId": "2026-04-20T12-01-51Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "agent infrastructure continuations",
+        "lastSeenRunId": "2026-04-20T11-59-49Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "AI-driven layoffs & workforce displacement",
+        "lastSeenRunId": "2026-04-20T11-59-49Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "Anthropic leadership criticism",
+        "lastSeenRunId": "2026-04-20T11-59-49Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "Notion data leak / security exposure",
+        "lastSeenRunId": "2026-04-20T11-59-49Z",
+        "runsSinceLastSeen": 5
+      }
+    ]
+  }
+}
