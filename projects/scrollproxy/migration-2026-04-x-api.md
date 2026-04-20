@@ -138,18 +138,72 @@ Old `runs/` directory stays as historical archive. Add a one-line note in `secon
 
 ## Status tracking
 
-- [~] Phase 1 — Setup + source layer (in progress)
+- [x] Phase 1 — Setup + source layer (complete)
   - [x] X developer app created (AndrewSecondBrain project, pay-per-use tier)
   - [x] OAuth 2.0 User Context credentials generated; `pnpm x:auth` script written and run successfully
   - [x] Token verified with `GET /2/users/me` (bound to @Idea_Royale)
   - [x] `pnpm x:explore` run — validated `/lists/{id}/tweets`, `/owned_lists`, `/bookmarks` endpoints
   - [x] Two themed lists created (AI Frontier, GTM Convergence); "Second brain accounts" held as broad placeholder — see `list-curation.md`
   - [x] List IDs wired into `~/scrollproxy/config.yaml` under `x.lists`
-  - [ ] Source-layer code (`src/sources/xListSource.ts` + `xApiClient.ts` + `xListAdapter.ts`) — **next**
-  - [ ] Token refresh flow (`pnpm x:refresh`, called when access token expires)
-  - [ ] Pricing verification re-run on 2026-04-20 after Owned Reads rollover confirmed
-- [ ] Phase 2 — Cutover (parallel run + comparison)
+  - [x] Source-layer code: `src/sources/xApiClient.ts` + `xListSource.ts` + `xListAdapter.ts` (AutoScroller commit `cf477ad`)
+  - [x] Token refresh flow: `pnpm x:refresh` + programmatic `refreshAccessToken()` used by `xApiClient` on 401 / proactive near-expiry
+  - [x] `pnpm scroll --source x-api` wired in `src/cli/scroll.ts` with `-api` run-ID suffix so it coexists with Playwright
+  - [x] End-to-end validated: 119 posts pulled across 3 lists in 660ms; full summary.md produced with 7 themes + 9 worth-clicking items
+- [x] Phase 2 — Cutover (functionally complete)
+  - [x] First real x-api run landed at `runs/2026-04-20T11-38-04Z-api/` — summary.md + raw.json + dedup cache updated; 116 new posts vs. 3 already-seen (cross-source dedup working correctly against prior Playwright runs)
+  - [ ] Side-by-side comparison of an x-api run summary.md vs. the last Playwright summary.md (signal density, theme coverage, serendipity gap)
+  - [ ] Scheduler updated to use `--source x-api` (scheduler location TBD — see "Scheduler investigation" below)
 - [ ] Phase 3 — Cleanup + spec rewrite
-- [ ] DOC-034 spec body rewritten
-- [ ] profile.md ScrollProxy entry updated
-- [ ] This migration doc archived (status: superseded)
+  - [ ] Pre-production hardening (see next section) — complete before Phase 3 lock-in
+  - [ ] Delete `src/scroller/`, `src/extract/extractor.ts` Playwright-specific code, `chrome-profile/` dir
+  - [ ] Remove Playwright dependency from `package.json`
+  - [ ] DOC-034 spec body rewritten (§4–§16)
+  - [ ] `profile.md` ScrollProxy entry updated ("scrolls X feed" → "pulls from curated X lists")
+  - [ ] This migration doc archived (status: superseded)
+
+---
+
+## Pre-production hardening (tracked from code review before 2026-04-20 commit)
+
+Three real issues surfaced in the code review that should be fixed before Phase 3 locks in the x-api path as the only source. Current behavior is safe for manual/validation runs — the failure modes only trigger under specific conditions that haven't occurred yet.
+
+### 1. Retweet semantics — `repostedBy` is identical to `author`
+**Files:** `src/sources/xListAdapter.ts:113-138`
+
+When user A retweets user B's post, the X API returns the tweet with `author_id = A` and `referenced_tweets[type=retweeted]` pointing to B's original tweet in `includes.tweets`. Current adapter sets `author.handle = A` and `repostedBy = A`, losing B entirely. Existing Playwright extractor treats retweets the other way (`author = B, repostedBy = A`), so this is a semantic regression for downstream code that cares about "who originally said this."
+
+**Fix path:** when `referencedRetweet` is present, resolve the original tweet from `includes.tweets`, use its author (from its `author_id` → `usersById` lookup) as `author`, and keep the current tweet's author as `repostedBy`. Also swap the text to the original's (retweet text in the API is truncated `RT @user: ...`).
+
+**When to fix:** before retiring Playwright. Summaries still work because content text is the same regardless; attribution is the miss.
+
+### 2. Token refresh race under concurrent `xGet` calls
+**Files:** `src/sources/xApiClient.ts:71-84`
+
+`getValidToken()` is not mutex'd. `xListSource.ts:139` runs list pulls in parallel via `Promise.all`. If two pulls hit a near-expired token simultaneously, both call `refreshAccessToken()`. X rotates refresh tokens on use, so call #2 invalidates call #1's freshly-acquired token mid-flight. One request gets stranded.
+
+**Why it hasn't bitten:** manual runs start with a freshly-refreshed token (validity window > run duration). First scheduled unattended run that crosses a 2h token-expiry boundary will be the trigger.
+
+**Fix path:** cache the in-flight refresh promise so concurrent callers `await` the same one. ~10 lines.
+
+**When to fix:** before the first scheduled unattended run (i.e. before the scheduler gets pointed at `--source x-api`).
+
+### 3. `.env.local` resolution is `process.cwd()`-relative
+**Files:** `src/xAuth.ts:23`, `src/xRefresh.ts:21`, `src/sources/xApiClient.ts:24`
+
+Token scripts resolve `.env.local` from `process.cwd()`. This works when Andrew runs `cd ~/AutoScroller && pnpm x:*` but breaks silently if a scheduled task invokes via an absolute path from a different cwd (reads empty .env or throws ENOENT).
+
+**Fix path:** resolve relative to the repo root via `import.meta.url`, matching the pattern already used in `src/config/load.ts`.
+
+**When to fix:** before pointing the scheduler at `--source x-api` (scheduled tasks routinely run from non-package-root cwds).
+
+---
+
+### Nice-to-haves (not blockers, not tracked)
+
+Surfaced in review but not hardening-critical: retweet text truncation (tied to #1), unknown media type catchall (`gif` fallback), silent `--source` boolean-flag handling, scope verification after token exchange, EADDRINUSE handling in `xAuth.ts`, `sourceTag` → `sourceLane` naming, minutes-flag ignored silently under `--source x-api`, bookmark user-ID caching. Log them if/when they trip something.
+
+---
+
+## Scheduler investigation (Phase 2 side-quest)
+
+Whatever is currently invoking ScrollProxy on ~6h cadence isn't in `~/Library/LaunchAgents/`, isn't in `crontab`, and doesn't appear in the `scheduled-tasks` MCP list. Commits like `scrollproxy: sync run summaries (…)` keep landing, so something is firing. Before Phase 3, find that scheduler (likely the remote `schedule` skill / trigger system, same place the broken "SecondBrain Daily Maintenance" task lived) and port it to either a local launchd plist or the local scheduled-tasks MCP — then update its command to `pnpm scroll --source x-api`.
