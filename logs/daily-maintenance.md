@@ -12,7 +12,7 @@
 
 **Knowledge Graph:** 3 issues
 - DOC-047 (`projects/andrewdonato-com/writing/queue.md`) exists as a real file and is referenced by 5 artifacts + 5 source files, but is **missing from the knowledge graph registry**
-- `projects/building-out-loud/episodes/upcoming.md` has `id: DOC-029` in frontmatter but is registered as **DOC-011** in the graph (ID mismatch from the DOC-029 → DOC-011 merge)
+- `projects/building-out-loud/episodes/episode master.md` has `id: DOC-029` in frontmatter but is registered as **DOC-011** in the graph (ID mismatch from the DOC-029 → DOC-011 merge)
 - ART-009 in artifact registry references **superseded DOC-029** as source doc — should reference DOC-011
 
 **Inbox:** 0 unprocessed items older than 2 days
@@ -42,7 +42,7 @@ Same 3 knowledge graph issues persist from run 1 (not yet resolved). Notable: `u
 
 **Knowledge Graph:** 3 issues (unchanged from run 1)
 - DOC-047 (`projects/andrewdonato-com/writing/queue.md`) exists and is referenced by 5 artifacts + 5 source files, but is **missing from the knowledge graph registry**
-- `projects/building-out-loud/episodes/upcoming.md` frontmatter carries `id: DOC-029` but is registered as **DOC-011** in the graph (ID mismatch from the DOC-029 → DOC-011 merge)
+- `projects/building-out-loud/episodes/episode master.md` frontmatter carries `id: DOC-029` but is registered as **DOC-011** in the graph (ID mismatch from the DOC-029 → DOC-011 merge)
 - ART-009 in artifact registry references **superseded DOC-029** as source doc — should reference DOC-011
 
 **Inbox:** 0 unprocessed items older than 2 days
@@ -64,4 +64,4 @@ Clean
 
 **Uncommitted Changes (observation):**
 - `projects/building-out-loud/series-overview.md` — new "The Move" pillar added (section 5)
-- `projects/building-out-loud/episodes/upcoming.md` — 3+ new "The Move" episode outlines added; **stray note at line 10** (`"I'm also noticing some bleed here."`) should be removed before commit
+- `projects/building-out-loud/episodes/episode master.md` — 3+ new "The Move" episode outlines added; **stray note at line 10** (`"I'm also noticing some bleed here."`) should be removed before commit
