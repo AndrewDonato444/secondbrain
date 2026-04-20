@@ -153,9 +153,9 @@ Old `runs/` directory stays as historical archive. Add a one-line note in `secon
   - [x] First real x-api run landed at `runs/2026-04-20T11-38-04Z-api/` — summary.md + raw.json + dedup cache updated; 116 new posts vs. 3 already-seen (cross-source dedup working correctly against prior Playwright runs)
   - [ ] Side-by-side comparison of an x-api run summary.md vs. the last Playwright summary.md (signal density, theme coverage, serendipity gap)
   - [ ] Scheduler updated to use `--source x-api` (scheduler location TBD — see "Scheduler investigation" below)
-- [ ] Phase 3 — Cleanup + spec rewrite
+- [~] Phase 3 — Cleanup + spec rewrite (code retirement done; doc updates remain)
   - [x] Pre-production hardening (all 3 items) — AutoScroller commit `91eb3d9`, full TDD cycle with 11/11 passing tests. Spec: `.specs/features/expansion/x-api-hardening.feature.md`
-  - [ ] Delete `src/scroller/`, `src/extract/extractor.ts` Playwright-specific code, `chrome-profile/` dir
+  - [x] Playwright source layer retired — AutoScroller commit `67ee868`, full TDD cycle with 17/17 retirement assertions passing, 229 full-suite tests passing. Spec: `.specs/features/expansion/retire-playwright.feature.md`. Deleted: src/scroll/, src/extract/, src/cli/login.ts, src/login.ts, scripts/launch-chrome.sh, 4 test files, playwright dependency, pnpm login + pnpm chrome scripts. Relocated: ExtractedPost → src/types/post.ts; expandHomeDir → src/lib/expandHomeDir.ts.
   - [ ] Remove Playwright dependency from `package.json`
   - [ ] DOC-034 spec body rewritten (§4–§16)
   - [ ] `profile.md` ScrollProxy entry updated ("scrolls X feed" → "pulls from curated X lists")
