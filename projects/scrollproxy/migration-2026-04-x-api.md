@@ -154,7 +154,7 @@ Old `runs/` directory stays as historical archive. Add a one-line note in `secon
   - [ ] Side-by-side comparison of an x-api run summary.md vs. the last Playwright summary.md (signal density, theme coverage, serendipity gap)
   - [ ] Scheduler updated to use `--source x-api` (scheduler location TBD — see "Scheduler investigation" below)
 - [ ] Phase 3 — Cleanup + spec rewrite
-  - [ ] Pre-production hardening (see next section) — complete before Phase 3 lock-in
+  - [x] Pre-production hardening (all 3 items) — AutoScroller commit `91eb3d9`, full TDD cycle with 11/11 passing tests. Spec: `.specs/features/expansion/x-api-hardening.feature.md`
   - [ ] Delete `src/scroller/`, `src/extract/extractor.ts` Playwright-specific code, `chrome-profile/` dir
   - [ ] Remove Playwright dependency from `package.json`
   - [ ] DOC-034 spec body rewritten (§4–§16)
@@ -163,9 +163,9 @@ Old `runs/` directory stays as historical archive. Add a one-line note in `secon
 
 ---
 
-## Pre-production hardening (tracked from code review before 2026-04-20 commit)
+## Pre-production hardening — ✅ SHIPPED 2026-04-20 (AutoScroller commit `91eb3d9`)
 
-Three real issues surfaced in the code review that should be fixed before Phase 3 locks in the x-api path as the only source. Current behavior is safe for manual/validation runs — the failure modes only trigger under specific conditions that haven't occurred yet.
+All three items shipped as a single SDD feature. Spec at `.specs/features/expansion/x-api-hardening.feature.md` in AutoScroller; 11 tests covering happy paths, failure modes, and regression guards; all passing.
 
 ### 1. Retweet semantics — `repostedBy` is identical to `author`
 **Files:** `src/sources/xListAdapter.ts:113-138`
