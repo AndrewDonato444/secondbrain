@@ -12,8 +12,9 @@ logs/scrollproxy-morning/
 # Local Claude Code state (settings.local.json, launch configs)
 .claude/
 
-# Obsidian per-machine workspace layout (other .obsidian config stays tracked)
+# Obsidian per-machine UI state (other .obsidian config stays tracked)
 .obsidian/workspace.json
+.obsidian/graph.json
 
 # Code projects under projects/ are their own git repos — never track them here
 projects/gtm-coach/
