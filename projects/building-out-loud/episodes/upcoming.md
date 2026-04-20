@@ -26,6 +26,7 @@ derived-from: [DOC-010, DOC-001, DOC-034]
 | 6 | Apr 16 | Things I Learned the Hard Way | Stop coaching to the average |
 | 7 | Apr 17 | Building in Public | I replaced my worst habit with a command line tool (ScrollProxy) |
 | 8 | Apr 18 | How to Think About [X] | You don't need to learn to code. You need a Saturday. |
+| 9 | Apr 19 | What I'm Watching | A shoe company just became a data center company. And it's not as crazy as it sounds. |
 
 ---
 
@@ -429,6 +430,56 @@ The hardest strategic question isn't "what can we build?" It's "what are we will
 What do you think — should OpenAI double down on ChatGPT or go all-in on enterprise? Genuinely curious.
 
 #AI #OpenAI #ChatGPT #Strategy #BuildingInPublic #Anthropic
+
+---
+
+<!-- POSTED 2026-04-19 — kept below for reference -->
+
+### "A shoe company just became a data center company. And it's not as crazy as it sounds." (POSTED Apr 19)
+**Pillar:** What I'm Watching
+
+**Hook:** "Allbirds — the sneaker company — just announced they're selling the shoe business and becoming a GPU cloud provider. Before you laugh, hear me out. Because this is actually about something much bigger."
+
+**Talking points:**
+- Allbirds — the sustainable sneaker brand — just raised $50 million, sold the footwear business, and rebranded as NewBird AI. A GPU-as-a-Service company. A shoe company becoming a data center company. Yes, it sounds ridiculous
+- But somebody at Allbirds looked at the landscape and realized something that most people haven't caught yet. The bottleneck isn't the AI. The bottleneck is the power
+- Right now, every frontier AI company — OpenAI, Anthropic, Google, Meta — is racing to build better models. And the models keep getting better. But at some point, it doesn't matter how good the model is if you can't run it. And that's where we're headed
+- Maine just became the first state to ban large data centers. At least 11 states have proposed restrictions. Over 300 data center bills have been filed across 30-plus states in the last six weeks. The backlash is real and it's accelerating
+- Meanwhile, the current administration got the hyperscalers — your Amazons, your Googles, your Microsofts — to agree that they won't build new data centers without providing self-generated power. That's a massive constraint. You can't just plug into the local grid anymore
+- So think about what's happening. The ability to improve AI is accelerating. The ability to power AI is decelerating. Those two lines are crossing. And when they cross, compute and power become more valuable than the models themselves
+- That's what someone at Allbirds saw. It doesn't matter if you were selling shoes last year. If you can secure GPUs and power, you have something the biggest companies in the world desperately need
+- This is the part nobody's talking about. We're all watching the AI model race — who has the best benchmark, who ships the best coding agent. But the real race is happening in power generation, in grid access, in data center permitting. That's the actual constraint
+- The growth rate of every AI company — Anthropic, OpenAI, all of them — is going to be limited not by how good their models are, but by whether they can physically run them at scale. And the adoption of the technology we're all excited about is going to be gated by kilowatts, not parameters
+- End with: "Everyone's watching the AI race. Almost nobody is watching the power race. And the power race is the one that's actually going to decide who wins."
+
+**First comment:**
+Here's what's happening with AI power right now:
+
+The demand side:
+- Every frontier lab is scaling up training runs and inference capacity
+- GPU procurement lead times are increasing
+- Data center vacancy rates are at historic lows
+- Enterprise AI spending is accelerating
+
+The supply side:
+- Maine just banned large data centers (first state to do it)
+- 11+ states have proposed restrictions or bans
+- 300+ data center bills filed across 30+ states in six weeks
+- Hyperscalers now required to self-generate power for new facilities
+- Grid capacity isn't keeping up
+
+The collision:
+- AI capability is accelerating
+- Power infrastructure is decelerating
+- These lines are crossing right now
+
+That's why a shoe company pivoting to data centers isn't as crazy as it sounds. GPU capacity and power access are becoming the most valuable assets in the AI economy. It doesn't matter what you were selling last year — if you can secure compute and power, you have something everyone needs.
+
+The AI model race gets all the headlines. The power race is the one that decides who actually wins.
+
+What do you think is the bigger bottleneck — better models or more power? Genuinely curious.
+
+#AI #DataCenters #Energy #Infrastructure #BuildingInPublic #Allbirds
 
 ---
 
