@@ -13,12 +13,11 @@
 
 ---
 
-## 2026-04-18 — BOL "Stop coaching to the average" needs episode body
+## 2026-04-18 — BOL "Stop coaching to the average" needs episode body (RESOLVED 2026-04-20)
 
 **Episode:** ART-009 — "Stop coaching to the average" (published Apr 16)
 **LinkedIn URL:** https://www.linkedin.com/feed/update/urn:li:ugcPost:7450657551773229056/ (confirmed via Zernio)
-**Reason:** LinkedIn URL is now resolved. Remaining blocker: no episode body file in the brain. Transcript/talking points needed to write the site content.
-**Action needed:** Paste the episode transcript or talking points into the brain so the site file `content/building-out-loud/stop-coaching-to-the-average.md` can be created.
+**Resolved:** Site file created at `content/building-out-loud/stop-coaching-to-the-average.md` (PR #6). Body was derived from Zernio first comment + episode master talking points. Andrew should verify the Full Take body is accurate to the actual episode content.
 
 ---
 

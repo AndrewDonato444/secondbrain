@@ -19,6 +19,7 @@
 | ART-009 | Ep 6: Stop coaching to the average | episode-outline | linkedin | DOC-010, DOC-029 | linkedin | 2026-04-16 | published |
 | ART-010 | The Target Keeps Moving | other | linkedin | DOC-047 | andrewdonato.com (PR #4) | 2026-04-16 | draft |
 | ART-011 | The Managed Agent Era Is Here and Most People Are Still Hiring Humans for It | other | linkedin | DOC-047 | andrewdonato.com (PR #5) | 2026-04-18 | draft |
+| ART-012 | Networking Is a Word for People Who Aren't Good at Being a Friend | other | linkedin | DOC-047 | andrewdonato.com (PR #6) | 2026-04-20 | draft |
 
 <!-- 
 Status values: draft | published | sent | stale
