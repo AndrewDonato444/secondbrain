@@ -138,7 +138,16 @@ Old `runs/` directory stays as historical archive. Add a one-line note in `secon
 
 ## Status tracking
 
-- [ ] Phase 1 — Setup + source layer
+- [~] Phase 1 — Setup + source layer (in progress)
+  - [x] X developer app created (AndrewSecondBrain project, pay-per-use tier)
+  - [x] OAuth 2.0 User Context credentials generated; `pnpm x:auth` script written and run successfully
+  - [x] Token verified with `GET /2/users/me` (bound to @Idea_Royale)
+  - [x] `pnpm x:explore` run — validated `/lists/{id}/tweets`, `/owned_lists`, `/bookmarks` endpoints
+  - [x] Two themed lists created (AI Frontier, GTM Convergence); "Second brain accounts" held as broad placeholder — see `list-curation.md`
+  - [x] List IDs wired into `~/scrollproxy/config.yaml` under `x.lists`
+  - [ ] Source-layer code (`src/sources/xListSource.ts` + `xApiClient.ts` + `xListAdapter.ts`) — **next**
+  - [ ] Token refresh flow (`pnpm x:refresh`, called when access token expires)
+  - [ ] Pricing verification re-run on 2026-04-20 after Owned Reads rollover confirmed
 - [ ] Phase 2 — Cutover (parallel run + comparison)
 - [ ] Phase 3 — Cleanup + spec rewrite
 - [ ] DOC-034 spec body rewritten
