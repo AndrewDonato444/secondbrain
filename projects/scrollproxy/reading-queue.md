@@ -106,6 +106,14 @@
 - [ ] [@RoundtableSpace](https://x.com/RoundtableSpace/status/2046110363574304969) — 30-min workshop from the creator of Claude Code on vibe-coding — highest engagement in the feed among tooling posts this cycle.
 - [ ] [@RoundtableSpace](https://x.com/RoundtableSpace/status/2046027316208267536) — Claude Code in daily use at Microsoft, Google, and OpenAI internally — breakdown of casual vs. orchestration-level deployment that matters for product strategy.
 
+## 2026-04-21 06:34 UTC
+
+- [ ] [@levie](https://x.com/levie/status/2046397816755634340) — Aaron Levie's point that chatbot-to-agent automation requires dedicated internal owners is the cleanest framing of the enterprise AI adoption gap right now.
+- [ ] [@DataChaz](https://x.com/DataChaz/status/2046351105274392670) — Boris Cherny (Claude Code creator) reveals his actual daily workflow including running 5-10 parallel agents — rare primary source on how the tool is meant to be used.
+- [ ] [@RoundtableSpace](https://x.com/RoundtableSpace/status/2046419903188783491) — 20-year-old sells $3-in-parts tracking prototype for $230K the next day using Claude Code — the distribution story here is about speed-to-market compressing to one night.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2046477342709883025) — Lovable's $6.6B valuation alongside a live demo of reading another user's credentials in 5 API calls is a sharp cautionary data point for anyone selling into vibe-coded stacks.
+- [ ] [@emollick](https://x.com/emollick/status/2046430301593751797) — Mollick's direct call that Kimi 2.6 over-indexes on benchmarks vs. real use — useful ground truth when clients ask whether to swap Claude for cheaper open-weights alternatives.
+
 ## 2026-04-21 00:33 UTC
 
 - [ ] [@aakashgupta](https://x.com/aakashgupta/status/2046331327780356219) — Sharp take that Claude Cowork at $20/month structurally undercuts Tableau, Looker, and Retool — directly relevant to product strategy and pricing displacement.

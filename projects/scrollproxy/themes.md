@@ -26,19 +26,21 @@ Rolling log of themes surfaced in ScrollProxy runs. Close paraphrases are merged
 | AI model switching & positioning | 2026-04-18T11-54-54Z | 2026-04-18T11-54-54Z | 1 |
 | compute scarcity & data center pushback | 2026-04-18T11-54-54Z | 2026-04-21T00-33-49Z | 2 |
 | AI vendor lock-in risk | 2026-04-18T17-58-22Z | 2026-04-20T05-47-58Z | 2 |
-| model competition (Grok, Codex, GPT-6 rumors, Kimi) | 2026-04-18T17-58-22Z | 2026-04-21T00-33-49Z | 4 |
+| model competition (Grok, Codex, GPT-6 rumors, Kimi) | 2026-04-18T17-58-22Z | 2026-04-21T06-34-16Z | 5 |
 | Vercel breach & supply chain security | 2026-04-20T05-47-58Z | 2026-04-20T12-03-59Z | 3 |
 | token economics as startup capital | 2026-04-20T05-47-58Z | 2026-04-21T00-33-49Z | 2 |
 | AI quality gaps (Gemini harness vs. model) | 2026-04-20T05-47-58Z | 2026-04-20T05-47-58Z | 1 |
 | Opus 4.7 token cost discovery | 2026-04-20T11-38-04Z-api | 2026-04-20T13-25-27Z | 10 |
-| Claude Code internals & orchestration | 2026-04-20T11-38-04Z-api | 2026-04-21T00-33-49Z | 5 |
+| Claude Code internals & orchestration | 2026-04-20T11-38-04Z-api | 2026-04-21T06-34-16Z | 6 |
 | agentic coding tools (Codex, Grok Build) | 2026-04-20T11-38-04Z-api | 2026-04-21T00-33-49Z | 4 |
 | AI adoption at work (Gallup) | 2026-04-20T11-38-04Z-api | 2026-04-21T00-33-49Z | 4 |
 | AI-powered service productization | 2026-04-20T12-01-51Z | 2026-04-20T12-03-59Z | 2 |
 | agent-native product strategy | 2026-04-20T13-18-27Z | 2026-04-20T13-25-27Z | 9 |
 | OpenAI reasoner history | 2026-04-20T13-18-27Z | 2026-04-20T13-25-27Z | 8 |
 | Codex Chronicle memory layer | 2026-04-21T00-33-49Z | 2026-04-21T00-33-49Z | 1 |
-| Claude Cowork product expansion | 2026-04-21T00-33-49Z | 2026-04-21T00-33-49Z | 1 |
-| Anthropic compute scale-up (AWS deal) | 2026-04-21T00-33-49Z | 2026-04-21T00-33-49Z | 1 |
-| Apple CEO succession & AI lag | 2026-04-21T00-33-49Z | 2026-04-21T00-33-49Z | 1 |
+| Claude Cowork product expansion | 2026-04-21T00-33-49Z | 2026-04-21T06-34-16Z | 2 |
+| Anthropic compute scale-up (AWS deal) | 2026-04-21T00-33-49Z | 2026-04-21T06-34-16Z | 2 |
+| Apple CEO succession & AI lag | 2026-04-21T00-33-49Z | 2026-04-21T06-34-16Z | 2 |
 | Chinese open-source model competition (Kimi K2.6) | 2026-04-21T00-33-49Z | 2026-04-21T00-33-49Z | 1 |
+| Lovable security incident & vibe-coded app risks | 2026-04-21T06-34-16Z | 2026-04-21T06-34-16Z | 1 |
+| agent-native PM role & org structure | 2026-04-21T06-34-16Z | 2026-04-21T06-34-16Z | 1 |

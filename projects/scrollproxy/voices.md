@@ -50,12 +50,14 @@ One entry per handle called out in the "Voices" section across runs. New justifi
 
 ## @emollick
 - **2026-04-18T11-54-54Z** — Measured, evidence-based takes on model progress — useful counterweight to both hype and backlash.
+- **2026-04-21T06-34-16Z** — Agentic economist study (Claude Code near human median) and Kimi 2.6 benchmark-vs-real-use critique — grounded empirical takes cutting through both hype and pessimism.
 
 ## @jeff_weinstein
 - **2026-04-18T11-54-54Z** — Stripe PM shipping agent payment infrastructure — direct relevance to distribution and commerce agent buildouts.
 
 ## @levie
 - **2026-04-18T17-58-22Z** — Thinking clearly about the agent-native enterprise shift from an operator's perspective, not a hype perspective.
+- **2026-04-21T06-34-16Z** — Cleanest framing of the enterprise AI adoption gap: chatbot-to-agent automation requires dedicated internal owners. Practitioner CEO voice, not punditry.
 
 ## @ClaudeDevs
 - **2026-04-18T17-58-22Z** — Official Anthropic dev account posting actionable Claude Code release notes.
@@ -66,6 +68,10 @@ One entry per handle called out in the "Voices" section across runs. New justifi
 ## @RoundtableSpace
 - **2026-04-18T17-58-22Z** — Posting actual Arena leaderboard data on model comparisons rather than just vibes.
 - **2026-04-20T11-38-04Z-api** — Reverse-engineered Claude Code's full 512K-line codebase into a visual map; consistently sourcing real usage data and open-source tooling updates.
+- **2026-04-21T06-34-16Z** — $3 parts → $230K sale overnight using Claude Code story — surfacing concrete speed-to-market case studies.
+
+## @DataChaz
+- **2026-04-21T06-34-16Z** — Tracks Claude Code internals closely; sourced Boris Cherny's actual daily workflow (5-10 parallel agents) before it spread.
 
 ## @garrytan
 - **2026-04-20T05-47-58Z** — Actively shipping open-source agent infrastructure (GBrain, GStack, OpenClaw) and narrating his own production learnings in real time.
@@ -90,6 +96,7 @@ One entry per handle called out in the "Voices" section across runs. New justifi
 
 ## @aakashgupta
 - **2026-04-21T00-33-49Z** — Consistently sharp on AI product strategy implications — the Cowork/Tableau displacement and Anthropic compute threads are high-quality analysis. Note: also bulk-posts off-topic trivia; the signal is worth extracting from the noise.
+- **2026-04-21T06-34-16Z** — Continued pattern: product and compute strategy with specific numbers (Lovable $6.6B security incident, Anthropic compute scoreboard, Tim Cook/Apple breakdown). Several posts >100K views on directly relevant topics.
 
 ## @gdb
 - **2026-04-21T00-33-49Z** — Direct Codex product announcements from inside OpenAI — Chronicle memory layer is strategically important; rare first-party signal.
