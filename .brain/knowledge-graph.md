@@ -2,7 +2,7 @@
 
 > Tracks relationships between all documents in the Second Brain. Updated whenever documents are created or modified. Read this before editing any document to understand what might be affected downstream.
 
-Last updated: 2026-04-18 (interests rebuilt as a main driver — pulses for ai-frontier, sales-product-convergence, entrepreneurship, mets, current-events; ghost projects moved to interests/entrepreneurship/ideas/; empty manager-forge + narrative folders deleted)
+Last updated: 2026-04-21 (added DOC-069 TikTok slideshow playbook + DOC-070 source transcript)
 
 ---
 
@@ -83,6 +83,8 @@ Last updated: 2026-04-18 (interests rebuilt as a main driver — pulses for ai-f
 | DOC-066 | interests/current-events/pulse.md | current-events | knowledge | active |
 | DOC-067 | projects/scrollproxy/migration-2026-04-x-api.md | ai-frontier | knowledge | superseded |
 | DOC-068 | projects/scrollproxy/list-curation.md | ai-frontier | knowledge | active |
+| DOC-069 | resources/frameworks/tiktok-slideshow-app-marketing.md | ai-frontier | reference | active |
+| DOC-070 | inbox/2026-04-21-scratch-ai-tiktok-slideshow-playbook.md | ai-frontier | log | active |
 
 ---
 
@@ -264,6 +266,11 @@ Last updated: 2026-04-18 (interests rebuilt as a main driver — pulses for ai-f
 | DOC-059 | derived-from | DOC-010 | Ep 8 artifact derived from BOL series |
 | DOC-059 | depends-on | DOC-055 | Ep 8 scheduled via pivot pipeline |
 | DOC-059 | depends-on | DOC-034 | Ep 8 is about ScrollProxy |
+| DOC-069 | informs | DOC-009 | Slideshow pipeline parallels Facts Unlocked video pipeline and could run as a second lane |
+| DOC-069 | informs | DOC-010 | Slideshow format could carry BOL-adjacent listicles (parallel content, not episode rips) |
+| DOC-069 | informs | DOC-052 | Distribution tool context — Zernio is the draft-push surface the playbook would use |
+| DOC-069 | informs | DOC-055 | Pivot pipeline could add a slideshow lane alongside clip-and-distribute |
+| DOC-070 | informs | DOC-069 | Raw transcript that DOC-069 was processed from |
 
 ---
 

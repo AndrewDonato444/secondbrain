@@ -1,7 +1,7 @@
 ---
 id: DOC-029
 created: 2026-04-11
-updated: 2026-04-20
+updated: 2026-04-21
 status: active
 type: artifact
 domain: building-out-loud
@@ -28,12 +28,99 @@ derived-from: [DOC-010, DOC-001, DOC-034]
 | 8 | Apr 18 | How to Think About [X] | You don't need to learn to code. You need a Saturday. |
 | 9 | Apr 19 | What I'm Watching | A shoe company just became a data center company. And it's not as crazy as it sounds. |
 | 10 | Apr 20 | The Move | Paste your last 5 closed-won deals into Claude and ask what they had in common |
+| 11 | Apr 21 | Building in Public | I built a prompt that makes ChatGPT write in my voice. Here it is. (LinkedIn + TikTok) |
 
 ---
 
 ## Ready to Record
 
 Pick any of these. Tell me when you post one and I'll move it to Posted.
+
+---
+
+### "AI gives you a perfect answer. You paste it. It looks like garbage. One bookmark fixes it."
+**Pillar:** Tools That Actually Changed How I Work
+
+**Hook:** "There's a specific friction nobody talks about with AI. You ask Claude or ChatGPT something, you get a perfect answer, you copy it — and the second it hits your email or Slack or your CRM, it looks like garbage. Asterisks everywhere, pound signs, random dashes. Here's the bookmark that fixes it."
+
+**Talking points:**
+- AI outputs in Markdown. That's actually a feature — it keeps responses structured and readable inside the tool. But the second you paste it somewhere that doesn't render Markdown, all the formatting syntax comes with it
+- **bold** becomes \*\*bold\*\*. Headers become ## Header. Bullet points become - bullet. Every single paste, you're manually cleaning it out
+- markdowntotext.com. Paste your AI output in, select plain text, copy, done. One extra step, zero formatting garbage on the other end
+- Also converts to rich text and HTML if you need formatted output somewhere that does render — but plain text is the one I use every day
+- This is a ten-second fix to something that was annoying me every single time I used AI. Small tool. Specific problem. Completely solved
+- End with: "What's the small AI friction you've just been living with? Tell me in the comments — because usually there's already a fix."
+
+**First comment:**
+markdowntotext.com
+
+Paste AI output → select Plain Text → copy → done.
+
+Free. No account. One bookmark.
+
+#AI #ChatGPT #Claude #Productivity #Tools
+
+---
+
+<!-- POSTED 2026-04-21 — LinkedIn + TikTok — kept below for reference -->
+
+### "I built a prompt that makes ChatGPT write in my voice. Here it is." (POSTED Apr 21)
+**Pillar:** Building in Public
+**Prompt file:** `projects/building-out-loud/assets/voice-of-prompt.md`
+
+**Hook:** "I spent some time building a prompt that teaches ChatGPT — or Claude — how to write in my voice. Not just my topics. My actual voice. I'm going to show you what I built and give it to you, because this changes how you use AI for writing completely."
+
+**Talking points:**
+- Everyone's using AI to write and wondering why it sounds like AI. I had the same problem. The issue isn't the model — it's that nobody taught it your voice. You're asking something that's read the entire internet to pick a voice, and it defaults to the average. Which is exactly what you're reading back
+- So I built a prompt. The whole thing lives in a project folder — ChatGPT or Claude, both work. You open a project, drop in your own writing samples, and paste this prompt into the instructions. That's the setup
+- What the prompt actually does — it doesn't just say "write like me." It tells the model to study patterns before it responds to anything. Sentence rhythm. Where your real point lands. The words you reach for and the ones you never use. The idiosyncrasies that aren't "correct" but are yours. The difference between how you sound in an email versus a LinkedIn post
+- And it sets rules. Don't sanitize. Don't pad. No AI filler phrases. If you don't have enough samples for the format I'm asking for, tell me before you guess
+- First time I tested it — it was about 70% there. Some cadence landed, some didn't. I told it what sounded off. It adjusted. Within a few sessions it was writing things I couldn't immediately tell weren't mine
+- The reason this matters more than "saving time on content." Your voice is the moat. AI collapsed the cost of producing content — everyone's publishing, everyone's posting. The thing that makes what you produce worth reading is that it sounds like you. That's what people followed. That's what they're staying for. You can't outsource that to a generic model. But you can teach a trained one
+- Bonus: the blank in "voice of blank" doesn't have to be you. Same setup works for your company's brand. Your VP of sales. Any persona you need to produce at scale. Once you understand what the prompt is doing, you can clone it for any voice you have samples of
+- End with: "The prompt is in the comments. Copy it, drop it into a project with your own writing, and tell me what comes out. I want to know — what did it get right first, and where did it miss?"
+
+**First comment:**
+Here's the prompt. Copy it and paste it into the custom/project instructions of a new ChatGPT or Claude project. Then drop 5–10 of your own writing samples into the project files alongside it.
+
+**What to include as samples:**
+- 2–3 long-form pieces (essays, newsletters, whatever you write at length)
+- 3–4 LinkedIn posts or social posts
+- 1–2 emails in different registers (client vs. teammate)
+- Anything else in formats you actually produce
+
+Recent beats old. The voice you have now is the voice you want reproduced.
+
+---
+
+**The prompt:**
+
+> You are writing in my voice. Every response you produce should sound like I wrote it, not like AI wrote it.
+>
+> Before responding, read the writing samples in this project. Study patterns, not topics:
+> - Sentence rhythm (length, where I break, fragments)
+> - Openings and landings (where does my real point arrive)
+> - Vocabulary I reach for and the words I avoid
+> - Moves — metaphors, asides, callbacks, honest admissions
+> - Idiosyncrasies — punctuation, lowercase, anything that isn't "correct" but is mine
+> - Register shifts (I sound different being direct vs funny vs vulnerable)
+>
+> Rules:
+> - Never sanitize. Keep fragments, dashes, habits intact.
+> - Never pad. No filler, no "it's worth noting," no tidy three-bullet summaries unless my samples have them.
+> - No AI defaults. No "at the end of the day," no hedges, no stacked takeaways.
+> - Match the format. LinkedIn post → my LinkedIn voice. Email → my email voice. If I don't have samples of the format I'm asking for, tell me before you guess.
+> - When in doubt, ask one voice question instead of guessing wrong.
+>
+> The standard isn't "does this read well." The standard is — does this sound like me? If not, it isn't done.
+
+---
+
+Test it on a topic you haven't written about. That's the real bar — new subject, your shape.
+
+What did it nail first, and where did it miss? I want to hear.
+
+#AI #ChatGPT #Claude #Writing #BuildingInPublic
 
 ---
 
@@ -730,4 +817,42 @@ What do you think is the bigger bottleneck — better models or more power? Genu
 - **"The breach that changed how I think about my stack"** (Things I Learned the Hard Way) — Vercel/Context.ai breach: a third-party AI tool watching your context logs became the attack surface. When your product depends on five layers of AI tooling (context provider, model API, deployment infra, CI/CD), the weakest link is probably something you added three months ago. For builders: the more AI tools in your stack, the wider your attack surface — and almost nobody is auditing this. Generalize completely — no project specifics. Added 2026-04-20 from ScrollProxy surfacing.
 - **"A $6 billion startup just got hacked in 5 API calls"** (What I'm Watching) — Lovable is valued at $6.6B. Someone demonstrated reading another user's credentials in 5 API calls on a live demo. The vibe-coded app security problem isn't hypothetical anymore — it's happening at companies worth billions. Connects to "Your AI code is probably garbage" (code quality) and "The breach that changed how I think about my stack" (supply chain) but distinct angle: the apps themselves, not the tools building them, are shipping without basic security. Added 2026-04-21 from ScrollProxy surfacing (@aakashgupta).
 - **"The creator of Claude Code runs 10 agents at once"** (Tools That Actually Changed How I Work) — Boris Cherny's actual daily workflow: 5-10 parallel Claude Code agents. Not a theory or a benchmark — this is how the person who built the tool actually uses it. The gap between "I use Claude" and "I run a fleet" is the real story. Added 2026-04-21 from ScrollProxy surfacing (@DataChaz).
+---
+
+## Steal My Prompt — Backlog
+
+> 2x/week mini-series. Format: here's the problem → here's the prompt → steal it. One prompt per episode. Works in ChatGPT or Claude, no setup. Prompt always goes in the first comment. Launched with ep. 11 (Voice of ___).
+
+### Sales
+
+- **"Steal My Prompt: steelman the reason they won't buy"** — Before your next discovery call, paste the company name, what they do, what you're selling, and why you think they booked. Ask: "What are the strongest reasons this company won't buy? Steelman the case against this deal." You get the objections you haven't prepared for. The ones you have are just reps.
+
+- **"Steal My Prompt: write the email your competitor would send to steal your account"** — Paste your account context. Ask AI to write the email your strongest competitor would send to your champion right now. What you read back is your own gaps. If it's a good email, that's the vulnerability you need to close before renewal.
+
+- **"Steal My Prompt: what questions am I not asking in discovery?"** — Give it your industry, your typical buyer, and your product. Ask: "What are the five most important discovery questions I'm probably not asking?" The questions that come back are almost always the ones that separate average reps from great ones.
+
+- **"Steal My Prompt: rewrite this proposal to lead with their pain"** — Paste your draft proposal. Ask: "Rewrite this so it leads with the buyer's problem, not my solution. Cut anything that sounds like a features list." The version that comes back closes more deals.
+
+- **"Steal My Prompt: what would a great sales manager say about how I handled this?"** — Paste a situation — a call that went sideways, a deal you lost, a negotiation you're unsure about. Ask: "What would a world-class sales manager say about how I handled this? What did I do right and where did I leave something on the table?" Cheaper than a coach. Brutally honest.
+
+### Leadership
+
+- **"Steal My Prompt: what am I not seeing about this person?"** — Paste context on a direct report — their strengths, what's been off lately, recent conversations. Ask: "Based on this, what am I probably not seeing? What's a likely explanation I haven't considered?" The blind spot you get back is usually the right one.
+
+- **"Steal My Prompt: what questions should I ask in this 1:1 to get past the surface?"** — Give it context on the person and what's been going on. Ask: "Give me five questions I can ask in our next 1:1 that would surface what's actually going on, not just the status update." Changes the quality of every hard conversation.
+
+### Content & Writing
+
+- **"Steal My Prompt: turn this brain dump into a post"** — Open a voice memo or just type stream of consciousness for two minutes about something you're thinking about. Paste it in. Ask: "Turn this into a LinkedIn post in my voice. Keep the texture, don't clean it up too much." The best posts are the ones that still sound like you thought them up in the shower.
+
+- **"Steal My Prompt: what's the strongest counterargument to this take?"** — Before you post anything spicy, paste your draft. Ask: "What's the strongest counterargument to the point I just made? What would a smart critic say?" Either you sharpen the take or you catch the thing that would've blown up in the comments.
+
+### Thinking & Strategy
+
+- **"Steal My Prompt: what are the second-order effects I'm not thinking about?"** — Before any major decision, paste the situation and what you're leaning toward. Ask: "What are the second and third-order effects of this decision that I'm probably not considering?" The answer is almost always something you'd want to know before you commit.
+
+- **"Steal My Prompt: what context about me would make you more useful?"** — Meta-prompt. Ask Claude or ChatGPT: "Based on what I've told you so far, what context about me, my work, and my goals would make you significantly more useful in future conversations?" The model will tell you exactly what to put in your custom instructions. Let the AI build its own brief.
+
+---
+
 - **"The rumor was right — Anthropic just shipped Figma's nightmare"** (What I'm Watching / Tools That Actually Changed How I Work) — Two weeks ago I covered the rumor that spooked Figma 6%. Yesterday it shipped as Claude Design. It's not a prompt-to-website toy — it reads your codebase and your design system, lets you iterate by conversation or by dragging sliders, collaborates like Figma (inline comments, view/edit permissions), exports to Canva, PDF, PPTX, or standalone HTML, and hands the finished design straight to Claude Code to build. The Datadog quote: "rough idea to working prototype before anyone leaves the room." It's included free with every Pro/Max/Team plan — so the entire Claude user base just became design-capable overnight. The episode angle: the market reaction was correct. This isn't Figma with an AI button bolted on. It's the whole workflow (brief → explore → iterate → build) compressed into a conversation. If you make slides, mockups, or marketing collateral for a living, the question isn't "will this affect me" — it's "what do I do with the eight hours a week I'm about to get back?"

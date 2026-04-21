@@ -1,0 +1,4 @@
+lead_id,date_added,full_name,first_name,last_name,job_title,job_start_date,company_name,company_domain,company_size,company_industry,location,linkedin_url,email,email_source,email_verified,verification_result,pushed_to_instantly,campaign_id,lead_score,notes
+lead_9c63225986db,2026-02-19,Jessica Austin,Jessica,Austin,upmarket sales manager,2026-01,vanta,vanta.com,201-500,computer software,true,linkedin.com/in/jessicaaaustin,jessica.austin@vanta.com,hunter_pattern,SAFE,Accept All,no,,90,
+lead_9f73f3ac4569,2026-02-19,Jon Walters,Jon,Walters,sales manager,2026-01,jmp,jmp.com,201-500,computer software,true,linkedin.com/in/waltersjd,jon.walters@jmp.com,hunter_finder,SAFE,Accept All,no,,90,
+lead_21252bf0f9e0,2026-02-19,Jeff Robertson,Jeff,Robertson,business sales manager,2026-01,t-mobile,t-mobile.com,10001+,telecommunications,true,linkedin.com/in/jeff-robertson-tmobileforbusiness,jeff.robertson@t-mobile.com,hunter_finder,SAFE,Accept All,no,,50,

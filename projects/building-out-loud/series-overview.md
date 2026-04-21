@@ -1,7 +1,7 @@
 ---
 id: DOC-010
 created: 2026-04-08
-updated: 2026-04-17
+updated: 2026-04-21
 type: knowledge
 domain: building-out-loud
 source_intake: inbox/2026-04-10-building-out-loud-wiki-idea.md
@@ -64,6 +64,9 @@ Trends, shifts, things that are changing fast. Not hype — observable things th
 
 ### 5. The Move
 One specific thing you can do today. No prerequisites, no two-minute setup. The whole episode is the action — here's the thing, here's why it works, go try it. Shorter format. The closing question is "did it work?" not "what do you think?" Aimed squarely at sales reps, AMs, and sales leaders who want to leave the video having actually done something.
+
+### 6. Steal My Prompt
+A recurring mini-series. One prompt per episode — something Andrew actually uses. Show what it does, why it works, give it away in the first comment. No setup required, no tool install — works in ChatGPT or Claude out of the box. Format is always the same: here's the problem, here's the prompt, steal it. 2x/week cadence target. Launched Apr 21 with the "Voice of ___" episode (ep. 11) which is tracking to go viral. Backlog lives in episode master under `## Steal My Prompt — Backlog`.
 
 ## Posting Strategy
 
