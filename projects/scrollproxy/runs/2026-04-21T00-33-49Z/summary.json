@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-21T00-33-49Z",
+  "summarizedAt": "2026-04-21T00:34:14.105Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "model competition (Kimi K2.6, Qwen-3.6, Elephant Alpha)",
+    "Codex Chronicle memory layer",
+    "Claude Cowork/artifacts product expansion",
+    "Anthropic compute scale-up (5GW AWS deal)",
+    "agentic research & AI at work",
+    "Apple CEO succession & AI lag",
+    "vibe-coded content noise"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046331327780356219",
+      "url": "https://x.com/aakashgupta/status/2046331327780356219",
+      "author": "@aakashgupta",
+      "why": "Sharp take that Claude Cowork at $20/month structurally undercuts Tableau, Looker, and Retool — directly relevant to product strategy and pricing displacement."
+    },
+    {
+      "postId": "2046293955009274019",
+      "url": "https://x.com/gdb/status/2046293955009274019",
+      "author": "@gdb",
+      "why": "Greg Brockman announces Chronicle — Codex now watches your screen and builds persistent memory, making memory the new moat in coding agents."
+    },
+    {
+      "postId": "2046344162161893579",
+      "url": "https://x.com/aakashgupta/status/2046344162161893579",
+      "author": "@aakashgupta",
+      "why": "Concise rebuttal to OpenAI's 'Anthropic has no compute' narrative — 8.5GW locked up across Amazon and Google in months."
+    },
+    {
+      "postId": "2046362044786458648",
+      "url": "https://x.com/emollick/status/2046362044786458648",
+      "author": "@emollick",
+      "why": "Rigorous study rerun with agentic AI shows Claude Code and Codex land near human median with far tighter variance — real evidence for AI research scalability pitch."
+    },
+    {
+      "postId": "2046292579952775312",
+      "url": "https://x.com/kimmonismus/status/2046292579952775312",
+      "author": "@kimmonismus",
+      "why": "Sergey Brin personally driving Google's agentic coding strike team against Anthropic is a meaningful competitive signal."
+    },
+    {
+      "postId": "2046335355868295448",
+      "url": "https://x.com/aakashgupta/status/2046335355868295448",
+      "author": "@aakashgupta",
+      "why": "Best available thread on Tim Cook's exit and what Apple's AI failure means for the post-iPhone era — 220K views, worth reading the full thread."
+    },
+    {
+      "postId": "2046255681360036228",
+      "url": "https://x.com/kimmonismus/status/2046255681360036228",
+      "author": "@kimmonismus",
+      "why": "Kimi K2.6 benchmark drop — 58.6% SWE Bench Pro, 66.7% Terminal Bench, open weights — the clearest data point that Chinese open-source is now a real Claude Code rival."
+    },
+    {
+      "postId": "2046306656980701212",
+      "url": "https://x.com/RoundtableSpace/status/2046306656980701212",
+      "author": "@RoundtableSpace",
+      "why": "Points to a full guide on building and selling Claude plugins — directly relevant to indie dev distribution."
+    },
+    {
+      "postId": "2046267503383544137",
+      "url": "https://x.com/andrewchen/status/2046267503383544137",
+      "author": "@andrewchen",
+      "why": "a16z Speedrun 2026 applications open today — $1M investments, 70+ companies, July-October in SF — actionable for indie founders."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@aakashgupta",
+      "why": "Consistently sharp on AI product strategy implications — the Cowork/Tableau displacement and Anthropic compute threads are the best analysis in this feed."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Brings actual research to AI capability claims; the agentic economist rerun study is exactly the kind of evidence useful for sales enablement."
+    },
+    {
+      "handle": "@kimmonismus",
+      "why": "Fast aggregator on competitive model releases and infra deals — Kimi K2.6 and Google DeepMind strike team posts were first-mover."
+    },
+    {
+      "handle": "@gdb",
+      "why": "Direct Codex product announcements from inside OpenAI — Chronicle memory layer is strategically important."
+    }
+  ],
+  "noise": {
+    "count": 42,
+    "examples": [
+      "travel diary / lifestyle updates (airport selfies, sparkling water polls)",
+      "crypto shilling and BTC price posts",
+      "newsletter self-promotion spam (aakashgupta posting the same subscribe link 5+ times)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 98,
+    "seenCount": 13
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [
+      {
+        "theme": "agent-native product strategy (continuation)",
+        "runCount": 9,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "2026-04-20T13-25-27Z"
+      },
+      {
+        "theme": "AI adoption at work (Gallup continuation)",
+        "runCount": 9,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "2026-04-20T13-25-27Z"
+      },
+      {
+        "theme": "Claude Code internals & tooling (continuation)",
+        "runCount": 9,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "2026-04-20T13-25-27Z"
+      },
+      {
+        "theme": "Claude Design vs Figma (continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-22-55Z",
+        "lastSeenRunId": "2026-04-20T13-25-27Z"
+      },
+      {
+        "theme": "OpenAI reasoner history (continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-22-55Z",
+        "lastSeenRunId": "2026-04-20T13-25-27Z"
+      }
+    ],
+    "emerging": [
+      {
+        "theme": "agentic research & AI at work",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Anthropic compute scale-up (5GW AWS deal)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Apple CEO succession & AI lag",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Cowork/artifacts product expansion",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Codex Chronicle memory layer",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "Opus 4.7 token cost & quality issues (continuation)",
+        "lastSeenRunId": "2026-04-20T13-23-56Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "model competition (GPT-5.5, Grok Build, Codex)",
+        "lastSeenRunId": "2026-04-20T13-23-20Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "model competition (GPT-5.5, Grok Build)",
+        "lastSeenRunId": "2026-04-20T13-22-55Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "Claude Design adoption (continuation)",
+        "lastSeenRunId": "2026-04-20T13-22-22Z",
+        "runsSinceLastSeen": 7
+      },
+      {
+        "theme": "OpenAI reasoner history",
+        "lastSeenRunId": "2026-04-20T13-22-22Z",
+        "runsSinceLastSeen": 7
+      }
+    ]
+  }
+}
