@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-21T06-34-16Z",
+  "summarizedAt": "2026-04-21T06:34:43.708Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Anthropic compute scale-up (5GW AWS deal continuation)",
+    "Claude Cowork/artifacts product expansion (continuation)",
+    "Claude Code internals & tooling (continuation)",
+    "model competition (Kimi K2.6 vs Claude, Codex reliability)",
+    "Lovable security incident & vibe-coded app risks",
+    "agent-native PM role & org structure",
+    "Apple CEO succession & AI lag (continuation)"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046331327780356219",
+      "url": "https://x.com/aakashgupta/status/2046331327780356219",
+      "author": "@aakashgupta",
+      "why": "Concrete framing of Claude Cowork killing Tableau/Looker/Retool pricing — 575K views signals this is reshaping how buyers think about BI spend."
+    },
+    {
+      "postId": "2046344162161893579",
+      "url": "https://x.com/aakashgupta/status/2046344162161893579",
+      "author": "@aakashgupta",
+      "why": "Scoreboard of Anthropic's compute locked up since OpenAI's 'strategic misstep' jab — useful for competitive positioning conversations."
+    },
+    {
+      "postId": "2046397816755634340",
+      "url": "https://x.com/levie/status/2046397816755634340",
+      "author": "@levie",
+      "why": "Aaron Levie's point that chatbot-to-agent automation requires dedicated internal owners is the cleanest framing of the enterprise AI adoption gap right now."
+    },
+    {
+      "postId": "2046362044786458648",
+      "url": "https://x.com/emollick/status/2046362044786458648",
+      "author": "@emollick",
+      "why": "Academic paper rerunning the classic Angrist economist-diversity study with agentic AI shows Claude Code and Codex land near human median with far tighter variance — hard evidence for AI-as-scalable-research-workforce."
+    },
+    {
+      "postId": "2046351105274392670",
+      "url": "https://x.com/DataChaz/status/2046351105274392670",
+      "author": "@DataChaz",
+      "why": "Boris Cherny (Claude Code creator) reveals his actual daily workflow including running 5-10 parallel agents — rare primary source on how the tool is meant to be used."
+    },
+    {
+      "postId": "2046419903188783491",
+      "url": "https://x.com/RoundtableSpace/status/2046419903188783491",
+      "author": "@RoundtableSpace",
+      "why": "20-year-old sells $3-in-parts tracking prototype for $230K the next day using Claude Code — the distribution story here is about speed-to-market compressing to one night."
+    },
+    {
+      "postId": "2046335355868295448",
+      "url": "https://x.com/aakashgupta/status/2046335355868295448",
+      "author": "@aakashgupta",
+      "why": "Best single-post breakdown of why Tim Cook's exit and Ternus's promotion is really an Apple AI crisis story, not a routine succession — 584K views."
+    },
+    {
+      "postId": "2046477342709883025",
+      "url": "https://x.com/aakashgupta/status/2046477342709883025",
+      "author": "@aakashgupta",
+      "why": "Lovable's $6.6B valuation alongside a live demo of reading another user's credentials in 5 API calls is a sharp cautionary data point for anyone selling into vibe-coded stacks."
+    },
+    {
+      "postId": "2046430301593751797",
+      "url": "https://x.com/emollick/status/2046430301593751797",
+      "author": "@emollick",
+      "why": "Mollick's direct call that Kimi 2.6 over-indexes on benchmarks vs. real use — useful ground truth when clients ask whether to swap Claude for cheaper open-weights alternatives."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@aakashgupta",
+      "why": "Consistently breaking down product and compute strategy with specific numbers and real stakes — several posts this run exceeded 100K views on topics directly relevant to AI product and sales positioning."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Provides grounded, empirically-tested takes on model quality and AI-at-work that cut through benchmark hype — rare in this feed."
+    },
+    {
+      "handle": "@levie",
+      "why": "Enterprise AI adoption framing from a practitioner CEO perspective, not punditry."
+    },
+    {
+      "handle": "@DataChaz",
+      "why": "Tracks Claude Code internals and tooling closely, sourced Boris Cherny workflow interview before it spread."
+    }
+  ],
+  "noise": {
+    "count": 32,
+    "examples": [
+      "newsletter self-promotion (multiple @aakashgupta 'subscribe to my newsletter' posts)",
+      "lifestyle/travel posts with no signal (sparkling water, airport check-ins, light mode debates)",
+      "crypto/Polymarket content unrelated to operator interests"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 45,
+    "seenCount": 66
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [
+      {
+        "theme": "Claude Code internals & tooling (continuation)",
+        "runCount": 10,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "current"
+      },
+      {
+        "theme": "agent-native product strategy (continuation)",
+        "runCount": 9,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "2026-04-20T13-25-27Z"
+      },
+      {
+        "theme": "AI adoption at work (Gallup continuation)",
+        "runCount": 9,
+        "firstSeenRunId": "2026-04-20T13-19-59Z",
+        "lastSeenRunId": "2026-04-20T13-25-27Z"
+      },
+      {
+        "theme": "Claude Design vs Figma (continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-22-55Z",
+        "lastSeenRunId": "2026-04-20T13-25-27Z"
+      },
+      {
+        "theme": "OpenAI reasoner history (continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-22-55Z",
+        "lastSeenRunId": "2026-04-20T13-25-27Z"
+      }
+    ],
+    "emerging": [
+      {
+        "theme": "agent-native PM role & org structure",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Anthropic compute scale-up (5GW AWS deal continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Apple CEO succession & AI lag (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Cowork/artifacts product expansion (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Lovable security incident & vibe-coded app risks",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "Opus 4.7 token cost & quality issues (continuation)",
+        "lastSeenRunId": "2026-04-20T13-23-56Z",
+        "runsSinceLastSeen": 5
+      },
+      {
+        "theme": "model competition (GPT-5.5, Grok Build, Codex)",
+        "lastSeenRunId": "2026-04-20T13-23-20Z",
+        "runsSinceLastSeen": 6
+      },
+      {
+        "theme": "model competition (GPT-5.5, Grok Build)",
+        "lastSeenRunId": "2026-04-20T13-22-55Z",
+        "runsSinceLastSeen": 7
+      },
+      {
+        "theme": "Claude Design adoption (continuation)",
+        "lastSeenRunId": "2026-04-20T13-22-22Z",
+        "runsSinceLastSeen": 8
+      },
+      {
+        "theme": "OpenAI reasoner history",
+        "lastSeenRunId": "2026-04-20T13-22-22Z",
+        "runsSinceLastSeen": 8
+      }
+    ]
+  }
+}
