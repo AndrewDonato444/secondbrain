@@ -65,3 +65,35 @@ One entry per handle called out in the "Voices" section across runs. New justifi
 
 ## @RoundtableSpace
 - **2026-04-18T17-58-22Z** — Posting actual Arena leaderboard data on model comparisons rather than just vibes.
+- **2026-04-20T11-38-04Z-api** — Reverse-engineered Claude Code's full 512K-line codebase into a visual map; consistently sourcing real usage data and open-source tooling updates.
+
+## @garrytan
+- **2026-04-20T05-47-58Z** — Actively shipping open-source agent infrastructure (GBrain, GStack, OpenClaw) and narrating his own production learnings in real time.
+
+## @theo
+- **2026-04-20T05-47-58Z** — Fast, credible incident reporting on developer infrastructure events like Vercel breach — good signal filter for build-vs-buy risk.
+
+## @shcallaway
+- **2026-04-20T05-47-58Z** — Practitioner perspective on agentic workflows with contrarian takes grounded in actual usage rather than hype; the parallel-agents critique is the kind of signal that prevents expensive mistakes.
+
+## @Voxyz_ai
+- **2026-04-20T12-01-51Z** — Tracking practical Claude/AI coding patterns with real traction — the Karpathy CLAUDE.md post shows they surface signal before the crowd.
+
+## @jlehman_
+- **2026-04-20T12-03-59Z** — Actively shipping lossless-claw with detailed release notes on multi-agent cache and concurrency fixes — rare operational depth on Claude agent infrastructure.
+
+## @coreyganim
+- **2026-04-20T12-03-59Z** — Demonstrates concrete AI-to-revenue pipelines with specific numbers — useful signal for sales enablement and productized service angles.
+
+## @shannholmberg
+- **2026-04-20T12-03-59Z** — Structured thinking on LLM prompt strategy for performance marketing — bridges AI product and distribution interests.
+
+## @aakashgupta
+- **2026-04-21T00-33-49Z** — Consistently sharp on AI product strategy implications — the Cowork/Tableau displacement and Anthropic compute threads are high-quality analysis. Note: also bulk-posts off-topic trivia; the signal is worth extracting from the noise.
+
+## @gdb
+- **2026-04-21T00-33-49Z** — Direct Codex product announcements from inside OpenAI — Chronicle memory layer is strategically important; rare first-party signal.
+
+## @kimmonismus
+- **2026-04-20T05-47-58Z** — Fast aggregator on competitive model releases, infra deals, and government AI adoption — NSA/Mythos and Kimi K2.6 posts were first-mover.
+- **2026-04-21T00-33-49Z** — Continued pattern: Sergey Brin strike team and Kimi K2.6 coverage arriving ahead of most feeds.

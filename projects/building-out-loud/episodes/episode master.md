@@ -1,7 +1,7 @@
 ---
 id: DOC-029
 created: 2026-04-11
-updated: 2026-04-18
+updated: 2026-04-20
 status: active
 type: artifact
 domain: building-out-loud
@@ -34,6 +34,56 @@ derived-from: [DOC-010, DOC-001, DOC-034]
 ## Ready to Record
 
 Pick any of these. Tell me when you post one and I'll move it to Posted.
+
+---
+
+### "Tim Cook is stepping down, and Apple's AI problem just became a brand problem"
+**Pillar:** What I'm Watching
+
+**Hook:** "Tim Cook stepping down is being written as a succession story. It's actually an AI story. And the real question isn't who replaces him — it's whether Apple is willing to stop being Apple to fix this."
+
+**Talking points:**
+- Tim Cook stepped down. The obvious headline is who's next. That's the wrong headline. The right one is — this is the first real admission that Apple has an AI problem, and the AI problem is bigger than any one CEO transition
+- Here's the timeline nobody's going to want to line up on paper. Three years into the generative AI era, Apple has been outshipped by companies they used to dismiss. Siri is still a punchline. Apple Intelligence shipped late, underwhelmed, and didn't move iPhone 16 sales the way it was supposed to. The personalized Siri features that got promised on the WWDC stage got quietly pulled. Apple had to apologize on stage. That doesn't happen at Apple
+- Here's why this isn't a normal product miss. Apple's entire identity for twenty years has been privacy-first, on-device, slow, polished, we-don't-ship-until-it's-right. That philosophy made them the most valuable company in the world. It's also exactly the wrong philosophy for winning the AI race
+- Because the AI race rewards the opposite. Massive cloud training. Data-hungry. Ship fast. Iterate in public. Accept embarrassment as tuition. Apple isn't behind because they're lazy or they missed it. Apple is behind because winning this race requires being a fundamentally different kind of company than they've been for two decades
+- So the new CEO doesn't inherit a technical problem. They inherit a brand problem. The question isn't "can we ship a better model." It's "are we willing to become the kind of company that ships AI well?"
+- Two real options. One — stay Apple. Stay on-device, stay private, keep the brand intact, and accept that the iPhone becomes a beautiful distribution channel for somebody else's AI. OpenAI in Siri, the Anthropic partnership rumors, all of it. Apple becomes the shelf where the smart stuff lives. Still a profitable business. Not the Apple of the last twenty years
+- Two — change what Apple means. Acquire an AI company outright. Open the wallet on data. Rebuild Siri from scratch with a cloud-first posture and none of the on-device constraints. That's the bigger bet, and it's the one that could cost them the brand that got them here
+- Watch who they pick. If it's a hardware or operations person, that's continuity. That's Apple staying Apple. If it's a software or platform person with real AI credibility, that's the admission. That's the signal that Apple is about to change
+- The bigger lesson for everyone else — most CEO transitions are continuity. Every once in a while one is an identity decision. This one is the second kind. And every company watching Apple right now is about to have to answer the same question in the next 36 months. Are you still you, or is this era asking you to be something different?
+- End with: "If you were running Apple on day one — do you stay Apple and become the distribution layer for someone else's AI, or do you change what Apple means and bet the brand? Genuinely curious what you'd do."
+
+**First comment:**
+The Apple AI timeline nobody at Apple wants lined up on paper:
+
+- 2023: Generative AI era kicks off. Apple silent.
+- 2024: Apple Intelligence announced at WWDC. Big splash. Personalized Siri promised.
+- 2024 (later): Apple Intelligence ships late, features staggered, Siri features pushed.
+- 2025: Personalized Siri features officially pulled. Apology on stage. OpenAI plugged into Siri as a bandage. Anthropic partnership rumors start.
+- 2026: Tim Cook steps down.
+
+That's not "a little behind." That's a company whose core philosophy is misaligned with how AI is being built right now.
+
+The two paths the new CEO has to pick from:
+
+**Stay Apple** — on-device, privacy-first, polish-first
+- iPhone becomes the beautiful screen for ChatGPT / Claude / Gemini
+- Brand intact, margins intact, but Apple stops being where the innovation happens
+- Profitable distribution layer. Not the Apple that got us here.
+
+**Change what Apple means** — acquire, cloud-first, data-hungry
+- Buy an Anthropic or a Perplexity, or rebuild in-house with a totally different posture
+- Rebuild Siri from scratch without the on-device handcuffs
+- Risk the privacy brand that differentiated them for twenty years
+
+The succession pick will tell you which one they chose before any press release does. Hardware/ops person = stay Apple. Software/AI person = change the company.
+
+The reason this matters beyond Apple — the same question is coming for every company in the next 36 months. The AI era doesn't reward doing what you've always done well. It rewards being willing to become something new. Most companies won't. A few will. The split between those two groups is the story of the next decade.
+
+What would you do if you were running Apple tomorrow? Stay the course, or change the company?
+
+#AI #Apple #Leadership #Strategy #BuildingInPublic
 
 ---
 
@@ -634,6 +684,10 @@ What do you think is the bigger bottleneck — better models or more power? Genu
 
 > Raw ideas. Tell me to build any of these into a full episode.
 
+### Micro Tools (added 2026-04-20)
+
+- **"The era of micro tools"** (What I'm Watching / How to Think About [X]) — We're entering a world where spinning up a quick tool to solve a problem beats going through an evaluation cycle and buying software. Want a booking page? Build it. Need a reporting dashboard for one number you check daily? Build it. The moat for software companies is migrating upmarket to large enterprise — the smaller, single-purpose tools are getting shrapnel'd by AI. Calendly, simple scheduling tools, single-use SaaS — why pay and sign a contract when you can solve it for a few tokens on a Saturday? This is the "solve your small problems" message from the Saturday episode given its bigger frame: it's not just that you *can* build things, it's that the entire category of lightweight software is collapsing into a prompt. The reps, managers, and operators who figure this out first stop waiting for IT to buy them a tool and just make the tool. Connects to: the Saturday episode, "the moat isn't the tech anymore."
+
 ### Sales × AI Convergence (added 2026-04-20)
 
 **Things I Learned the Hard Way**
@@ -670,4 +724,8 @@ What do you think is the bigger bottleneck — better models or more power? Genu
 - **"The moat isn't the tech anymore"** (What I'm Watching) — Everyone's about to be able to build everything. The answer to "can you build it" is going to be yes for almost everyone. The two questions that actually matter now: should you build it, and can you distribute it? Your competitor can build what you build. They can't duplicate your users. They can't duplicate the data your users put into your platform. The battleground has shifted from technology to distribution. If you're in sales, marketing, demand gen — your skills just became the most valuable thing in the room. The builders need you more than you need them.
 - **"Coding is solved. Knowledge work isn't."** (How to Think About [X]) — AI nails code review and fumbles at "help me with my job." The reason is context. Git gives every coding tool the same shared substrate — the repo, the history, what changed. Knowledge work has no equivalent. Your notes are in one tool, your email in another, your calls in a third, your Slack in a fourth. Every tool has its own tiny view of you. That fragmentation is why AI still feels dumb for knowledge work even when it's brilliant at code. The next huge product category isn't "AI that does your job" — it's "AI that finally remembers everything you've done, across every tool you use." Whoever solves that wins the decade.
 - **"Stripe just let your AI buy things"** (What I'm Watching) — Stripe's Link now lets agents securely purchase on behalf of users. The infrastructure layer for agent commerce just landed. This changes who the "buyer" is in a sales motion — your next customer might be an AI agent with a budget and a mandate. The GTM implications haven't been named yet. Added 2026-04-19 from ScrollProxy surfacing (@jeff_weinstein).
+- **"The token is the new dollar"** (What I'm Watching) — @andrewchen's framing: what you raise to acquire is the scarce resource of the era. Devs → clicks → GPUs → tokens. For indie builders in 2026, the question isn't "how much runway" — it's "how many tokens." This is what building in the AI era actually looks like. Added 2026-04-20 from ScrollProxy surfacing.
+- **"Gallup says 50%. But who's in the top 5%?"** (What I'm Watching) — Gallup Q1 2026: 50% of employed Americans now use AI at work, up from 21% in 2023. The stat is a distribution question, not a milestone. The gap between "checked ChatGPT once this week" and "running Claude Code on every high-stakes decision" is where real competitive advantage accumulates — and most leadership teams don't know which half they're in. Added 2026-04-20 from ScrollProxy surfacing.
+- **"Memory is the moat now"** (What I'm Watching) — Codex just shipped Chronicle: watches your screen, builds persistent memory. Claude has Projects. The model capability race is largely decided; the memory and context race is just starting. Whoever remembers everything you've done becomes the agent you trust. Aligns with "Coding is solved. Knowledge work isn't." from a different angle — this is about the agent layer, not just the tooling layer. Added 2026-04-20 from ScrollProxy surfacing.
+- **"The breach that changed how I think about my stack"** (Things I Learned the Hard Way) — Vercel/Context.ai breach: a third-party AI tool watching your context logs became the attack surface. When your product depends on five layers of AI tooling (context provider, model API, deployment infra, CI/CD), the weakest link is probably something you added three months ago. For builders: the more AI tools in your stack, the wider your attack surface — and almost nobody is auditing this. Generalize completely — no project specifics. Added 2026-04-20 from ScrollProxy surfacing.
 - **"The rumor was right — Anthropic just shipped Figma's nightmare"** (What I'm Watching / Tools That Actually Changed How I Work) — Two weeks ago I covered the rumor that spooked Figma 6%. Yesterday it shipped as Claude Design. It's not a prompt-to-website toy — it reads your codebase and your design system, lets you iterate by conversation or by dragging sliders, collaborates like Figma (inline comments, view/edit permissions), exports to Canva, PDF, PPTX, or standalone HTML, and hands the finished design straight to Claude Code to build. The Datadog quote: "rough idea to working prototype before anyone leaves the room." It's included free with every Pro/Max/Team plan — so the entire Claude user base just became design-capable overnight. The episode angle: the market reaction was correct. This isn't Figma with an AI button bolted on. It's the whole workflow (brief → explore → iterate → build) compressed into a conversation. If you make slides, mockups, or marketing collateral for a living, the question isn't "will this affect me" — it's "what do I do with the eight hours a week I'm about to get back?"
