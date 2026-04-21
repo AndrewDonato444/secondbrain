@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-21T18-35-12Z",
+  "summarizedAt": "2026-04-21T18:35:38.112Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Claude Code tooling & skills ecosystem (continuation)",
+    "OpenAI GPT-Image-2 launch",
+    "model competition (GPT-5.5 imminent, xAI voice APIs)",
+    "agent-native PM role (continuation)",
+    "Lovable security incident (continuation)",
+    "Apple CEO succession (continuation)",
+    "DESIGN.md open-source spec"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046613932518023259",
+      "url": "https://x.com/ClaudeDevs/status/2046613932518023259",
+      "author": "@ClaudeDevs",
+      "why": "Claude Code now shows session recaps when you switch focus — directly addresses multi-agent workflow friction that power users have complained about."
+    },
+    {
+      "postId": "2046634834085531978",
+      "url": "https://x.com/aakashgupta/status/2046634834085531978",
+      "author": "@aakashgupta",
+      "why": "Concrete math on why the $200/mo Max plan is 75x cheaper than API rates for heavy Claude Code users — directly relevant to pricing strategy conversations with prospects."
+    },
+    {
+      "postId": "2046614703288578555",
+      "url": "https://x.com/aakashgupta/status/2046614703288578555",
+      "author": "@aakashgupta",
+      "why": "Sharp read on OpenAI's compute reset announcement as a deliberate poaching signal aimed at rate-limited Claude Code power users."
+    },
+    {
+      "postId": "2046397816755634340",
+      "url": "https://x.com/levie/status/2046397816755634340",
+      "author": "@levie",
+      "why": "Aaron Levie articulates clearly why chatbot→agent automation requires dedicated internal owners, not self-service — useful framing for enterprise sales conversations."
+    },
+    {
+      "postId": "2046527013616603410",
+      "url": "https://x.com/DataChaz/status/2046527013616603410",
+      "author": "@DataChaz",
+      "why": "The 'Find Skills' meta-skill for Claude Code is a genuine productivity unlock — install command included, high engagement confirms real utility."
+    },
+    {
+      "postId": "2046648659170013278",
+      "url": "https://x.com/kloss_xyz/status/2046648659170013278",
+      "author": "@kloss_xyz",
+      "why": "Google open-sourcing DESIGN.md while Anthropic rate-limits Claude Design is a pointed competitive framing that the creative AI community is picking up on."
+    },
+    {
+      "postId": "2046477342709883025",
+      "url": "https://x.com/aakashgupta/status/2046477342709883025",
+      "author": "@aakashgupta",
+      "why": "Lovable's $6.6B valuation vs. a 5-API-call exploit of customer credentials is the clearest summary of the vibe-coded security problem in this cycle."
+    },
+    {
+      "postId": "2046609637709840455",
+      "url": "https://x.com/kimmonismus/status/2046609637709840455",
+      "author": "@kimmonismus",
+      "why": "GPT-Image-2 self-critiques and iterates on its own output — if accurate, that's a meaningful capability jump for product teams using image generation."
+    },
+    {
+      "postId": "2046455305186464168",
+      "url": "https://x.com/aakashgupta/status/2046455305186464168",
+      "author": "@aakashgupta",
+      "why": "LinkedIn, Anthropic, and Rippling are all converging on requiring PMs to ship prototypes — concrete data points for anyone rethinking PM hiring or role definitions."
+    },
+    {
+      "postId": "2046371351016161745",
+      "url": "https://x.com/aakashgupta/status/2046371351016161745",
+      "author": "@aakashgupta",
+      "why": "Yann LeCun leaving Meta and immediately shipping a working JEPA from raw pixels is a genuine architectural-bet story worth watching as a counternarrative to transformer dominance."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@aakashgupta",
+      "why": "Consistently translates raw AI news into product and business strategy implications — the Claude Code pricing math and OpenAI compute-reset reads are both sharp."
+    },
+    {
+      "handle": "@levie",
+      "why": "Box CEO with a clear-eyed enterprise perspective on the chatbot-to-agent gap; high signal for sales enablement framing."
+    },
+    {
+      "handle": "@ClaudeDevs",
+      "why": "Official Anthropic dev account shipping real Claude Code UX updates — must-follow for product feature tracking."
+    },
+    {
+      "handle": "@jeff_weinstein",
+      "why": "Stripe product lead actively recruiting builders of economic agents — useful pulse on where agentic commerce infrastructure is heading."
+    }
+  ],
+  "noise": {
+    "count": 32,
+    "examples": [
+      "RoundtableSpace crypto/BTC price takes and motivational filler",
+      "aakashgupta newsletter self-promotion posts (multiple identical CTAs)",
+      "minchoi vibe-coded game demo thread (low engagement, not relevant)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 59,
+    "seenCount": 58
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [
+      {
+        "theme": "Claude Code internals & tooling (continuation)",
+        "runCount": 9,
+        "firstSeenRunId": "2026-04-20T13-22-22Z",
+        "lastSeenRunId": "2026-04-21T12-34-45Z"
+      }
+    ],
+    "emerging": [
+      {
+        "theme": "agent-native PM role (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Apple CEO succession (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code tooling & skills ecosystem (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "DESIGN.md open-source spec",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "model competition (GPT-5.5 imminent, xAI voice APIs)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "agent-native product strategy (continuation)",
+        "lastSeenRunId": "2026-04-20T13-25-27Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "AI adoption at work (Gallup continuation)",
+        "lastSeenRunId": "2026-04-20T13-25-27Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Design vs Figma (continuation)",
+        "lastSeenRunId": "2026-04-20T13-25-27Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "model competition (GPT-5.5, Grok Build, Codex continuation)",
+        "lastSeenRunId": "2026-04-20T13-25-27Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "OpenAI reasoner history (continuation)",
+        "lastSeenRunId": "2026-04-20T13-25-27Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
