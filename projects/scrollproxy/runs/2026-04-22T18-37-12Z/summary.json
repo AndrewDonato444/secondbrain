@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-22T18-37-12Z",
+  "summarizedAt": "2026-04-22T18:37:47.414Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Claude Code /ultrareview launch",
+    "agent-native PM role (continuation)",
+    "SpaceX x Cursor ($60B option) continuation",
+    "model competition (Qwen3.6, DeepSeek valuation)",
+    "enterprise agent adoption friction",
+    "distribution disruption for indie devs (continuation)",
+    "GPT-imagegen-2 internals"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046999435239133246",
+      "url": "https://x.com/ClaudeDevs/status/2046999435239133246",
+      "author": "@ClaudeDevs",
+      "why": "Official launch of /ultrareview — a fleet of cloud bug-hunting agents inside Claude Code, free for Pro/Max through 5/5; this is a meaningful product expansion with direct implications for how teams gate critical merges."
+    },
+    {
+      "postId": "2046805326784319663",
+      "url": "https://x.com/levie/status/2046805326784319663",
+      "author": "@levie",
+      "why": "High-signal enterprise reality check: legacy tech stacks are the actual blocker to agent adoption, not model capability — useful framing for sales conversations about where implementation friction lives."
+    },
+    {
+      "postId": "2046860622160371869",
+      "url": "https://x.com/aakashgupta/status/2046860622160371869",
+      "author": "@aakashgupta",
+      "why": "Karpathy's 1B-parameter / 1.8T-parameter compression claim reframed with supporting math — relevant to anyone making bets on model cost curves and what 'good enough' looks like in 18 months."
+    },
+    {
+      "postId": "2046960756608868533",
+      "url": "https://x.com/emollick/status/2046960756608868533",
+      "author": "@emollick",
+      "why": "Non-obvious finding: the LLM you pair with GPT-imagegen-2 materially changes output quality, especially for complex prompts — useful for anyone building image-generation features on top of the API."
+    },
+    {
+      "postId": "2046760079622549603",
+      "url": "https://x.com/signulll/status/2046760079622549603",
+      "author": "@signulll",
+      "why": "Tight observation that Anthropic's 0→$350B trajectory means employee #200 is getting equity outcomes historically reserved for employee #20 at Google — sharp framing of why talent is flowing there."
+    },
+    {
+      "postId": "2046979551046013125",
+      "url": "https://x.com/emollick/status/2046979551046013125",
+      "author": "@emollick",
+      "why": "Systems regulated by human effort cost (LoRs, lawsuits, essays) will structurally break under AI — compact, high-leverage observation with real product and sales implications."
+    },
+    {
+      "postId": "2046883473991024882",
+      "url": "https://x.com/aakashgupta/status/2046883473991024882",
+      "author": "@aakashgupta",
+      "why": "Concrete data point: OpenAI Codex PMs now ship PRs instead of PRDs, using working code as the spec — directly relevant to the agent-native PM role thesis the operator has been tracking."
+    },
+    {
+      "postId": "2046713376899051721",
+      "url": "https://x.com/jeff_weinstein/status/2046713376899051721",
+      "author": "@jeff_weinstein",
+      "why": "Stripe PM asking what signals would let webmasters welcome 'good' agents rather than block them — early framing of an agent identity/trust infrastructure problem that will matter for any product with an agent-facing surface."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@emollick",
+      "why": "Produces grounded, empirically-supported observations about AI product behavior that aren't obvious — the GPT-imagegen-2 LLM-dependency finding is a good example."
+    },
+    {
+      "handle": "@jeff_weinstein",
+      "why": "Stripe-adjacent, thinking carefully about agent payments and agent identity infrastructure — early but directionally important for economic agents thread."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Low volume, high compression — punchy takes on AI company dynamics that cut through the hype."
+    }
+  ],
+  "noise": {
+    "count": 38,
+    "examples": [
+      "@aakashgupta engagement-farming off-topic threads (trees, In-N-Out, MJ estate, Xbox, NASA, creatine)",
+      "@DataChaz promotional tool-shill threads with near-zero engagement and no operator relevance",
+      "@RoundtableSpace all-caps headline screaming with crypto/prediction market filler"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 60,
+    "seenCount": 55
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [
+      {
+        "theme": "agent-native product strategy (continuation)",
+        "runCount": 4,
+        "firstSeenRunId": "2026-04-20T13-24-23Z",
+        "lastSeenRunId": "2026-04-22T06-36-10Z"
+      }
+    ],
+    "emerging": [
+      {
+        "theme": "Claude Code /ultrareview launch",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "distribution disruption for indie devs (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "enterprise agent adoption friction",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "GPT-imagegen-2 internals",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "model competition (Qwen3.6, DeepSeek valuation)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "Apple CEO succession (continuation)",
+        "lastSeenRunId": "2026-04-21T18-35-12Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Code tooling & skills ecosystem (continuation)",
+        "lastSeenRunId": "2026-04-21T18-35-12Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "DESIGN.md open-source spec",
+        "lastSeenRunId": "2026-04-21T18-35-12Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Lovable security incident (continuation)",
+        "lastSeenRunId": "2026-04-21T18-35-12Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "model competition (GPT-5.5 imminent, xAI voice APIs)",
+        "lastSeenRunId": "2026-04-21T18-35-12Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
