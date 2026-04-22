@@ -53,6 +53,7 @@ The career play: be the operator who has *seen* convergence happen — pipeline-
 
 ## Recent shifts
 
+- **2026-04-22** — PM prototyping requirement confirmed at LinkedIn, Anthropic, and Rippling simultaneously. The convergence isn't just sales/product blurring — it's product/builder dissolving within product itself. The org chart mutation is no longer a trend; it's a hiring requirement.
 - **2026-04-18** — Stood up the LinkedIn Convergence writing lane to make this thesis publicly load-bearing. Three posts/week articulating it from the operator seat. Voice locked at spicy-but-self-aware.
 - **2026-04-17** — Lifted businessbarista's "git for knowledge work" framing into MSA's product-overview thesis. Convergence isn't just sales/product — it's the broader shared-substrate problem.
 

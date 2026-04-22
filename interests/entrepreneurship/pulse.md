@@ -54,6 +54,7 @@ The debt situation (~$100k) is real but not the bottleneck. Time and attention a
 
 ## Recent shifts
 
+- **2026-04-22** — SpaceX $60B acquisition option on Cursor + Claude Code Max at 75x below API rates = the infrastructure for building has become the most valuable layer, not the thing being built. Distribution + judgment remain the uncollapsing edges. The "everything is buildable" thesis just got a $60B valuation stamp.
 - **2026-04-18** — Stopped letting "concept docs" sit in `projects/` pretending to be active builds. Idea ghosts (urcooked, trend-jacker, OaaS, pre-call-research) moved to `interests/entrepreneurship/ideas/` where they can compete for attention without inflating the active project count.
 
 ---
