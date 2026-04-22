@@ -120,7 +120,7 @@ Most companies still hire for landing page conversion. They have not yet hired f
 | Date | Title | LinkedIn URL |
 |------|-------|--------------|
 
-*(none yet)*
+| 2026-04-22 | The org chart is fiction now | *(URL TBD)* |
 
 ---
 
