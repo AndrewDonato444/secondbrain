@@ -21,6 +21,14 @@
 
 ---
 
+## 2026-04-22 — BOL episodes 8–11 posted but not in artifact registry and not on site
+
+**Episodes:** Ep 8 (Apr 18 — "You don't need to learn to code. You need a Saturday."), Ep 9 (Apr 19 — "A shoe company just became a data center company"), Ep 10 (Apr 20 — "Paste your last 5 closed-won deals"), Ep 11 (Apr 21 — "I built a prompt that makes ChatGPT write in my voice")
+**Reason:** These episodes are listed as Posted in the episode master (`projects/building-out-loud/episodes/episode master.md`) but have no entries in the artifact registry and no site files under `content/building-out-loud/`. Job B only syncs registry-tracked episodes, so these were skipped.
+**Action needed:** Add ART entries for each episode in the artifact registry, then re-run Job B (or manually create the site files) to get these episodes onto the site. Bodies are in the episode master file under the "Posted" section.
+
+---
+
 ## 2026-04-18 — BOL ep-002 pre-Zernio episode needs LinkedIn URL
 
 **Episode:** BOL-EP-002 — "Product people vs. sales people" (posted Apr 11 via LinkedIn native, pre-Zernio)
