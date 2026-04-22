@@ -183,32 +183,64 @@ If `git status` shows nothing to commit, skip the commit + push silently.
 
 ## 7. Send the Telegram digest
 
-Use the credentials provided in your session preamble. Format:
+Use the credentials provided in your session preamble.
+
+### Standard format (new runs processed)
 
 ```
 🧠 *ScrollProxy — {today}*
 
-*Done for you ({N}):*
-✓ {first tier-1 action}
-✓ {...}
+*Worth your coffee:*
+• {signal item 1 — one-liner with why-it-matters} (@handle)
+• {signal item 2} (@handle)
+• {signal item 3} (@handle)
+[up to 6 items max — omit section if nothing real surfaced]
 
-*Needs your call ({M}):*
-□ {each tier-2 decision, one line} · Rec: {do|hold|skip}
-□ {...}
+*Tensions:*
+• {live debate 1 — one-line question framing}
+• {live debate 2}
+[omit section if no live debates]
 
-Reply `go` to approve all recs · `go except N` to skip · `hold` to defer
+Done ({N}): {compressed tier-1 summary using · separator}
+Your call ({M}): {compressed tier-2 list, one line each} · Rec: {do|hold|skip}
 
-Full file: https://github.com/AndrewDonato444/secondbrain/blob/main/projects/scrollproxy/surfacings/{today}.md
+Full surfacing → https://github.com/AndrewDonato444/secondbrain/blob/main/projects/scrollproxy/surfacings/{today}.md
 ```
 
-If no new runs, send:
+**Signal selection rules:**
+- Draw from Active project hits + Interest pulse hits — pick the 4-6 items most likely to matter to Andrew today
+- Each item: one sentence max, voice attribution required, why-it-matters not just what-it-is
+- If fewer than 4 real hits exist, include only what's real — don't pad
+- If nothing meaningful surfaced, replace the block with: "Quiet day — nothing routed."
+
+**Character limit:** Total message must not exceed 4096 characters. If over, trim "Worth your coffee" to top 4 items. Never trim the "Your call" block.
+
+### Re-run format (same calendar day)
+
+Same as standard but header reads:
+```
+🧠 *ScrollProxy — {today} (re-run {HH:MM ET})*
+```
+And signal/tensions reflect only what's new in this re-run.
+
+### No new runs
+
 ```
 🧠 *ScrollProxy — {today}*
 
-No new runs to process since yesterday.
+No new runs since last cycle.
 ```
 
-If something failed mid-run, send a fallback message with the error and which step failed. Don't silently swallow errors.
+### Error fallback
+
+```
+⚠️ ScrollProxy — {today}
+
+Failed at step {N}: {error description}
+Log: {LOG path}
+```
+
+Do not include signal or tensions in error fallback. Don't silently swallow errors.
 
 Send via curl:
 ```bash
