@@ -125,3 +125,32 @@
 - [ ] [@kimmonismus](https://x.com/kimmonismus/status/2046255681360036228) — Kimi K2.6: 58.6% SWE Bench Pro, 66.7% Terminal Bench, open weights — clearest data point that Chinese open-source is now a real Claude Code rival.
 - [ ] [@RoundtableSpace](https://x.com/RoundtableSpace/status/2046306656980701212) — Full guide on building and selling Claude plugins — directly relevant to indie dev distribution.
 - [ ] [@andrewchen](https://x.com/andrewchen/status/2046267503383544137) — a16z Speedrun 2026: $1M investments, 70+ companies, July-October in SF — actionable for indie founders.
+
+## 2026-04-21 18:35 UTC
+
+- [ ] [@ClaudeDevs](https://x.com/ClaudeDevs/status/2046613932518023259) — Claude Code now shows session recaps when you switch focus — directly addresses multi-agent workflow friction.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2046634834085531978) — Concrete math on why Claude Code Max plan at $200/mo is 75x cheaper than API rates for heavy users.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2046614703288578555) — OpenAI's compute reset announcement read as a deliberate poaching signal aimed at rate-limited Claude Code power users.
+- [ ] [@DataChaz](https://x.com/DataChaz/status/2046527013616603410) — 'Find Skills' meta-skill for Claude Code — genuine productivity unlock with install command.
+- [ ] [@kloss_xyz](https://x.com/kloss_xyz/status/2046648659170013278) — Google open-sourcing DESIGN.md while Anthropic rate-limits Claude Design — pointed competitive framing.
+- [ ] [@kimmonismus](https://x.com/kimmonismus/status/2046609637709840455) — GPT-Image-2 self-critiques and iterates on its own output — meaningful capability jump if accurate.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2046455305186464168) — LinkedIn, Anthropic, and Rippling all converging on requiring PMs to ship prototypes.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2046371351016161745) — Yann LeCun leaving Meta and shipping a working JEPA from raw pixels — counternarrative to transformer dominance.
+
+## 2026-04-22 00:35 UTC
+
+- [ ] [@simonw](https://x.com/simonw/status/2046732056995205620) — Best take on Claude Code Pro plan removal: the $20 Cowork contradiction makes the move strategically incoherent.
+- [ ] [@simonw](https://x.com/simonw/status/2046735565555630512) — Warning that OpenAI Codex will catch Claude Code fast if Anthropic follows through with the pricing change.
+- [ ] [@simonw](https://x.com/simonw/status/2046741210170314917) — PLG funnel logic problem: nobody cold-converts to $100/mo without a $20 trial tier.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2046725431374877005) — SpaceX-Cursor deal economics: $60B buyout option or $10B walk-away, with Cursor valuation context.
+- [ ] [@ClaudeDevs](https://x.com/ClaudeDevs/status/2046710816884625509) — Anthropic launched a prompt cache dashboard in the Developer Console — actionable for API builders.
+- [ ] [@jeff_weinstein](https://x.com/jeff_weinstein/status/2046595723400204335) — Active recruiting for developers building economic agents with checkout integration.
+- [ ] [@signulll](https://x.com/signulll/status/2046706492817244516) — Market map: Anthropic comes for Figma, OpenAI comes for Canva — 68-reply thread worth the debate.
+- [ ] [@signulll](https://x.com/signulll/status/2046671989910483423) — Which software categories AI destroys first: single-player, comprehension-bound tools.
+
+## 2026-04-22 06:36 UTC
+
+- [ ] [@simonw](https://x.com/simonw/status/2046774737683325028) — Best resolution of the Claude Code pricing saga: Anthropic reverted silently, clearest account of what happened.
+- [ ] [@levie](https://x.com/levie/status/2046805326784319663) — Enterprise agent adoption requires heavy implementation help — legacy stacks make self-service impossible.
+- [ ] [@signulll](https://x.com/signulll/status/2046760079622549603) — Anthropic employee #200 getting outcomes that historically required being employee #20 at Google.
+- [ ] [@signulll](https://x.com/signulll/status/2046647901968035999) — You don't beat a protocol by building a better client — you make the client irrelevant.
