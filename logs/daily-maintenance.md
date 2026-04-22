@@ -103,3 +103,34 @@ All 6 published BOL episode outlines share source DOC-010 (`series-overview.md`,
 
 **Stale Documents:** 0 documents not updated in 30+ days
 Clean (entire brain built April 2026 — nothing old enough to trigger this check yet)
+
+---
+## Daily Maintenance — 2026-04-22
+
+### Summary
+Knowledge graph has 5 issues: 4 missing BOL episode files (DOC-056–059) and DOC-047 unregistered. 6 published episode-outline artifacts are flagged as potentially stale because DOC-010 (series-overview) was updated 2026-04-21 after their publish dates. Inbox clean; profile current; no stale documents.
+
+### Findings
+**Knowledge Graph:** 5 issues
+- DOC-056 path missing: `projects/building-out-loud/episodes/ep-005-wispr-flow.md`
+- DOC-057 path missing: `projects/building-out-loud/episodes/ep-002-sales-product-convergence.md`
+- DOC-058 path missing: `projects/building-out-loud/episodes/ep-006-dont-be-afraid-be-ready.md`
+- DOC-059 path missing: `projects/building-out-loud/episodes/ep-008-doom-scrolling.md`
+- DOC-047 (`projects/andrewdonato-com/writing/queue.md`) exists but is absent from the Document Registry
+
+**Inbox:** 0 unprocessed items older than 2 days
+Clean (all 16 inbox items are status: processed or have been given DOC IDs)
+
+**Artifact Staleness:** 6 potentially stale artifacts
+- ART-001 (Ep 1, pub 2026-04-09) — source DOC-010 updated 2026-04-21, DOC-001 updated 2026-04-17
+- ART-002 (Ep 2, pub 2026-04-12) — source DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-21
+- ART-003 (Ep 3, pub 2026-04-13) — source DOC-010 updated 2026-04-21
+- ART-004 (Ep 4, pub 2026-04-14) — source DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-21
+- ART-006 (Ep 6, pub 2026-04-15) — source DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-21
+- ART-009 (Ep 9, pub 2026-04-16) — source DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-21
+Note: All are already-published episode outlines. The trigger is DOC-010 (series-overview) being updated yesterday. Likely minor additions rather than invalidating changes — low urgency.
+
+**Profile Freshness:** Current (last updated 2026-04-17, 5 days ago)
+
+**Stale Documents:** 0 documents not updated in 30+ days
+Clean (entire brain built April 2026 — nothing old enough to trigger this check yet)
