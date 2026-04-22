@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-22T06-36-10Z",
+  "summarizedAt": "2026-04-22T06:36:40.437Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Claude Code pricing blunder (continuation)",
+    "SpaceX x Cursor acquisition option (continuation)",
+    "Claude Cowork/artifacts product expansion (continuation)",
+    "OpenAI GPT-Image-2 & model competition (continuation)",
+    "agent-native product strategy (continuation)",
+    "economic agents & machine payments (continuation)",
+    "distribution disruption thesis"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2046732056995205620",
+      "url": "https://x.com/simonw/status/2046732056995205620",
+      "author": "@simonw",
+      "why": "The breakout post on Anthropic's pricing blunder — spotted the contradiction that $20/mo Cowork is just Claude Code with a friendlier name, making the removal self-defeating."
+    },
+    {
+      "postId": "2046774737683325028",
+      "url": "https://x.com/simonw/status/2046774737683325028",
+      "author": "@simonw",
+      "why": "Best single-post resolution of the pricing saga: Anthropic reverted silently, Simon's writeup is the clearest account of what actually happened and what's still unresolved."
+    },
+    {
+      "postId": "2046725431374877005",
+      "url": "https://x.com/aakashgupta/status/2046725431374877005",
+      "author": "@aakashgupta",
+      "why": "Solid numbers breakdown on the SpaceX/Cursor $60B option deal — puts the valuation in context against Cursor's $9.9B from last year and what xAI is actually buying."
+    },
+    {
+      "postId": "2046614703288578555",
+      "url": "https://x.com/aakashgupta/status/2046614703288578555",
+      "author": "@aakashgupta",
+      "why": "Sharp read on OpenAI's rate-limit reset announcement as a deliberate poaching move targeting frustrated Claude Code power users — directly relevant to competitive positioning."
+    },
+    {
+      "postId": "2046805326784319663",
+      "url": "https://x.com/levie/status/2046805326784319663",
+      "author": "@levie",
+      "why": "Aaron Levie on why enterprise agent adoption requires heavy implementation help — the 'real world has legacy stacks' argument is the core sales motion for anyone selling into enterprise AI."
+    },
+    {
+      "postId": "2046760079622549603",
+      "url": "https://x.com/signulll/status/2046760079622549603",
+      "author": "@signulll",
+      "why": "Crisp framing: Anthropic employee #200 is getting outcomes that historically required being employee #20 at Google — a real distribution/leverage argument for indie builders."
+    },
+    {
+      "postId": "2046647901968035999",
+      "url": "https://x.com/signulll/status/2046647901968035999",
+      "author": "@signulll",
+      "why": "The best product strategy take in the feed: you don't beat a protocol by building a better client, you make the client irrelevant — directly applicable to distribution thinking."
+    },
+    {
+      "postId": "2046595723400204335",
+      "url": "https://x.com/simonw/status/2046595723400204335",
+      "author": "@simonw",
+      "why": "GitHub Copilot pausing new signups entirely is a meaningful competitive signal that's easy to miss in the Claude Code pricing noise."
+    },
+    {
+      "postId": "2046595723400204335",
+      "url": "https://x.com/jeff_weinstein/status/2046595723400204335",
+      "author": "@jeff_weinstein",
+      "why": "Jeff Weinstein actively recruiting devs building economic agents this week — if you're building in this space, this is a live opportunity."
+    },
+    {
+      "postId": "2046634834085531978",
+      "url": "https://x.com/aakashgupta/status/2046634834085531978",
+      "author": "@aakashgupta",
+      "why": "Concrete math on Claude Code's cost arbitrage — 10B tokens for $200/mo vs $15K at API rates — the sanctioned cheap-at-scale angle is the actual product story Anthropic should be telling."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@simonw",
+      "why": "Most rigorous real-time tracking of the Claude Code pricing debacle with actual receipts — his blog posts are the primary source everyone else is citing."
+    },
+    {
+      "handle": "@aakashgupta",
+      "why": "Consistent concrete breakdowns on Anthropic product economics, SpaceX/Cursor deal, and OpenAI competitive moves — signal-dense even if volume is high."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Sharp contrarian product takes (distribution disruption thesis, Anthropic valuation leverage) with low word count and high concept density."
+    },
+    {
+      "handle": "@jeff_weinstein",
+      "why": "Building live economic agent infrastructure at Stripe and sharing real practitioner questions about agent trust signals — directly on the operator's interests."
+    },
+    {
+      "handle": "@levie",
+      "why": "The enterprise agent adoption framing post had 118K views for a reason — he's articulating the sales motion reality that pure AI-hype accounts miss."
+    }
+  ],
+  "noise": {
+    "count": 32,
+    "examples": [
+      "newsletter self-promo spam (aakashgupta posting identical 'subscribe to my newsletter' 4+ times)",
+      "GM/good vibes filler posts with no information content",
+      "flying cars / robotics / EV factory tourism unrelated to operator interests"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 52,
+    "seenCount": 57
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [
+      {
+        "theme": "Claude Code internals & tooling (continuation)",
+        "runCount": 7,
+        "firstSeenRunId": "2026-04-20T13-23-20Z",
+        "lastSeenRunId": "2026-04-21T12-34-45Z"
+      },
+      {
+        "theme": "agent-native product strategy (continuation)",
+        "runCount": 6,
+        "firstSeenRunId": "2026-04-20T13-23-20Z",
+        "lastSeenRunId": "current"
+      }
+    ],
+    "emerging": [
+      {
+        "theme": "Claude Code pricing blunder (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "distribution disruption thesis",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "economic agents & machine payments (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "OpenAI GPT-Image-2 & model competition (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "SpaceX x Cursor acquisition option (continuation)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "agent-native PM role & org structure",
+        "lastSeenRunId": "2026-04-21T06-34-16Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Anthropic compute scale-up (5GW AWS deal continuation)",
+        "lastSeenRunId": "2026-04-21T06-34-16Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Apple CEO succession & AI lag (continuation)",
+        "lastSeenRunId": "2026-04-21T06-34-16Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Lovable security incident & vibe-coded app risks",
+        "lastSeenRunId": "2026-04-21T06-34-16Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "model competition (Kimi K2.6 vs Claude, Codex reliability)",
+        "lastSeenRunId": "2026-04-21T06-34-16Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
