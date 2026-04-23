@@ -68,6 +68,8 @@ One specific thing you can do today. No prerequisites, no two-minute setup. The 
 ### 6. Steal My Prompt
 A recurring mini-series. One prompt per episode — something Andrew actually uses. Show what it does, why it works, give it away in the first comment. No setup required, no tool install — works in ChatGPT or Claude out of the box. Format is always the same: here's the problem, here's the prompt, steal it. 2x/week cadence target. Launched Apr 21 with the "Voice of ___" episode (ep. 11) which is tracking to go viral. Backlog lives in episode master under `## Steal My Prompt — Backlog`.
 
+**Format variant — "Steal My Prompt in 20 Seconds"** (added 2026-04-22): Quickfire screen-recording edit. Do this → do this → do this, outcome reveal at the end, full prompt pinned in the first comment. No talking head, no setup context — just watch the prompt fire and see what lands. Best for prompts where the output is visually striking or where the before/after is the whole punchline. Lives alongside the longer walking-format episodes; pick per-prompt which fits better.
+
 ## Posting Strategy
 
 - Shoot in the morning on the walk

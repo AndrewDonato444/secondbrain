@@ -56,9 +56,34 @@
     - FW-W1-01.md (New Job Description one-pager)
     - WS-W1-01.md (My Irreplaceable Value-Add takeaway worksheet)
     - PRE-WORK.md (participant instructions)
-  - ⬜ Week 2 AI Spine session materials (next up)
+  - ✅ Week 2 AI Spine session complete → `curriculum/week-02/`
+    - SESSION-FRAMEWORK.md (90-min run-of-show)
+    - FW-W2-01.md (AI-Augmented Pipeline Review Protocol — net-new one-pager)
+    - WS-W2-01.md (My AI-Augmented Weekly Review Template — takeaway worksheet)
+    - PRE-WORK.md (participant instructions + WS-07-03, WS-07-04)
+  - ✅ Week 3 AI Spine session complete → `curriculum/week-03/`
+    - SESSION-FRAMEWORK.md (90-min run-of-show)
+    - FW-W3-01.md (Three AI Coaching Archetypes — net-new diagnostic framework)
+    - WS-W3-01.md (My AI Coaching Plan — takeaway worksheet)
+    - PRE-WORK.md (participant instructions + SA-08-01)
+  - ✅ Week 4 AI Spine session complete → `curriculum/week-04/`
+    - SESSION-FRAMEWORK.md (90-min run-of-show)
+    - FW-W4-01.md (AI-Integrated 1:1 Prep Protocol — net-new one-pager)
+    - WS-W4-01.md (My AI-Integrated 1:1 Format — takeaway worksheet)
+    - PRE-WORK.md (participant instructions + SA-06-01)
+  - ✅ Week 5 AI Spine session complete → `curriculum/week-05/`
+    - SESSION-FRAMEWORK.md (90-min run-of-show)
+    - FW-W5-01.md (AI Fluency as a Hiring Dimension — net-new framework + interview probe + ramp track)
+    - WS-W5-01.md (My Updated Hiring Process — takeaway worksheet)
+    - PRE-WORK.md (participant instructions + WS-09-01, WS-09-02)
+  - ✅ Week 6 AI Spine session complete → `curriculum/week-06/`
+    - SESSION-FRAMEWORK.md (90-min capstone run-of-show + through-line close)
+    - FW-W6-01.md (AI Communication Framework + Fairness Question + Managing Up — net-new)
+    - WS-W6-01.md (My 30/90-Day AI Leadership Roadmap — capstone accountability artifact)
+    - PRE-WORK.md (participant instructions + WS-10-01, SA-10-02)
+  - ✅ **AI SPINE FULLY COMPLETE** — All 6 weeks built
   - ⬜ Foundations Library revisions: Modules 02, 04, 05, 07, 09, 10, 11
-  - ⬜ Net-new framework docs: AI Pipeline Review protocol (Week 2), Three AI Coaching Archetypes (Week 3)
+  - ⬜ Net-new framework docs: all net-new built inline with session materials
 - Phase 4: Pre-sell (Jun 15 – Jul 13)
 - Phase 5: Cohort 1 delivery (Jul 13 – Aug 24)
 
@@ -86,8 +111,32 @@ All project files: `/Users/andrewsrobotmachine/SecondBrain/projects/manager-forg
 - `curriculum/week-01/FW-W1-01.md` ✅ — New Job Description one-pager (through-line visual for cohort)
 - `curriculum/week-01/WS-W1-01.md` ✅ — My Irreplaceable Value-Add (session takeaway worksheet)
 - `curriculum/week-01/PRE-WORK.md` ✅ — Participant pre-work instructions (30–40 min)
-- `curriculum/week-02/` ⬜ — AI Spine Week 2 session materials (next)
-- `presell/` ⬜ — landing page, email sequences, BOL episode list
+- `curriculum/week-02/SESSION-FRAMEWORK.md` ✅ — 90-minute run-of-show
+- `curriculum/week-02/FW-W2-01.md` ✅ — AI-Augmented Pipeline Review Protocol (net-new one-pager)
+- `curriculum/week-02/WS-W2-01.md` ✅ — My AI-Augmented Weekly Review Template (takeaway worksheet)
+- `curriculum/week-02/PRE-WORK.md` ✅ — Participant pre-work instructions
+- `curriculum/week-03/SESSION-FRAMEWORK.md` ✅ — 90-minute run-of-show
+- `curriculum/week-03/FW-W3-01.md` ✅ — Three AI Coaching Archetypes (net-new diagnostic framework)
+- `curriculum/week-03/WS-W3-01.md` ✅ — My AI Coaching Plan (takeaway worksheet)
+- `curriculum/week-03/PRE-WORK.md` ✅ — Participant pre-work instructions + SA-08-01
+- `curriculum/week-04/SESSION-FRAMEWORK.md` ✅ — 90-minute run-of-show
+- `curriculum/week-04/FW-W4-01.md` ✅ — AI-Integrated 1:1 Prep Protocol (net-new one-pager)
+- `curriculum/week-04/WS-W4-01.md` ✅ — My AI-Integrated 1:1 Format (takeaway worksheet)
+- `curriculum/week-04/PRE-WORK.md` ✅ — Participant pre-work instructions + SA-06-01
+- `curriculum/week-05/SESSION-FRAMEWORK.md` ✅ — 90-minute run-of-show
+- `curriculum/week-05/FW-W5-01.md` ✅ — AI Fluency as a Hiring Dimension (net-new framework + interview probe + AI ramp track)
+- `curriculum/week-05/WS-W5-01.md` ✅ — My Updated Hiring Process (takeaway worksheet)
+- `curriculum/week-05/PRE-WORK.md` ✅ — Participant pre-work instructions + WS-09-01, WS-09-02
+- `curriculum/week-06/SESSION-FRAMEWORK.md` ✅ — 90-minute capstone run-of-show + through-line close
+- `curriculum/week-06/FW-W6-01.md` ✅ — AI Communication Framework + Fairness Question + Managing Up
+- `curriculum/week-06/WS-W6-01.md` ✅ — My 30/90-Day AI Leadership Roadmap (capstone artifact)
+- `curriculum/week-06/PRE-WORK.md` ✅ — Participant pre-work instructions + WS-10-01, SA-10-02
+- `presell/enrollment-page-copy.md` ✅ — full enrollment page copy (hero, problem, program, pricing, FAQ, CTAs)
+- `presell/email-sequences.md` ✅ — all email sequences (ENROLL 1-3, WEEKLY W1-W6 pre+post, OFFBOARD 1-2)
+- `presell/skool-setup-guide.md` ✅ — step-by-step Skool build guide (community, spaces, classroom, Stripe, Zoom, checklist)
+- `presell/` ⬜ — BOL episode plan (thread Manager Forge themes through episodes before enrollment)
+- `gtm/senior-leader-outbound.md` ✅ — Idea capture (2026-04-22): outbound motion to CROs/SVPs offering a "manager evaluation" wedge, run via GojiBerry + Instantly. Start with live intro calls before automating.
+- Shared tooling: `projects/gojiberry-auto/` (cloned 2026-04-22) — full automation suite (ICP discovery, Apollo enrichment, message gen, campaign analytics). Shared with Sales Edge Consulting.
 
 **Archive location (read-only):**
 - Full module scripts: `projects/manager-forge/archive/tasks/Curriculum-Design/modules/`
