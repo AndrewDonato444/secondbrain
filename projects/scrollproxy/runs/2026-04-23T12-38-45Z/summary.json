@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-23T12-38-45Z",
+  "summarizedAt": "2026-04-23T12:39:15.998Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "model competition (Kimi K2.6, GPT-5.5/Spud pretraining shift)",
+    "Anthropic PR silence & valuation paradox",
+    "Google DESIGN.md open-source counter to Claude Design",
+    "OpenAI ChatGPT workspace agents (headless software)",
+    "distribution tools for indie devs (Higgsfield Marketing Studio)",
+    "GPT-Image-2 creative use cases (continuation)",
+    "AI product strategy & utility vs. delight gap"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2047208911200305153",
+      "url": "https://x.com/kimmonismus/status/2047208911200305153",
+      "author": "@kimmonismus",
+      "why": "Credible leak that both GPT-5.5/Spud and Anthropic Mythos are shifting back to pretraining gains over test-time compute — the biggest architectural signal about next-gen model strategy in weeks."
+    },
+    {
+      "postId": "2047028112626749645",
+      "url": "https://x.com/levie/status/2047028112626749645",
+      "author": "@levie",
+      "why": "Aaron Levie calls the new ChatGPT workspace agents 'the biggest news yet in software going headless' — with a live demo showing full tool + data access, this is a direct threat to every enterprise SaaS AI roadmap."
+    },
+    {
+      "postId": "2047023640701776232",
+      "url": "https://x.com/aakashgupta/status/2047023640701776232",
+      "author": "@aakashgupta",
+      "why": "Concrete framing: OpenAI's workspace agents compress every SaaS company's AI roadmap by 18 months, with the Notion Custom Agents pattern now at mainstream scale."
+    },
+    {
+      "postId": "2047245316391670042",
+      "url": "https://x.com/DataChaz/status/2047245316391670042",
+      "author": "@DataChaz",
+      "why": "Google open-sourced DESIGN.md as a direct counter to Anthropic Claude Design's rate limits — a meaningful competitive move worth tracking for anyone building agent-driven UI tooling."
+    },
+    {
+      "postId": "2047172626854883761",
+      "url": "https://x.com/kimmonismus/status/2047172626854883761",
+      "author": "@kimmonismus",
+      "why": "The clearest articulation of Anthropic's self-inflicted PR damage: silence on the pricing blunder is compounding the problem while competitors accelerate."
+    },
+    {
+      "postId": "2047147394433741292",
+      "url": "https://x.com/signulll/status/2047147394433741292",
+      "author": "@signulll",
+      "why": "5.7K likes, 522K views — Gemini's coding perception gap is a real market phenomenon worth understanding if positioning against Google's AI stack."
+    },
+    {
+      "postId": "2047016972584677616",
+      "url": "https://x.com/aakashgupta/status/2047016972584677616",
+      "author": "@aakashgupta",
+      "why": "Sharp breakdown of why UGC ad costs ($15K+ for 50 variants) are a distribution kill shot for solo founders, setting up why Higgsfield-style tools matter strategically."
+    },
+    {
+      "postId": "2047259175751999636",
+      "url": "https://x.com/DataChaz/status/2047259175751999636",
+      "author": "@DataChaz",
+      "why": "Higgsfield's Marketing Studio (Hermes agent + Meta/TikTok hook scraping → 500+ video variants) is the most concrete new distribution tool for indie devs in this batch."
+    },
+    {
+      "postId": "2047104760830906844",
+      "url": "https://x.com/signulll/status/2047104760830906844",
+      "author": "@signulll",
+      "why": "Useful product strategy framing: utility alone doesn't create retention, and most AI products are missing the play/delight/aesthetic layer — directly relevant to AI product design decisions."
+    },
+    {
+      "postId": "2047227664239657154",
+      "url": "https://x.com/JaynitMakwana/status/2047227664239657154",
+      "author": "@JaynitMakwana",
+      "why": "K2.6 scoring 85% on Live Code Bench vs Claude's 64% at 7x cheaper is a real pricing and capability signal for anyone building on top of coding models."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@kimmonismus",
+      "why": "Consistently early on model release intelligence (GPT-5.5/Spud pretraining shift, Anthropic valuation dynamics) with analysis rather than just amplification."
+    },
+    {
+      "handle": "@aakashgupta",
+      "why": "Covers AI product strategy, PM role evolution, and distribution economics for solo founders with specific numbers — relevant across all three operator interests."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Sharp takes on AI product design (utility vs. delight), Gemini's coding perception gap, and consumer attention — small account but high signal-to-noise."
+    },
+    {
+      "handle": "@DataChaz",
+      "why": "Practical tooling coverage (DESIGN.md, Higgsfield) aimed at indie builders, with a consistent focus on the distribution and agent-UI workflow problems."
+    }
+  ],
+  "noise": {
+    "count": 32,
+    "examples": [
+      "RoundtableSpace all-caps engagement bait (crypto shilling, 'LOCK IN OR GET LEFT BEHIND', Polymarket bot promos)",
+      "aakashgupta off-topic threads (salmon/cocaine study, Down syndrome, Ratatouille business history, Red Dead Redemption)",
+      "newsletter self-promo posts with zero content"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 49,
+    "seenCount": 66
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "AI product strategy & utility vs. delight gap",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Anthropic PR silence & valuation paradox",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "distribution tools for indie devs (Higgsfield Marketing Studio)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Google DESIGN.md open-source counter to Claude Design",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "GPT-Image-2 creative use cases (continuation)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "agent-native PM role & org structure (continuation)",
+        "lastSeenRunId": "2026-04-22T12-36-42Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Anthropic prompt cache dashboard (continuation)",
+        "lastSeenRunId": "2026-04-22T12-36-42Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Code pricing blunder (continuation)",
+        "lastSeenRunId": "2026-04-22T12-36-42Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "distribution disruption thesis (continuation)",
+        "lastSeenRunId": "2026-04-22T12-36-42Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "GPT-Image-2 creative capabilities (continuation)",
+        "lastSeenRunId": "2026-04-22T12-36-42Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
