@@ -2,7 +2,7 @@
 
 > Tracks relationships between all documents in the Second Brain. Updated whenever documents are created or modified. Read this before editing any document to understand what might be affected downstream.
 
-Last updated: 2026-04-21 (added DOC-069 TikTok slideshow playbook + DOC-070 source transcript)
+Last updated: 2026-04-23 (added PERSON-007 Russ Gregory + DOC-071 MSP Sales JV project)
 
 ---
 
@@ -271,6 +271,10 @@ Last updated: 2026-04-21 (added DOC-069 TikTok slideshow playbook + DOC-070 sour
 | DOC-069 | informs | DOC-052 | Distribution tool context — Zernio is the draft-push surface the playbook would use |
 | DOC-069 | informs | DOC-055 | Pivot pipeline could add a slideshow lane alongside clip-and-distribute |
 | DOC-070 | informs | DOC-069 | Raw transcript that DOC-069 was processed from |
+| PERSON-007 | informs | DOC-071 | Russ Gregory is the JV partner and primary operator of MSP Sales project |
+| PERSON-007 | informs | DOC-001 | Prospective JV partner for MSP consulting business |
+| DOC-071 | informs | DOC-001 | MSP Sales is an active project Andrew is building toward independence |
+| DOC-071 | extends | DOC-003 | MSP sales consulting overlaps with MSA's market and Andrew's sales expertise |
 
 ---
 
