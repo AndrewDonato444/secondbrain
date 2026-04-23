@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-23T00-37-49Z",
+  "summarizedAt": "2026-04-23T00:38:15.887Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "OpenAI Workspace Agents launch",
+    "MCP & agent-to-production patterns",
+    "distribution tools for indie devs (Higgsfield)",
+    "Claude Code market disruption thesis",
+    "model compression & data quality (Karpathy)",
+    "PM role evolution (prototypes > PRDs)",
+    "enterprise agent adoption friction"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2047023089087606814",
+      "url": "https://x.com/gdb/status/2047023089087606814",
+      "author": "@gdb",
+      "why": "Greg Brockman's own framing of Workspace Agents — Codex-hosted, Slack-connected, recurring tasks — is the primary source on the biggest launch of the day."
+    },
+    {
+      "postId": "2046805326784319663",
+      "url": "https://x.com/levie/status/2046805326784319663",
+      "author": "@levie",
+      "why": "Aaron Levie's 882K-view take argues enterprise agent adoption is gated by legacy stacks, not model capability — directly relevant to sales and GTM positioning."
+    },
+    {
+      "postId": "2047086372666921217",
+      "url": "https://x.com/ClaudeDevs/status/2047086372666921217",
+      "author": "@ClaudeDevs",
+      "why": "Anthropic's official blog on MCP in production (direct API vs CLI vs MCP decision framework) is the most substantive technical post in the feed."
+    },
+    {
+      "postId": "2047023640701776232",
+      "url": "https://x.com/aakashgupta/status/2047023640701776232",
+      "author": "@aakashgupta",
+      "why": "Crisp thesis: OpenAI Workspace Agents shortened every SaaS company's AI roadmap by 18 months — useful competitive framing for product strategy."
+    },
+    {
+      "postId": "2046953199345729881",
+      "url": "https://x.com/aakashgupta/status/2046953199345729881",
+      "author": "@aakashgupta",
+      "why": "Claude Code wiping out $25B in vertical AI market cap is a provocative but grounded competitive map worth stress-testing."
+    },
+    {
+      "postId": "2046860622160371869",
+      "url": "https://x.com/aakashgupta/status/2046860622160371869",
+      "author": "@aakashgupta",
+      "why": "Karpathy's 1B-param / clean-data = frontier-quality claim gets the clearest public explanation here, with real implications for model cost and build-vs-buy decisions."
+    },
+    {
+      "postId": "2047016972584677616",
+      "url": "https://x.com/aakashgupta/status/2047016972584677616",
+      "author": "@aakashgupta",
+      "why": "Concrete math on why UGC ad creative costs ($15K for 50 variants) are the real distribution bottleneck for solo vibe-coded apps — directly actionable for indie devs."
+    },
+    {
+      "postId": "2046793458988560864",
+      "url": "https://x.com/aakashgupta/status/2046793458988560864",
+      "author": "@aakashgupta",
+      "why": "Brex open-sourcing their OpenClaw operating model is a rare look at how a scaled company is actually structuring agent-native operations."
+    },
+    {
+      "postId": "2047064885012599168",
+      "url": "https://x.com/gdb/status/2047064885012599168",
+      "author": "@gdb",
+      "why": "ChatGPT plugin for Google Sheets is a quiet but high-surface-area distribution move that puts AI directly into the spreadsheet workflows of every non-technical user."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@aakashgupta",
+      "why": "Most substantive PM-strategy voice in the feed today — multiple original theses on agent-native org structure, Claude Code disruption, and indie dev distribution math."
+    },
+    {
+      "handle": "@levie",
+      "why": "Consistently sharp on enterprise adoption friction; his takes have reach and are grounded in actual sales/deployment realities."
+    },
+    {
+      "handle": "@ClaudeDevs",
+      "why": "Primary source for Anthropic tooling and agent architecture guidance — no noise, all signal for builders."
+    },
+    {
+      "handle": "@simonw",
+      "why": "Catches things others miss (embedding model deprecation risks, GPT-imagegen-2 prompt rewriting) with calm, practical analysis."
+    }
+  ],
+  "noise": {
+    "count": 32,
+    "examples": [
+      "@aakashgupta newsletter self-promo posts (5+ identical CTAs)",
+      "RoundtableSpace all-caps hype recaps of already-covered launches",
+      "off-topic content (creatine dosing, street trees, A24 box office, MJ estate)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 54,
+    "seenCount": 61
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "Claude Code market disruption thesis",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "distribution tools for indie devs (Higgsfield)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "MCP & agent-to-production patterns",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "model compression & data quality (Karpathy)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "OpenAI Workspace Agents launch",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "Anthropic prompt cache dashboard",
+        "lastSeenRunId": "2026-04-22T00-35-40Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Code pricing blunder (Pro plan removal)",
+        "lastSeenRunId": "2026-04-22T00-35-40Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "economic agents & machine payments",
+        "lastSeenRunId": "2026-04-22T00-35-40Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "GPT-Image-2 launch",
+        "lastSeenRunId": "2026-04-22T00-35-40Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "OpenAI agent layer expansion",
+        "lastSeenRunId": "2026-04-22T00-35-40Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
