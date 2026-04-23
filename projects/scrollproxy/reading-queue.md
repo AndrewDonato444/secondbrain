@@ -154,3 +154,38 @@
 - [ ] [@levie](https://x.com/levie/status/2046805326784319663) — Enterprise agent adoption requires heavy implementation help — legacy stacks make self-service impossible.
 - [ ] [@signulll](https://x.com/signulll/status/2046760079622549603) — Anthropic employee #200 getting outcomes that historically required being employee #20 at Google.
 - [ ] [@signulll](https://x.com/signulll/status/2046647901968035999) — You don't beat a protocol by building a better client — you make the client irrelevant.
+
+## 2026-04-22 12:36 UTC
+
+- [ ] [@kimmonismus](https://x.com/kimmonismus/status/2046874230529180092) — Claude Mythos accidentally leaked on Discord and users accessed it — the model Anthropic calls too dangerous to release; bad optics on top of the pricing blunder.
+- [ ] [@kimmonismus](https://x.com/kimmonismus/status/2046841146526097447) — OpenAI's internal model list leaked inside Codex, with GPT-5.5 release predicted for Thursday — actionable competitive timing signal.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2046860622160371869) — Karpathy's 1,800x compression claim — a 1B parameter model on clean data could match today's 1.8T frontier — direct implications for cost and competitive moat assumptions.
+- [ ] [@kloss_xyz](https://x.com/kloss_xyz/status/2046783496191082940) — Clean battlefield map of what every lab shipped on the same Tuesday — Anthropic pricing blunder, OpenAI image model, SpaceX/Cursor, Google DESIGN.md.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2046883473991024882) — OpenAI Codex PMs now show up to meetings with working PRs instead of PRDs — concrete evidence of PM role redefinition.
+- [ ] [@simonw](https://x.com/simonw/status/2046799006370828745) — Simon Willison confirms the Claude Code pricing change was an A/B test accidentally rolled out globally.
+
+## 2026-04-22 18:37 UTC
+
+- [ ] [@ClaudeDevs](https://x.com/ClaudeDevs/status/2046999435239133246) — Official launch of /ultrareview — fleet of cloud bug-hunting agents inside Claude Code, free for Pro/Max through 5/5.
+- [ ] [@emollick](https://x.com/emollick/status/2046960756608868533) — Non-obvious finding: the LLM you pair with GPT-imagegen-2 materially changes output quality, especially for complex prompts.
+- [ ] [@emollick](https://x.com/emollick/status/2046979551046013125) — Systems regulated by human effort cost (LoRs, lawsuits, essays) will structurally break under AI — compact, high-leverage observation.
+- [ ] [@jeff_weinstein](https://x.com/jeff_weinstein/status/2046713376899051721) — Stripe PM asking what signals would let webmasters welcome 'good' agents rather than block them — agent identity/trust infrastructure.
+
+## 2026-04-23 00:37 UTC
+
+- [ ] [@gdb](https://x.com/gdb/status/2047023089087606814) — Greg Brockman's own framing of Workspace Agents — Codex-hosted, Slack-connected, recurring tasks — primary source on the biggest launch of the day.
+- [ ] [@ClaudeDevs](https://x.com/ClaudeDevs/status/2047086372666921217) — Anthropic's official blog on MCP in production — direct API vs CLI vs MCP decision framework.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047023640701776232) — OpenAI Workspace Agents shortened every SaaS company's AI roadmap by 18 months.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2046953199345729881) — Claude Code wiping out $25B in vertical AI market cap — provocative but grounded competitive map.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047016972584677616) — Concrete math on why UGC ad creative costs ($15K for 50 variants) are the real distribution bottleneck for solo vibe-coded apps.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2046793458988560864) — Brex open-sourcing their OpenClaw operating model — rare look at agent-native operations at scale.
+- [ ] [@gdb](https://x.com/gdb/status/2047064885012599168) — ChatGPT plugin for Google Sheets — quiet but high-surface-area distribution move into spreadsheet workflows.
+
+## 2026-04-23 06:38 UTC
+
+- [ ] [@levie](https://x.com/levie/status/2047028112626749645) — Aaron Levie calls ChatGPT Workspace Agents the biggest 'software going headless' moment yet.
+- [ ] [@gdb](https://x.com/gdb/status/2047145125604995280) — Greg Brockman announces ChatGPT for Clinicians (free, GPT-5.4) — major vertical-specific distribution move.
+- [ ] [@emollick](https://x.com/emollick/status/2047147032016551937) — Caveat that OpenAI designed the clinician benchmark — useful calibration on the performance claims.
+- [ ] [@signulll](https://x.com/signulll/status/2047147394433741292) — 266K-view observation that nobody uses Gemini for coding — real market signal about developer mindshare.
+- [ ] [@kimmonismus](https://x.com/kimmonismus/status/2047172626854883761) — Calls out Anthropic's continued silence on the pricing blunder — tracking PR damage.
+- [ ] [@signulll](https://x.com/signulll/status/2047104760830906844) — Most AI products are pure utility and therefore fragile — the ones that survive fuse usefulness with play or delight.
