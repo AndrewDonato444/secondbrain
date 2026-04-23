@@ -108,34 +108,6 @@ What would you do if you were running Apple tomorrow? Stay the course, or change
 
 ---
 
-### "Before your next discovery call, ask AI to steelman the reason they won't buy"
-**Pillar:** The Move
-
-**Hook:** "Most discovery prep is about why they should buy. Here's a better question to ask first."
-
-**Talking points:**
-- Before your next discovery call, open Claude and give it the context: company name, what they do, what product you're selling, why you think they booked the call
-- Then ask: "What are the strongest reasons this company won't buy? Steelman the case against this deal."
-- You'll get back 4-5 objections — some you've heard a hundred times, maybe one you haven't thought about for this specific account
-- The ones you've heard before: now you've already mentally rehearsed the response before you're sitting across from someone
-- The one you haven't thought about: that's the prep that actually moves the call
-- The goal isn't to go in defensive. It's to go in with your eyes open so you're not caught flat-footed when the real hesitation surfaces
-- Most reps prep for the pitch. The best reps prep for the resistance.
-- End with: "Try it before your next call. Tell me if anything surprised you."
-
-**First comment:**
-The prompt:
-
-> I have a discovery call with [company]. They [brief description of what they do]. I'm selling [product/solution]. They booked because [reason or "I'm not sure yet"]. What are the strongest reasons they won't buy? Give me the steelman case against this deal.
-
-The objection you didn't think of is the one worth preparing for.
-
-Did anything come back that surprised you?
-
-#Sales #SalesLeadership #Discovery #AI #TheMove
-
----
-
 ### "Pull your last 3 lost deals. Ask AI what stage they all stalled at."
 **Pillar:** The Move
 
@@ -649,6 +621,37 @@ What came back that you weren't expecting?
 | 10 | Apr 20 | The Move | Paste your last 5 closed-won deals into Claude and ask what they had in common |
 | 11 | Apr 21 | Building in Public | I built a prompt that makes ChatGPT write in my voice. Here it is. (LinkedIn + TikTok) |
 | 12 | Apr 22 | Tools That Actually Changed How I Work | AI gives you a perfect answer. You paste it. It looks like garbage. One bookmark fixes it. |
+| 13 | Apr 23 | The Move | Before your next discovery call, ask AI to kill your deal. |
+
+---
+
+<!-- POSTED 2026-04-23 — kept below for reference -->
+
+### "Before your next discovery call, ask AI to kill your deal." (POSTED Apr 23)
+**Pillar:** The Move
+
+**Hook:** "Before your next discovery call, ask AI to kill your deal. What it tells you is worth more than any pitch prep you've ever done."
+
+**Talking points:**
+- Most reps walk into discovery trying to prove they should win. Best reps walk in trying to prove they shouldn't — and let AI do it first
+- Before your next discovery call, open Claude and give it the context: company name, what they do, what product you're selling, why you think they booked the call
+- Then ask it to steelman the case against the deal. Not generic objections — the strongest specific reasons this company won't buy
+- What comes back is 4-5 objections. Some you've heard a hundred times — now you've mentally rehearsed the response before you're in the room
+- The one you haven't thought about for this specific account — that's the prep that actually moves the call
+- You're not going in defensive. You're going in with your eyes open so you're not caught flat-footed when the real hesitation surfaces
+- Most reps prep for the pitch. The best reps prep for the resistance.
+- End with: "Try it before your next call. Tell me if anything surprised you."
+
+**First comment:**
+The prompt:
+
+> I have a discovery call with [company]. They [brief description of what they do]. I'm selling [product/solution]. They booked because [reason or "I'm not sure yet"]. What are the strongest reasons they won't buy? Give me the steelman case against this deal — not generic objections, but the specific ones most likely for this account.
+
+The objection you didn't think of is the one worth preparing for.
+
+What came back that surprised you?
+
+#Sales #SalesLeadership #Discovery #AI #TheMove
 
 ---
 
