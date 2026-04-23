@@ -134,3 +134,35 @@ Note: All are already-published episode outlines. The trigger is DOC-010 (series
 
 **Stale Documents:** 0 documents not updated in 30+ days
 Clean (entire brain built April 2026 — nothing old enough to trigger this check yet)
+
+---
+## Daily Maintenance — 2026-04-23
+
+### Summary
+5 knowledge graph issues persist (all recurring, unchanged from 2026-04-21): 4 registered BOL episode files still missing from disk (DOC-056–059), DOC-047 still unregistered in the graph. ART-013 ("You're Not Behind") added to artifact registry since yesterday, also cites unregistered DOC-047 — now 9 artifacts reference it. 6 published artifact-stale flags unchanged — all traceable to living planning docs (DOC-010/DOC-011), low urgency. Inbox clean; profile current at 6 days (within 7-day threshold); no stale docs.
+
+### Findings
+
+**Knowledge Graph:** 5 issues (all recurring, none resolved since 2026-04-21)
+- DOC-056: `projects/building-out-loud/episodes/ep-005-wispr-flow.md` — registered in graph, file does not exist on disk
+- DOC-057: `projects/building-out-loud/episodes/ep-002-sales-product-convergence.md` — registered in graph, file does not exist on disk
+- DOC-058: `projects/building-out-loud/episodes/ep-006-dont-be-afraid-be-ready.md` — registered in graph, file does not exist on disk
+- DOC-059: `projects/building-out-loud/episodes/ep-008-doom-scrolling.md` — registered in graph, file does not exist on disk
+- DOC-047 (`projects/andrewdonato-com/writing/queue.md`) — file exists and is now cited by 9 artifacts (ART-005 through ART-013), but absent from the Document Registry
+
+**Inbox:** 0 unprocessed items older than 2 days
+Clean
+
+**Artifact Staleness:** 6 potentially stale artifacts (unchanged)
+Source docs DOC-010 (`series-overview.md`) and DOC-011 (`episode master.md`) both updated 2026-04-21, after all publish dates. Low urgency — living planning docs; episode content itself unchanged.
+- ART-001 (pub 2026-04-09) — DOC-010 updated after, DOC-001 updated after
+- ART-002 (pub 2026-04-12) — DOC-010 and DOC-011 updated after
+- ART-003 (pub 2026-04-13) — DOC-010 updated after
+- ART-004 (pub 2026-04-14) — DOC-010 and DOC-011 updated after
+- ART-006 (pub 2026-04-15) — DOC-010 and DOC-011 updated after
+- ART-009 (pub 2026-04-16) — DOC-010 and DOC-011 updated after
+
+**Profile Freshness:** Current (last updated 2026-04-17, 6 days ago)
+
+**Stale Documents:** 0 documents not updated in 30+ days
+Clean (entire brain built April 2026 — nothing old enough to trigger this check yet)
