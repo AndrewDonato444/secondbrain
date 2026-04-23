@@ -20,6 +20,44 @@ Pick any of these. Tell me when you post one and I'll move it to Archive.
 
 ---
 
+### "Half of security companies haven't touched AI. They're also drowning in the exact work AI is best at."
+**Pillar:** What I'm Watching
+
+**Hook:** "Nearly half of all security companies haven't implemented AI yet. And the irony is — they're drowning in exactly the work AI is best at."
+
+**Talking points:**
+- 47% of security service providers haven't implemented AI or automation tools. In 2026. In an industry that's supposed to be about staying ahead of threats
+- At the same time, their #1 operational problem is workforce turnover — 40%+ cite it as their top concern. Teams burning out. Hard to retain. Expensive to replace
+- Here's the part that connects: why are they burning out? Documentation. Incident reports. Alert triage. Manual handoffs between fragmented systems. The exact stuff AI is best at
+- The teams that have adopted are using it for alert prioritization and report summarization. Not to replace officers — to get officers out of the paperwork hole and back to actual judgment work
+- The 47% who haven't adopted are spending their most experienced people on the lowest-value work. And wondering why turnover is the #1 problem
+- Scope is expanding too — 67% of enterprise security teams now own health and safety. 50%+ are managing facilities. These aren't guards anymore. They're running business continuity, emergency preparedness, policy development
+- Bigger job. Same manual tools. That math doesn't work for long
+- The framing I keep hearing across every industry: "we want AI to support human judgment, not replace it." Which is exactly right. But you can't support judgment if your people are buried in paperwork that prevents them from using it
+- End with: "Every industry says they want AI to augment, not replace. But augment requires actually adopting. What's eating your best people's time right now — and have you actually looked at whether AI could take it off their plate?"
+
+**First comment:**
+The security industry right now:
+
+- 47% haven't implemented AI or automation tools
+- 40%+ cite workforce turnover as the #1 operational problem
+- 67% of enterprise security teams now own health and safety
+- 50%+ are managing facilities on top of security
+
+The work is expanding. The headcount isn't. The tools are the same.
+
+The teams that have adopted AI aren't using it to replace officers. They're using it for documentation, alert triage, report generation — the stuff that burns people out and drives them to leave.
+
+The 47% who haven't adopted aren't protecting jobs. They're protecting the paperwork that's costing them the people.
+
+Every industry says they want AI to "support human judgment." Right instinct. But support requires adoption. And adoption requires admitting that the work eating your best people's time is exactly the work AI was built for.
+
+What's burying your team right now that could be automated? If you can name it, there's probably already a solution.
+
+#AI #Security #Leadership #WorkforceStrategy #FutureOfWork
+
+---
+
 ### "Tim Cook is stepping down, and Apple's AI problem just became a brand problem"
 **Pillar:** What I'm Watching
 
@@ -540,7 +578,32 @@ What do you think — should OpenAI double down on ChatGPT or go all-in on enter
 
 ### Sales
 
-- **"Steal My Prompt: steelman the reason they won't buy"** — Before your next discovery call, paste the company name, what they do, what you're selling, and why you think they booked. Ask: "What are the strongest reasons this company won't buy? Steelman the case against this deal." You get the objections you haven't prepared for. The ones you have are just reps.
+### "Steal My Prompt: steelman the reason they won't buy"
+**Pillar:** Steal My Prompt
+
+**Hook:** "Most discovery prep is about why they should buy. Here's the prompt that flips it — and the objection it surfaces is always the one you weren't ready for."
+
+**Talking points:**
+- Most reps prep for the pitch. Best reps prep for the resistance. There's a difference, and it shows up in the room
+- Before your next discovery call, open Claude. Give it three things: who you're calling, what you're selling, and why you think they booked
+- Then ask it to steelman the case against the deal. Not generic objections — the strongest specific reasons this company won't buy
+- What comes back is 4-5 objections. Some you've heard a hundred times — now you've mentally rehearsed the response before you're in the room. Good
+- The one you haven't thought about for this specific account — that's the prep that actually moves the call
+- You're not going in defensive. You're going in with your eyes open so you're not caught flat-footed when the real hesitation surfaces
+- End with: "Try it before your next call. The objection that surprises you is the one you needed to find."
+
+**First comment:**
+The prompt. Steal it.
+
+> I have a discovery call with [company name]. They [brief description — what they do, size, industry]. I'm selling [product/solution]. They booked because [your best guess or "I'm not sure yet"].
+>
+> What are the strongest reasons this company won't buy? Give me the steelman case against this deal — not generic objections, but the specific ones most likely for this account.
+
+Paste it before your next call. The objection you didn't think of is the one worth preparing for.
+
+What came back that you weren't expecting?
+
+#Sales #SalesLeadership #Discovery #AI #StealMyPrompt
 
 - **"Steal My Prompt: write the email your competitor would send to steal your account"** — Paste your account context. Ask AI to write the email your strongest competitor would send to your champion right now. What you read back is your own gaps. If it's a good email, that's the vulnerability you need to close before renewal.
 
