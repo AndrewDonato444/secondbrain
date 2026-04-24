@@ -2,7 +2,7 @@
 
 > Tracks relationships between all documents in the Second Brain. Updated whenever documents are created or modified. Read this before editing any document to understand what might be affected downstream.
 
-Last updated: 2026-04-23 (added PERSON-007 Russ Gregory + DOC-071 MSP Sales JV project)
+Last updated: 2026-04-24 (added DOC-072 Escape Plan — independence revenue tracker)
 
 ---
 
@@ -275,6 +275,9 @@ Last updated: 2026-04-23 (added PERSON-007 Russ Gregory + DOC-071 MSP Sales JV p
 | PERSON-007 | informs | DOC-001 | Prospective JV partner for MSP consulting business |
 | DOC-071 | informs | DOC-001 | MSP Sales is an active project Andrew is building toward independence |
 | DOC-071 | extends | DOC-003 | MSP sales consulting overlaps with MSA's market and Andrew's sales expertise |
+| DOC-072 | depends-on | DOC-001 | Escape Plan is Andrew's personal strategic tracker |
+| DOC-072 | informs | DOC-003 | Revenue from MSA rolls up into Escape Plan tracker |
+| DOC-072 | informs | DOC-071 | Revenue from MSP Sales JV rolls up into Escape Plan tracker |
 
 ---
 
