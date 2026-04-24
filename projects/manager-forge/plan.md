@@ -196,4 +196,78 @@ Foundations library (async companion content):
 - [ ] Cohort size: cap at 12 or leave open?
 - [ ] Live session day/time (depends on Andrew's calendar)
 - [ ] Do we offer a payment plan for the founding cohort?
-- [ ] Domain: managerforge.com or keep on existing domain?
+- [x] Domain: **www.manager-forge.com** (locked 2026-04-24)
+
+---
+
+## Outstanding Work (as of 2026-04-24)
+
+> Supersedes the phase dates above where they've drifted. Phase 3 started 4 weeks early, AI Spine is done, pricing is locked at $2,500. Everything below is what's actually left before Cohort 1 launches mid-July.
+
+**Launch target:** Cohort 1 live July 13 or 20, 2026 — ~12 weeks of runway.
+
+### 🔄 Phase 3 remainder — Curriculum
+
+**Foundations Library revisions** (7 modules need AI-layer pass):
+- [ ] Module 02 — Managing Up Without Micromanaging Down
+- [ ] Module 04 — Manager Identity Shift
+- [ ] Module 05 — Operating Rhythm
+- [ ] Module 07 — Pipeline Review & Forecasting
+- [ ] Module 09 — Hiring & Team Building
+- [ ] Module 10 — Motivation & Culture
+- [ ] Module 11 — Time Management & Scaling
+
+Estimate per module: 4–6 hrs (AI layer weave, not rewrite). Total: ~35–40 hrs.
+
+Drop-in-ready (no work): Modules 01, 03, 06, 08, 13.
+
+### ⬜ Phase 4 — Pre-Sell (target open: Jun 15)
+
+**Content funnel:**
+- [ ] BOL episode plan — 4–6 episodes threading Manager Forge themes across the 6 weeks before enrollment opens (topics drafted, sequence needed)
+- [ ] LinkedIn convergence content — already in production cadence; align 2–3 posts to Manager Forge themes in pre-sell window
+- [ ] Enrollment-open announcement post (LI + BOL mention)
+
+**GTM — Senior Leader Outbound (CRO wedge):**
+- [x] Discovery framework drafted ([cro-discovery-framework.md](projects/manager-forge/cro-discovery-framework.md))
+- [ ] ICP list build — CROs/SVPs at SaaS companies with 3+ sales managers, run through GojiBerry
+- [ ] Apollo enrichment pass
+- [ ] Outbound message sequence (manager-evaluation wedge, not program pitch)
+- [ ] Instantly wiring + sending infrastructure
+- [ ] First 10 live intro calls before automating
+- [ ] Follow-up one-pager for soft-fit CROs
+
+**GTM — Warm LinkedIn:**
+- [ ] Pull VP-and-below sales leader list from existing network
+- [ ] Personalized DM template (Founding Cohort framing)
+- [ ] Send cadence + tracking
+
+**Platform build (Skool + Stripe + Zoom):**
+- [ ] Execute [skool-setup-guide.md](projects/manager-forge/presell/skool-setup-guide.md)
+- [ ] Stripe product + checkout live ($2,500 Founding Cohort)
+- [ ] Zoom Pro account + recurring session links
+- [ ] Enrollment page published (copy ready in [enrollment-page-copy.md](projects/manager-forge/presell/enrollment-page-copy.md))
+- [ ] Email sequences loaded (sequences ready in [email-sequences.md](projects/manager-forge/presell/email-sequences.md))
+- [x] Domain: **www.manager-forge.com** (locked 2026-04-24) — DNS + hosting setup pending
+- [ ] Payment plan decision (split-pay option yes/no)
+
+**Pre-sell launch checklist:**
+- [ ] Soft-open to warm network (1 week before public)
+- [ ] Public enrollment open
+- [ ] Cohort size cap decision (12 vs. open)
+- [ ] Enrollment close date set
+
+### ⬜ Phase 5 — Cohort 1 Delivery (Jul 13 – Aug 24)
+
+- [ ] Week 0 onboarding sequence live (welcome email, pre-work drop, community intros)
+- [ ] Live session cadence locked (day/time)
+- [ ] Session recordings workflow (Zoom → Skool hosting)
+- [ ] Mid-cohort testimonial collection (Week 3–4)
+- [ ] End-of-cohort retro + testimonial collection
+- [ ] Cohort 2 planning doc (pricing jump to $3,200, architecture tweaks)
+
+### Cross-cutting
+
+- [ ] Founders' pricing sunset date (when does $2,500 expire → $3,200?)
+- [ ] Refund/guarantee policy (none? 7-day? completion-based?)
+- [ ] Legal: terms + program agreement for enrollment

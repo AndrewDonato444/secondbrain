@@ -26,7 +26,7 @@ Rolling log of themes surfaced in ScrollProxy runs. Close paraphrases are merged
 | AI model switching & positioning | 2026-04-18T11-54-54Z | 2026-04-18T11-54-54Z | 1 |
 | compute scarcity & data center pushback | 2026-04-18T11-54-54Z | 2026-04-21T12-34-45Z | 3 |
 | AI vendor lock-in risk | 2026-04-18T17-58-22Z | 2026-04-20T05-47-58Z | 2 |
-| model competition (Grok, Codex, GPT-5.5, Kimi, Qwen, DeepSeek) | 2026-04-18T17-58-22Z | 2026-04-23T00-37-49Z | 11 |
+| model competition (Grok, Codex, GPT-5.5, Kimi, Qwen, DeepSeek, V4) | 2026-04-18T17-58-22Z | 2026-04-24T06-40-19Z | 15 |
 | Vercel breach & supply chain security | 2026-04-20T05-47-58Z | 2026-04-20T12-03-59Z | 3 |
 | token economics as startup capital | 2026-04-20T05-47-58Z | 2026-04-21T00-33-49Z | 2 |
 | AI quality gaps (Gemini harness vs. model) | 2026-04-20T05-47-58Z | 2026-04-20T05-47-58Z | 1 |
@@ -43,21 +43,32 @@ Rolling log of themes surfaced in ScrollProxy runs. Close paraphrases are merged
 | Apple CEO succession & AI lag | 2026-04-21T00-33-49Z | 2026-04-21T18-35-12Z | 3 |
 | Chinese open-source model competition (Kimi K2.6) | 2026-04-21T00-33-49Z | 2026-04-21T00-33-49Z | 1 |
 | Lovable security incident & vibe-coded app risks | 2026-04-21T06-34-16Z | 2026-04-21T18-35-12Z | 3 |
-| agent-native PM role & org structure | 2026-04-21T06-34-16Z | 2026-04-23T00-37-49Z | 7 |
+| agent-native PM role & org structure | 2026-04-21T06-34-16Z | 2026-04-23T18-39-18Z | 8 |
 | agentic AI at work & BI disruption | 2026-04-21T12-34-45Z | 2026-04-21T12-34-45Z | 1 |
-| OpenAI GPT-Image-2 launch | 2026-04-21T18-35-12Z | 2026-04-23T06-38-17Z | 6 |
-| DESIGN.md open-source spec | 2026-04-21T18-35-12Z | 2026-04-21T18-35-12Z | 1 |
-| Claude Code pricing blunder | 2026-04-22T00-35-40Z | 2026-04-23T06-38-17Z | 4 |
+| OpenAI GPT-Image-2 launch | 2026-04-21T18-35-12Z | 2026-04-23T12-38-45Z | 7 |
+| DESIGN.md open-source spec | 2026-04-21T18-35-12Z | 2026-04-23T12-38-45Z | 2 |
+| Claude Code pricing blunder | 2026-04-22T00-35-40Z | 2026-04-23T18-39-18Z | 5 |
 | SpaceX x Cursor partnership | 2026-04-22T00-35-40Z | 2026-04-22T18-37-12Z | 4 |
 | Anthropic prompt cache dashboard | 2026-04-22T00-35-40Z | 2026-04-22T12-36-42Z | 2 |
 | OpenAI agent layer expansion | 2026-04-22T00-35-40Z | 2026-04-22T00-35-40Z | 1 |
-| economic agents & machine payments | 2026-04-22T00-35-40Z | 2026-04-22T06-36-10Z | 2 |
-| distribution disruption thesis | 2026-04-22T06-36-10Z | 2026-04-23T00-37-49Z | 4 |
+| economic agents & machine payments | 2026-04-22T00-35-40Z | 2026-04-24T06-40-19Z | 5 |
+| distribution disruption thesis | 2026-04-22T06-36-10Z | 2026-04-24T06-40-19Z | 6 |
 | enterprise agent adoption friction | 2026-04-22T18-37-12Z | 2026-04-23T00-37-49Z | 2 |
-| OpenAI Workspace Agents launch | 2026-04-23T00-37-49Z | 2026-04-23T06-38-17Z | 2 |
+| OpenAI Workspace Agents launch | 2026-04-23T00-37-49Z | 2026-04-23T12-38-45Z | 3 |
 | MCP & agent-to-production patterns | 2026-04-23T00-37-49Z | 2026-04-23T00-37-49Z | 1 |
 | Claude Code market disruption thesis | 2026-04-23T00-37-49Z | 2026-04-23T00-37-49Z | 1 |
 | model compression & data quality (Karpathy) | 2026-04-23T00-37-49Z | 2026-04-23T00-37-49Z | 1 |
 | OpenAI ChatGPT for Clinicians launch | 2026-04-23T06-38-17Z | 2026-04-23T06-38-17Z | 1 |
-| Gemini coding perception gap | 2026-04-23T06-38-17Z | 2026-04-23T06-38-17Z | 1 |
+| Gemini coding perception gap | 2026-04-23T06-38-17Z | 2026-04-23T18-39-18Z | 2 |
 | AI product strategy for solo founders & UGC distribution | 2026-04-23T06-38-17Z | 2026-04-23T06-38-17Z | 1 |
+| Anthropic PR silence & competitive pressure | 2026-04-23T12-38-45Z | 2026-04-23T18-39-18Z | 2 |
+| distribution tools for indie devs (Higgsfield) | 2026-04-23T12-38-45Z | 2026-04-23T12-38-45Z | 1 |
+| AI product strategy — utility vs. delight gap | 2026-04-23T12-38-45Z | 2026-04-23T18-39-18Z | 2 |
+| GPT-5.5 launch & enterprise evals | 2026-04-23T18-39-18Z | 2026-04-24T06-40-19Z | 3 |
+| Claude Code quality regression post-mortem | 2026-04-23T18-39-18Z | 2026-04-24T06-40-19Z | 3 |
+| Claude Managed Agents memory beta | 2026-04-24T00-39-49Z | 2026-04-24T00-39-49Z | 1 |
+| aggregator disruption via AI agents | 2026-04-24T00-39-49Z | 2026-04-24T06-40-19Z | 2 |
+| agent-native tooling & multi-model IDEs | 2026-04-24T00-39-49Z | 2026-04-24T00-39-49Z | 1 |
+| DeepSeek V4 launch & pricing disruption | 2026-04-24T06-40-19Z | 2026-04-24T06-40-19Z | 1 |
+| Codex auto-review guardian agent | 2026-04-24T06-40-19Z | 2026-04-24T06-40-19Z | 1 |
+| AI amplifies talent distribution gap | 2026-04-24T06-40-19Z | 2026-04-24T06-40-19Z | 1 |

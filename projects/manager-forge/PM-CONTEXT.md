@@ -35,6 +35,7 @@
 | Tagline | "Built for managers who know the job changed — and are finally doing something about it." |
 | Visual palette | Slate (#1E2A3A) + Amber (#D4850A) + Warm Stone (#F4F0E8) |
 | Cohort 1 external name | "Founding Cohort" |
+| Domain | www.manager-forge.com (locked 2026-04-24) |
 
 ---
 
@@ -208,7 +209,7 @@ Every session produces one concrete artifact the manager takes back Monday morni
 ## What To Do At The Start of Each Session
 
 1. Read this file
-2. Check current status (which phase, what's done, what's next)
+2. Check the **Outstanding Work** section at the bottom of `plan.md` for the current punch list (supersedes the original phase dates)
 3. Read the relevant phase file if you need deeper context
 4. Do not re-audit content that's already been audited
 5. Do not re-litigate locked decisions without Andrew explicitly asking to revisit

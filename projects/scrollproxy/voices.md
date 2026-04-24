@@ -38,6 +38,7 @@ One entry per handle called out in the "Voices" section across runs. New justifi
 
 ## @businessbarista
 - **2026-04-17T12-58-03Z** — Thinking clearly about the enterprise knowledge layer problem, which is an emerging product category worth tracking.
+- **2026-04-24T06-40-19Z** — Firsthand enterprise AI adoption data from running literacy sessions with financial institution executives — rare practitioner signal on where adoption actually is.
 
 ## @bcherny
 - **2026-04-17T12-58-03Z** — Inside signal from Anthropic's product team on rate limits and token economics.
@@ -131,4 +132,15 @@ One entry per handle called out in the "Voices" section across runs. New justifi
 ## @shannholmberg
 - **2026-04-20T12-03-59Z** — Structured thinking on LLM prompt strategy for performance marketing — bridges AI product and distribution interests.
 
-## Voices updated 2026-04-22T12-36-42Z – 2026-04-23T06-38-17Z (batch)
+## Voices updated 2026-04-23T12-38-45Z – 2026-04-24T06-40-19Z (batch)
+
+### Voice updates this cycle (existing handles):
+- **@kimmonismus** — 2026-04-23T12-38-45Z: Early on GPT-5.5/Spud pretraining shift intelligence. 2026-04-23T18-39-18Z: Bellwether for Anthropic competitive positioning sentiment. 2026-04-24T06-40-19Z: Fastest, most accurate coverage of DeepSeek V4 with appropriate epistemic caveats.
+- **@aakashgupta** — 2026-04-23T12-38-45Z: AI product strategy, PM role evolution, distribution economics for solo founders. 2026-04-23T18-39-18Z: Agent-native PM role and team composition math. 2026-04-24T00-39-49Z: Model competition dynamics, pricing strategy. 2026-04-24T06-40-19Z: GPT-5.5 pricing math and aggregator disruption thesis.
+- **@signulll** — 2026-04-23T12-38-45Z: AI product design (utility vs. delight), Gemini perception gap. 2026-04-23T18-39-18Z: Original, high-signal takes on AI product strategy and distribution. 2026-04-24T00-39-49Z: App-paradigm shift and intent-driven interfaces. 2026-04-24T06-40-19Z: Talent amplification thesis and product paradigm shifts.
+- **@DataChaz** — 2026-04-23T12-38-45Z: Practical tooling coverage (DESIGN.md, Higgsfield) for indie builders. 2026-04-23T18-39-18Z: Cortex-AI shared memory layer — practical multi-tool agent workflow tooling.
+- **@ClaudeDevs** — 2026-04-23T18-39-18Z: Direct source on Claude Code post-mortem and internals. 2026-04-24T00-39-49Z: Primary source for Anthropic platform changes — post-mortem and managed agents memory beta.
+- **@levie** — 2026-04-23T18-39-18Z: Enterprise practitioner with real eval data on GPT-5.5 performance. 2026-04-24T00-39-49Z: Box CEO reporting concrete enterprise benchmark results. 2026-04-24T06-40-19Z: One of few enterprise operators sharing actual internal eval results on frontier models.
+- **@emollick** — 2026-04-24T00-39-49Z: Most credible hands-on GPT-5.5 evaluator; cuts through hype with actual use-case results.
+- **@gdb** — 2026-04-24T00-39-49Z: Actively selling Codex enterprise and framing GPT-5.5 positioning — worth watching for OpenAI GTM signals. 2026-04-24T06-40-19Z: Codex auto-review guardian agent announcement — defining the agent oversight pattern.
+- **@simonw** — 2026-04-23T18-39-18Z: Prompt injection at country scale framing. 2026-04-24T06-40-19Z: Practitioner-level notes on DeepSeek V4 pricing with actual hands-on testing.
