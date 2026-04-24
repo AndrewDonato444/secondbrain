@@ -189,3 +189,41 @@
 - [ ] [@signulll](https://x.com/signulll/status/2047147394433741292) — 266K-view observation that nobody uses Gemini for coding — real market signal about developer mindshare.
 - [ ] [@kimmonismus](https://x.com/kimmonismus/status/2047172626854883761) — Calls out Anthropic's continued silence on the pricing blunder — tracking PR damage.
 - [ ] [@signulll](https://x.com/signulll/status/2047104760830906844) — Most AI products are pure utility and therefore fragile — the ones that survive fuse usefulness with play or delight.
+
+## 2026-04-23 12:38 UTC
+
+- [ ] [@kimmonismus](https://x.com/kimmonismus/status/2047208911200305153) — Credible leak that both GPT-5.5/Spud and Anthropic Mythos are shifting back to pretraining gains over test-time compute — biggest architectural signal about next-gen model strategy in weeks.
+- [ ] [@DataChaz](https://x.com/DataChaz/status/2047245316391670042) — Google open-sourced DESIGN.md as a direct counter to Anthropic Claude Design's rate limits — meaningful competitive move for agent-driven UI tooling.
+- [ ] [@DataChaz](https://x.com/DataChaz/status/2047259175751999636) — Higgsfield's Marketing Studio (Hermes agent + Meta/TikTok hook scraping → 500+ video variants) is the most concrete new distribution tool for indie devs in this batch.
+- [ ] [@JaynitMakwana](https://x.com/JaynitMakwana/status/2047227664239657154) — K2.6 scoring 85% on Live Code Bench vs Claude's 64% at 7x cheaper — real pricing and capability signal for coding model selection.
+
+## 2026-04-23 18:39 UTC
+
+- [ ] [@ClaudeDevs](https://x.com/ClaudeDevs/status/2047371123185287223) — Official Claude Code post-mortem: three confirmed bugs fixed in v2.1.116+, root cause was Agent SDK harness not model regression — essential for anyone relying on Claude Code in production.
+- [ ] [@levie](https://x.com/levie/status/2047381190160834985) — Box CTO reports 10-point accuracy jump on enterprise content tasks with GPT-5.5 vs GPT-5.4 — concrete enterprise eval data, not hype.
+- [ ] [@kimmonismus](https://x.com/kimmonismus/status/2047264143455965672) — Frames Anthropic's silence as a reverse Streisand effect actively fueling user defection as GPT-5.5 lands.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047382002949865594) — Reframes 'PMs should code' as a product intuition story, not a programming skill story — directly relevant to agent-native PM role thesis.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047066424338989356) — Makes the team composition math explicit: a PM who ships with Claude Code changes the 5-eng+1-PM headcount model.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047336207793926291) — Asana giving Claude agents their own user accounts — concrete example of enterprise agent adoption inside real PM workflows.
+- [ ] [@simonw](https://x.com/simonw/status/2047314343956795779) — Prompt injection at country scale framing — real product risk signal for anyone building agent-to-production systems.
+- [ ] [@DataChaz](https://x.com/DataChaz/status/2047360046296952895) — Cortex-AI shared memory layer across Claude Code, Windsurf, and ChatGPT — practical tool for multi-tool agent workflows.
+
+## 2026-04-24 00:39 UTC
+
+- [ ] [@gdb](https://x.com/gdb/status/2047381612372115812) — Greg Brockman's GPT-5.5 positioning: explicitly frames it as a new compute-work paradigm beyond coding — signals how OpenAI is selling to enterprise.
+- [ ] [@gdb](https://x.com/gdb/status/2047387783111868707) — Codex + 5.5 pitched for spreadsheets and slides, not just code — direct relevance to sales enablement and knowledge worker displacement.
+- [ ] [@gdb](https://x.com/gdb/status/2047398726856245623) — Brockman personally offering Codex enterprise rollouts via email — rare direct signal of where OpenAI is pushing enterprise distribution.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047399619815231786) — Claude's third-party integrations (Tripadvisor, Instacart, TurboTax) threaten the demand-aggregation moat of every major marketplace.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047395591362396482) — GPT-5 to 5.5 is an 8x input token price increase in 8 months — useful framing for AI product cost modeling.
+- [ ] [@emollick](https://x.com/emollick/status/2047407732886532595) — Mollick's GPT-5.5 Pro verdict after weeks of testing: best model for hard problems today, with real autonomous research results.
+- [ ] [@ClaudeDevs](https://x.com/ClaudeDevs/status/2047424063543681240) — Claude Managed Agents persistent memory now in public beta — agents learn across sessions, memory is file-based and API-exportable.
+- [ ] [@signulll](https://x.com/signulll/status/2047449714069831781) — The per-app model was a pre-LLM constraint on information architecture — AI collapses the marginal cost of adding new domains.
+- [ ] [@levie](https://x.com/levie/status/2047387742951313910) — Box CEO reports real 10-point accuracy jump on internal enterprise evals for GPT-5.5 vs 5.4 — one of the few concrete enterprise benchmark disclosures.
+
+## 2026-04-24 06:40 UTC
+
+- [ ] [@kimmonismus](https://x.com/kimmonismus/status/2047514623356579869) — Clearest first-look breakdown of DeepSeek V4 benchmarks — SOTA open-source coding at frontier prices, real-world testing still needed.
+- [ ] [@simonw](https://x.com/simonw/status/2047556978831208667) — DeepSeek V4-Flash and V4-Pro are cheapest models in their tiers while benchmarking near frontier — the pricing angle is the actual story.
+- [ ] [@gdb](https://x.com/gdb/status/2047489218998628780) — Codex auto-review guardian sub-agent gates unsafe actions, reducing human approvals — the concrete agent oversight pattern for production systems.
+- [ ] [@signulll](https://x.com/signulll/status/2047554256849228111) — AI amplifies rather than flattens talent: bottleneck shifted from 'can you build it' to taste and judgment.
+- [ ] [@businessbarista](https://x.com/businessbarista/status/2047488697885413391) — Firsthand AI literacy session for 20 financial-institution execs — useful read on where enterprise adoption actually is.
