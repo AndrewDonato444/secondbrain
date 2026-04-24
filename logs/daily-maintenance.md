@@ -166,3 +166,37 @@ Source docs DOC-010 (`series-overview.md`) and DOC-011 (`episode master.md`) bot
 
 **Stale Documents:** 0 documents not updated in 30+ days
 Clean (entire brain built April 2026 — nothing old enough to trigger this check yet)
+
+---
+## Daily Maintenance — 2026-04-24
+
+### Summary
+8 knowledge graph issues: 4 registered episode files are missing on disk, and 4 files with IDs (DOC-047, DOC-071, DOC-072, PERSON-007) exist but are absent from the Document Registry table. 6 published artifacts are flagged stale because DOC-010 (series-overview) was updated 2026-04-21 and DOC-011 (episode master) updated 2026-04-23 — both after the artifacts' publish dates.
+
+### Findings
+**Knowledge Graph:** 8 issues
+- DOC-056 registered but file missing: `projects/building-out-loud/episodes/ep-005-wispr-flow.md`
+- DOC-057 registered but file missing: `projects/building-out-loud/episodes/ep-002-sales-product-convergence.md`
+- DOC-058 registered but file missing: `projects/building-out-loud/episodes/ep-006-dont-be-afraid-be-ready.md`
+- DOC-059 registered but file missing: `projects/building-out-loud/episodes/ep-008-doom-scrolling.md`
+- DOC-047 (`projects/andrewdonato-com/writing/queue.md`) — file exists with ID but not in Document Registry table
+- DOC-071 (`projects/msp-sales/PM-CONTEXT.md`) — file exists with ID but not in Document Registry table
+- DOC-072 (`escape-plan.md`) — file exists with ID but not in Document Registry table
+- PERSON-007 (`resources/people/russ-gregory.md`) — file exists with ID but not in Document Registry table
+
+**Inbox:** 0 unprocessed items older than 2 days
+Clean (3 items with `status: active` remain in inbox/ — DOC-038, DOC-044, DOC-070 — processed but not moved out)
+
+**Artifact Staleness:** 6 potentially stale artifacts
+- ART-001 (published 2026-04-09): DOC-010 updated 2026-04-21 after publish
+- ART-002 (published 2026-04-12): DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-23 — both after publish
+- ART-003 (published 2026-04-13): DOC-010 updated 2026-04-21 after publish
+- ART-004 (published 2026-04-14): DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-23 — both after publish
+- ART-006 (published 2026-04-15): DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-23 — both after publish
+- ART-009 (published 2026-04-16): DOC-010 updated 2026-04-21 after publish
+Note: DOC-010 and DOC-011 are living documents updated frequently; these may be routine/low-urgency.
+
+**Profile Freshness:** Current (last updated 2026-04-17 — 7 days, at threshold but not over)
+
+**Stale Documents:** 0 documents not updated in 30+ days
+Clean
