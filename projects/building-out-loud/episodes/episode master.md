@@ -58,6 +58,47 @@ What's burying your team right now that could be automated? If you can name it, 
 
 ---
 
+### "The SDR role is splitting in two"
+**Pillar:** What I'm Watching
+
+**Hook:** "If you're an SDR right now, half of what you do is about to be free. The other half is about to be worth way more. The problem is — your comp plan still pays you for the wrong one."
+
+**Talking points:**
+- The SDR job has always been two jobs pretending to be one. First job: list building, sequencing, intent monitoring, research, follow-up logic, CRM hygiene. Second job: real conversations. Cold calls that don't sound cold. LinkedIn messages a human would actually reply to. Navigating gatekeepers. Reading the room
+- Nobody ever really separated them. The comp plan lumped them together — dials, emails sent, connects, meetings booked. Activity metrics across both
+- Here's what's happening in 2026. The first job is getting eaten. Clay, Apollo, Gojiberry, any AI SDR tool — the 95% of automatable work is now trivially automated. Research takes 30 seconds in Claude. Sequence personalization at scale is a $9/mo subscription. Intent monitoring runs in the background. If your SDR job is building lists and sending sequences, you are actively competing with a tool that doesn't need lunch
+- Meanwhile, the second job is getting *more* valuable. Not less. Because every buyer right now is drowning in AI-generated outreach. The email that sounds like a human wrote it is rarer, not more common. The rep who actually did the research and has a real reason to be in the conversation stands out at a level that didn't exist two years ago
+- So the SDRs who win in the next three years aren't the ones who grind harder. They're the ones who understand which half they're supposed to own. Not "how do I do 100 touches a day." It's "how do I find three real conversations this week and navigate them well"
+- This is where it gets uncomfortable for the managers. If your SDR team is eight people all doing the same thing, that number should probably be three people, paid more, doing the human-expensive work. And an AI running in the background doing the rest. The team structure has to change, not just the individual skill
+- The comp piece follows. Activity-based comp is a relic. If AI can do the activity for $9/mo, you're not paying for effort anymore — you're paying for judgment, relationship, and the part nobody's figured out how to automate yet
+- The SDRs still asking "how many dials should I make" are asking a 2019 question. The SDRs asking "what's the signal that makes this conversation actually worth having" are the ones whose jobs exist in 2029
+- End with: "If you're an SDR right now — which half of your job would the best AI tools eat tomorrow? Because that's probably the half your manager is still paying you to do. And that's the conversation."
+
+**First comment:**
+Two paths for SDRs right now:
+
+**Path 1 — activity machine**
+- Dials, sequences, list building, research, follow-up logic
+- All automatable. All cheaper for a tool to do than a human
+- This role's headcount gets cut by 60-80% over the next 24 months. Not a prediction — that's just the math when a tool does 95% of the work for $9/mo
+
+**Path 2 — human-expensive work**
+- Fewer accounts, deeper research, real conversations
+- Writing messages that sound like a person. Navigating internal politics at the prospect. Reading the room on a call
+- This role still exists. Pays more. Fewer seats. Different comp
+
+The managers who still measure dials per day are measuring what AI does for free. Activity-based comp is a relic. Outcome-based comp — meetings held that converted, pipeline quality, real conversations started — is the future.
+
+If you're running an SDR team: the right number might not be 8 people doing the same thing. It might be 3 people doing the human-expensive work while AI does the rest. That's a real structural change, not a tooling question.
+
+If you're an SDR: pick your half. Grind the one that's still yours in three years.
+
+What's the most human part of your job that AI hasn't touched yet? Genuinely curious — that's probably where you should be putting more of your time.
+
+#Sales #SDR #AI #FutureOfSales #BuildingInPublic
+
+---
+
 ### "Tim Cook is stepping down, and Apple's AI problem just became a brand problem"
 **Pillar:** What I'm Watching
 
@@ -507,7 +548,6 @@ What do you think — should OpenAI double down on ChatGPT or go all-in on enter
 - **"Your email sequence is competing with an AI now"** — Buyers are getting AI-assisted outreach from every vendor simultaneously. Sequences that sound like every other sequence are invisible. The floor for "good" just moved permanently.
 
 **What I'm Watching**
-- **"The SDR role is splitting in two"** — Research, sequencing, intent monitoring → AI. Relationship, genuine curiosity, navigating a real human → still yours. The SDRs who understand which half they need to own are the ones with jobs in 3 years.
 - **"The deal review just changed forever"** — When AI reads every call, every email, every activity log and tells you where a deal actually is versus where the rep thinks it is — the weekly 1:1 becomes a completely different conversation. One product update away from table stakes.
 - **"AI isn't killing the sales job. It's killing the friction."** — Note-taking, data entry, research, scheduling. The stuff that made reps less effective. What's left — relationship, judgment, trust — is what sales always was at its best.
 
