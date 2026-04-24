@@ -58,47 +58,6 @@ What's burying your team right now that could be automated? If you can name it, 
 
 ---
 
-### "The SDR role is splitting in two"
-**Pillar:** What I'm Watching
-
-**Hook:** "If you're an SDR right now, half of what you do is about to be free. The other half is about to be worth way more. The problem is — your comp plan still pays you for the wrong one."
-
-**Talking points:**
-- The SDR job has always been two jobs pretending to be one. First job: list building, sequencing, intent monitoring, research, follow-up logic, CRM hygiene. Second job: real conversations. Cold calls that don't sound cold. LinkedIn messages a human would actually reply to. Navigating gatekeepers. Reading the room
-- Nobody ever really separated them. The comp plan lumped them together — dials, emails sent, connects, meetings booked. Activity metrics across both
-- Here's what's happening in 2026. The first job is getting eaten. Clay, Apollo, Gojiberry, any AI SDR tool — the 95% of automatable work is now trivially automated. Research takes 30 seconds in Claude. Sequence personalization at scale is a $9/mo subscription. Intent monitoring runs in the background. If your SDR job is building lists and sending sequences, you are actively competing with a tool that doesn't need lunch
-- Meanwhile, the second job is getting *more* valuable. Not less. Because every buyer right now is drowning in AI-generated outreach. The email that sounds like a human wrote it is rarer, not more common. The rep who actually did the research and has a real reason to be in the conversation stands out at a level that didn't exist two years ago
-- So the SDRs who win in the next three years aren't the ones who grind harder. They're the ones who understand which half they're supposed to own. Not "how do I do 100 touches a day." It's "how do I find three real conversations this week and navigate them well"
-- This is where it gets uncomfortable for the managers. If your SDR team is eight people all doing the same thing, that number should probably be three people, paid more, doing the human-expensive work. And an AI running in the background doing the rest. The team structure has to change, not just the individual skill
-- The comp piece follows. Activity-based comp is a relic. If AI can do the activity for $9/mo, you're not paying for effort anymore — you're paying for judgment, relationship, and the part nobody's figured out how to automate yet
-- The SDRs still asking "how many dials should I make" are asking a 2019 question. The SDRs asking "what's the signal that makes this conversation actually worth having" are the ones whose jobs exist in 2029
-- End with: "If you're an SDR right now — which half of your job would the best AI tools eat tomorrow? Because that's probably the half your manager is still paying you to do. And that's the conversation."
-
-**First comment:**
-Two paths for SDRs right now:
-
-**Path 1 — activity machine**
-- Dials, sequences, list building, research, follow-up logic
-- All automatable. All cheaper for a tool to do than a human
-- This role's headcount gets cut by 60-80% over the next 24 months. Not a prediction — that's just the math when a tool does 95% of the work for $9/mo
-
-**Path 2 — human-expensive work**
-- Fewer accounts, deeper research, real conversations
-- Writing messages that sound like a person. Navigating internal politics at the prospect. Reading the room on a call
-- This role still exists. Pays more. Fewer seats. Different comp
-
-The managers who still measure dials per day are measuring what AI does for free. Activity-based comp is a relic. Outcome-based comp — meetings held that converted, pipeline quality, real conversations started — is the future.
-
-If you're running an SDR team: the right number might not be 8 people doing the same thing. It might be 3 people doing the human-expensive work while AI does the rest. That's a real structural change, not a tooling question.
-
-If you're an SDR: pick your half. Grind the one that's still yours in three years.
-
-What's the most human part of your job that AI hasn't touched yet? Genuinely curious — that's probably where you should be putting more of your time.
-
-#Sales #SDR #AI #FutureOfSales #BuildingInPublic
-
----
-
 ### "Tim Cook is stepping down, and Apple's AI problem just became a brand problem"
 **Pillar:** What I'm Watching
 
@@ -664,6 +623,100 @@ What came back that you weren't expecting?
 | 11 | Apr 21 | Building in Public | I built a prompt that makes ChatGPT write in my voice. Here it is. (LinkedIn + TikTok) |
 | 12 | Apr 22 | Tools That Actually Changed How I Work | AI gives you a perfect answer. You paste it. It looks like garbage. One bookmark fixes it. |
 | 13 | Apr 23 | The Move | Before your next discovery call, ask AI to kill your deal. |
+| 14 | Apr 24 | What I'm Watching | The SDR role is splitting in two (LinkedIn) |
+| 15 | Apr 24 | Tools That Actually Changed How I Work | You need an animation. You don't want to spend real money. Three tools. $15. (TikTok) |
+
+---
+
+<!-- POSTED 2026-04-24 — LinkedIn — kept below for reference -->
+
+### "The SDR role is splitting in two" (POSTED Apr 24 — LinkedIn)
+**Pillar:** What I'm Watching
+
+**Hook:** "If you're an SDR right now, half of what you do is about to be free. The other half is about to be worth way more. The problem is — your comp plan still pays you for the wrong one."
+
+**Talking points:**
+- The SDR job has always been two jobs pretending to be one. First job: list building, sequencing, intent monitoring, research, follow-up logic, CRM hygiene. Second job: real conversations. Cold calls that don't sound cold. LinkedIn messages a human would actually reply to. Navigating gatekeepers. Reading the room
+- Nobody ever really separated them. The comp plan lumped them together — dials, emails sent, connects, meetings booked. Activity metrics across both
+- Here's what's happening in 2026. The first job is getting eaten. Clay, Apollo, Gojiberry, any AI SDR tool — the 95% of automatable work is now trivially automated. Research takes 30 seconds in Claude. Sequence personalization at scale is a $9/mo subscription. Intent monitoring runs in the background. If your SDR job is building lists and sending sequences, you are actively competing with a tool that doesn't need lunch
+- Meanwhile, the second job is getting *more* valuable. Not less. Because every buyer right now is drowning in AI-generated outreach. The email that sounds like a human wrote it is rarer, not more common. The rep who actually did the research and has a real reason to be in the conversation stands out at a level that didn't exist two years ago
+- So the SDRs who win in the next three years aren't the ones who grind harder. They're the ones who understand which half they're supposed to own. Not "how do I do 100 touches a day." It's "how do I find three real conversations this week and navigate them well"
+- This is where it gets uncomfortable for the managers. If your SDR team is eight people all doing the same thing, that number should probably be three people, paid more, doing the human-expensive work. And an AI running in the background doing the rest. The team structure has to change, not just the individual skill
+- The comp piece follows. Activity-based comp is a relic. If AI can do the activity for $9/mo, you're not paying for effort anymore — you're paying for judgment, relationship, and the part nobody's figured out how to automate yet
+- The SDRs still asking "how many dials should I make" are asking a 2019 question. The SDRs asking "what's the signal that makes this conversation actually worth having" are the ones whose jobs exist in 2029
+- End with: "If you're an SDR right now — which half of your job would the best AI tools eat tomorrow? Because that's probably the half your manager is still paying you to do. And that's the conversation."
+
+**First comment:**
+Two paths for SDRs right now:
+
+**Path 1 — activity machine**
+- Dials, sequences, list building, research, follow-up logic
+- All automatable. All cheaper for a tool to do than a human
+- This role's headcount gets cut by 60-80% over the next 24 months. Not a prediction — that's just the math when a tool does 95% of the work for $9/mo
+
+**Path 2 — human-expensive work**
+- Fewer accounts, deeper research, real conversations
+- Writing messages that sound like a person. Navigating internal politics at the prospect. Reading the room on a call
+- This role still exists. Pays more. Fewer seats. Different comp
+
+The managers who still measure dials per day are measuring what AI does for free. Activity-based comp is a relic. Outcome-based comp — meetings held that converted, pipeline quality, real conversations started — is the future.
+
+If you're running an SDR team: the right number might not be 8 people doing the same thing. It might be 3 people doing the human-expensive work while AI does the rest. That's a real structural change, not a tooling question.
+
+If you're an SDR: pick your half. Grind the one that's still yours in three years.
+
+What's the most human part of your job that AI hasn't touched yet? Genuinely curious — that's probably where you should be putting more of your time.
+
+#Sales #SDR #AI #FutureOfSales #BuildingInPublic
+
+---
+
+<!-- POSTED 2026-04-24 — TikTok — kept below for reference -->
+
+### "You need an animation. You don't want to spend real money. Three tools. $15. Here's what you do." (POSTED Apr 24 — TikTok)
+**Pillar:** Tools That Actually Changed How I Work
+**Format:** TikTok — screen-recordable workflow
+
+**Persistent text overlay:** Animate anything for $15/mo
+
+**Hook:** "You need an animation. You don't want to spend real money. Three tools. Fifteen bucks. Here's what you do."
+
+**Talking points:**
+- Three tools. That's the whole stack. An LLM — Claude or ChatGPT. Nano Banana — Google's image model. A video model — Veo or Seedance. All of it on Hedra's $15/month plan
+- Here's what I did. I made up a brand called Orbit Coffee. Specialty roaster, warm-but-modern vibe. I wanted an animated hero image — close-up of a barista pouring a latte, slow-motion pour, steam rising, warm morning light
+- Step one — describe what you want to the LLM. Not the prompt. Just describe the thing
+- That's the whole trick. You don't write the prompts yourself. You have the LLM write them for you
+- What comes back is two tight prompts. One is the still image — lighting, composition, aspect ratio, style. The other is the motion — what moves, how, how long
+- Paste the Nano Banana prompt into Hedra. Generate the still. Hate it? Tell the LLM what to change. Iterate until you love the image
+- Once the still is good — paste the Veo prompt, upload the still as the starting frame, hit generate. Five-second animated clip. Looks like a production team made it
+- I built three hero variations in under 20 minutes. Total cost: $15
+- The gap between "I need a hero image" and "I have an animated hero image ready to embed" used to be a $5,000 project and two weeks. Now it's a Tuesday afternoon
+- End with: "Works for landing pages, pitch decks, product mockups, anything. Same three tools. What would you animate first? Drop it below and I'll write the prompts."
+
+**The meta-prompt I pasted into Claude (live on-camera):**
+
+> I'm building a landing page for Orbit Coffee, a specialty coffee roaster. The brand is minimalist, warm but modern — think independent shop, not corporate. I want an animated hero image for the top of the page.
+>
+> The shot I want: a cinematic overhead close-up of a barista's hands slowly pouring steamed milk into a dark ceramic cup of espresso, forming a tulip latte art pattern. Warm morning light coming in from the left, soft shadows, visible steam rising off the cup. The countertop is matte black, minimalist, with a subtle bokeh background.
+>
+> Give me two prompts:
+>
+> 1. A prompt for Nano Banana to generate the still image. Include lighting, composition, aspect ratio (16:9), and visual style.
+> 2. A prompt for Veo to animate that still. Describe what moves, how it moves, and how long (aim for 5 seconds).
+>
+> Make both prompts tight and specific. No filler language. I want the output to feel cinematic, not generic.
+
+**Caption / first comment:**
+The three-tool stack:
+- LLM (Claude / ChatGPT) — writes the prompts for you
+- Nano Banana — generates the still
+- Veo or Seedance — animates the still
+
+All on Hedra for $15/month.
+
+The move that unlocks this: stop trying to write your own image or video prompts. Describe what you want to an LLM and ask it to write the prompts for the models. That's it.
+
+#AI #BuildingInPublic #NanoBanana #Veo #Hedra #NoCode
 
 ---
 
