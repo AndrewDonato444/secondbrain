@@ -23,21 +23,29 @@ This is the monthly income across independence streams that replaces the W-2 and
 
 ---
 
-## Revenue Streams
+## Revenue Streams (Counts Toward Escape)
 
 | Stream | Status | MRR (actual) | Pipeline 30d | Pipeline 90d | Andrew's cut | Notes |
 |---|---|---|---|---|---|---|
 | **MSA** (Modern Signal Advisory) | Live | $0 | ? | ? | ? | Real estate signal platform w/ Brian + Jason. Formalize Andrew's cut |
 | **Manager Forge** | Pre-launch | $0 | ? | ? | 100% | Cohort 1 target mid-July 2026 @ $2,500/seat |
 | **MSP Sales JV** | Pre-launch | $0 | ? | ? | TBD (50/50?) | JV with Russ. Split + structure TBD |
-| **Sales Edge** (Ryan) | Side help | ? | — | — | ? | Decide: side help or rev share |
-| **GoJiBerry-Auto / AutoLinkedIn** | Internal tool | $0 | — | — | 100% | Decide: productize for sale or keep as enabler |
-| **Facts Unlocked** | Running | ? | ? | ? | 100% | Current monetization TBD |
-| **BOL** | Audience build | $0 | — | — | — | Not monetized directly — audience fuels the streams above |
+| **Facts Unlocked** | Running | $0 | — | — | 100% | Automated content factory — ad + affiliate revenue. Track monthly |
 
 **Current total MRR:** $0
 **Gap to escape (gross):** ~$21,000/mo
 **Gap to escape (post-tax):** $15,000/mo
+
+---
+
+## Enablers & Audience (Don't Count, But Move the Needle)
+
+| Stream | Role | Notes |
+|---|---|---|
+| **BOL** | Audience → leads | Not monetized directly — audience fuels MSA, Manager Forge, MSP Sales |
+| **LinkedIn convergence** | Audience → leads | Content-as-lead-gen for the monetized streams |
+| **GoJiBerry-Auto / AutoLinkedIn** | Personal tool + value-add | Used as free value-add in side projects (e.g. Sales Edge). Not productized. Revisit if productization makes sense later |
+| **Sales Edge** (Ryan) | Side help | Friend help, no rev share. Doesn't count |
 
 ---
 
