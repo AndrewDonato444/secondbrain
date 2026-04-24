@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-24T18-41-20Z",
+  "summarizedAt": "2026-04-24T18:41:42.990Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "GPT-5.5 coding capabilities (continuation)",
+    "model competition: GLM-5.1/DeepSeek V4/Kimi K2.6 (continuation)",
+    "AI amplifies talent distribution gap (continuation)",
+    "agent-native PM role & system design bar (continuation)",
+    "solo builder monetization via AI tools",
+    "Anthropic competitive pressure (DeepSeek mockery)",
+    "MCP/agents as new baseline (Karpathy)"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2047745639195508754",
+      "url": "https://x.com/gdb/status/2047745639195508754",
+      "author": "@gdb",
+      "why": "Greg Brockman announcing GPT-5.5 API availability directly — the primary source, not a demo clip."
+    },
+    {
+      "postId": "2047692833738420250",
+      "url": "https://x.com/kimmonismus/status/2047692833738420250",
+      "author": "@kimmonismus",
+      "why": "GLM-5.1 on BytePlus at 5x lower cost than official pricing with Cursor/Claude Code native integration is a real pricing disruption worth tracking for build vs. buy decisions."
+    },
+    {
+      "postId": "2047591677838197192",
+      "url": "https://x.com/kimmonismus/status/2047591677838197192",
+      "author": "@kimmonismus",
+      "why": "DeepSeek publicly mocking Anthropic's Claude is a notable competitive signal about brand damage from the pricing blunder."
+    },
+    {
+      "postId": "2047633186394697853",
+      "url": "https://x.com/DataChaz/status/2047633186394697853",
+      "author": "@DataChaz",
+      "why": "4-minute Karpathy clip arguing Claude Skills, MCP, and agents are past hype and now the baseline — concise signal for where the floor is moving."
+    },
+    {
+      "postId": "2047609257739407448",
+      "url": "https://x.com/aakashgupta/status/2047609257739407448",
+      "author": "@aakashgupta",
+      "why": "The claim that developers got 10x acceleration from AI while designers got 1.5-2x names the concrete bottleneck that will shape AI product team structure."
+    },
+    {
+      "postId": "2047677121141879263",
+      "url": "https://x.com/aakashgupta/status/2047677121141879263",
+      "author": "@aakashgupta",
+      "why": "Clean 4-component agent architecture framework (intelligence, memory, tools, orchestration) is the kind of mental model useful for evaluating agent product designs."
+    },
+    {
+      "postId": "2047612763241922664",
+      "url": "https://x.com/RoundtableSpace/status/2047612763241922664",
+      "author": "@RoundtableSpace",
+      "why": "Solo creator making $127K building Fortnite maps with no code or team is a concrete indie distribution case study, not just hype."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@kimmonismus",
+      "why": "Closest ground-level view on Chinese model pricing and capability moves; the GLM-5.1/BytePlus and DeepSeek mockery posts are both genuinely useful competitive intel."
+    },
+    {
+      "handle": "@aakashgupta",
+      "why": "Consistently covers AI PM role evolution and system design bar — relevant to AI product strategy — but buries signal in heavy post volume and off-topic content."
+    },
+    {
+      "handle": "@gdb",
+      "why": "Primary source for OpenAI API launches; low post volume, high information density when he does post."
+    }
+  ],
+  "noise": {
+    "count": 52,
+    "examples": [
+      "@aakashgupta mass-posting newsletter CTAs (10+ identical 'subscribe to my newsletter' posts)",
+      "@RoundtableSpace all-caps hype videos of GPT-5.5 demo clips with no analytical value",
+      "off-topic viral content (orca brain facts, NASA scientist death, running biomechanics, willow trees)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 75,
+    "seenCount": 39
+  },
+  "feedVerdict": "noise",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "agent-native PM role & system design bar (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Anthropic competitive pressure (DeepSeek mockery)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "GPT-5.5 coding capabilities (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "MCP/agents as new baseline (Karpathy)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "model competition: GLM-5.1/DeepSeek V4/Kimi K2.6 (continuation)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "agent-native PM role & team composition math",
+        "lastSeenRunId": "2026-04-23T18-39-18Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Anthropic PR silence & competitive pressure",
+        "lastSeenRunId": "2026-04-23T18-39-18Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Code quality regression post-mortem",
+        "lastSeenRunId": "2026-04-23T18-39-18Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "GPT-5.5 launch & enterprise evals",
+        "lastSeenRunId": "2026-04-23T18-39-18Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "machine payments & agentic commerce infrastructure",
+        "lastSeenRunId": "2026-04-23T18-39-18Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
