@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-24T00-39-49Z",
+  "summarizedAt": "2026-04-24T00:40:17.390Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "GPT-5.5 launch & enterprise evals (continuation)",
+    "Claude Code quality regression post-mortem (continuation)",
+    "Claude Managed Agents memory beta",
+    "aggregator disruption via AI agents (continuation)",
+    "agentic commerce & machine payments (continuation)",
+    "model competition (Opus 4.7 vs GPT-5.5, Mythos holdback)",
+    "agent-native tooling & multi-model IDEs"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2047371123185287223",
+      "url": "https://x.com/ClaudeDevs/status/2047371123185287223",
+      "author": "@ClaudeDevs",
+      "why": "Official Claude Code quality regression post-mortem: three root causes found, all fixed in v2.1.116+, usage limits reset — essential reading for anyone relying on Claude Code in production."
+    },
+    {
+      "postId": "2047381612372115812",
+      "url": "https://x.com/gdb/status/2047381612372115812",
+      "author": "@gdb",
+      "why": "Greg Brockman's GPT-5.5 positioning statement explicitly frames it as a new compute-work paradigm beyond coding — signals how OpenAI is selling this to enterprise."
+    },
+    {
+      "postId": "2047387783111868707",
+      "url": "https://x.com/gdb/status/2047387783111868707",
+      "author": "@gdb",
+      "why": "Codex + 5.5 pitched as general computer-use for spreadsheets and slides, not just code — direct relevance to sales enablement and knowledge worker displacement."
+    },
+    {
+      "postId": "2047398726856245623",
+      "url": "https://x.com/gdb/status/2047398726856245623",
+      "author": "@gdb",
+      "why": "Brockman personally offering Codex enterprise rollouts via email — rare direct signal of where OpenAI is pushing enterprise distribution right now."
+    },
+    {
+      "postId": "2047399619815231786",
+      "url": "https://x.com/aakashgupta/status/2047399619815231786",
+      "author": "@aakashgupta",
+      "why": "Sharp take on how Claude's new third-party integrations (Tripadvisor, Instacart, TurboTax, etc.) threaten the demand-aggregation moat of every major marketplace platform."
+    },
+    {
+      "postId": "2047395591362396482",
+      "url": "https://x.com/aakashgupta/status/2047395591362396482",
+      "author": "@aakashgupta",
+      "why": "Concrete pricing trajectory analysis — GPT-5 to 5.5 is an 8x input token price increase in 8 months — useful framing for AI product cost modeling."
+    },
+    {
+      "postId": "2047407732886532595",
+      "url": "https://x.com/emollick/status/2047407732886532595",
+      "author": "@emollick",
+      "why": "Ethan Mollick's hands-on GPT-5.5 Pro verdict after weeks of testing: best model for hard problems today, with real autonomous research results — most credible third-party eval in the feed."
+    },
+    {
+      "postId": "2047424063543681240",
+      "url": "https://x.com/ClaudeDevs/status/2047424063543681240",
+      "author": "@ClaudeDevs",
+      "why": "Claude Managed Agents persistent memory is now in public beta — agents can learn across sessions, memory is file-based and API-exportable, directly relevant to building stateful AI products."
+    },
+    {
+      "postId": "2047449714069831781",
+      "url": "https://x.com/signulll/status/2047449714069831781",
+      "author": "@signulll",
+      "why": "Clean conceptual reframe: the per-app model was a pre-LLM constraint on information architecture, and AI collapses the marginal cost of adding new domains — useful product strategy lens."
+    },
+    {
+      "postId": "2047387742951313910",
+      "url": "https://x.com/levie/status/2047387742951313910",
+      "author": "@levie",
+      "why": "Box CEO reports a real 10-point accuracy jump on internal enterprise content evals for GPT-5.5 vs 5.4 — one of the few concrete enterprise benchmark disclosures in the feed."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@ClaudeDevs",
+      "why": "Primary source for Anthropic platform changes — post-mortem and memory beta both broke here first."
+    },
+    {
+      "handle": "@aakashgupta",
+      "why": "Consistently sharp on model competition dynamics, pricing strategy, and PM role evolution — several posts directly on-target for all three operator interests."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Most credible hands-on GPT-5.5 evaluator in the feed; cuts through hype with actual use-case results."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Thinking clearly about the app-paradigm shift and intent-driven interfaces — good product strategy signal, low noise ratio."
+    },
+    {
+      "handle": "@gdb",
+      "why": "Greg Brockman actively selling Codex enterprise and framing GPT-5.5 positioning — worth watching for OpenAI go-to-market signals."
+    }
+  ],
+  "noise": {
+    "count": 38,
+    "examples": [
+      "@aakashgupta newsletter self-promotion spam (4+ identical posts)",
+      "RoundtableSpace SHOUTING tool roundups with no analysis",
+      "off-topic lifestyle content (morning routines, MJ biopic, eye parasites)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 63,
+    "seenCount": 54
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "agent-native tooling & multi-model IDEs",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "agentic commerce & machine payments (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "aggregator disruption via AI agents (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code quality regression post-mortem (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Managed Agents memory beta",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "Claude Code market disruption thesis",
+        "lastSeenRunId": "2026-04-23T00-37-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "distribution tools for indie devs (Higgsfield)",
+        "lastSeenRunId": "2026-04-23T00-37-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "enterprise agent adoption friction",
+        "lastSeenRunId": "2026-04-23T00-37-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "MCP & agent-to-production patterns",
+        "lastSeenRunId": "2026-04-23T00-37-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "model compression & data quality (Karpathy)",
+        "lastSeenRunId": "2026-04-23T00-37-49Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
