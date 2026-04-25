@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-25T00-41-44Z",
+  "summarizedAt": "2026-04-25T00:42:12.805Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "GPT-5.5 API launch & coding benchmarks (continuation)",
+    "Claude Code web/mobile refresh",
+    "OpenAI Codex browser-use & workspace agents (continuation)",
+    "agent architecture 4-component model",
+    "AI PM system design bar (continuation)",
+    "Jevons paradox & AI labor demand",
+    "agentic tooling for indie builders"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2047757455606903178",
+      "url": "https://x.com/gdb/status/2047757455606903178",
+      "author": "@gdb",
+      "why": "Greg Brockman's thread-opening post frames OpenAI's full launch week as a coherent platform shift — agents that work, remember, and run independently — worth reading as a strategic positioning statement."
+    },
+    {
+      "postId": "2047753216264396877",
+      "url": "https://x.com/gdb/status/2047753216264396877",
+      "author": "@gdb",
+      "why": "GPT-5.5 topping CursorBench is the most concrete competitive signal against Claude Code this week — a benchmark that matters for coding-tool buyers."
+    },
+    {
+      "postId": "2047773528121049488",
+      "url": "https://x.com/ClaudeDevs/status/2047773528121049488",
+      "author": "@ClaudeDevs",
+      "why": "Claude Code's web/mobile refresh ships teleport (web↔CLI handoff) and a redesigned UI — directly relevant for evaluating Claude Code as a product."
+    },
+    {
+      "postId": "2047747142308274645",
+      "url": "https://x.com/levie/status/2047747142308274645",
+      "author": "@levie",
+      "why": "Levie's Jevons paradox argument — AI productivity gains increase demand for labor rather than shrinking it — is the clearest counter-narrative to the AI-replaces-jobs thesis and matters for enterprise sales framing."
+    },
+    {
+      "postId": "2047677121141879263",
+      "url": "https://x.com/aakashgupta/status/2047677121141879263",
+      "author": "@aakashgupta",
+      "why": "Concrete 4-component agent architecture framework (intelligence, memory, tools, orchestration) is the most actionable AI product strategy post in this batch."
+    },
+    {
+      "postId": "2047744098728394941",
+      "url": "https://x.com/aakashgupta/status/2047744098728394941",
+      "author": "@aakashgupta",
+      "why": "The claim that AI PM interviews have shifted from product cases to system design is a direct signal about what the market values in AI product leadership right now."
+    },
+    {
+      "postId": "2047763775332454574",
+      "url": "https://x.com/aakashgupta/status/2047763775332454574",
+      "author": "@aakashgupta",
+      "why": "A Claude Routine that auto-preps meeting briefs from Calendar + Gmail is a sharp, concrete example of agentic automation an operator could ship or demo today."
+    },
+    {
+      "postId": "2047786407289348454",
+      "url": "https://x.com/RoundtableSpace/status/2047786407289348454",
+      "author": "@RoundtableSpace",
+      "why": "A CLAUDE.md file that implements Karpathy's LLM coding critique as four enforceable rules is a practical fix operators using Claude Code can apply immediately."
+    },
+    {
+      "postId": "2047828327856030047",
+      "url": "https://x.com/emollick/status/2047828327856030047",
+      "author": "@emollick",
+      "why": "Mollick flags that multi-agent org design and benchmarking agents-in-concert is the next unsolved frontier — relevant for anyone building or selling agent workflows."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@gdb",
+      "why": "Greg Brockman is narrating OpenAI's full platform strategy this week in real time — high signal for competitive AI product intelligence."
+    },
+    {
+      "handle": "@aakashgupta",
+      "why": "Consistent output on agent architecture and AI PM role evolution, with concrete frameworks rather than takes — relevant to two of the operator's three interests, though heavy on newsletter self-promo."
+    },
+    {
+      "handle": "@levie",
+      "why": "Rare voice applying classical economic frameworks (Jevons) to AI labor displacement — useful for enterprise sales narratives."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Flags multi-agent org design as the next unsolved problem with genuine intellectual weight behind it."
+    }
+  ],
+  "noise": {
+    "count": 38,
+    "examples": [
+      "@aakashgupta newsletter self-promo spam (8+ identical 'subscribe to my newsletter' posts with near-zero engagement)",
+      "@RoundtableSpace all-caps clickbait formatting on crypto/markets/farming tangents with no original analysis",
+      "lifestyle/vibe posts (travel takes, dopamine science, imposter syndrome, craft obsession quotes)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 62,
+    "seenCount": 48
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "agent architecture 4-component model",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "agentic tooling for indie builders",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "AI PM system design bar (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code web/mobile refresh",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "GPT-5.5 API launch & coding benchmarks (continuation)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "agent-native tooling & multi-model IDEs",
+        "lastSeenRunId": "2026-04-24T00-39-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Code quality regression post-mortem (continuation)",
+        "lastSeenRunId": "2026-04-24T00-39-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Managed Agents memory beta",
+        "lastSeenRunId": "2026-04-24T00-39-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "GPT-5.5 launch & enterprise evals (continuation)",
+        "lastSeenRunId": "2026-04-24T00-39-49Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "model competition (Opus 4.7 vs GPT-5.5, Mythos holdback)",
+        "lastSeenRunId": "2026-04-24T00-39-49Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
