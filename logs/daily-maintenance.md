@@ -200,3 +200,43 @@ Note: DOC-010 and DOC-011 are living documents updated frequently; these may be 
 
 **Stale Documents:** 0 documents not updated in 30+ days
 Clean
+
+---
+## Daily Maintenance — 2026-04-25
+
+### Summary
+3 IDs referenced in graph relationships lack registry entries; 4 episode files registered but missing from disk; 6 published artifacts have source docs updated after publish; profile is now 8 days old and over the 7-day flag threshold.
+
+### Findings
+**Knowledge Graph:** 7 issues
+
+Missing files (registered but not on disk):
+- DOC-056: projects/building-out-loud/episodes/ep-005-wispr-flow.md
+- DOC-057: projects/building-out-loud/episodes/ep-002-sales-product-convergence.md
+- DOC-058: projects/building-out-loud/episodes/ep-006-dont-be-afraid-be-ready.md
+- DOC-059: projects/building-out-loud/episodes/ep-008-doom-scrolling.md
+
+IDs in relationships but not in Document Registry:
+- DOC-071 (MSP Sales project) — referenced but not registered
+- DOC-072 (Escape Plan tracker) — referenced but not registered
+- PERSON-007 (Russ Gregory) — referenced but not registered
+
+Note: DOC-047 is referenced as source in ART-005 through ART-014 in the artifact registry, but does not appear anywhere in the knowledge graph. The files it points to exist (andrewdonato.com writing posts) but the doc has no graph entry.
+
+**Inbox:** 0 unprocessed items older than 2 days
+Clean
+
+**Artifact Staleness:** 6 potentially stale artifacts
+Published artifacts where source docs were updated after publish date:
+- ART-001 (2026-04-09): DOC-010 updated 2026-04-21
+- ART-002 (2026-04-12): DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-23
+- ART-003 (2026-04-13): DOC-010 updated 2026-04-21
+- ART-004 (2026-04-14): DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-23
+- ART-006 (2026-04-15): DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-23
+- ART-009 (2026-04-16): DOC-010 updated 2026-04-21
+Context: DOC-010 and DOC-011 are the BOL series overview and episode master — updates are additive (new episodes). The published artifacts themselves are LinkedIn posts that don't need re-derivation, but the source docs have evolved.
+
+**Profile Freshness:** Needs review (last updated 2026-04-17 — 8 days, over threshold)
+
+**Stale Documents:** 0 documents not updated in 30+ days
+Clean
