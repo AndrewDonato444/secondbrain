@@ -547,36 +547,17 @@ What do you think — should OpenAI double down on ChatGPT or go all-in on enter
 
 ## Steal My Prompt — Backlog
 
-> 2x/week mini-series. Format: here's the problem → here's the prompt → steal it. One prompt per episode. Works in ChatGPT or Claude, no setup. Prompt always goes in the first comment. Launched with ep. 11 (Voice of ___).
-
-### Sales
-
-### "Steal My Prompt: steelman the reason they won't buy"
-**Pillar:** Steal My Prompt
-
-**Hook:** "Most discovery prep is about why they should buy. Here's the prompt that flips it — and the objection it surfaces is always the one you weren't ready for."
-
-**Talking points:**
-- Most reps prep for the pitch. Best reps prep for the resistance. There's a difference, and it shows up in the room
-- Before your next discovery call, open Claude. Give it three things: who you're calling, what you're selling, and why you think they booked
-- Then ask it to steelman the case against the deal. Not generic objections — the strongest specific reasons this company won't buy
-- What comes back is 4-5 objections. Some you've heard a hundred times — now you've mentally rehearsed the response before you're in the room. Good
-- The one you haven't thought about for this specific account — that's the prep that actually moves the call
-- You're not going in defensive. You're going in with your eyes open so you're not caught flat-footed when the real hesitation surfaces
-- End with: "Try it before your next call. The objection that surprises you is the one you needed to find."
-
-**First comment:**
-The prompt. Steal it.
-
-> I have a discovery call with [company name]. They [brief description — what they do, size, industry]. I'm selling [product/solution]. They booked because [your best guess or "I'm not sure yet"].
+> 2x/week mini-series. Format: here's the problem → here's the prompt → steal it. One prompt per episode. Works in ChatGPT or Claude, no setup. Prompt always goes in the first comment.
 >
-> What are the strongest reasons this company won't buy? Give me the steelman case against this deal — not generic objections, but the specific ones most likely for this account.
+> **Split by platform:** LinkedIn = sales × convergence. TikTok = consumer/personal life. Same series, different audiences.
 
-Paste it before your next call. The objection you didn't think of is the one worth preparing for.
+**Posted proof points:**
+- *Voice of ___* — Apr 21 (LinkedIn + TikTok)
+- *Steelman the reason they won't buy / kill your deal* — Apr 23 (LinkedIn) — performed strongly. Pattern is repeatable.
 
-What came back that you weren't expecting?
+---
 
-#Sales #SalesLeadership #Discovery #AI #StealMyPrompt
+### LinkedIn (Sales × Convergence)
 
 - **"Steal My Prompt: write the email your competitor would send to steal your account"** — Paste your account context. Ask AI to write the email your strongest competitor would send to your champion right now. What you read back is your own gaps. If it's a good email, that's the vulnerability you need to close before renewal.
 
@@ -586,23 +567,37 @@ What came back that you weren't expecting?
 
 - **"Steal My Prompt: what would a great sales manager say about how I handled this?"** — Paste a situation — a call that went sideways, a deal you lost, a negotiation you're unsure about. Ask: "What would a world-class sales manager say about how I handled this? What did I do right and where did I leave something on the table?" Cheaper than a coach. Brutally honest.
 
-### Leadership
-
 - **"Steal My Prompt: what am I not seeing about this person?"** — Paste context on a direct report — their strengths, what's been off lately, recent conversations. Ask: "Based on this, what am I probably not seeing? What's a likely explanation I haven't considered?" The blind spot you get back is usually the right one.
 
 - **"Steal My Prompt: what questions should I ask in this 1:1 to get past the surface?"** — Give it context on the person and what's been going on. Ask: "Give me five questions I can ask in our next 1:1 that would surface what's actually going on, not just the status update." Changes the quality of every hard conversation.
 
-### Content & Writing
-
-- **"Steal My Prompt: turn this brain dump into a post"** — Open a voice memo or just type stream of consciousness for two minutes about something you're thinking about. Paste it in. Ask: "Turn this into a LinkedIn post in my voice. Keep the texture, don't clean it up too much." The best posts are the ones that still sound like you thought them up in the shower.
+- **"Steal My Prompt: turn this brain dump into a LinkedIn post"** — Open a voice memo or just type stream of consciousness for two minutes about something you're thinking about. Paste it in. Ask: "Turn this into a LinkedIn post in my voice. Keep the texture, don't clean it up too much." The best posts are the ones that still sound like you thought them up in the shower.
 
 - **"Steal My Prompt: what's the strongest counterargument to this take?"** — Before you post anything spicy, paste your draft. Ask: "What's the strongest counterargument to the point I just made? What would a smart critic say?" Either you sharpen the take or you catch the thing that would've blown up in the comments.
 
-### Thinking & Strategy
+---
 
-- **"Steal My Prompt: what are the second-order effects I'm not thinking about?"** — Before any major decision, paste the situation and what you're leaning toward. Ask: "What are the second and third-order effects of this decision that I'm probably not considering?" The answer is almost always something you'd want to know before you commit.
+### TikTok (Consumer)
 
-- **"Steal My Prompt: what context about me would make you more useful?"** — Meta-prompt. Ask Claude or ChatGPT: "Based on what I've told you so far, what context about me, my work, and my goals would make you significantly more useful in future conversations?" The model will tell you exactly what to put in your custom instructions. Let the AI build its own brief.
+- **"Steal My Prompt: kill the thing I'm about to do"** — Whatever big move you're about to make — a job change, a major purchase, a relationship move, ending a friendship, picking a college, signing a lease. Paste the situation and what you're leaning toward. Ask AI to argue against it as hard as it can. The personal-life version of the steelman that already worked. Universal hook.
+
+- **"Steal My Prompt: read between the lines of this text"** — Paste a confusing text from a friend, partner, parent, coworker. Ask: "What is this person probably actually feeling or trying to say but not saying directly?" Surfaces the subtext you couldn't quite name. People will save and share this one.
+
+- **"Steal My Prompt: roast my [morning routine / dating profile / workout / setup / resume]"** — Format: paste anything you want to be honest about. Ask AI to roast it. Roast surfaces what's weak in a way that "give me feedback" never does. Works for almost anything personal — endless content variations.
+
+- **"Steal My Prompt: argue back against my excuse"** — Whatever you've been telling yourself is the reason you're not doing the thing. Paste it. Ask AI to argue against it line by line. Hearing your own excuses get dismantled is uncomfortable in a useful way.
+
+- **"Steal My Prompt: turn my voice memo into a journal entry"** — Talk to your phone for two minutes about whatever's in your head. Paste the transcript. Ask AI to turn it into a structured journal entry — themes, what you're actually feeling, what to revisit. Lower-friction journaling for people who hate writing.
+
+- **"Steal My Prompt: pretend you're an expert and tell me what I'm missing"** — Whatever you're working on — a workout plan, a recipe, a side project, a relationship decision — paste it. Ask AI to play expert in that domain and tell you what an expert would notice that you're missing. Forces a level-up perspective.
+
+- **"Steal My Prompt: write a letter from my 5-years-from-now self about this decision"** — Paste the decision you're wrestling with. Ask AI to write a letter from your future self looking back. Reframes the choice through time. Hits emotionally in a way the spreadsheet never does.
+
+- **"Steal My Prompt: what's the lazy version of what I'm trying to do?"** — Paste the goal or project you're over-engineering. Ask: "What's the 80/20 minimum-effort version that still gets me 80% of the result?" Stops the perfectionism spiral. The version you'll actually finish.
+
+- **"Steal My Prompt: what are the second-order effects I'm not thinking about?"** — Before any major decision, paste the situation and what you're leaning toward. Ask: "What are the second and third-order effects of this decision that I'm probably not considering?" The answer is almost always something you'd want to know before you commit. Works for personal and professional.
+
+- **"Steal My Prompt: what context about me would make you more useful?"** — Meta-prompt. Ask Claude or ChatGPT: "Based on what I've told you so far, what context about me, my work, and my goals would make you significantly more useful in future conversations?" The model tells you exactly what to put in your custom instructions. Universal — anyone using AI benefits.
 
 ---
 
