@@ -559,45 +559,548 @@ What do you think — should OpenAI double down on ChatGPT or go all-in on enter
 
 ### LinkedIn (Sales × Convergence)
 
-- **"Steal My Prompt: write the email your competitor would send to steal your account"** — Paste your account context. Ask AI to write the email your strongest competitor would send to your champion right now. What you read back is your own gaps. If it's a good email, that's the vulnerability you need to close before renewal.
+#### "Steal My Prompt: write the email your competitor would send to steal your account"
 
-- **"Steal My Prompt: what questions am I not asking in discovery?"** — Give it your industry, your typical buyer, and your product. Ask: "What are the five most important discovery questions I'm probably not asking?" The questions that come back are almost always the ones that separate average reps from great ones.
+**Hook:** "Most account managers prep for the renewal. The smart ones prep for the email their competitor is about to send. Here's the prompt that shows you exactly what they'd write."
 
-- **"Steal My Prompt: rewrite this proposal to lead with their pain"** — Paste your draft proposal. Ask: "Rewrite this so it leads with the buyer's problem, not my solution. Cut anything that sounds like a features list." The version that comes back closes more deals.
+**Talking points:**
+- Every account you have, your competitor wants. They're not waiting for you to slip — they're already drafting the message
+- You can't read your competitor's outbound. But you can simulate it
+- Open Claude. Give it your account context: who the customer is, what they bought, their current situation, who your strongest competitor is
+- Ask it to write the email your competitor would send to your champion this week to start the conversation
+- What comes back is uncomfortable. You'll see your weak points laid out as your competitor would frame them — pricing gaps, support stories that didn't go well, the slow rollout, the integration that never happened
+- The play isn't to send a counter-email. The play is to read your own gaps and close them before the real email arrives
+- If the email comes back weak, you're sitting on a moat you didn't know you had. If it comes back sharp — that's exactly the conversation your champion is being pulled into in 60 days
+- End with: "Your competitor is writing this email right now. Read it before they send it."
 
-- **"Steal My Prompt: what would a great sales manager say about how I handled this?"** — Paste a situation — a call that went sideways, a deal you lost, a negotiation you're unsure about. Ask: "What would a world-class sales manager say about how I handled this? What did I do right and where did I leave something on the table?" Cheaper than a coach. Brutally honest.
+**First comment:**
+The prompt. Steal it.
 
-- **"Steal My Prompt: what am I not seeing about this person?"** — Paste context on a direct report — their strengths, what's been off lately, recent conversations. Ask: "Based on this, what am I probably not seeing? What's a likely explanation I haven't considered?" The blind spot you get back is usually the right one.
+> I have an account at [company]. They're a [size + industry] customer for [tenure]. They use us for [primary use case], renewal is in [timeframe]. Current situation: [usage trends, champion changes, recent issues].
+>
+> My strongest competitor is [name]. They lead with [their main differentiator].
+>
+> Write the email my competitor would send to my champion this week to start a conversation. Be specific to my account. Pull out the angles where they'd actually win. Don't be polite.
 
-- **"Steal My Prompt: what questions should I ask in this 1:1 to get past the surface?"** — Give it context on the person and what's been going on. Ask: "Give me five questions I can ask in our next 1:1 that would surface what's actually going on, not just the status update." Changes the quality of every hard conversation.
+The vulnerability you read in their email is the gap to close before renewal.
 
-- **"Steal My Prompt: turn this brain dump into a LinkedIn post"** — Open a voice memo or just type stream of consciousness for two minutes about something you're thinking about. Paste it in. Ask: "Turn this into a LinkedIn post in my voice. Keep the texture, don't clean it up too much." The best posts are the ones that still sound like you thought them up in the shower.
+What angle did they hit hardest?
 
-- **"Steal My Prompt: what's the strongest counterargument to this take?"** — Before you post anything spicy, paste your draft. Ask: "What's the strongest counterargument to the point I just made? What would a smart critic say?" Either you sharpen the take or you catch the thing that would've blown up in the comments.
+#Sales #AccountManagement #SalesLeadership #AI #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: what questions am I not asking in discovery?"
+
+**Hook:** "The reason your discoveries feel shallow isn't your skill. It's that you've memorized the questions the average rep asks. Here's the prompt that surfaces the ones you're not."
+
+**Talking points:**
+- Every rep has their go-to discovery questions. Tell me about your current setup. What's working, what's not. We've all asked them
+- Problem isn't the questions are bad. It's that they're the same ones every rep asks. Buyers have memorized the answers. You get the rehearsed version, not the real one
+- Open Claude. Give it your industry, your typical buyer, your product, and the kind of deals you tend to lose
+- Ask: "What are the five most important discovery questions I'm probably not asking?"
+- The questions that come back are usually the ones your buyer has never been asked before. Which means they don't have a polished answer. Which means you get something real
+- Examples I've seen come back: "What did you try internally before deciding to buy?" "What's the political risk for the person who picks the wrong vendor?" "Who at your company has the most to lose if this works?"
+- Those questions reframe the conversation. They make you the rep who actually thinks about the buyer's situation, not the one running a checklist
+- End with: "Try the prompt before your next discovery. The question that surprises you is the one your buyer was hoping someone would ask."
+
+**First comment:**
+The prompt:
+
+> I sell [product/solution] in [industry]. My typical buyer is [role at what kind of company]. Deals I lose tend to lose because [your honest read].
+>
+> What are the five most important discovery questions I'm probably NOT asking? Be specific to my industry and buyer. The ones that surface what's actually going on, not what they tell every rep.
+
+The question that surfaces something new is the one worth keeping.
+
+What did the prompt give you that you've never asked before?
+
+#Sales #Discovery #SalesLeadership #AI #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: rewrite this proposal to lead with their pain"
+
+**Hook:** "Most proposals lose because the first page is about you. Here's the prompt that flips it — and the version that comes back closes more."
+
+**Talking points:**
+- Read the first paragraph of the last proposal you sent. Honestly. How much of it is about your company, your product, your features, your case studies?
+- Now imagine the buyer reading it. They're getting twelve of these this quarter. They don't care about your founding story. They care if you understand what's happening to them
+- Most proposals lose at page one because they're written from the seller's vantage. Buyer feels like they're reading a sales document, not a solution to their problem
+- Open Claude. Paste your draft proposal. Ask it to rewrite the opening to lead with the buyer's specific pain, not your solution
+- What comes back usually cuts your first three paragraphs and replaces them with something that names the buyer's actual situation. Their constraint. The thing keeping their VP up at night
+- Then the solution lands as relief, not as a pitch. That's the difference
+- Same proposal. Different open. Higher close rate
+- End with: "Run your last proposal through this. If the rewrite reads better than what you sent — that should bother you."
+
+**First comment:**
+The prompt:
+
+> Here's a proposal I drafted: [paste full proposal].
+>
+> The buyer is [role + company description]. Their core pain is [your best read of what's actually keeping them up at night].
+>
+> Rewrite this so it leads with their problem, not my solution. Cut anything that sounds like a features list or a generic value prop. The first paragraph should make them feel seen. The solution should land as relief.
+
+Read the rewrite next to your draft. The gap is the lesson.
+
+#Sales #Proposals #SalesLeadership #AI #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: what would a great sales manager say about how I handled this?"
+
+**Hook:** "The best coaches don't tell you what to do. They tell you what you missed. Here's the prompt that gives you that perspective on demand — for free."
+
+**Talking points:**
+- You just had a deal go sideways. Or a negotiation that didn't land. Or a call that felt off. You replay it in your head and you can't tell what went wrong
+- Most reps don't have a great manager available in the moment. The ones who do have one don't get coached after every situation — coaches don't have the bandwidth
+- So you're guessing. And the lessons you'd actually take away from a great coach? You're missing them
+- Open Claude. Paste the situation — what happened, what was said, what you did, what the outcome was
+- Ask: "What would a world-class sales manager say about how I handled this? What did I do right, and where did I leave something on the table?"
+- The feedback you get back is usually 70% of what a real great coach would tell you. Specific, honest, and uncomfortable in the right places
+- This isn't a replacement for a real coach. It's a replacement for the silence you currently have between coaching sessions
+- End with: "If your manager isn't reviewing every call — and they're not — this prompt is the next best thing. Use it after the moments that bothered you."
+
+**First comment:**
+The prompt:
+
+> Here's a sales situation I want feedback on. Setup: [who you were talking to, what kind of deal, what the goal was].
+>
+> What happened: [what you did, what they said, the outcome — be specific].
+>
+> What I'm unsure about: [the part that's bothering you].
+>
+> Pretend you're a world-class sales manager — someone who's seen thousands of deals and coaches without flinching. What did I do right? Where did I leave something on the table? Be specific. Be honest. Don't soften.
+
+Cheaper than a coach. Brutally honest. Use it after the calls you can't stop replaying.
+
+#Sales #SalesCoaching #SalesLeadership #AI #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: what am I not seeing about this person?"
+
+**Hook:** "Every manager has the direct report they can't quite figure out. Here's the prompt that gives you the blind spot you've been missing."
+
+**Talking points:**
+- You have someone on your team right now who's been off. Performance is fine but something's different. Or it's dropping and you're not sure why. Or they're disengaged and 1:1s are getting shorter
+- You've replayed the recent conversations. You've talked to peers. You've checked in. And you still feel like you're missing something
+- Open Claude. Give it the context — their strengths, what's typical for them, what's been off, the most recent conversations
+- Ask: "Based on this, what am I probably not seeing? What's a likely explanation I haven't considered?"
+- What comes back is the angle you didn't have. Sometimes it's wrong. Sometimes it's exactly right. Either way, it gets you out of your own loop
+- Reason this works — managers get pattern-locked on people fast. You decide who someone is in the first six months and your brain stops looking for new evidence. AI hasn't decided anything
+- End with: "Try it on the report you can't quite figure out. The blind spot you get back is usually the one worth checking."
+
+**First comment:**
+The prompt:
+
+> I manage a direct report and want a fresh perspective. Their strengths: [what they're great at]. What's typical for them: [their usual energy/output]. What's been off lately: [what's changed]. Recent 1:1s: [tone, topics, anything notable from last 2-3].
+>
+> Based on this, what am I probably NOT seeing? What's a likely explanation I haven't considered? Don't just give me the obvious answer. Push on the angle I'm missing.
+
+The blind spot you get back is usually the right one.
+
+What did the prompt surface that you hadn't named yet?
+
+#Leadership #Management #SalesManagement #AI #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: what questions should I ask in this 1:1 to get past the surface?"
+
+**Hook:** "Most 1:1s are status updates with extra steps. Here's the prompt that turns the next one into the conversation you actually need to have."
+
+**Talking points:**
+- Every Monday you sit down for 1:1s. Your rep tells you what they're working on. You ask about pipeline. They give you the same updates from the dashboard. You wrap on time
+- That's not a 1:1. That's a status meeting in a smaller room
+- The actual job of a 1:1 is to get under what's happening, not to confirm what you already know. But that requires asking different questions — and the manager-handbook ones ("how's it going?" "anything I can help with?") get the same surface answers every time
+- Open Claude. Give it context on the person and what's been going on with them
+- Ask: "Give me five questions I can ask in our next 1:1 that would surface what's actually going on, not just the status update."
+- The questions that come back tend to be sharper than the ones in any management book. Because they're tailored to that specific person, that specific situation, this specific week
+- Examples that have come back for me: "What's the part of your job right now that you'd take a pay cut to never do again?" "If you could rebuild your week from scratch, what would you stop doing?" "Who on the team do you wish I'd push harder?"
+- End with: "Every 1:1 should produce something. If yours don't, the questions are the problem. Try the prompt before the next one."
+
+**First comment:**
+The prompt:
+
+> I have a 1:1 with a direct report. Context: [their role, tenure, recent context — what's been good, what's been off, what they're working on].
+>
+> Give me five questions I can ask in our next 1:1 that would surface what's actually going on, not just the status update. Make them specific to this person and this moment, not generic management questions.
+
+Pick the one that scares you a little. Ask that one first.
+
+What's the question your 1:1s have been missing?
+
+#Leadership #Management #1on1s #SalesLeadership #AI #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: turn this brain dump into a LinkedIn post"
+
+**Hook:** "Your best LinkedIn posts already exist. They're in your head, in your voice memos, in the rant you sent your friend at 11pm. Here's the prompt that gets them out."
+
+**Talking points:**
+- The reason your LinkedIn posts feel labored is that you're trying to write them from scratch when you sit down. Cold start. Blinking cursor. You end up with the average version of what you actually think
+- The good version was the rant you had in the car. The voice memo you sent yourself last week. The Slack message you typed and didn't send
+- Stop trying to write the post. Start with the brain dump. Then let AI shape it
+- Open the voice memo app. Talk for two minutes about whatever you're actually thinking about. Get the messy version out
+- Paste the transcript into Claude. Ask it to turn it into a LinkedIn post in your voice. Keep the texture. Don't sanitize. Don't pad
+- What comes back has the energy of how you actually talk, not how you think you should write
+- The post sounds like you because it started as you. AI didn't generate the thinking. It just shaped the rhythm
+- End with: "If your LinkedIn voice doesn't sound like you, this is the fix. Stop writing. Start talking. Let AI handle the cleanup."
+
+**First comment:**
+The prompt:
+
+> Here's a brain dump I just spoke into a voice memo: [paste transcript].
+>
+> Turn this into a LinkedIn post in my voice. Keep the texture — the fragments, the asides, the way I actually talk. Don't sanitize it. Don't add filler. Don't tidy it into a neat three-bullet conclusion. The real point should land where it actually lands in my head, not where a corporate post template thinks it should.
+
+Best LinkedIn posts sound like the person thought them up in the shower. Yours can too.
+
+What's a thought you've been chewing on that you haven't posted yet?
+
+#LinkedIn #Content #Writing #AI #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: what's the strongest counterargument to this take?"
+
+**Hook:** "Before you post the spicy take, ask AI to argue the other side. Either you sharpen the take — or you catch the thing that would've blown up in the comments."
+
+**Talking points:**
+- Everyone has the take they've been holding back from posting. The one that feels right but they're not sure if they can defend
+- Most people either post it without thinking through the counter — and get blown up — or they don't post it at all. Both are losses
+- There's a middle move. Run the take through the strongest counterargument first
+- Open Claude. Paste your draft post. Ask: "What's the strongest counterargument to the point I just made? What would a smart, informed critic say to push back?"
+- Two outcomes. Either the counterargument is weak — you have a sharper version of your take to post. Or the counter is strong — you didn't think your post through, or it's a more nuanced take than you wrote
+- The reps who do this end up with takes that hold up. The ones who don't end up deleting posts at 8am after the comments get rough
+- Same pattern as the steelman prompt for sales calls — different domain, same logic. Argue the other side before you commit
+- End with: "Next time you're about to post something with edge, run it through this first. Either it gets sharper, or it doesn't get posted. Both are wins."
+
+**First comment:**
+The prompt:
+
+> Here's a draft post I'm thinking about publishing: [paste post].
+>
+> What's the strongest counterargument to the point I'm making? What would a smart, informed critic — someone who actually knows the topic — say to push back? Don't just give me a generic devil's advocate. Tell me where my take is genuinely vulnerable.
+
+If the counter is weak, post the sharper version. If it's strong, either rework it or don't post it.
+
+What take have you been holding back from posting? Genuinely curious.
+
+#LinkedIn #Content #ThoughtLeadership #AI #StealMyPrompt
 
 ---
 
 ### TikTok (Consumer)
 
-- **"Steal My Prompt: kill the thing I'm about to do"** — Whatever big move you're about to make — a job change, a major purchase, a relationship move, ending a friendship, picking a college, signing a lease. Paste the situation and what you're leaning toward. Ask AI to argue against it as hard as it can. The personal-life version of the steelman that already worked. Universal hook.
+#### "Steal My Prompt: kill the thing I'm about to do"
 
-- **"Steal My Prompt: read between the lines of this text"** — Paste a confusing text from a friend, partner, parent, coworker. Ask: "What is this person probably actually feeling or trying to say but not saying directly?" Surfaces the subtext you couldn't quite name. People will save and share this one.
+**Persistent text overlay:** Ask AI to argue against your decision
 
-- **"Steal My Prompt: roast my [morning routine / dating profile / workout / setup / resume]"** — Format: paste anything you want to be honest about. Ask AI to roast it. Roast surfaces what's weak in a way that "give me feedback" never does. Works for almost anything personal — endless content variations.
+**Hook:** "Whatever big move you're about to make — a job change, a major purchase, ending a relationship — ask AI to kill it first. Here's why it works."
 
-- **"Steal My Prompt: argue back against my excuse"** — Whatever you've been telling yourself is the reason you're not doing the thing. Paste it. Ask AI to argue against it line by line. Hearing your own excuses get dismantled is uncomfortable in a useful way.
+**Talking points (TikTok pacing):**
+- Every big decision, you're talking yourself into it before you commit. That's normal. It's also exactly why you miss the obvious reasons not to do it
+- You're surrounded by people who'll support whatever you decide. Friends, partner, parents — they're rooting for you. Nobody's stress-testing the move
+- Open Claude. Type out the situation honestly. What you're thinking about doing, why you're leaning toward it, what you've already considered
+- Ask it to argue against the move. Hard. Not gentle pros-and-cons — actual case for why this is the wrong call
+- What comes back is one of two things. Arguments are weak — you've gut-checked your gut, move forward. Or arguments include something you genuinely hadn't considered — sit with it for a day
+- The frame that matters: AI doesn't love you. It's not protecting your feelings. It'll tell you the boring truth your friends won't
+- End with: "Whatever you're about to do — pause for five minutes. Run the prompt. Read the case against. Then decide."
 
-- **"Steal My Prompt: turn my voice memo into a journal entry"** — Talk to your phone for two minutes about whatever's in your head. Paste the transcript. Ask AI to turn it into a structured journal entry — themes, what you're actually feeling, what to revisit. Lower-friction journaling for people who hate writing.
+**First comment:**
+The prompt:
 
-- **"Steal My Prompt: pretend you're an expert and tell me what I'm missing"** — Whatever you're working on — a workout plan, a recipe, a side project, a relationship decision — paste it. Ask AI to play expert in that domain and tell you what an expert would notice that you're missing. Forces a level-up perspective.
+> I'm about to [the decision — be specific]. Context: [why you're considering it, what you've thought through, what you're leaning toward].
+>
+> Make the strongest possible case AGAINST this decision. Don't be polite. Don't hedge. Argue like you actually don't want me to do this and you have the receipts. The reasons I haven't thought of are the ones I most need to hear.
 
-- **"Steal My Prompt: write a letter from my 5-years-from-now self about this decision"** — Paste the decision you're wrestling with. Ask AI to write a letter from your future self looking back. Reframes the choice through time. Hits emotionally in a way the spreadsheet never does.
+If you can't beat the argument, don't make the move. Or at least sit with it for a day.
 
-- **"Steal My Prompt: what's the lazy version of what I'm trying to do?"** — Paste the goal or project you're over-engineering. Ask: "What's the 80/20 minimum-effort version that still gets me 80% of the result?" Stops the perfectionism spiral. The version you'll actually finish.
+What decision are you about to make? Run it through.
 
-- **"Steal My Prompt: what are the second-order effects I'm not thinking about?"** — Before any major decision, paste the situation and what you're leaning toward. Ask: "What are the second and third-order effects of this decision that I'm probably not considering?" The answer is almost always something you'd want to know before you commit. Works for personal and professional.
+#AI #DecisionMaking #LifeAdvice #StealMyPrompt
 
-- **"Steal My Prompt: what context about me would make you more useful?"** — Meta-prompt. Ask Claude or ChatGPT: "Based on what I've told you so far, what context about me, my work, and my goals would make you significantly more useful in future conversations?" The model tells you exactly what to put in your custom instructions. Universal — anyone using AI benefits.
+---
+
+#### "Steal My Prompt: read between the lines of this text"
+
+**Persistent text overlay:** Decode the confusing text
+
+**Hook:** "Got a confusing text from someone? Don't ask your friends what they meant. Paste it into AI and ask it to read between the lines. The answer is usually exactly right."
+
+**Talking points (TikTok pacing):**
+- We've all gotten the text. Short. Slightly off. Says one thing but feels like another. You stare at it for ten minutes
+- Instinct is to send it to your group chat and ask "what does this mean?" Three friends give you three different theories, all based on vibes
+- Better move. Open Claude. Paste the text. Give it a little context — who sent it, what was happening, what the relationship is
+- Ask: "What is this person probably actually feeling or trying to say without saying it directly?"
+- What comes back is uncannily accurate most of the time. Because AI isn't projecting your relationship anxiety onto the message. It's just reading the language
+- I've used this for confusing texts from friends, weird Slack messages from coworkers, ambiguous replies from people I'm dating. Same prompt every time
+- End with: "Next time you're staring at a text trying to decode it — just paste it. Save yourself the spiral."
+
+**First comment:**
+The prompt:
+
+> I just got this message: [paste the text].
+>
+> Context: [who sent it, the relationship, what was happening when they sent it]. Why I'm confused: [what feels off about it].
+>
+> Read between the lines. What is this person probably actually feeling or trying to say but not saying directly? Be honest, not optimistic. The subtext I can't quite name is what I need.
+
+Cheaper than therapy. Faster than the group chat.
+
+What text have you been staring at? Paste it in.
+
+#AI #Communication #Relationships #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: roast my [routine / profile / setup / resume]"
+
+**Persistent text overlay:** Don't ask for feedback. Ask AI to roast it.
+
+**Hook:** "Want honest feedback on something? Don't ask AI for feedback. Ask it to roast it. The roast tells you exactly what's actually weak."
+
+**Talking points (TikTok pacing):**
+- Asking AI for feedback on your morning routine, your dating profile, your workout, your resume — you get back a polite list of "considerations." Useful but soft. Easy to ignore
+- Asking AI to roast it — totally different output. Suddenly the weak parts get called out
+- Works on basically anything personal. Your morning routine. Your LinkedIn. Your dating bio. Your gym setup. Your meal prep. Your resume. Your TikTok content
+- Paste it in. Tell AI to roast it. Ask for the version that's actually mean — not unkind, but honest
+- What comes back is the version of feedback that doesn't get filtered through the "be helpful and supportive" default. The roast hits because it's the version your friends won't say out loud
+- The trick — don't get defensive. Read it twice. The hottest line is usually the one closest to the truth
+- End with: "Try it on the thing in your life you've been pretending is fine. The roast will tell you it's not."
+
+**First comment:**
+The prompt:
+
+> Here's [my morning routine / dating profile / resume / workout plan / setup / whatever]: [paste it].
+>
+> Roast it. Don't be polite. Don't give me a balanced review. Tell me where it's weak, what's lazy, what looks like I copy-pasted from someone else, and what I'm trying too hard at. Be funny but be honest. The version my friends would say behind my back.
+
+The hottest line is usually the truest one.
+
+What have you been pretending is fine? Roast it.
+
+#AI #SelfImprovement #Honesty #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: argue back against my excuse"
+
+**Persistent text overlay:** Watch your excuse fall apart
+
+**Hook:** "Whatever you've been telling yourself is the reason you're not doing the thing — paste it into AI and ask it to argue against the excuse. You'll hear how flimsy it is."
+
+**Talking points (TikTok pacing):**
+- Every person has a thing they've been meaning to do. Start the side project. Have the hard conversation. Quit the job. Get serious about the gym. Apply for the role
+- You haven't done it. The reason you give yourself sounds reasonable: I don't have time. I'm not ready yet. I need to figure X out first. The market's bad
+- Those reasons feel solid in your head. They sound airtight. That's because nobody's pushed back on them
+- Open Claude. Type out the excuse exactly as you've been telling it to yourself. Ask AI to argue against it line by line
+- What comes back is usually you watching your own excuse get dismantled. The "I need to figure X out first" reveals itself as a stalling tactic. The "I don't have time" reveals itself as a priorities problem
+- Uncomfortable in a useful way. AI doesn't have skin in your comfort zone — it'll just tell you the excuse doesn't hold up
+- This isn't motivation. It's clarity. You can still choose not to do the thing. You can't keep pretending the reason is what you've been telling yourself
+- End with: "Try it on the thing you keep saying you'll do later. The excuse won't survive the prompt."
+
+**First comment:**
+The prompt:
+
+> The thing I've been meaning to do: [the goal/action/decision]. The reason I give myself for not doing it: [the excuse, exactly how you tell it to yourself].
+>
+> Argue back against this excuse. Line by line. Don't let me off the hook. Tell me where it's a real constraint and where it's just a story I'm telling myself to feel okay about not starting.
+
+The excuse won't survive the prompt. Decide what you do with that.
+
+What have you been putting off? What's the excuse?
+
+#AI #SelfImprovement #Mindset #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: turn my voice memo into a journal entry"
+
+**Persistent text overlay:** Hate journaling? Talk for 2 minutes.
+
+**Hook:** "Hate journaling? Talk to your phone for two minutes. Paste the transcript. Let AI turn it into the journal entry. This changed how I process my week."
+
+**Talking points (TikTok pacing):**
+- Most people who say they should journal don't journal. The blank page feels like a chore. By the time you're staring at it, the thoughts you wanted to capture are already gone
+- The lift is the writing, not the thinking. Most people are happy to talk for two minutes. Almost nobody wants to write for ten
+- Solve for the friction. Open the voice memo app. Talk to your phone like you're texting a friend about your day. Two minutes. No structure required
+- Paste the transcript into Claude. Ask it to turn it into a structured journal entry — themes, what you're actually feeling underneath, what to revisit
+- What comes back has more clarity than what you would've written from a blank page. Because AI is finding patterns in your spoken words that you weren't trying to find
+- Use it for the end of the day, the end of the week, after a hard conversation, before a big decision. Voice in. Journal out
+- End with: "Stop trying to be the kind of person who writes morning pages. Be the kind of person who talks for two minutes and lets AI handle the rest."
+
+**First comment:**
+The prompt:
+
+> Here's a voice memo I just recorded — me talking through what's been on my mind: [paste transcript].
+>
+> Turn this into a structured journal entry. Pull out the themes. Tell me what I'm actually feeling underneath what I said. Surface anything I should revisit. Don't sanitize the language — keep my voice. Don't tidy it into a neat life lesson — leave it messy where it should be messy.
+
+Two minutes of talking. A journal entry that's actually useful.
+
+What's been on your mind? Talk to your phone.
+
+#AI #Journaling #SelfReflection #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: pretend you're an expert and tell me what I'm missing"
+
+**Persistent text overlay:** Get the expert eye for free
+
+**Hook:** "Whatever you're working on — a workout, a side project, a recipe, a decision — paste it into AI and ask it to play expert. The thing it tells you you're missing is usually the thing that matters."
+
+**Talking points (TikTok pacing):**
+- Most of us are operating at the level of "what we've figured out so far." Self-taught, looking things up, pattern-matching from YouTube. Great until you hit the ceiling of what you don't know you don't know
+- A real expert in any domain looks at your work and immediately sees what's off. The thing you've been doing that they would never do. The detail you didn't realize mattered
+- You can't always get a real expert. But you can get the AI version
+- Open Claude. Paste your project, plan, recipe, workout, decision — whatever. Be specific
+- Ask it to play expert in that domain and tell you what an expert would notice that you're missing. Not generic advice. The expert-eye observations
+- What comes back is usually a level-up perspective. Stuff you didn't know was important. Habits the pros all share that you've been skipping. Errors that look small but compound
+- Works for anything: lifting form, sourdough hydration, podcast audio, cold email structure, dating app photos, sleep routine. Same prompt
+- End with: "Whatever you're working on — paste it. Ask for the expert eye. Then decide what to actually change."
+
+**First comment:**
+The prompt:
+
+> Here's [the thing you're working on — workout plan, recipe, project, decision, whatever]: [paste full context].
+>
+> Pretend you're a world-class expert in this domain. Look at what I'm doing and tell me what an expert would notice that I'm probably missing. Don't give me generic advice — give me the expert-eye observations. The things the pros all do that I'm probably skipping. The errors that look small but matter.
+
+The expert eye is free now. Use it.
+
+What's something you've been doing on your own that could use an expert look?
+
+#AI #SelfImprovement #LearnSomethingNew #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: letter from my 5-years-from-now self"
+
+**Persistent text overlay:** Reframe the decision through time
+
+**Hook:** "Wrestling with a decision? Don't make a pros and cons list. Ask AI to write a letter from your 5-years-from-now self looking back. The reframe hits different."
+
+**Talking points (TikTok pacing):**
+- Most decision frameworks are spreadsheets. Pros and cons. Risk vs reward. Logical, useful, totally bloodless
+- Problem — big decisions aren't logical. They're emotional. The spreadsheet doesn't tell you how you'll feel about the choice in five years
+- Different approach. Imagine your 5-years-from-now self. They've already made the decision. Now they're writing back to you, the version of you wrestling with it right now
+- Open Claude. Paste the decision and the context. Ask it to write the letter from that future version of you
+- What comes back is something the spreadsheet can't give you. It frames the decision through time. Makes the small thing feel small and the big thing feel big — which is hard to do when you're in the middle of it
+- Sometimes the letter says "this was the moment everything changed for the better." Sometimes it says "I wish I'd seen what was actually scaring me." Either way, you get a perspective you didn't have before
+- End with: "Big decision in front of you? Skip the spreadsheet. Write the letter. Read it twice."
+
+**First comment:**
+The prompt:
+
+> I'm wrestling with a decision: [the decision, what you're leaning toward, what you're scared of].
+>
+> Write a letter to me from my 5-years-from-now self, looking back on this moment. Be honest about how it actually played out. What did I get right? What was I scared of that turned out not to matter? What did I miss? Don't be saccharine — write it like the version of me who lived through it would actually write it.
+
+The letter you read is the perspective the present can't give you.
+
+What decision needs the letter? Drop it in the comments.
+
+#AI #DecisionMaking #LifeAdvice #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: what's the lazy version of what I'm trying to do?"
+
+**Persistent text overlay:** Stop over-engineering. Ask for the lazy version.
+
+**Hook:** "Whatever you're over-engineering right now — your workout, your meal prep, your side project, your morning routine — ask AI for the lazy 80/20 version. That's the one you'll actually finish."
+
+**Talking points (TikTok pacing):**
+- Most plans fail because they're built for the version of you that doesn't exist. The version that wakes up at 5am, has unlimited willpower, and feels like grinding every day
+- Real you has 30 minutes, three nights a week, and is tired. Real you needs the lazy version
+- Lazy version isn't worse. It's the version you'll actually do for six months. The perfect version is the one you'll quit in three weeks
+- Open Claude. Paste the project, plan, goal — whatever you've been over-engineering. Be honest about the time and energy you actually have
+- Ask: "What's the 80/20 minimum-effort version of this that still gets me 80% of the result?"
+- What comes back is the workout that's three lifts instead of seven. The meal prep that's two meals on Sunday instead of five. The side project that ships ugly instead of perfect. The journaling that's two sentences instead of two pages
+- Feels like cheating. It's not. You're optimizing for the only version that survives contact with your actual life
+- End with: "Whatever you've been over-engineering — ask for the lazy version. That's the one that compounds."
+
+**First comment:**
+The prompt:
+
+> I've been over-engineering [the goal/plan/project]. Here's what I've been trying to do: [paste your current plan]. Honest constraints: [time you actually have, energy level, prior consistency].
+>
+> What's the 80/20 minimum-effort version of this that still gets me 80% of the result? Strip out the parts I'm doing because they sound right or because someone on YouTube said to. Give me the version that's stupid simple and that I'll actually do for six months.
+
+The lazy version is the one that compounds. The perfect version is the one you quit.
+
+What have you been over-engineering? Drop it.
+
+#AI #Productivity #Habits #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: what are the second-order effects I'm not thinking about?"
+
+**Persistent text overlay:** What you're not seeing about the decision
+
+**Hook:** "Before any big decision, ask AI for the second and third-order effects. The first-order ones you've already thought of. The downstream ones are where you actually get blindsided."
+
+**Talking points (TikTok pacing):**
+- Every major decision, you've already thought through the obvious consequences. Take the job, get this salary, move there, work for that boss. First-order. Easy
+- Where decisions actually go sideways is the second and third-order effects. The downstream consequences nobody thinks about until they're living in them
+- Take the job — first-order is the salary. Second-order is what happens to your relationship when you move cities. Third-order is what your career looks like in 5 years if this industry contracts
+- Most people don't even think about second-order, much less third. Decision based on first-order math. Blindsided by the rest
+- Open Claude. Type out the decision and what you're leaning toward. Ask: "What are the second and third-order effects I'm probably not considering?"
+- What comes back is usually 4-6 effects you hadn't named. Some are minor. One or two are usually the thing — the consequence that, if you'd seen it before deciding, would've changed how you weighed the decision
+- Not about avoiding risk. About deciding with eyes open
+- End with: "Before any decision big enough to matter — run the prompt. The second-order effect you didn't see is the one that gets you."
+
+**First comment:**
+The prompt:
+
+> I'm considering [the decision]. Context: [the situation, what you're leaning toward, the obvious consequences you've already thought of].
+>
+> What are the second and third-order effects of this decision that I'm probably NOT considering? The downstream consequences. The things that won't show up immediately but will define what life looks like in 1-3 years if I make this choice. Be specific.
+
+The first-order effects you've thought of. The downstream ones blindside you.
+
+What decision are you sitting with? Run it through.
+
+#AI #DecisionMaking #LifeStrategy #StealMyPrompt
+
+---
+
+#### "Steal My Prompt: what context about me would make you more useful?"
+
+**Persistent text overlay:** Customize your AI in 10 minutes
+
+**Hook:** "If your AI feels generic, it's because you haven't told it who you are. Here's the meta-prompt that gets it to tell you exactly what to put in your custom instructions."
+
+**Talking points (TikTok pacing):**
+- Most people use ChatGPT or Claude with zero custom context. Default settings. Generic responses. Then wonder why the output feels meh
+- The fix is custom instructions. The problem — most people don't know what to put in them. So they leave them blank
+- The trick: ask the AI itself. The model already has a sense of what would help it work better with you, based on whatever you've told it so far
+- Open Claude or ChatGPT. Have a conversation about something — anything you've been working on or thinking about
+- Then ask: "Based on what I've told you so far, what context about me, my work, and my goals would make you significantly more useful in future conversations?"
+- What comes back is a structured list of exactly what to put in your custom instructions. Your role. Your goals. How you want responses formatted. What you don't want it to do
+- Paste that into your custom instructions. Now every future conversation starts with the AI already knowing the version of you that matters for the work you do
+- Single highest-leverage 10 minutes you can spend with AI. People who do it once stop fighting with the model. People who skip it keep getting average output
+- End with: "If you've never customized your AI — do this in the next 10 minutes. Everything you do with it gets sharper after."
+
+**First comment:**
+The prompt:
+
+> Based on what I've told you so far in our conversations, what context about me — my work, my goals, my personality, how I want to communicate — would make you significantly more useful in future conversations? Give me a structured set of custom instructions I can paste into Claude or ChatGPT settings.
+>
+> Format: a few sentences I can use directly. Don't be generic. Use what I've actually told you.
+
+Paste the answer into your custom instructions. Watch every future conversation get sharper.
+
+When was the last time you updated your AI's custom instructions?
+
+#AI #ProductivityHacks #ClaudeAI #ChatGPT #StealMyPrompt
 
 ---
 
