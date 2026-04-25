@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-25T06-42-14Z",
+  "summarizedAt": "2026-04-25T06:42:45.878Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Claude Code web/mobile refresh (continuation)",
+    "GPT-5.5 launch & cursorbench dominance (continuation)",
+    "OpenAI Codex launch week stack",
+    "Cursor -23% gross margin & model dependency risk",
+    "OpenClaude open-source response to Claude Code pricing",
+    "agent org design benchmarking gap",
+    "Jevons paradox & AI labor demand (continuation)"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2047773528121049488",
+      "url": "https://x.com/ClaudeDevs/status/2047773528121049488",
+      "author": "@ClaudeDevs",
+      "why": "Official thread on Claude Code's web/mobile refresh — teleport flag for web-to-terminal handoff and speed/reliability rebuild are product details worth tracking."
+    },
+    {
+      "postId": "2047757455606903178",
+      "url": "https://x.com/gdb/status/2047757455606903178",
+      "author": "@gdb",
+      "why": "Brockman's framing of OpenAI's launch week as a coherent 'new way to work with computers' is the strategic narrative competitors need to understand."
+    },
+    {
+      "postId": "2047753216264396877",
+      "url": "https://x.com/gdb/status/2047753216264396877",
+      "author": "@gdb",
+      "why": "GPT-5.5 topping CursorBench is a concrete benchmark claim that directly affects model-selection decisions for AI product teams."
+    },
+    {
+      "postId": "2047860705228165367",
+      "url": "https://x.com/aakashgupta/status/2047860705228165367",
+      "author": "@aakashgupta",
+      "why": "Cursor's -23% gross margin at $2.7B ARR is the clearest data point yet on how dangerous model-layer dependency is for AI product distribution plays."
+    },
+    {
+      "postId": "2047892103938854931",
+      "url": "https://x.com/RoundtableSpace/status/2047892103938854931",
+      "author": "@RoundtableSpace",
+      "why": "OpenClaude v0.6 dropping free/open-source precisely as Anthropic pushed Claude Code to $100+ is the pricing-gap story that could reshape the indie dev tooling market."
+    },
+    {
+      "postId": "2047828327856030047",
+      "url": "https://x.com/emollick/status/2047828327856030047",
+      "author": "@emollick",
+      "why": "Mollick calling agent org design and multi-agent benchmarking 'the next critical frontier' is a useful framing for where AI product strategy gaps actually live."
+    },
+    {
+      "postId": "2047747142308274645",
+      "url": "https://x.com/levie/status/2047747142308274645",
+      "author": "@levie",
+      "why": "Levie's Jevons paradox argument — AI productivity gains increase demand for labor rather than replacing it — is the most important counternarrative to AI-kills-jobs thinking for enterprise sales."
+    },
+    {
+      "postId": "2047874496040976658",
+      "url": "https://x.com/aakashgupta/status/2047874496040976658",
+      "author": "@aakashgupta",
+      "why": "Anthropic's own experiment showing Opus-powered agents extract 70% more revenue than Haiku-powered ones on identical tasks is a direct sales enablement data point."
+    },
+    {
+      "postId": "2047763775332454574",
+      "url": "https://x.com/aakashgupta/status/2047763775332454574",
+      "author": "@aakashgupta",
+      "why": "The Claude Routine pulling calendar + email context before every meeting is a concrete agentic workflow pattern worth stealing for enterprise demos."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@ClaudeDevs",
+      "why": "Primary source for Anthropic product updates; teleport/routines/web-CLI handoff details are directly relevant to AI product strategy."
+    },
+    {
+      "handle": "@gdb",
+      "why": "Brockman's launch-week framing posts are the canonical OpenAI strategic narrative, not hype — worth reading first."
+    },
+    {
+      "handle": "@levie",
+      "why": "Consistently applies economic frameworks (Jevons, enterprise adoption) to AI with enough specificity to be useful for sales strategy."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Agent org design and benchmarking gaps are underserved topics he surfaces before most; low volume, high signal."
+    }
+  ],
+  "noise": {
+    "count": 38,
+    "examples": [
+      "aakashgupta newsletter plugs and YouTube stubs repeated ~15 times",
+      "RoundtableSpace all-caps content-farm hype posts with minimal original analysis",
+      "signulll philosophy/vibe posts and DataChaz paid Hypescribe promotion threads"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 43,
+    "seenCount": 60
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "agent org design benchmarking gap",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code web/mobile refresh (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Cursor -23% gross margin & model dependency risk",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "GPT-5.5 launch & cursorbench dominance (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Jevons paradox & AI labor demand (continuation)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "agentic commerce & machine payments (continuation)",
+        "lastSeenRunId": "2026-04-24T06-40-19Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "aggregator disruption via AI agents (continuation)",
+        "lastSeenRunId": "2026-04-24T06-40-19Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "AI amplifies talent distribution gap",
+        "lastSeenRunId": "2026-04-24T06-40-19Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Codex auto-review guardian agent",
+        "lastSeenRunId": "2026-04-24T06-40-19Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "DeepSeek V4 launch & pricing disruption",
+        "lastSeenRunId": "2026-04-24T06-40-19Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
