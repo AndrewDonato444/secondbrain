@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-26T18-44-42Z",
+  "summarizedAt": "2026-04-26T18:45:06.628Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Anthropic Google $10B investment round",
+    "Claude Code tooling ecosystem (MCP, memory, multiplexers)",
+    "AI PM role & builder skills bar",
+    "solo founder / indie builder economy (continuation)",
+    "production agent architecture (continuation)",
+    "computer reinvention thesis",
+    "Jevons paradox & AI demand (continuation)"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2048430788094374078",
+      "url": "https://x.com/kimmonismus/status/2048430788094374078",
+      "author": "@kimmonismus",
+      "why": "Google committing $10B now (and up to $40B conditional) to Anthropic at a $350B valuation is the biggest compute/capital story in weeks and directly shapes Claude's competitive ceiling."
+    },
+    {
+      "postId": "2048299790534946900",
+      "url": "https://x.com/RoundtableSpace/status/2048299790534946900",
+      "author": "@RoundtableSpace",
+      "why": "Dario saying Claude is 6-12 months from doing most or all of what Anthropic's own team does end-to-end is an unusually concrete AGI-adjacent claim worth tracking for product strategy."
+    },
+    {
+      "postId": "2048260954090082525",
+      "url": "https://x.com/signulll/status/2048260954090082525",
+      "author": "@signulll",
+      "why": "4K+ likes on the argument that the computer needs to be reinvented from scratch—not patched with chatbot sidebars—is gaining real traction as a product framing thesis."
+    },
+    {
+      "postId": "2048469166198567178",
+      "url": "https://x.com/aakashgupta/status/2048469166198567178",
+      "author": "@aakashgupta",
+      "why": "Sharp diagnosis of the PM identity trap: 'you are not a developer' orthodoxy created a verification gap where PMs can't confirm what got built matches what they specified."
+    },
+    {
+      "postId": "2048432926388568208",
+      "url": "https://x.com/aakashgupta/status/2048432926388568208",
+      "author": "@aakashgupta",
+      "why": "Concrete cost compression data: PM mockup cost dropped from $1,500–6,000 to $2–7—useful framing for product and sales conversations about AI ROI."
+    },
+    {
+      "postId": "2048417577911873864",
+      "url": "https://x.com/aakashgupta/status/2048417577911873864",
+      "author": "@aakashgupta",
+      "why": "Jevons paradox applied to AI labor demand—cheaper intelligence increases total consumption—directly relevant to the 'AI kills jobs vs. creates demand' debate operators are navigating."
+    },
+    {
+      "postId": "2048333579751702853",
+      "url": "https://x.com/DataChaz/status/2048333579751702853",
+      "author": "@DataChaz",
+      "why": "Tolaria—a Mac app built on Karpathy's LLM wiki concept—gives agents and humans a shared native knowledge environment, potentially useful for Claude Code memory architecture."
+    },
+    {
+      "postId": "2048419750540185922",
+      "url": "https://x.com/minchoi/status/2048419750540185922",
+      "author": "@minchoi",
+      "why": "Concrete multi-model workflow (Grok for search, Opus for reasoning, GPT-5.5+Codex for coding, cross-debug) is a practical benchmark for how serious builders are allocating across models right now."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@aakashgupta",
+      "why": "Running a sustained thread on PM skill evolution, Jevons paradox, and AI cost compression—directly relevant to AI product strategy even when his feed is diluted by off-topic content."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Low-volume, high-signal takes on computing reinvention and distribution—the computer-from-scratch post is the kind of product framing thesis worth watching develop."
+    },
+    {
+      "handle": "@DataChaz",
+      "why": "Curating practical Claude Code tooling (MCP servers, multiplexers, agent frameworks) at a level of specificity useful to builders, not just watchers."
+    }
+  ],
+  "noise": {
+    "count": 42,
+    "examples": [
+      "@aakashgupta newsletter subscription spam (8+ identical posts)",
+      "@RoundtableSpace crypto/meme ticker engagement bait",
+      "personal travel/feelings posts with no signal content"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 55,
+    "seenCount": 65
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "AI PM role & builder skills bar",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Anthropic Google $10B investment round",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code tooling ecosystem (MCP, memory, multiplexers)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "computer reinvention thesis",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Jevons paradox & AI demand (continuation)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "agent org design benchmarking gap",
+        "lastSeenRunId": "2026-04-25T06-42-14Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Claude Code web/mobile refresh (continuation)",
+        "lastSeenRunId": "2026-04-25T06-42-14Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Cursor -23% gross margin & model dependency risk",
+        "lastSeenRunId": "2026-04-25T06-42-14Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "GPT-5.5 launch & cursorbench dominance (continuation)",
+        "lastSeenRunId": "2026-04-25T06-42-14Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Jevons paradox & AI labor demand (continuation)",
+        "lastSeenRunId": "2026-04-25T06-42-14Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
