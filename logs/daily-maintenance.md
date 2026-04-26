@@ -240,3 +240,45 @@ Context: DOC-010 and DOC-011 are the BOL series overview and episode master — 
 
 **Stale Documents:** 0 documents not updated in 30+ days
 Clean
+
+---
+## Daily Maintenance — 2026-04-26
+
+### Summary
+Same backlog as yesterday plus one new contradiction: episode master.md frontmatter declares id DOC-029 (a superseded ID) when the registry maps it to DOC-011. DOC-047 still missing from registry despite being source for ART-005..ART-014; profile is now 9 days old (threshold 7).
+
+### Findings
+**Knowledge Graph:** 9 issues
+
+Missing files (registered but not on disk):
+- DOC-056: projects/building-out-loud/episodes/ep-005-wispr-flow.md
+- DOC-057: projects/building-out-loud/episodes/ep-002-sales-product-convergence.md
+- DOC-058: projects/building-out-loud/episodes/ep-006-dont-be-afraid-be-ready.md
+- DOC-059: projects/building-out-loud/episodes/ep-008-doom-scrolling.md
+
+IDs declared in files / referenced in relationships but missing from Document Registry:
+- DOC-047 (projects/andrewdonato-com/writing/queue.md) — file declares this ID; registry has no entry, despite ART-005..ART-014 all citing DOC-047 as source
+- DOC-071 (projects/msp-sales/PM-CONTEXT.md) — file declares this ID; only appears in Relationships table
+- DOC-072 (escape-plan.md) — file declares this ID; only appears in Relationships table
+- PERSON-007 (resources/people/russ-gregory.md) — file declares this ID; only appears in Relationships table
+
+Frontmatter contradiction:
+- projects/building-out-loud/episodes/episode master.md frontmatter has `id: DOC-029`, but the registry lists this path as DOC-011 and marks DOC-029 as superseded (merged into DOC-011). The file's ID needs to be corrected to DOC-011.
+
+**Inbox:** 0 unprocessed items older than 2 days
+Clean (no files carry `status: unprocessed`; the three remaining `status: active` inbox files — 2026-04-12, 2026-04-14, 2026-04-21 — appear to be intentional knowledge docs living in inbox/ rather than awaiting processing)
+
+**Artifact Staleness:** 6 potentially stale artifacts
+Published artifacts where source docs were updated after publish date (unchanged from 2026-04-25):
+- ART-001 (2026-04-09): DOC-010 updated 2026-04-21, DOC-001 updated 2026-04-17
+- ART-002 (2026-04-12): DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-23
+- ART-003 (2026-04-13): DOC-010 updated 2026-04-21
+- ART-004 (2026-04-14): DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-23
+- ART-006 (2026-04-15): DOC-010 updated 2026-04-21, DOC-011 updated 2026-04-23
+- ART-009 (2026-04-16): DOC-010 updated 2026-04-21 (also references DOC-029, which is superseded — should be DOC-011)
+Context: DOC-010 and DOC-011 are the BOL series overview and episode master; updates are additive (new episodes). Published artifacts themselves are LinkedIn posts already out the door — flagging is informational, no re-derivation needed.
+
+**Profile Freshness:** Needs review (last updated 2026-04-17 — 9 days, over threshold)
+
+**Stale Documents:** 0 documents not updated in 30+ days
+Clean
