@@ -1,7 +1,7 @@
 ---
 id: DOC-047
 created: 2026-04-14
-updated: 2026-04-22
+updated: 2026-04-24
 type: knowledge
 domain: building-out-loud
 status: active
@@ -25,19 +25,19 @@ status: active
 
 | # | Topic | Category | Notes |
 |---|-------|----------|-------|
-| 1 | Your Pipeline Is a Mirror | Sales | What your pipeline says about how you actually spend your time |
-| 2 | Why "Just Following Up" Is the Worst Sentence in Sales | Sales | Pulled from backlog after seeding post #1 |
-| 3 | The Four Emotional States Every Buyer Cycles Through | Sales | Pulled from backlog 2026-04-15 |
-| 4 | Building in Public Is Just Keeping a Journal Where Strangers Can Read It | Building | Pulled from backlog 2026-04-16 |
-| 5 | The Skills That Just Got Obsolete and the Ones That Just Got 10x More Valuable | Life / work | Pulled from backlog 2026-04-16 |
-| 6 | Sovereign Individuals: What Happens When One Person Can Run a Real Business | Life / work | Pulled from backlog 2026-04-18 |
-| 7 | The People You Call When Something Good Happens vs. Something Bad | Relationships | Pulled from backlog 2026-04-20 |
-| 8 | The Case Against Optimization | Life / work | Pulled from backlog 2026-04-22 |
+| 1 | Why "Just Following Up" Is the Worst Sentence in Sales | Sales | Pulled from backlog after seeding post #1 |
+| 2 | The Four Emotional States Every Buyer Cycles Through | Sales | Pulled from backlog 2026-04-15 |
+| 3 | Building in Public Is Just Keeping a Journal Where Strangers Can Read It | Building | Pulled from backlog 2026-04-16 |
+| 4 | The Skills That Just Got Obsolete and the Ones That Just Got 10x More Valuable | Life / work | Pulled from backlog 2026-04-16 |
+| 5 | Sovereign Individuals: What Happens When One Person Can Run a Real Business | Life / work | Pulled from backlog 2026-04-18 |
+| 6 | The People You Call When Something Good Happens vs. Something Bad | Relationships | Pulled from backlog 2026-04-20 |
+| 7 | The Case Against Optimization | Life / work | Pulled from backlog 2026-04-22 |
+| 8 | Quitting Is a Skill and Most People Are Bad at It | Life / work | Pulled from backlog 2026-04-24 |
 
 ## Backlog (next-up to refill the Active 8)
 
 - The Case Against Optimization
-- Quitting Is a Skill and Most People Are Bad at It
+- ~~Quitting Is a Skill and Most People Are Bad at It~~ (moved to Active 8 — 2026-04-24)
 - What I Learned About Ambition From People Who Had None
 - Why I Started Writing Again at 35
 - The Salesperson Who Taught Me That Empathy Is a Competitive Advantage
@@ -48,6 +48,8 @@ status: active
 - What 50% Means — added 2026-04-20 from ScrollProxy surfacing; Gallup Q1 2026 says 50% of employed Americans use AI at work. The stat is a Rorschach test: optimists see majority adoption, pessimists see half the country still holding out. The more interesting question is what "using AI" means across the distribution — and what the gap between the 50th and 95th percentile looks like in practice. No project specifics; generalize to a reflection on how adoption statistics always hide the distribution that matters. — added 2026-04-19 from ScrollProxy surfacing; Aaron Levie's "headless enterprise" thesis + gregisenberg on how agent-native startups undercut legacy SaaS. When agents consume APIs directly, the UI layer (where SaaS monetizes) becomes optional. The business model that powered the last decade of software is getting compressed from below. No project specifics — make it a general observation about what happens when the product surface shifts from human screens to agent calls. — added 2026-04-17 from scrollproxy surfacing; the knowledge layer / context problem. Git gives every coding tool the same shared substrate; knowledge work has no equivalent. No project specifics — make it a general observation about where AI still fumbles and why.
 
 - Your Cheapest Tier Isn't a Cost Center. It's Your Pipeline. — added 2026-04-22 from ScrollProxy surfacing; generalized from the Claude Code pricing blunder. When you remove the on-ramp tier, you don't convert people up — you kill the pipeline that feeds the premium tiers. The PLG motion depends on a low-risk first step. Nobody cold-converts to $100/month. No project specifics — make it a general observation about pricing strategy and funnel design for any subscription product.
+
+- Every Efficiency Gain You've Ever Had Just Made Your Job Bigger — added 2026-04-25 from ScrollProxy surfacing; @levie's Jevons paradox observation applied to knowledge work. AI was supposed to save time. What actually happens: scope expands until you consume all the time you saved. Your boss doesn't let you go home early — they give you more to do. Every productivity tool in history has done this. The question isn't "will AI save me time" but "what new work will fill the time AI freed up — and will anyone thank me for absorbing it?" No project specifics — make it a general observation about productivity culture and the trap of efficiency.
 
 ## Published
 
@@ -60,3 +62,4 @@ status: active
 | 2026-04-18 | The Managed Agent Era Is Here and Most People Are Still Hiring Humans for It | [post](posts/2026-04-18-the-managed-agent-era-is-here.md) | [#5](https://github.com/AndrewDonato444/andrew-resume-app/pull/5) |
 | 2026-04-20 | Networking Is a Word for People Who Aren't Good at Being a Friend | [post](posts/2026-04-20-networking-is-a-word.md) | [#6](https://github.com/AndrewDonato444/andrew-resume-app/pull/6) |
 | 2026-04-22 | You're Not Behind. You're Early in Something That Doesn't Have a Name Yet. | [post](posts/2026-04-22-youre-not-behind-youre-early.md) | [#8](https://github.com/AndrewDonato444/andrew-resume-app/pull/8) |
+| 2026-04-24 | Your Pipeline Is a Mirror | [post](posts/2026-04-24-your-pipeline-is-a-mirror.md) | [#9](https://github.com/AndrewDonato444/andrew-resume-app/pull/9) |

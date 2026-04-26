@@ -21,6 +21,14 @@
 
 ---
 
+## 2026-04-24 — BOL episodes 12–13 posted but not in artifact registry and not on site
+
+**Episodes:** Ep 12 (Apr 22 — "AI gives you a perfect answer. You paste it. It looks like garbage. One bookmark fixes it."), Ep 13 (Apr 23 — "Before your next discovery call, ask AI to kill your deal.")
+**Reason:** These episodes are listed as Posted in the episode master but have no entries in the artifact registry and no site files under `content/building-out-loud/`. Job B only syncs registry-tracked episodes, so these were skipped.
+**Action needed:** Add ART entries for each episode in the artifact registry, then create site files (or re-run Job B). Bodies are in the episode master under the `<!-- POSTED 2026-04-22 -->` and `<!-- POSTED 2026-04-23 -->` comment sections.
+
+---
+
 ## 2026-04-22 — BOL episodes 8–11 posted but not in artifact registry and not on site
 
 **Episodes:** Ep 8 (Apr 18 — "You don't need to learn to code. You need a Saturday."), Ep 9 (Apr 19 — "A shoe company just became a data center company"), Ep 10 (Apr 20 — "Paste your last 5 closed-won deals"), Ep 11 (Apr 21 — "I built a prompt that makes ChatGPT write in my voice")

@@ -227,3 +227,56 @@
 - [ ] [@gdb](https://x.com/gdb/status/2047489218998628780) — Codex auto-review guardian sub-agent gates unsafe actions, reducing human approvals — the concrete agent oversight pattern for production systems.
 - [ ] [@signulll](https://x.com/signulll/status/2047554256849228111) — AI amplifies rather than flattens talent: bottleneck shifted from 'can you build it' to taste and judgment.
 - [ ] [@businessbarista](https://x.com/businessbarista/status/2047488697885413391) — Firsthand AI literacy session for 20 financial-institution execs — useful read on where enterprise adoption actually is.
+
+## 2026-04-24 12:40 UTC
+
+- [ ] [@levie](https://x.com/levie/status/2047540230694350958) — Aaron Levie's observation that AI doesn't reduce work — it expands scope until you consume all the time you saved, which matters for product strategy around user time budgets.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047540299086602402) — Five-layer agentic architecture diagram pitched as the canonical answer to AI system design interviews — useful reference for product strategy thinking.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047608440856653852) — Concrete claim that the AI PM interview bar has split — system design now the deciding round for $1M+ roles.
+- [ ] [@DataChaz](https://x.com/DataChaz/status/2047575408208490956) — Anthropic officially admitted Claude Code got dumber — first confirmed post-mortem acknowledgment.
+
+## 2026-04-25 00:41 UTC
+
+- [ ] [@gdb](https://x.com/gdb/status/2047757455606903178) — Greg Brockman frames OpenAI's full launch week as a coherent platform shift — agents that work, remember, and run independently.
+- [ ] [@gdb](https://x.com/gdb/status/2047753216264396877) — GPT-5.5 topping CursorBench — most concrete competitive signal against Claude Code this week.
+- [ ] [@ClaudeDevs](https://x.com/ClaudeDevs/status/2047773528121049488) — Claude Code web/mobile refresh ships teleport (web↔CLI handoff) and redesigned UI.
+- [ ] [@levie](https://x.com/levie/status/2047747142308274645) — Jevons paradox: AI productivity gains increase demand for labor rather than shrinking it — clearest counter-narrative to AI-replaces-jobs thesis.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047677121141879263) — Concrete 4-component agent architecture framework (intelligence, memory, tools, orchestration).
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047744098728394941) — AI PM interviews have shifted from product cases to system design — direct market signal.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047763775332454574) — Claude Routine that auto-preps meeting briefs from Calendar + Gmail — concrete agentic workflow pattern.
+- [ ] [@RoundtableSpace](https://x.com/RoundtableSpace/status/2047786407289348454) — CLAUDE.md implementing Karpathy's LLM coding critique as four enforceable rules.
+- [ ] [@emollick](https://x.com/emollick/status/2047828327856030047) — Multi-agent org design and benchmarking agents-in-concert is the next unsolved frontier.
+
+## 2026-04-25 06:42 UTC
+
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047860705228165367) — Cursor's -23% gross margin at $2.7B ARR — clearest data point on model-layer dependency risk for AI products.
+- [ ] [@RoundtableSpace](https://x.com/RoundtableSpace/status/2047892103938854931) — OpenClaude v0.6 free/open-source dropping as Anthropic pushed Claude Code to $100+ — pricing-gap story for indie dev tooling.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2047874496040976658) — Anthropic's own experiment: Opus-powered agents extract 70% more revenue than Haiku-powered ones on identical tasks.
+
+## 2026-04-25 18:42 UTC
+
+- [ ] [@gdb](https://x.com/gdb/status/2048057593034113134) — 473 replies to Greg Brockman asking what people are building with Codex — live snapshot of real agent use cases worth mining for product strategy.
+- [ ] [@emollick](https://x.com/emollick/status/2048058055472881710) — Mollick argues AI agents can now independently reconstruct complex academic papers — concrete capability milestone signaling enterprise adoption friction is eroding.
+- [ ] [@kimmonismus](https://x.com/kimmonismus/status/2048004043075670394) — GPT-5.5 feels 'more serious, less chatty' — early qualitative signal of a tone/persona shift that matters for sales and enterprise positioning.
+- [ ] [@DataChaz](https://x.com/DataChaz/status/2047954234285723992) — DeepSeek V4 open-source at 1.6T parameters with 1M context vs. OpenAI's $200/month paywall — clearest single framing of the pricing disruption story.
+- [ ] [@kimmonismus](https://x.com/kimmonismus/status/2048021721521721466) — GLM-5.1 on BytePlus at ~5x lower cost than Anthropic, with 8-hour autonomous task loops natively in Cursor and Claude Code.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2048072558009082087) — Brynjolfsson's 25M payroll record study showing entry-level AI-exposed jobs down 13% — hard data counterpoint to job-posting optimism.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2048039415491203338) — Mac mini 32GB+ on 10-18 week backorder with PMs buying them as personal AI compute boxes — concrete solo-builder infrastructure signal.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2048066521164042557) — Mike Krieger leaving Figma board seat the day The Information broke the Anthropic design tool story — sharpest competitive-intelligence read on Opus 4.7 vs. Figma.
+- [ ] [@DataChaz](https://x.com/DataChaz/status/2047930284809523345) — AI-generated App Store screenshots in seconds via Anything — low-friction distribution tool for indie dev launch workflows.
+
+## 2026-04-26 00:43 UTC
+
+- [ ] [@gdb](https://x.com/gdb/status/2048056060460626292) — Brockman framing GPT-5.5 as 'raising the ceiling of ambition' — official positioning thesis worth tracking against competitor narratives.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2048128962245845023) — Sharp Figma/Sketch distribution analogy applied to OpenAI vs. Anthropic — the 'artifact as URL' insight is directly relevant to AI product strategy.
+- [ ] [@aakashgupta](https://x.com/aakashgupta/status/2048200897344459154) — 50 agents doing 1,500 hours of senior engineer work in 24 hours with rate limits as the only bottleneck — concrete agentic labor displacement data.
+- [ ] [@minchoi](https://x.com/minchoi/status/2048097710742376850) — Solo-creator AI media stack (GPT-Image-2 + Seedance + Suno) producing 100% AI output at 467 likes — real distribution signal for indie creators.
+
+## 2026-04-26 06:43 UTC
+
+- [ ] [@RoundtableSpace](https://x.com/RoundtableSpace/status/2048239392322719805) — Anthropic's agents team 30-min walkthrough of four-layer production agent architecture — directly relevant for multi-agent system design.
+- [ ] [@signulll](https://x.com/signulll/status/2048260954090082525) — Argues the modern computer needs rebuilding from scratch like the iPhone redefined phones — sharp product strategy framing on GUI era sunset.
+- [ ] [@signulll](https://x.com/signulll/status/2048224570537038143) — Computer-use agents are now commodity, signaling the one-to-many GUI era will end faster than most expect.
+- [ ] [@levie](https://x.com/levie/status/2048223146063609965) — AI gives ambitious people with core skills a way to overcome historical experience requirements — clean solo-founder leverage thesis.
+- [ ] [@gdb](https://x.com/gdb/status/2048166616119353820) — Brockman's GPT-5.5 enterprise link — cleanest primary-source pointer to OpenAI's current enterprise positioning.
+- [ ] [@RoundtableSpace](https://x.com/RoundtableSpace/status/2048246942107566379) — Claude Code + Shopify AI toolkit enabling terminal-driven catalog optimization and live product page pushes — concrete agentic commerce workflow.

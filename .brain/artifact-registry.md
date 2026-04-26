@@ -21,6 +21,7 @@
 | ART-011 | The Managed Agent Era Is Here and Most People Are Still Hiring Humans for It | other | linkedin | DOC-047 | andrewdonato.com (PR #5) | 2026-04-18 | draft |
 | ART-012 | Networking Is a Word for People Who Aren't Good at Being a Friend | other | linkedin | DOC-047 | andrewdonato.com (PR #6) | 2026-04-20 | draft |
 | ART-013 | You're Not Behind. You're Early in Something That Doesn't Have a Name Yet. | other | linkedin | DOC-047 | andrewdonato.com (PR #8) | 2026-04-22 | draft |
+| ART-014 | Your Pipeline Is a Mirror | other | linkedin | DOC-047 | andrewdonato.com (PR #9) | 2026-04-24 | draft |
 
 <!-- 
 Status values: draft | published | sent | stale
