@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-27T00-45-08Z",
+  "summarizedAt": "2026-04-27T00:45:33.371Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Claude Code tooling ecosystem (continuation)",
+    "Anthropic platform expansion (AWS native, Google $10B)",
+    "agent leverage & overwork paradox",
+    "PM/builder skills convergence (continuation)",
+    "Salesforce headless CRM & SaaS disruption",
+    "white-collar job displacement data",
+    "OS/HCI reinvention thesis"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2048477262144737415",
+      "url": "https://x.com/aakashgupta/status/2048477262144737415",
+      "author": "@aakashgupta",
+      "why": "Parker Harris publicly questioning why customers should ever log into Salesforce again is a rare on-record signal of SaaS self-disruption — directly relevant to sales enablement and CRM strategy."
+    },
+    {
+      "postId": "2048537503972684252",
+      "url": "https://x.com/levie/status/2048537503972684252",
+      "author": "@levie",
+      "why": "Aaron Levie names two underappreciated causes of AI-driven overwork: leverage amplification and the new expectation ratchet — useful framing for product and org strategy."
+    },
+    {
+      "postId": "2048536648804155434",
+      "url": "https://x.com/signulll/status/2048536648804155434",
+      "author": "@signulll",
+      "why": "Concrete 3-layer ambient intent capture model for future interfaces is one of the more grounded HCI architecture posts in recent weeks."
+    },
+    {
+      "postId": "2048509024782487911",
+      "url": "https://x.com/minchoi/status/2048509024782487911",
+      "author": "@minchoi",
+      "why": "Anthropic confirmed a Claude Code billing bug that silently routed a user off the flat-rate plan to API billing, then refused a refund — a real trust and pricing risk for indie builders relying on Max plan."
+    },
+    {
+      "postId": "2048492358531158453",
+      "url": "https://x.com/aakashgupta/status/2048492358531158453",
+      "author": "@aakashgupta",
+      "why": "Frames Anthropic's $20 Claude Pro as a deflationary bundle eating Adobe/Figma/Notion revenue — a tight competitive positioning read worth keeping in mind for AI product strategy."
+    },
+    {
+      "postId": "2048489044536185156",
+      "url": "https://x.com/aakashgupta/status/2048489044536185156",
+      "author": "@aakashgupta",
+      "why": "Does the actual unit economics math on Claude Managed Agents ($0.08/session-hour), making the cost case concrete rather than abstract."
+    },
+    {
+      "postId": "2048489184323670480",
+      "url": "https://x.com/kimmonismus/status/2048489184323670480",
+      "author": "@kimmonismus",
+      "why": "400k white-collar job decline — first annual drop since 2026 — is the clearest labor displacement data point in this feed cycle."
+    },
+    {
+      "postId": "2048458523345043749",
+      "url": "https://x.com/DataChaz/status/2048458523345043749",
+      "author": "@DataChaz",
+      "why": "Head of a well-curated Claude Code resource bible thread with 52+ tools across MCP servers, agent frameworks, multiplexers, and extensions — saves hours of discovery."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@aakashgupta",
+      "why": "Consistently doing actual unit-economics math on AI product moves (Managed Agents pricing, Claude Pro bundle, PM mockup cost collapse) rather than vibes — high relevance to AI product strategy."
+    },
+    {
+      "handle": "@levie",
+      "why": "Box CEO offering practitioner-level takes on agentic leverage and org change, not just hype."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Thinking seriously about HCI and the intent-capture layer — relevant to anyone building the next interface layer on top of models."
+    },
+    {
+      "handle": "@minchoi",
+      "why": "Surfaces real-world Claude Code workflow and billing edge cases that matter to builders before they spread widely."
+    }
+  ],
+  "noise": {
+    "count": 32,
+    "examples": [
+      "@aakashgupta newsletter self-promotion spam (6+ identical 'subscribe to my newsletter' posts)",
+      "RoundtableSpace crypto/Bitcoin shilling and engagement-bait polls",
+      "aakashgupta off-topic reposts (marathon results, gum disease, Dean Cain)"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 41,
+    "seenCount": 69
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "agent leverage & overwork paradox",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Anthropic platform expansion (AWS native, Google $10B)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Claude Code tooling ecosystem (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "OS/HCI reinvention thesis",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "PM/builder skills convergence (continuation)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "AI agent labor displacement data",
+        "lastSeenRunId": "2026-04-25T18-42-47Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Anthropic PR silence (continuation)",
+        "lastSeenRunId": "2026-04-25T18-42-47Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Codex real-world usage momentum",
+        "lastSeenRunId": "2026-04-25T18-42-47Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "GLM-5.1 / model cost competition (continuation)",
+        "lastSeenRunId": "2026-04-25T18-42-47Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "GPT-5.5 UX improvement & user sentiment",
+        "lastSeenRunId": "2026-04-25T18-42-47Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
