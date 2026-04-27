@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-04-27T06-45-35Z",
+  "summarizedAt": "2026-04-27T06:46:05.271Z",
+  "model": "claude-sonnet-4-6",
+  "themes": [
+    "Claude Code tooling ecosystem (continuation)",
+    "agent overwork & leverage paradox (continuation)",
+    "Anthropic platform expansion (continuation)",
+    "AI job displacement & profession boundary competition",
+    "OS/HCI reinvention thesis (continuation)",
+    "Salesforce headless CRM & SaaS disruption (continuation)",
+    "AI frontier jaggedness & s-curve debate"
+  ],
+  "worthClicking": [
+    {
+      "postId": "2048536648804155434",
+      "url": "https://x.com/signulll/status/2048536648804155434",
+      "author": "@signulll",
+      "why": "The clearest articulation yet of the 3-layer ambient-intent interface stack (capture → orchestration → execution), directly relevant to where AI product UX is heading."
+    },
+    {
+      "postId": "2048537503972684252",
+      "url": "https://x.com/levie/status/2048537503972684252",
+      "author": "@levie",
+      "why": "Levie names two underappreciated reasons agents cause overwork: leverage on incremental effort is suddenly huge, and expectation recalibration hasn't caught up — useful framing for AI product strategy."
+    },
+    {
+      "postId": "2048576989930619185",
+      "url": "https://x.com/levie/status/2048576989930619185",
+      "author": "@levie",
+      "why": "Gell-Mann amnesia applied to AI job displacement — people underestimate last-mile complexity in others' jobs while experiencing it firsthand in their own, a key nuance for sales enablement narratives."
+    },
+    {
+      "postId": "2048477262144737415",
+      "url": "https://x.com/aakashgupta/status/2048477262144737415",
+      "author": "@aakashgupta",
+      "why": "Parker Harris publicly questioning why anyone should ever log into Salesforce again is a remarkable signal of how SaaS incumbents are pricing in their own disruption — directly relevant to sales enablement."
+    },
+    {
+      "postId": "2048598378171572332",
+      "url": "https://x.com/simonw/status/2048598378171572332",
+      "author": "@simonw",
+      "why": "Simon Willison pushes back on bad agent security conclusions and gives the two correct rules — important operational guardrail for anyone building or selling production agents."
+    },
+    {
+      "postId": "2048509024782487911",
+      "url": "https://x.com/minchoi/status/2048509024782487911",
+      "author": "@minchoi",
+      "why": "Anthropic confirmed a billing bug in Claude Code (HERMES.md triggering API billing instead of Max plan) then refused a refund — concrete trust and pricing-risk story for enterprise buyers."
+    },
+    {
+      "postId": "2048480177210958193",
+      "url": "https://x.com/emollick/status/2048480177210958193",
+      "author": "@emollick",
+      "why": "Mollick introduces sociological profession-boundary theory to the AI jobs debate, predicting regulatory battles over who gets to use AI in law and medicine — a more durable framing than the usual economist take."
+    },
+    {
+      "postId": "2048458523345043749",
+      "url": "https://x.com/DataChaz/status/2048458523345043749",
+      "author": "@DataChaz",
+      "why": "Comprehensive curated Claude Code resource bible thread — useful reference for indie builders evaluating the tooling ecosystem."
+    },
+    {
+      "postId": "2048492358531158453",
+      "url": "https://x.com/aakashgupta/status/2048492358531158453",
+      "author": "@aakashgupta",
+      "why": "Frames Anthropic as running a deflationary bundle (five products for $20) against Adobe's $60+ — a useful competitive framing for AI product strategy and positioning conversations."
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@levie",
+      "why": "Two sharp posts this cycle on agent overwork paradox and AI job displacement nuance — consistently useful for AI product strategy thinking."
+    },
+    {
+      "handle": "@signulll",
+      "why": "Building an agent-native home screen product and writing the most concrete HCI reinvention content in the feed — directly on the OS/interface reinvention thesis."
+    },
+    {
+      "handle": "@simonw",
+      "why": "Technically grounded, quick to correct bad conclusions — reliable signal on agent architecture and security."
+    },
+    {
+      "handle": "@emollick",
+      "why": "Bringing underused sociological frameworks to the AI displacement debate; less hype, more durable analysis."
+    }
+  ],
+  "noise": {
+    "count": 42,
+    "examples": [
+      "RoundtableSpace crypto/meme engagement bait (GM posts, Bitcoin polls, 'what are we aping')",
+      "aakashgupta off-topic lifestyle content (marathon results, LeBron, bird sounds, USSR photos)",
+      "DataChaz low-engagement thread fragments with single-digit views"
+    ]
+  },
+  "newVsSeen": {
+    "newCount": 43,
+    "seenCount": 69
+  },
+  "feedVerdict": "mixed",
+  "trends": {
+    "schemaVersion": 1,
+    "persistent": [],
+    "emerging": [
+      {
+        "theme": "agent overwork & leverage paradox (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "AI frontier jaggedness & s-curve debate",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "AI job displacement & profession boundary competition",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "Anthropic platform expansion (continuation)",
+        "firstSeenRunId": "current"
+      },
+      {
+        "theme": "OS/HCI reinvention thesis (continuation)",
+        "firstSeenRunId": "current"
+      }
+    ],
+    "fading": [
+      {
+        "theme": "AI adoption phase shift: revenue over research",
+        "lastSeenRunId": "2026-04-26T00-43-30Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "AI agent labor displacement data (continuation)",
+        "lastSeenRunId": "2026-04-26T00-43-30Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "Codex real-world usage momentum (continuation)",
+        "lastSeenRunId": "2026-04-26T00-43-30Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "GPT-5.5 enterprise & capability narrative (continuation)",
+        "lastSeenRunId": "2026-04-26T00-43-30Z",
+        "runsSinceLastSeen": 4
+      },
+      {
+        "theme": "GPT-Image-2 creative use cases (continuation)",
+        "lastSeenRunId": "2026-04-26T00-43-30Z",
+        "runsSinceLastSeen": 4
+      }
+    ]
+  }
+}
